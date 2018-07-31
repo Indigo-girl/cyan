@@ -2,13 +2,13 @@ import BaseEntity from './BaseEntity';
 
 class MoveEntity extends BaseEntity{
 
-    constructor(){
+    constructor(geoInfo){
         super();
-        
+        this.geoInfo = geoInfo;
     }
 
-    move(){
-
+    move(trace){
+        
     }
 
 }

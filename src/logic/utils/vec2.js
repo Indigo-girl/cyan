@@ -73,7 +73,7 @@ class Vec2{
 
     sub(vector){
         let ret = this.clone();
-        ret.subSelf();
+        ret.subSelf(vector);
         return ret;
     }
 

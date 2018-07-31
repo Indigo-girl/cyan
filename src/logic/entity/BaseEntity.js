@@ -3,8 +3,13 @@ let _id = 0;
 class BaseEntity{
 
     constructor(){
-        this.id = _id;
+        this._id = _id;
         _id++;
+    }
+
+    // id不可以被修改
+    get id(){
+        return this._id;
     }
 }
 
