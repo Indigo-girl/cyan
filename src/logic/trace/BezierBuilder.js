@@ -14,7 +14,7 @@ class BezierBuilder{
         const start = points[0];
         const end = points[points.length - 1];
         const delta = end.sub(start);
-        const length = delta.length();
+        const length = delta.mag();
         if(length<=0){
             return new BezierTrace([start, end]);
         }
@@ -25,7 +25,7 @@ class BezierBuilder{
             const tp = point.mul(length);
             const x = tp.x * costheta + tp.y * sintheta;
             const y = tp.x * -sintheta + tp.y * costheta;
-            points[i] = new Vec2(x, y);
+            points[i] = new Vec2(x + start.x, y + start.y);
         }
         return new BezierTrace(points, duration);
     }
