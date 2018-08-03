@@ -14,7 +14,7 @@ class MoveEntity extends BaseEntity{
         let geo = this.geoInfo;
         let desireHead = pos.sub(geo.pos).normalizeSelf();
         let desireSpeed = desireHead.mul(geo.maxSpeed);
-        let force = this.desireSpeed.sub(desireSpeed);
+        let force = desireSpeed.sub(geo.head.mul(geo.maxSpeed));
         return force;
     }
 
@@ -28,7 +28,7 @@ class MoveEntity extends BaseEntity{
 
     update(){
         // 仅在有目标的时候进行计算，否则按照速度行进
-        if(this._target && !this.geoInfo.pos.equal(this._target.geoInfo.pos)){
+        if(this._target && !this.geoInfo.pos.equals(this._target.geoInfo.pos)){
             this.calculate();
         }
         this.geoInfo.pos = this.geoInfo.pos.add(this.geoInfo.head.mul(this.geoInfo.maxSpeed));
