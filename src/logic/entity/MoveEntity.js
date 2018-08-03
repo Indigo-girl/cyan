@@ -18,19 +18,18 @@ class MoveEntity extends BaseEntity{
         return force;
     }
 
-    calculate(){
-        // TODO 暂时只考虑一个力
-        let force = this.seek(this._target.geoInfo.pos);
+    getCombinForce(){
+        // let force = this.seek(this._target.geoInfo.pos);
+        // return force;
+    }
+
+    calculate(force){
         let destV = this.geoInfo.head.mul(this.geoInfo.maxSpeed).add(force);
         let head = destV.normalize();
         this.geoInfo.head = head;
     }
 
     update(){
-        // 仅在有目标的时候进行计算，否则按照速度行进
-        if(this._target && !this.geoInfo.pos.equals(this._target.geoInfo.pos)){
-            this.calculate();
-        }
         this.geoInfo.pos = this.geoInfo.pos.add(this.geoInfo.head.mul(this.geoInfo.maxSpeed));
     }
 
