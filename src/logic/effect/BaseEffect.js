@@ -3,11 +3,11 @@ class BaseEffect{
     constructor(){
     }
 
-    do(target){
+    doEffect(target){
         throw new Error('implement it');
     }
 
-    undo(target){
+    undoEffect(target){
         throw new Error('implement it');
     }
 
