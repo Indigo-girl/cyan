@@ -45,6 +45,10 @@ class LogicWorld{
         return this.entityContainer[id];
     }
 
+    getAllEntity(){
+        return this._entityList;
+    }
+
     get curFrame(){
         // 当前帧不允许外部更改
         return this._curFrame;
