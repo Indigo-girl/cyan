@@ -30,6 +30,13 @@ class CommandPipe{
     prepareCurQueue(){
         return this.prepareQueue(this.world.curFrame);
     }
+
+    execCommandsByFrame(frame){
+        const queue = this.prepareQueue(frame);
+        for(const command of queue){
+            command.do();
+        }
+    }
 }
 
 export default CommandPipe;

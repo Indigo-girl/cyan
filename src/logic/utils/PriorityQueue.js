@@ -1,8 +1,10 @@
+const defaultCampFunc = (a, b) => a.seq - b.seq;
+
 class PriorityQueue{
 
     constructor(campFunc){
         // camp(a, b) > 0 表示a的优先级高于b
-        this._campFunc = campFunc;
+        this._campFunc = campFunc || defaultCampFunc;
         this._queue = [];
     }
 

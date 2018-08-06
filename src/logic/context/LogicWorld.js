@@ -41,6 +41,10 @@ class LogicWorld{
         this._entityList = Object.values(this.entityContainer);
     }
 
+    getEntityById(id){
+        return this.entityContainer[id];
+    }
+
     get curFrame(){
         // 当前帧不允许外部更改
         return this._curFrame;
