@@ -1,6 +1,6 @@
 import ContextConst from '../context/ContextConst';
 
-const PRO_ID = ContextConst.PROP_ID;
+const PRO_ID = ContextConst.PRO_ID;
 
 function limit(proId, value, target){
     switch(proId){

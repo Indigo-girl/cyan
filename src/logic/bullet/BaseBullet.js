@@ -1,3 +1,5 @@
+import pubfunc from '../utils/pubfunc';
+
 let _id = 0;
 
 class BaseBullet{
@@ -5,7 +7,7 @@ class BaseBullet{
     constructor(info){
         this.id = _id;
         _id++;
-        this.info;
+        this.info = info;
     }
 
     reach(){
@@ -46,9 +48,7 @@ class BaseBullet{
     }
 
     destroy(){
-        if(this.world){
-            this.world.removeBullet(this);
-        }
+        pubfunc.getWorld().removeBullet(this);
     }
 
 }

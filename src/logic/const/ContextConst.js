@@ -1,5 +1,5 @@
 const CONTEXT_CONST = {
-    PROP_ID: {
+    PRO_ID: {
         HP: 0,
         MP: 1,
         MAXHP: 2,

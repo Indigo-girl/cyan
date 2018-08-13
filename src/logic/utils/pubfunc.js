@@ -28,4 +28,21 @@ function getRandomFunc(seed) {
     };
 };
 
-export {shuffle, getRandomFunc};
+let _world;
+
+function setWorld(world) {
+    _world = world;
+}
+
+function getWorld() {
+    return _world;
+}
+
+var pubfunc = {
+    shuffle: shuffle,
+    getRandomFunc: getRandomFunc,
+    setWorld: setWorld,
+    getWorld: getWorld
+};
+
+export default pubfunc;

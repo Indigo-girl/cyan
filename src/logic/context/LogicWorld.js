@@ -15,6 +15,7 @@ class LogicWorld{
         this.commandPipe = new CommandPipe(this);
         this.entityContainer = {};
         this._entityList = [];
+        this._bullets = [];
     }
 
     update(){
@@ -25,6 +26,11 @@ class LogicWorld{
         }
         // 执行上一帧指令以
         this.commandPipe.execCommandsByFrame(this._curFrame - 1);
+        // 更新所有的子弹
+        console.log('bullet length:', this._bullets.length);
+        for(const e of this._bullets){
+            e.update();
+        }
         // 更新本回合的所有实体
         for(const e of this._entityList){
             e.update();
@@ -47,6 +53,15 @@ class LogicWorld{
 
     getAllEntity(){
         return this._entityList;
+    }
+
+    addBullet(bullet){
+        console.log('add bullet:');
+        this._bullets.push(bullet);
+    }
+
+    removeBullet(bullet){
+        this._bullets = this._bullets.filter((e)=>e.id !== bullet.id);
     }
 
     get curFrame(){
