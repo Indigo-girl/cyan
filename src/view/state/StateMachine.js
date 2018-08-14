@@ -29,7 +29,7 @@ class StateMachine{
             return;
         }
         // 状态关注自身的表现
-        this.getCurState().handleEvent(event);
+        this.getCurState().handleEvent(event, this);
         // 状态机关注状态的转换
         const config = this._stateConfig;
         const targetStateName = config[this.getCurState().name][event.type];

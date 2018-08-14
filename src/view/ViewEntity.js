@@ -1,4 +1,5 @@
 import StateMachine from './state/StateMachine';
+import MoveComponent from './MoveComponent';
 
 class ViewEntity{
 
@@ -7,8 +8,11 @@ class ViewEntity{
         this.logicEntity = entity;
         // for test
         this.sm = new StateMachine(this, {
+            'idle': {
+                'moveToPos': 'walk'
+            },
             'walk': {
-                'animCompleted': 'atk'
+                'reachAtkArea': 'idle'
             },
             'atk': {
                 'animCompleted': 'walk'
@@ -16,24 +20,25 @@ class ViewEntity{
         });
         this.parent = parent;
         this._initView(spinePath);
+        this.moveComp = new MoveComponent(this);
     }
 
     _initView(spinePath){
+        const node = new cc.Node(this.id);
+        this.view = node;
+        node.parent = this.parent;
         cc.loader.loadRes(spinePath, sp.SkeletonData, (err, res) => {
             if(err){
                 console.err(err);
                 return;
             }
-            const node = new cc.Node(this.id);
             const skeleton = node.addComponent(sp.Skeleton);
             skeleton.skeletonData = res;
             skeleton.loop = true;
             skeleton.setToSetupPose();
             skeleton.premultipliedAlpha = false;
-            this.view = node;
-            node.parent = this.parent;
             skeleton.setCompleteListener(() => this.onAnimCompleted());
-            this.sm.changeState('walk');
+            this.sm.changeState('idle');
         });
     }
 
@@ -47,6 +52,34 @@ class ViewEntity{
 
     playAnim(name, loop) {
         this.view.getComponent(sp.Skeleton).setAnimation(0, name, !!loop);
+    }
+
+    // vec2.x>0为x轴方向
+    setHead(dir){
+        dir = dir.normalize();
+        if(dir.x < 0){
+            this.view.scaleX = Math.abs(this.view.scaleX);
+        }else if(dir.x > 0){
+            this.view.scaleX = -Math.abs(this.view.scaleX);
+        }
+        this.head = dir;
+    }
+
+    getHead(){
+        return this.head || cc.v2(1, 0);
+    }
+
+    getPosition(){
+        // TODO 逻辑坐标和显示坐标转换
+        return this.view.getPosition();
+    }
+
+    setPosition(pos){
+        this.view.setPosition(cc.v2(pos.x, pos.y));
+    }
+
+    moveTo(pos){
+        this.moveComp.moveTo(pos);
     }
 }
 

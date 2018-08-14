@@ -8,7 +8,7 @@ class IdleState extends BaseState{
 
     onEnter(sm){
         super.onEnter(sm);
-        sm.viewEntity.playAnim('wait');
+        sm.viewEntity.playAnim('wait', true);
     }
     
 }

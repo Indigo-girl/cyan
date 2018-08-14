@@ -8,12 +8,12 @@ class WalkState extends BaseState {
 
     onEnter(sm) {
         super.onEnter(sm);
-        sm.viewEntity.playAnim('walk');
+        sm.viewEntity.playAnim('walk', true);
     }
 
     update(sm) {
-        // 向指定方向移动
-        sm.viewEntity.view.x += 1;
+        // update移动组件
+        sm.viewEntity.moveComp.update();
     } 
 }
 

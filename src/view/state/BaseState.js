@@ -12,8 +12,10 @@ class BaseState{
         console.log(`退出${this.name}状态`);
     }
 
-    handleEvent(event){
-        
+    handleEvent(event, sm){
+        if(event.type === 'moveToPos'){
+            sm.viewEntity.moveTo(event.detail);
+        }
     }
 
     update(sm){
