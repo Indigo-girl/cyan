@@ -16,6 +16,7 @@ class PropEffect extends BaseEffect {
      * @memberof PropEffect
      */
     constructor(proId, owner, info) {
+        super();
         this.owner = owner;
         this.info = info;
         this.proId = proId;
