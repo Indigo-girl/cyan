@@ -16,8 +16,8 @@ var cb1 = function () {
     console.log(this.detail);
 };
 
-var cb2 = () => {
-    console.log('arrow bar:', this.detail);
+var cb2 = function () {
+    console.log(this.detail);
 }
 
 eventHub.on('bar', cb1, a);
