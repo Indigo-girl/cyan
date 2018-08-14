@@ -3,13 +3,15 @@ import DefaultStateConfig from './DefaultStateConfig';
 
 class StateMachine{
 
-    constructor(initStateName, viewEntity, stateConfig){
+    constructor(viewEntity, stateConfig){
         this._stateConfig = stateConfig || DefaultStateConfig;
-        this.changeState(pool.getState(initStateName));
         this.viewEntity = viewEntity;
     }
 
     changeState(state){
+        if(typeof state === 'string'){
+            state = pool.getState(state);
+        }
         if(this._curState){
             this._curState.onExit(this);
         }
@@ -23,6 +25,9 @@ class StateMachine{
     }
 
     handleEvent(event){
+        if(!this.getCurState()){
+            return;
+        }
         // 状态关注自身的表现
         this.getCurState().handleEvent(event);
         // 状态机关注状态的转换
@@ -35,6 +40,13 @@ class StateMachine{
                 this.changeState(pool.getState(targetStateName));
             }
         }
+    }
+
+    update(){
+        if(!this.getCurState()){
+            return;
+        }
+        this.getCurState().update(this);
     }
 
 }
