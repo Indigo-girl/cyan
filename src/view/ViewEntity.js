@@ -1,5 +1,8 @@
 import StateMachine from './state/StateMachine';
 import MoveComponent from './MoveComponent';
+import ViewBullet from './ViewBullet';
+import Bullet from '../logic/bullet/BaseBullet';
+import pubfunc from '../logic/utils/pubfunc';
 
 class ViewEntity{
 
@@ -12,16 +15,18 @@ class ViewEntity{
                 'moveToPos': 'walk'
             },
             'walk': {
-                'reachAtkArea': 'idle'
+                'reachAtkArea': 'atk'
             },
             'atk': {
-                'animCompleted': 'walk'
+                'animCompleted': 'idle'
             },
             'dead': {}
         });
         this.parent = parent;
         this._initView(spinePath);
         this.moveComp = new MoveComponent(this);
+        // 子弹需要在索敌的时候就准备
+        this._bullets = [];
     }
 
     _initView(spinePath){
@@ -97,6 +102,26 @@ class ViewEntity{
 
     isAlive(){
         return this.logicEntity.isAlive();
+    }
+
+    prepareBullets(){
+        // for test
+        const bullet = new Bullet({});
+        const viewBullet = new ViewBullet(bullet, 'DFP/DFP', cc.v2(100, 100));
+        viewBullet.view.parent = this.view;
+        this._bullets.push(viewBullet);
+        pubfunc.getWorld().addBullet(viewBullet);
+    }
+
+    fireBullets(delay){
+        delay = delay || 0;
+        for(const e of this._bullets){
+            if(delay > 0){
+                e.fireDelay(delay);
+            }else{
+                e.fire();
+            }
+        }
     }
 
 }

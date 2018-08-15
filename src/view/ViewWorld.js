@@ -14,6 +14,7 @@ cc.Class({
     ctor(){
         this._entities = {};
         this._entityList = [];
+        this._bullets = [];
         pubfunc.setWorld(this);
     },
 
@@ -41,6 +42,9 @@ cc.Class({
     },
 
     update(){
+        for(const e of this._bullets){
+            e.update();
+        }
         for(const e of this._entityList){
             e.update();
         }
@@ -58,6 +62,14 @@ cc.Class({
     removeEntity(id){
         delete this._entities[id];
         this._entityList = this._entityList.filter((e)=>e.id!==id);
+    },
+
+    addBullet(bullet) {
+        this._bullets.push(bullet);
+    },
+
+    removeBullet(bullet) {
+        this._bullets = this._bullets.filter((e) => e.id !== bullet.id);
     },
 
     handleEvent(event, targetId){
