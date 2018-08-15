@@ -16,7 +16,8 @@ class ViewEntity{
             },
             'atk': {
                 'animCompleted': 'walk'
-            }
+            },
+            'dead': {}
         });
         this.parent = parent;
         this._initView(spinePath);
@@ -52,6 +53,14 @@ class ViewEntity{
 
     playAnim(name, loop) {
         this.view.getComponent(sp.Skeleton).setAnimation(0, name, !!loop);
+    }
+    
+    pauseAnim() {
+        this.view.getComponent(sp.Skeleton).paused = true;
+    }
+
+    resumeAnim() {
+        this.view.getComponent(sp.Skeleton).paused = false;
     }
 
     // vec2.x>0为x轴方向
@@ -89,6 +98,7 @@ class ViewEntity{
     isAlive(){
         return this.logicEntity.isAlive();
     }
+
 }
 
 export default ViewEntity;

@@ -2,6 +2,7 @@ import CommonConst from '../logic/const/CommonConst';
 import RoleEntity from '../logic/entity/RoleEntity';
 import RoleContext from '../logic/entity/RoleContext';
 import ViewEntity from './ViewEntity';
+import pubfunc from '../logic/utils/pubfunc';
 
 // ViewWorld需要绑定在对应的战场节点上
 cc.Class({
@@ -13,6 +14,7 @@ cc.Class({
     ctor(){
         this._entities = {};
         this._entityList = [];
+        pubfunc.setWorld(this);
     },
 
     onLoad(){

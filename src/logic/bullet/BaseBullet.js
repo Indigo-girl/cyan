@@ -47,10 +47,6 @@ class BaseBullet{
         }
     }
 
-    destroy(){
-        pubfunc.getWorld().removeBullet(this);
-    }
-
 }
 
 export default BaseBullet;
