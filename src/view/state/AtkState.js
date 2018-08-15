@@ -11,7 +11,7 @@ class AtkState extends BaseState {
         sm.viewEntity.playAnim('attack01');
         // for test
         sm.viewEntity.prepareBullets();
-        sm.viewEntity.fireBullets(50);
+        sm.viewEntity.fireBullets(40);
     }
     
 }

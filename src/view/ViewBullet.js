@@ -29,7 +29,7 @@ class ViewBullet{
             skeleton.setToSetupPose();
             skeleton.premultipliedAlpha = false;
             skeleton.setCompleteListener(() => this.handleEvent({type: 'animCompleted'}));
-            skeleton.setAnimation(0, 'effect-dfp', false);
+            skeleton.setAnimation(0, 'effect', false);
         });
     }
 

@@ -107,10 +107,9 @@ class ViewEntity{
     prepareBullets(){
         // for test
         const bullet = new Bullet({});
-        const viewBullet = new ViewBullet(bullet, 'DFP/DFP', cc.v2(100, 100));
-        viewBullet.view.parent = this.view;
+        const viewBullet = new ViewBullet(bullet, 'DFP/DFP', cc.v2(0, 100));
         this._bullets.push(viewBullet);
-        pubfunc.getWorld().addBullet(viewBullet);
+        pubfunc.getWorld().addBullet(viewBullet, this);
     }
 
     fireBullets(delay){

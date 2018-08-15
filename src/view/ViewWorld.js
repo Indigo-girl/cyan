@@ -64,8 +64,15 @@ cc.Class({
         this._entityList = this._entityList.filter((e)=>e.id!==id);
     },
 
-    addBullet(bullet) {
+    addBullet(bullet, entity) {
         this._bullets.push(bullet);
+        const wpos = entity.view.convertToWorldSpaceAR(bullet.view.position);
+        const tpos = this.node.convertToNodeSpaceAR(wpos);
+        bullet.view.position = tpos;
+        bullet.view.parent = this.node;
+        if(entity.getHead().x < 0){
+            bullet.view.scaleX = -bullet.view.scaleX
+        }
     },
 
     removeBullet(bullet) {
