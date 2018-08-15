@@ -1,4 +1,5 @@
 import CommandPipe from '../command/CommandPipe';
+import EventTarget from '../utils/EventTarget';
 
 class LogicWorld{
 
@@ -16,6 +17,14 @@ class LogicWorld{
         this.entityContainer = {};
         this._entityList = [];
         this._bullets = [];
+
+        this._initEventHub();
+    }
+
+    _initEventHub(){
+        // 事件总线
+        this._eventHub = new EventTarget();
+        // TODO 注册监听
     }
 
     update(){
@@ -67,6 +76,14 @@ class LogicWorld{
     get curFrame(){
         // 当前帧不允许外部更改
         return this._curFrame;
+    }
+
+    get eventHub(){
+        return this._eventHub;
+    }
+
+    handleEvent(event){
+        // TODO 处理事件，事件可能来自逻辑层实体或者表现层
     }
 
 }

@@ -13,6 +13,7 @@ class BaseState{
     }
 
     handleEvent(event, sm){
+        console.log('接收到事件:', event);
         if(event.type === 'moveToPos'){
             sm.viewEntity.moveTo(event.detail);
         }

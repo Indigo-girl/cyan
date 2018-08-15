@@ -43,7 +43,7 @@ class ViewEntity{
     }
 
     onAnimCompleted(){
-        this.sm.handleEvent({ type: 'animCompleted'});
+        this.handleEvent({ type: 'animCompleted'});
     }
 
     update() {
@@ -80,6 +80,14 @@ class ViewEntity{
 
     moveTo(pos){
         this.moveComp.moveTo(pos);
+    }
+
+    handleEvent(event){
+        this.sm.handleEvent(event);
+    }
+
+    isAlive(){
+        return this.logicEntity.isAlive();
     }
 }
 

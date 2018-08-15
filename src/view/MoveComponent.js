@@ -7,6 +7,7 @@ class MoveComponent{
     }
 
     moveTo(pos){
+        console.log('targe pos in move comp:', pos);
         this.targetPos = pos;
     }
 
@@ -34,8 +35,7 @@ class MoveComponent{
             if(dist.mag() <= SPEED){
                 this.setPosition(this.targetPos);
                 // 抛出到达事件
-                console.log('reach atk area');
-                this.viewEntity.sm.handleEvent({ type: 'reachAtkArea' });
+                this.viewEntity.handleEvent({ type: 'reachAtkArea' });
                 this.targetPos = null;
                 return;
             }

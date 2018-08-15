@@ -42,7 +42,7 @@ var pubfunc = {
     shuffle: shuffle,
     getRandomFunc: getRandomFunc,
     setWorld: setWorld,
-    getWorld: getWorld
+    getWorld: getWorld,
 };
 
 export default pubfunc;
