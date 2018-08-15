@@ -34,6 +34,10 @@ cc.Class({
         });
     },
 
+    _featureBullet(){
+
+    },
+
     update(){
         for(const e of this._entityList){
             e.update();

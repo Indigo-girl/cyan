@@ -1,5 +1,5 @@
-import BezierTrace from '../../logic/trace/BezierTrace';
-import BezierBuilder from '../../logic/trace/BezierBuilder';
+import BezierTrace from '../../view/trace/BezierTrace';
+import BezierBuilder from '../../view/trace/BezierBuilder';
 import Vec2 from '../../logic/utils/vec2';
 
 const points = [];
