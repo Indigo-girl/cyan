@@ -6,23 +6,11 @@ import pubfunc from '../logic/utils/pubfunc';
 
 class ViewEntity{
 
-    constructor(entity, spinePath, parent){
+    constructor(entity, spinePath, stateConfig){
         this.id = entity.id;
         this.logicEntity = entity;
         // for test
-        this.sm = new StateMachine(this, {
-            'idle': {
-                'moveToPos': 'walk'
-            },
-            'walk': {
-                'reachAtkArea': 'atk'
-            },
-            'atk': {
-                'animCompleted': 'idle'
-            },
-            'dead': {}
-        });
-        this.parent = parent;
+        this.sm = new StateMachine(this, stateConfig);
         this._initView(spinePath);
         this.moveComp = new MoveComponent(this);
         // 子弹需要在索敌的时候就准备
@@ -32,7 +20,6 @@ class ViewEntity{
     _initView(spinePath){
         const node = new cc.Node(this.id);
         this.view = node;
-        node.parent = this.parent;
         cc.loader.loadRes(spinePath, sp.SkeletonData, (err, res) => {
             if(err){
                 console.err(err);

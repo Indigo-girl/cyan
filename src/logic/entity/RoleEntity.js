@@ -2,9 +2,30 @@ import BaseEntity from './BaseEntity';
 
 class RoleEntity extends BaseEntity{
 
-    constructor(context){
+    constructor(context, camp){
         super();
         this._contextStack = [context];
+        this.setCamp(camp);
+    }
+
+    setCamp(camp) {
+        this.camp = camp;
+    }
+
+    getCamp(camp) {
+        return this.camp;
+    }
+
+    isCamp(camp) {
+        return this.camp === camp;
+    }
+
+    doEffect(effect){
+        this.getContext().doEffect(effect);
+    }
+
+    doEffects(effects){
+        this.getContext().doEffects(effects);
     }
 
     replaceContext(context){
@@ -24,7 +45,7 @@ class RoleEntity extends BaseEntity{
     }
 
     getContext(){
-        return this._context;
+        return this._contextStack[this._contextStack.length - 1];
     }
 
     onContextChanged(){

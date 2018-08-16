@@ -2,19 +2,14 @@ import BaseBullet from './BaseBullet';
 
 class DelayBullet extends BaseBullet{
 
-    constructor(info, targets, delay){
+    constructor(info, delay){
         super(info)
         this.delay = delay || 0;
         this.elapse = 0;
-        this.targets = targets;
     }
 
     reach(){
         return this.elapse > this.delay;
-    }
-
-    getTargets(){
-        return this.targets || [];
     }
 
     update(){

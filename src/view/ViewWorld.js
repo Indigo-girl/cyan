@@ -3,6 +3,7 @@ import RoleEntity from '../logic/entity/RoleEntity';
 import RoleContext from '../logic/entity/RoleContext';
 import ViewEntity from './ViewEntity';
 import pubfunc from '../logic/utils/pubfunc';
+import ContextConst from '../logic/const/ContextConst';
 
 // ViewWorld需要绑定在对应的战场节点上
 cc.Class({
@@ -20,13 +21,24 @@ cc.Class({
 
     onLoad(){
         this._featureWalk();
+        // this._featureSkill();
     },
 
     _featureWalk(){
-        const logicEntity = new RoleEntity(new RoleContext());
-        const entity = new ViewEntity(logicEntity, 'KM/KM', this.node);
-        entity.setHead(cc.v2(1, 0));
-        this.addEntity(entity);
+        const stateConfig = {
+            'idle': {
+                'moveToPos': 'walk'
+            },
+            'walk': {
+                'reachAtkArea': 'atk'
+            },
+            'atk': {
+                'animCompleted': 'idle'
+            },
+            'dead': {}
+        };
+        const entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, stateConfig);
+        this._addSampleEntity(ContextConst.CAMP.ENEMY, stateConfig);
         console.log('entity Id:', entity.id);
         this.node.on(cc.Node.EventType.TOUCH_END, (event) => {
             const pos = this.node.convertTouchToNodeSpaceAR(event.touch);
@@ -37,8 +49,27 @@ cc.Class({
         });
     },
 
-    _featureBullet(){
+    _featureSkill(){
+        let entity = this._addSampleEntity(ContextConst.CAMP.PLAYER);
+        entity.setPosition(cc.v2(-300, 0))
+        entity = this._addSampleEntity(ContextConst.CAMP.ENEMY);
+        entity.setHead(cc.v2(-1, 0));
+        entity.setPosition(cc.v2(400, 0));
+    },
 
+    _addSampleEntity(camp, stateConfig){
+        const roleContext = new RoleContext();
+        roleContext.init({
+            0: 100,
+            1: 100,
+            2: 100,
+            3: 100
+        });
+        const logicEntity = new RoleEntity(roleContext, camp);
+        const entity = new ViewEntity(logicEntity, 'KM/KM', stateConfig);
+        entity.setHead(cc.v2(1, 0));
+        this.addEntity(entity);
+        return entity;
     },
 
     update(){
@@ -51,12 +82,17 @@ cc.Class({
     },
 
     addEntity(entity){
+        entity.view.parent = this.node;
         this._entities[entity.id] = entity;
         this._entityList.push(entity);
     },
 
     getEntityById(id){
         return this._entities[id];
+    },
+
+    getAllEntity(){
+        return this._entityList.slice();
     },
 
     removeEntity(id){
@@ -116,4 +152,5 @@ cc.Class({
     _handleWorldEvent(event){
         // TODO 通知世界
     }
+
 });
