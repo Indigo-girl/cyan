@@ -97,6 +97,10 @@ class ViewEntity{
         this.moveComp.moveTo(pos);
     }
 
+    moveInRadius(target, radius, alignY){
+        this.moveComp.moveInRadius(target, radius, alignY);
+    }
+
     handleEvent(event){
         this.sm.handleEvent(event);
     }
@@ -116,6 +120,10 @@ class ViewEntity{
         const skill = new BaseSkill(this, [bullet], 500);
         this._curSkill = skill;
         return skill;
+    }
+
+    getCurSkill(){
+        return this._curSkill;
     }
 
     castSkill(){

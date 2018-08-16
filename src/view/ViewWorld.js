@@ -26,7 +26,9 @@ cc.Class({
     _featureSkill(){
         const stateConfig = {
             'search': {
-                'moveToPos': 'walk'
+                'moveToPos': 'walk',
+                'freeWalk': 'walk',
+                'moveInRadius': 'walk'
             },
             'walk': {
                 'reachAtkArea': 'atk'

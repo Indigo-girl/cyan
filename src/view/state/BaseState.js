@@ -16,6 +16,9 @@ class BaseState{
         console.log(`${sm.viewEntity.id}:${this.name}接收到事件:`, event);
         if(event.type === 'moveToPos'){
             sm.viewEntity.moveTo(event.detail);
+        }else if (event.type === 'moveInRadius'){
+            const info = event.detail;
+            sm.viewEntity.moveInRadius(info.target, info.radius, info.alignY);
         }
     }
 

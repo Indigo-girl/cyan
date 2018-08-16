@@ -1,3 +1,5 @@
+import ViewUtils from './ViewUtils';
+
 const SPEED = 2;
 
 class MoveComponent{
@@ -8,7 +10,26 @@ class MoveComponent{
 
     moveTo(pos){
         console.log('targe pos in move comp:', pos);
-        this.targetPos = pos;
+        this.targetInfo = {
+            type: 'static',
+            pos: pos
+        }
+    }
+
+    /**
+     * 移动进目标范围以内
+     * @param {ViewEntity} target -目标
+     * @param {number} radius -半径
+     * @param {bool} alignY -是否Y轴对齐
+     * @memberof MoveComponent
+     */
+    moveInRadius(target, radius, alignY){
+        this.targetInfo = {
+            target: target,
+            radius: radius,
+            alignY: alignY,
+            type: 'dynamic'
+        }
     }
 
     getPosition(){
@@ -29,17 +50,23 @@ class MoveComponent{
 
     update(){
         let destV = this.viewEntity.getHead().mul(SPEED);
-        if(this.targetPos){
+        if(this.targetInfo){
             const selfPos = this.getPosition();
-            const dist = this.targetPos.sub(selfPos);
+            let targetPos
+            if(this.targetInfo.tyep === 'static'){
+                targetPos = this.targetInfo.pos
+            }else if(this.targetInfo.type === 'dynamic'){
+                targetPos = ViewUtils.getAtkPos(this.viewEntity, this.targetInfo.target, this.targetInfo.radius);
+            }
+            let dist = targetPos.sub(selfPos);
             if(dist.mag() <= SPEED){
-                this.setPosition(this.targetPos);
+                this.setPosition(targetPos);
                 // 抛出到达事件
                 this.viewEntity.handleEvent({ type: 'reachAtkArea' });
-                this.targetPos = null;
+                this.targetInfo = null;
                 return;
             }
-            const force = this.seek(this.targetPos);
+            const force = this.seek(targetPos);
             destV = destV.add(force);
             this.viewEntity.setHead(destV);
         }
