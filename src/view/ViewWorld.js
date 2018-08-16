@@ -42,7 +42,6 @@ cc.Class({
         entity.setPosition(cc.v2(500, -200));
         entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, stateConfig);
         entity.setPosition(cc.v2(-300, 0))
-        
     },
 
     _addSampleEntity(camp, stateConfig){
@@ -94,9 +93,7 @@ cc.Class({
         const tpos = this.node.convertToNodeSpaceAR(wpos);
         bullet.view.position = tpos;
         bullet.view.parent = this.node;
-        if(entity.getHead().x < 0){
-            bullet.view.scaleX = -bullet.view.scaleX
-        }
+        bullet.view.scaleX = entity.getDirect() * bullet.view.scaleX;
     },
 
     removeBullet(bullet) {

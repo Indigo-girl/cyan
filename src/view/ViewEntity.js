@@ -21,6 +21,7 @@ class ViewEntity{
         this.moveComp = new MoveComponent(this);
         // 子弹需要在索敌的时候就准备
         this._bullets = [];
+        this._direct = -1;
     }
 
     _initView(spinePath){
@@ -65,8 +66,10 @@ class ViewEntity{
     setHead(dir){
         dir = dir.normalize();
         if(dir.x < 0){
+            this._direct = -1;
             this.view.scaleX = Math.abs(this.view.scaleX);
         }else if(dir.x > 0){
+            this._direct = 1;
             this.view.scaleX = -Math.abs(this.view.scaleX);
         }
         this.head = dir;
@@ -74,6 +77,11 @@ class ViewEntity{
 
     getHead(){
         return this.head || cc.v2(1, 0);
+    }
+
+    // 身体方向，向右为1，向左为-1
+    getDirect(){
+        return this._direct;
     }
 
     getPosition(){
