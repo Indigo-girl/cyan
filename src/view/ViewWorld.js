@@ -20,41 +20,29 @@ cc.Class({
     },
 
     onLoad(){
-        this._featureWalk();
-        // this._featureSkill();
+        this._featureSkill();
     },
 
-    _featureWalk(){
+    _featureSkill(){
         const stateConfig = {
-            'idle': {
+            'search': {
                 'moveToPos': 'walk'
             },
             'walk': {
                 'reachAtkArea': 'atk'
             },
             'atk': {
-                'animCompleted': 'idle'
+                'animCompleted': 'search'
             },
-            'dead': {}
+            'dead': {},
+            'initState': 'search'
         };
-        const entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, stateConfig);
-        this._addSampleEntity(ContextConst.CAMP.ENEMY, stateConfig);
-        console.log('entity Id:', entity.id);
-        this.node.on(cc.Node.EventType.TOUCH_END, (event) => {
-            const pos = this.node.convertTouchToNodeSpaceAR(event.touch);
-            this.handleEvent({
-                type: 'moveToPos',
-                detail: pos
-            }, entity.id);
-        });
-    },
-
-    _featureSkill(){
-        let entity = this._addSampleEntity(ContextConst.CAMP.PLAYER);
-        entity.setPosition(cc.v2(-300, 0))
-        entity = this._addSampleEntity(ContextConst.CAMP.ENEMY);
+        let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, stateConfig);
         entity.setHead(cc.v2(-1, 0));
-        entity.setPosition(cc.v2(400, 0));
+        entity.setPosition(cc.v2(500, -200));
+        entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, stateConfig);
+        entity.setPosition(cc.v2(-300, 0))
+        
     },
 
     _addSampleEntity(camp, stateConfig){

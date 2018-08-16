@@ -2,12 +2,14 @@ import IdleState from './IdleState';
 import WalkState from './WalkState';
 import AtkState from './AtkState';
 import DeadState from './DeadState';
+import SearchState from './SearchState';
 
 const StateMap = {
     'idle': IdleState,
     'walk': WalkState,
     'atk': AtkState,
-    'dead': DeadState
+    'dead': DeadState,
+    'search': SearchState
 }
 
 class StatePool{

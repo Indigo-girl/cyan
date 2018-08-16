@@ -19,7 +19,7 @@ class BaseBullet{
     }
 
     getTargets(entity, world){
-        return this.selector(entity, world);
+        return this.selector.getTargets(entity, world);
     }
 
     update(){

@@ -10,8 +10,9 @@ class AtkState extends BaseState {
         super.onEnter(sm);
         sm.viewEntity.playAnim('attack01');
         // for test
-        sm.viewEntity.prepareBullets();
-        sm.viewEntity.fireBullets(40);
+        // sm.viewEntity.prepareBullets();
+        // sm.viewEntity.fireBullets(40);
+        sm.viewEntity.castSkill();
     }
     
 }

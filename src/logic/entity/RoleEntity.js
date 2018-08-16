@@ -28,6 +28,26 @@ class RoleEntity extends BaseEntity{
         this.getContext().doEffects(effects);
     }
 
+    changeHp(delta){
+        return this.getContext().changeHp(delta);
+    }
+
+    getHp(){
+        return this.getContext().getHp();
+    }
+
+    getMaxHp(){
+        return this.getContext().getMaxHp();
+    }
+
+    getRealProp(){
+        return this.getContext().getRealProp();
+    }
+
+    getBaseProp(){
+        return this.getContext().getBaseProp();
+    }
+
     replaceContext(context){
         this._contextStack[this._contextStack.length - 1] = context;
         this.onContextChanged();

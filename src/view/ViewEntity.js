@@ -2,7 +2,12 @@ import StateMachine from './state/StateMachine';
 import MoveComponent from './MoveComponent';
 import ViewBullet from './ViewBullet';
 import Bullet from '../logic/bullet/BaseBullet';
+import DelayBullet from '../logic/bullet/DelayBullet';
 import pubfunc from '../logic/utils/pubfunc';
+import HpEffect from '../logic/effect/HpEffect';
+import CampSelector from './selector/CampSelector';
+import ContextConst from '../logic/const/ContextConst';
+import BaseSkill from './skill/BaseSkill';
 
 class ViewEntity{
 
@@ -10,6 +15,7 @@ class ViewEntity{
         this.id = entity.id;
         this.logicEntity = entity;
         // for test
+        this._initState = stateConfig.initState || 'idle';
         this.sm = new StateMachine(this, stateConfig);
         this._initView(spinePath);
         this.moveComp = new MoveComponent(this);
@@ -31,7 +37,7 @@ class ViewEntity{
             skeleton.setToSetupPose();
             skeleton.premultipliedAlpha = false;
             skeleton.setCompleteListener(() => this.onAnimCompleted());
-            this.sm.changeState('idle');
+            this.sm.changeState(this._initState);
         });
     }
 
@@ -91,23 +97,24 @@ class ViewEntity{
         return this.logicEntity.isAlive();
     }
 
-    prepareBullets(){
-        // for test
-        const bullet = new Bullet({});
-        const viewBullet = new ViewBullet(bullet, 'DFP/DFP', cc.v2(0, 100));
-        this._bullets.push(viewBullet);
-        pubfunc.getWorld().addBullet(viewBullet, this);
+    nextSkill(){
+        // TODO 这里仅作为测试，应当读取配置生成技能
+        const hp = new HpEffect(-100);
+        const selector = new CampSelector(ContextConst.CAMP.ENEMY);
+        const bullet = new DelayBullet({
+            effects: [hp],
+            selector: selector
+        }, 20);
+        const skill = new BaseSkill(this, [bullet], 500);
+        this._curSkill = skill;
+        return skill;
     }
 
-    fireBullets(delay){
-        delay = delay || 0;
-        for(const e of this._bullets){
-            if(delay > 0){
-                e.fireDelay(delay);
-            }else{
-                e.fire();
-            }
+    castSkill(){
+        if(!this._curSkill){
+            throw new Error('需要预先执行nextSkill');
         }
+        this._curSkill.fireBullets(40);
     }
 
 }
