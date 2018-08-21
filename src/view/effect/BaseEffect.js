@@ -4,7 +4,7 @@ class BaseEffect{
     }
 
     /**
-     * @param {RoleContext} target
+     * @param {ViewEntity} target
      * @memberof BaseEffect
      */
     doEffect(target){
@@ -12,7 +12,7 @@ class BaseEffect{
     }
 
     /**
-     * @param {RoleContext} target
+     * @param {ViewEntity} target
      * @memberof BaseEffect
      */
     undoEffect(target){

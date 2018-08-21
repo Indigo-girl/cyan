@@ -1,4 +1,4 @@
-import PriorityQueue from '../utils/PriorityQueue';
+import PriorityQueue from '../../logic/utils/PriorityQueue';
 
 class CommandPipe{
 

@@ -1,5 +1,5 @@
-import CommandPipe from '../command/CommandPipe';
-import EventTarget from '../utils/EventTarget';
+import CommandPipe from './command/CommandPipe';
+import EventTarget from '../logic/utils/EventTarget';
 
 class LogicWorld{
 

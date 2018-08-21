@@ -7,9 +7,9 @@ class ViewEntity{
 
     constructor(entity, spinePath, stateConfig){
         this.id = entity.id;
+        // 逻辑实体，用于管理数值状态
         this.logicEntity = entity;
-        entity.viewEntity = this;
-        // for test
+        // 初始化状态机
         this._initState = stateConfig.initState || 'idle';
         this.sm = new StateMachine(this, stateConfig);
         this._initView(spinePath);
@@ -122,13 +122,29 @@ class ViewEntity{
         this._curSkill.fireBullets(40);
     }
 
+    addBuff(buff){
+        // TODO 待实现，需要注意buff的进入回调以及状态检查
+    }
+
     addBuffs(buffs){
-        // TODO buff应该在表现层存在ViewBuff，这个之后实现
-        // this.logicEntity.addBuffs(buffs);
+        for(const buff of buffs){
+            this.addBuff(buff);
+        }
+    }
+
+    /**
+     * 不推荐之间调用doEffect，因为这里没有效果检查
+     * @param {BaseEffect} effect
+     * @memberof ViewEntity
+     */
+    doEffect(effect){
+        effect.doEffect(this);
     }
 
     doEffects(effects){
-        this.logicEntity.doEffects(effects);
+        for(const effect of effects){
+            this.doEffect(effect);
+        }
         this.checkDead();
     }
 

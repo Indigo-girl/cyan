@@ -1,4 +1,4 @@
-import BaseEffect from "./BaseEffect";
+import BaseEffect from './BaseEffect';
 
 class ResurrectEffect extends BaseEffect{
 

@@ -1,5 +1,5 @@
 import ContextConst from '../../logic/const/ContextConst';
-import HpEffect from '../../logic/effect/HpEffect';
+import HpEffect from '../effect/HpEffect';
 import EventTrigger from '../trigger/EventTrigger';
 import ViewBullet from '../ViewBullet';
 import BaseSkill from './BaseSkill';

@@ -20,14 +20,6 @@ class RoleEntity extends BaseEntity{
         return this.camp === camp;
     }
 
-    doEffect(effect){
-        this.getContext().doEffect(effect);
-    }
-
-    doEffects(effects){
-        this.getContext().doEffects(effects);
-    }
-
     changeHp(delta){
         return this.getContext().changeHp(delta);
     }
@@ -69,11 +61,7 @@ class RoleEntity extends BaseEntity{
     }
 
     onContextChanged(){
-        // TODO
-    }
-
-    update(){
-        
+        // TODO 状态切换需要通知表现层切换模型
     }
 
     isAlive(){
