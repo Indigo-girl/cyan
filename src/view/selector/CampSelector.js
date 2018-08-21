@@ -3,6 +3,11 @@ import ContextConst from '../../logic/const/ContextConst';
 
 class CampSelector extends BaseSelector{
 
+    /**
+     * Creates an instance of CampSelector.
+     * @param {ContextConst.CAMP} camp
+     * @memberof CampSelector
+     */
     constructor(camp){
         super();
         this.camp = camp;
