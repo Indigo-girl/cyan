@@ -8,20 +8,24 @@ class CampSelector extends BaseSelector{
         this.camp = camp;
     }
 
-    getTargets(entity, world){
-        let targets = super.getTargets(entity, world);
+    /**
+     * 筛选方法
+     * @param {ViewEntity} target
+     * @param {ViewEntity} entity
+     * @param {ViewWorld} world
+     * @return {bool}
+     * @memberof CampSelector
+     */
+    filter(target, entity, world) {
         let targetCamp = this.camp;
-        if(this.camp == ContextConst.CAMP.ALL){
-            return targets;
-        }else if(this.camp == ContextConst.CAMP.FRIEND){
+        if (this.camp == ContextConst.CAMP.ALL) {
+            return true;
+        } else if (this.camp == ContextConst.CAMP.FRIEND) {
             targetCamp = entity.logicEntity.getCamp();
         } else if (this.camp == ContextConst.CAMP.ENEMY) {
             targetCamp = entity.logicEntity.getCamp() === ContextConst.CAMP.PLAYER ? ContextConst.CAMP.MONSTER : ContextConst.CAMP.PLAYER;
         }
-        targets = targets.filter((e)=>{
-            return e.logicEntity.isCamp(targetCamp);
-        });
-        return targets;
+        return target.logicEntity.isCamp(targetCamp);
     }
 
 }

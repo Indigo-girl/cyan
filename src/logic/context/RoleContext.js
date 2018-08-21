@@ -112,6 +112,14 @@ class RoleContext{
             this.doEffect(effect);
         }
     }
+
+    handleEvent(event){
+        if(this.viewEntity){
+            this.viewEntity.handleEvent(event);
+        }else{
+            console.warn("没有绑定的ViewEntity用于处理事件:", event);
+        }
+    }
 }
 
 export default RoleContext;

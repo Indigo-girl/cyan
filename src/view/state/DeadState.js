@@ -9,7 +9,13 @@ class DeadState extends BaseState {
     onEnter(sm) {
         super.onEnter(sm);
         sm.viewEntity.pauseAnim();
-        sm.viewEntity.view.runAction(cc.fadeOut(2));
+        sm.viewEntity.view.runAction(cc.sequence(cc.fadeOut(2), cc.callFunc(()=>{
+            sm.viewEntity.onDead();
+        })));
+    }
+
+    onExit(sm){
+        sm.viewEntity.onResurrect();
     }
 
 }

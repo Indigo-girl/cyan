@@ -48,6 +48,8 @@ class ViewBullet{
     }
 
     handleEvent(event){
+        this.trigger.handleEvent(event);
+        this.tryTrigger();
         if(event.type === 'animCompleted'){
             // TODO 如果是范围伤害直接影响所有目标
             this.destroy();
@@ -65,11 +67,14 @@ class ViewBullet{
             return;
         }else{
             this.trigger.update();
-            if (this.trigger.trigger(this, this.getTargets(), pubfunc.getWorld())) {
-                this._doEffects();
-                this._addBuffs();
-                this.destroy();
-            }
+            this.tryTrigger();
+        }
+    }
+
+    tryTrigger(){
+        if (this.trigger.trigger(this, this.getTargets(), pubfunc.getWorld())) {
+            this._doEffects();
+            this._addBuffs();
         }
     }
 

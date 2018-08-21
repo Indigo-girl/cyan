@@ -1,17 +1,14 @@
 import StateMachine from './state/StateMachine';
 import MoveComponent from './MoveComponent';
-import ViewBullet from './ViewBullet';
-import HpEffect from '../logic/effect/HpEffect';
-import CampSelector from './selector/CampSelector';
-import ContextConst from '../logic/const/ContextConst';
-import BaseSkill from './skill/BaseSkill';
-import DelayTrigger from './trigger/DelayTrigger';
+import SkillFactory from './skill/SkillFactory';
+import pubfunc from '../logic/utils/pubfunc';
 
 class ViewEntity{
 
     constructor(entity, spinePath, stateConfig){
         this.id = entity.id;
         this.logicEntity = entity;
+        entity.viewEntity = this;
         // for test
         this._initState = stateConfig.initState || 'idle';
         this.sm = new StateMachine(this, stateConfig);
@@ -109,17 +106,7 @@ class ViewEntity{
 
     nextSkill(){
         // TODO 这里仅作为测试，应当读取配置生成技能
-        const hp = new HpEffect(-100);
-        const selector = new CampSelector(ContextConst.CAMP.ENEMY);
-        const trigger = new DelayTrigger(40);
-        const bullet = new ViewBullet(this, {
-            effects: [hp],
-            selector: selector,
-            spinePath: 'DFP/DFP',
-            offset: cc.v2(0, 100),
-            trigger: trigger
-        });
-        const skill = new BaseSkill(this, [bullet], 500);
+        const skill = SkillFactory.getHurtSkill(this, 100, 500);
         this._curSkill = skill;
         return skill;
     }
@@ -142,6 +129,34 @@ class ViewEntity{
 
     doEffects(effects){
         this.logicEntity.doEffects(effects);
+        this.checkDead();
+    }
+
+    checkDead(){
+        if(!this.isAlive()){
+            this.handleEvent({
+                type: 'dead'
+            });
+        }
+    }
+
+    onDead(){
+        this.view.active = false;
+    }
+
+    onResurrect(){
+        this.view.active = true;
+        this.view.opacity = 255;
+        this.resumeAnim();
+    }
+
+    /**
+     * 从世界中移除，并且销毁显示节点
+     * @memberof ViewEntity
+     */
+    destroy(){
+        pubfunc.getWorld().removeEntity(this.id);
+        this.view.destroy();
     }
 
 }

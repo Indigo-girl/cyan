@@ -26,30 +26,37 @@ cc.Class({
     _featureSkill(){
         const stateConfig = {
             'search': {
+                'dead': 'dead',
                 'moveToPos': 'walk',
                 'freeWalk': 'walk',
-                'moveInRadius': 'walk'
+                'moveInRadius': 'walk',
+                'targetNotFound': 'idle',
             },
             'walk': {
+                'dead': 'dead',
                 'reachAtkArea': 'atk'
             },
             'atk': {
+                'dead': 'dead',
                 'animCompleted': 'search'
             },
-            'dead': {},
+            'dead': {
+                'resurrect': 'search'
+            },
+            'idle': {},
             'initState': 'search'
         };
-        let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, stateConfig);
+        let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, stateConfig, 100);
         entity.setHead(cc.v2(-1, 0));
         entity.setPosition(cc.v2(500, -200));
-        entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, stateConfig);
+        entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, stateConfig, 500);
         entity.setPosition(cc.v2(-300, 0))
     },
 
-    _addSampleEntity(camp, stateConfig){
+    _addSampleEntity(camp, stateConfig, hp){
         const roleContext = new RoleContext();
         roleContext.init({
-            0: 100,
+            0: hp,
             1: 100,
             2: 100,
             3: 100

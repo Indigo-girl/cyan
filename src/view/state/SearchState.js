@@ -11,19 +11,21 @@ class SearchState extends BaseState{
         super.onEnter(sm);
         // TODO  初始化技能/获取目标/发出移动事件
         const skill = sm.viewEntity.nextSkill();
-        // const atkPos = skill.getAtkPos();
-        // sm.viewEntity.handleEvent({
-        //     type: 'moveToPos',
-        //     detail: atkPos
-        // });
-        sm.viewEntity.handleEvent({
-            type: 'moveInRadius',
-            detail: {
-                radius: skill.radius,
-                target: skill.getFirstTarget(),
-                alignY: true
-            }
-        });
+        const firstTarget = skill.getFirstTarget()
+        if(firstTarget){
+            sm.viewEntity.handleEvent({
+                type: 'moveInRadius',
+                detail: {
+                    radius: skill.radius,
+                    target: firstTarget,
+                    alignY: true
+                }
+            });
+        }else{
+            sm.viewEntity.handleEvent({
+                type: 'targetNotFound'
+            });
+        }
     } 
 
 }

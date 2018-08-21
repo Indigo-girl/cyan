@@ -27,7 +27,9 @@ class BaseSkill{
     getFirstTarget(){
         const entity = this.owner;
         const world = pubfunc.getWorld();
-        return this.bullets[0].getTargets(entity, world)[0];
+        const firstBullet =  this.bullets[0];
+        const targets = firstBullet.getTargets(entity, world);
+        return targets[0];
     }
 
     getAtkPos(){

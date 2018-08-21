@@ -23,6 +23,15 @@ class BaseTrigger{
 
     }
 
+    /**
+     * 监听事件，然后改变状态
+     * @param {Event} event
+     * @memberof BaseTrigger
+     */
+    handleEvent(event){
+
+    }
+
 }
 
 export default BaseTrigger;
