@@ -1,13 +1,11 @@
 import StateMachine from './state/StateMachine';
 import MoveComponent from './MoveComponent';
 import ViewBullet from './ViewBullet';
-import Bullet from '../logic/bullet/BaseBullet';
-import DelayBullet from '../logic/bullet/DelayBullet';
-import pubfunc from '../logic/utils/pubfunc';
 import HpEffect from '../logic/effect/HpEffect';
 import CampSelector from './selector/CampSelector';
 import ContextConst from '../logic/const/ContextConst';
 import BaseSkill from './skill/BaseSkill';
+import DelayTrigger from './trigger/DelayTrigger';
 
 class ViewEntity{
 
@@ -113,10 +111,14 @@ class ViewEntity{
         // TODO 这里仅作为测试，应当读取配置生成技能
         const hp = new HpEffect(-100);
         const selector = new CampSelector(ContextConst.CAMP.ENEMY);
-        const bullet = new DelayBullet({
+        const trigger = new DelayTrigger(40);
+        const bullet = new ViewBullet(this, {
             effects: [hp],
-            selector: selector
-        }, 20);
+            selector: selector,
+            spinePath: 'DFP/DFP',
+            offset: cc.v2(0, 100),
+            trigger: trigger
+        });
         const skill = new BaseSkill(this, [bullet], 500);
         this._curSkill = skill;
         return skill;
@@ -131,6 +133,15 @@ class ViewEntity{
             throw new Error('需要预先执行nextSkill');
         }
         this._curSkill.fireBullets(40);
+    }
+
+    addBuffs(buffs){
+        // TODO buff应该在表现层存在ViewBuff，这个之后实现
+        // this.logicEntity.addBuffs(buffs);
+    }
+
+    doEffects(effects){
+        this.logicEntity.doEffects(effects);
     }
 
 }

@@ -1,6 +1,5 @@
 import pubfunc from '../../logic/utils/pubfunc';
 import Vec2 from '../../logic/utils/vec2';
-import ViewBullet from '../ViewBullet';
 
 class BaseSkill{
 
@@ -20,16 +19,8 @@ class BaseSkill{
             throw new Error('已经发射过子弹了');
         }
         this._fired = true;
-        const world = pubfunc.getWorld();
         for(const bullet of this.bullets){
-            // TODO 根据子弹配置来设置spine资源
-            const viewBullet = new ViewBullet(bullet, 'DFP/DFP', cc.v2(0, 100));
-            world.addBullet(viewBullet, this.owner);
-            if(delay > 0){
-                viewBullet.fireDelay(delay);
-            }else{
-                viewBullet.fire();
-            }
+            bullet.fireDelay(delay);
         }
     }
 

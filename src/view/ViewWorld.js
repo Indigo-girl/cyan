@@ -89,13 +89,26 @@ cc.Class({
         this._entityList = this._entityList.filter((e)=>e.id!==id);
     },
 
-    addBullet(bullet, entity) {
+
+    /**
+     * 仅仅是将子弹注册到世界，以使其可以执行update
+     * @param {ViewBullet} bullet
+     */
+    addBullet(bullet) {
         this._bullets.push(bullet);
-        const wpos = entity.view.convertToWorldSpaceAR(bullet.view.position);
+        bullet.view.parent = this.node;
+    },
+
+    /**
+     * 子弹只有在发射之后才会显示出来，这里为了校准子弹位置和方向
+     * @param {ViewBullet} bullet
+     */
+    fireBullet(bullet){
+        const atker = bullet.atker;
+        const wpos = atker.view.convertToWorldSpaceAR(bullet.view.position);
         const tpos = this.node.convertToNodeSpaceAR(wpos);
         bullet.view.position = tpos;
-        bullet.view.parent = this.node;
-        bullet.view.scaleX = entity.getDirect() * bullet.view.scaleX;
+        bullet.view.scaleX = atker.getDirect() * bullet.view.scaleX;
     },
 
     removeBullet(bullet) {
