@@ -8,7 +8,7 @@ class SkillParser{
         for(const config of skillConfig.bullets){
             bullets.push(BulletParser.parse(config, owner));
         }
-        let skill = new BaseSkill(owner, bullets, skillConfig.radius);
+        let skill = new BaseSkill(owner, bullets, skillConfig.radius, skillConfig.atkAnim);
         return skill;
     }
 

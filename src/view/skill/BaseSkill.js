@@ -3,13 +3,14 @@ import Vec2 from '../../logic/utils/vec2';
 
 class BaseSkill{
 
-    constructor(owner, bullets, radius){
+    constructor(owner, bullets, radius, atkAnim){
         this.owner = owner;
         this.radius = radius || 120;
         if(!bullets || bullets.length<1){
             throw new Error('技能至少需要一个子弹');
         }
         this.bullets = bullets;      
+        this.atkAnim = atkAnim;
         this._fired = false;  
     }
 

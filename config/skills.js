@@ -12,7 +12,7 @@ export default {
                 trigger: { type: 'event', value: 'animCompleted'} 
             }
         ],
-        atkAnim: 'atk'
+        atkAnim: 'attack01'
     },
     '10002': {
         id: '10002',
@@ -27,6 +27,6 @@ export default {
                 trigger: { type: 'event', value: 'animCompleted' }
             }
         ],
-        atkAnim: 'atk'
+        atkAnim: 'attack01'
     }
 }

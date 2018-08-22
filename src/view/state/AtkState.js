@@ -8,10 +8,8 @@ class AtkState extends BaseState {
 
     onEnter(sm) {
         super.onEnter(sm);
-        sm.viewEntity.playAnim('attack01');
-        // for test
-        // sm.viewEntity.prepareBullets();
-        // sm.viewEntity.fireBullets(40);
+        const skill = sm.viewEntity.getCurSkill();
+        sm.viewEntity.playAnim(skill.atkAnim);
         sm.viewEntity.castSkill();
     }
     
