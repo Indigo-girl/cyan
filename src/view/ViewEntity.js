@@ -44,6 +44,7 @@ class ViewEntity{
 
     update() {
         this.sm.update();
+        this.view.zIndex = this.view.parent.height - this.getPosition().y;
     }
 
     playAnim(name, loop) {
@@ -176,6 +177,10 @@ class ViewEntity{
     destroy(){
         pubfunc.getWorld().removeEntity(this.id);
         this.view.destroy();
+    }
+
+    getSize(){
+        return cc.size(50, 50);
     }
 
 }

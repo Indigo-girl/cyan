@@ -68,6 +68,12 @@ class ViewBullet{
         }else{
             this.trigger.update();
             this.tryTrigger();
+            let zIndex = 0;
+            let targets = this.getTargets();
+            for(const target of targets){
+                zIndex = Math.max(zIndex, target.view.zIndex);
+            }
+            this.view.zIndex = zIndex;
         }
     }
 

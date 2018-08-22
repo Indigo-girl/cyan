@@ -47,10 +47,16 @@ cc.Class({
             'initState': 'search'
         };
         let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, stateConfig, 100);
+        entity.setNormalSkillIds(['10001']);
         entity.setHead(cc.v2(-1, 0));
         entity.setPosition(cc.v2(500, -200));
+        entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, stateConfig, 100);
+        entity.setNormalSkillIds(['10003']);
+        entity.setHead(cc.v2(-1, 0));
+        entity.setPosition(cc.v2(500, 200));
         entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, stateConfig, 500);
         entity.setPosition(cc.v2(-300, 0))
+        entity.setNormalSkillIds(['10001', '10001', '10002']);
     },
 
     _addSampleEntity(camp, stateConfig, hp){
@@ -63,7 +69,6 @@ cc.Class({
         });
         const logicEntity = new RoleEntity(roleContext, camp);
         const entity = new ViewEntity(logicEntity, 'KM/KM', stateConfig);
-        entity.setNormalSkillIds(['10001', '10001', '10002']);
         entity.setHead(cc.v2(1, 0));
         this.addEntity(entity);
         return entity;
