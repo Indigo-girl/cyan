@@ -20,13 +20,13 @@ export default {
         bullets: [
             {
                 spinePath: 'DFP/DFP',
-                offset: { x: 0, y: 100 },
+                offset: { x: 50, y: 150 },
                 effects: [{ type: 'hp', value: -50 }],
                 buffs: [],
                 selectors: [{ type: 'alive', value: true }, { type: 'camp', value: 4 }],
                 trigger: { type: 'event', value: 'animCompleted' }
             }
         ],
-        atkAnim: 'attack01'
+        atkAnim: 'attack02'
     }
 }

@@ -63,6 +63,7 @@ cc.Class({
         });
         const logicEntity = new RoleEntity(roleContext, camp);
         const entity = new ViewEntity(logicEntity, 'KM/KM', stateConfig);
+        entity.setNormalSkillIds(['10001', '10001', '10002']);
         entity.setHead(cc.v2(1, 0));
         this.addEntity(entity);
         return entity;

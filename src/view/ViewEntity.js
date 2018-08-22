@@ -1,5 +1,6 @@
 import StateMachine from './state/StateMachine';
 import MoveComponent from './MoveComponent';
+import SkillComponent from './SkillComponent';
 import SkillFactory from './skill/SkillFactory';
 import pubfunc from '../logic/utils/pubfunc';
 
@@ -14,6 +15,7 @@ class ViewEntity{
         this.sm = new StateMachine(this, stateConfig);
         this._initView(spinePath);
         this.moveComp = new MoveComponent(this);
+        this.skillComp = new SkillComponent(this);
         // 子弹需要在索敌的时候就准备
         this._bullets = [];
         this._direct = -1;
@@ -104,11 +106,17 @@ class ViewEntity{
         return this.logicEntity.isAlive();
     }
 
+    setNormalSkillIds(ids, index){
+        this.skillComp.setNormalSkills(ids, index);
+    }
+
     nextSkill(){
-        // TODO 这里仅作为测试，应当读取配置生成技能
-        const skill = SkillFactory.getHurtSkill(this, 100, 500);
-        this._curSkill = skill;
-        return skill;
+        // // TODO 这里仅作为测试，应当读取配置生成技能
+        // const skill = SkillFactory.getHurtSkill(this, 100, 500);
+        // this._curSkill = skill;
+        // return skill;
+        this._curSkill = this.skillComp.nextSkill();
+        return this._curSkill;
     }
 
     getCurSkill(){
