@@ -18,6 +18,8 @@ class EffectParser {
                 return this._parsePropEffect(effectConfig, atker);
             case 'resurrect':
                 return this._parseResurrect(effectConfig, atker);
+            default:
+                console.warn('未知的effect类型:', effectConfig);
         }
     }
 
