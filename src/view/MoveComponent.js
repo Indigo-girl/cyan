@@ -59,6 +59,13 @@ class MoveComponent{
                 targetPos = ViewUtils.getAtkPos(this.viewEntity, this.targetInfo.target, this.targetInfo.radius);
             }
             let dist = targetPos.sub(selfPos);
+            const force = this.seek(targetPos);
+            destV = destV.add(force);
+            if (dist.x !== 0) {
+                this.viewEntity.setHead(dist);
+            } else if (this.targetInfo.type === 'dynamic') {
+                this.viewEntity.setHead(this.targetInfo.target.getPosition().sub(selfPos));
+            }
             if(dist.mag() <= SPEED){
                 this.setPosition(targetPos);
                 // 抛出到达事件
@@ -66,9 +73,6 @@ class MoveComponent{
                 this.targetInfo = null;
                 return;
             }
-            const force = this.seek(targetPos);
-            destV = destV.add(force);
-            this.viewEntity.setHead(destV);
         }
         this.setPosition(this.getPosition().add(destV));
     }

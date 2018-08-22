@@ -1,5 +1,4 @@
 import pubfunc from '../../logic/utils/pubfunc';
-import Vec2 from '../../logic/utils/vec2';
 
 class BaseSkill{
 
@@ -33,22 +32,23 @@ class BaseSkill{
         return targets[0];
     }
 
-    getAtkPos(){
-        const target = this.getFirstTarget();
-        return this._getAtkPos(this.owner, target);
-    }
+    // 使用pubfunc中的方法
+    // getAtkPos(){
+    //     const target = this.getFirstTarget();
+    //     return this._getAtkPos(this.owner, target);
+    // }
 
-    _getAtkPos(atk, def){
-        const atkPos = atk.getPosition();
-        const defPos = def.getPosition();
-        if(defPos.x >= atkPos.x){
-            const x = Math.max(atkPos.x, defPos.x - this.radius);
-            return new Vec2(x, defPos.y);
-        }else{
-            const x = Math.min(defPos.x + this.radius, atkPos.x);
-            return new Vec2(x, defPos.y);
-        }
-    }
+    // _getAtkPos(atk, def){
+    //     const atkPos = atk.getPosition();
+    //     const defPos = def.getPosition();
+    //     if(defPos.x >= atkPos.x){
+    //         const x = Math.max(atkPos.x, defPos.x - this.radius);
+    //         return new Vec2(x, defPos.y);
+    //     }else{
+    //         const x = Math.min(defPos.x + this.radius, atkPos.x);
+    //         return new Vec2(x, defPos.y);
+    //     }
+    // }
 
 }
 

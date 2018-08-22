@@ -17,6 +17,7 @@ cc.Class({
         this._entityList = [];
         this._bullets = [];
         pubfunc.setWorld(this);
+        this.randFunc = pubfunc.getRandomFunc(1);
     },
 
     onLoad(){
@@ -24,6 +25,19 @@ cc.Class({
     },
 
     _featureSkill(){
+        let entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, 500);
+        entity.setPosition(cc.v2(-300, 0))
+        entity.setNormalSkillIds(['10001', '10001', '10002']);
+    },
+
+    addEnemy(){
+        let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, 100);
+        entity.setNormalSkillIds(['10001']);
+        entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50), 
+            this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
+    },
+
+    _addSampleEntity(camp, hp){
         const stateConfig = {
             'search': {
                 'dead': 'dead',
@@ -43,23 +57,11 @@ cc.Class({
             'dead': {
                 'resurrect': 'search'
             },
-            'idle': {},
+            'idle': {
+                'animCompleted': 'search'
+            },
             'initState': 'search'
         };
-        let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, stateConfig, 100);
-        entity.setNormalSkillIds(['10001']);
-        entity.setHead(cc.v2(-1, 0));
-        entity.setPosition(cc.v2(500, -200));
-        entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, stateConfig, 100);
-        entity.setNormalSkillIds(['10003']);
-        entity.setHead(cc.v2(-1, 0));
-        entity.setPosition(cc.v2(500, 200));
-        entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, stateConfig, 500);
-        entity.setPosition(cc.v2(-300, 0))
-        entity.setNormalSkillIds(['10001', '10001', '10002']);
-    },
-
-    _addSampleEntity(camp, stateConfig, hp){
         const roleContext = new RoleContext();
         roleContext.init({
             0: hp,
