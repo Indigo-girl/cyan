@@ -1,7 +1,6 @@
 import StateMachine from './state/StateMachine';
 import MoveComponent from './MoveComponent';
 import SkillComponent from './SkillComponent';
-import SkillFactory from './skill/SkillFactory';
 import pubfunc from '../logic/utils/pubfunc';
 
 class ViewEntity{
@@ -111,10 +110,6 @@ class ViewEntity{
     }
 
     nextSkill(){
-        // // TODO 这里仅作为测试，应当读取配置生成技能
-        // const skill = SkillFactory.getHurtSkill(this, 100, 500);
-        // this._curSkill = skill;
-        // return skill;
         this._curSkill = this.skillComp.nextSkill();
         return this._curSkill;
     }

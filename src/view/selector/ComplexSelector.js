@@ -8,6 +8,24 @@ class ComplexSelector extends BaseSelector{
     }
 
     /**
+     * 获取目标。模板方法，请不要重写
+     * @param {ViewEntity} entity -施法者
+     * @param {ViewWorld} world
+     * @returns
+     * @memberof ComplexSelector
+     */
+    getTargets(entity, world) {
+        let targets = super.getTargets(entity, world);
+        for(const selector of this.selectors){
+            targets = selector.sort(targets);
+        }
+        for (const selector of this.selectors) {
+            targets = selector.truncate(targets);
+        }
+        return targets;
+    }
+
+    /**
      * 筛选方法
      * @param {ViewEntity} target
      * @param {ViewEntity} entity

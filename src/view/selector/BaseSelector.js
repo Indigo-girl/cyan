@@ -3,7 +3,7 @@ class BaseSelector{
     constructor(){}
 
     /**
-     * 获取目标
+     * 获取目标。模板方法，请不要重写
      * @param {ViewEntity} entity -施法者
      * @param {ViewWorld} world
      * @returns
@@ -14,6 +14,8 @@ class BaseSelector{
         targets = targets.filter((e)=>{
             return this.filter(e, entity, world);
         });
+        targets = this.sort(targets);
+        targets = this.truncate(targets);
         return targets;
     }
 
@@ -27,6 +29,26 @@ class BaseSelector{
      */
     filter(target, entity, world){
         return true;
+    }
+
+    /**
+     * 对目标进行排序
+     * @param {Array.<ViewEntity>} targets
+     * @return {Array.<ViewEntity>}
+     * @memberof BaseSelector
+     */
+    sort(targets){
+        return targets;
+    }
+
+    /**
+     * 截取前面的目标
+     * @param {Array.<ViewEntity>} targets
+     * @return {Array.<ViewEntity>}
+     * @memberof BaseSelector
+     */
+    truncate(targets){
+        return targets;
     }
 
 }
