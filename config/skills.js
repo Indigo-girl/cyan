@@ -6,13 +6,15 @@ export default {
             {
                 spinePath: 'DFP/DFP',
                 offset: {x: 0, y: 100},
-                effects: [{ type: 'hurt', value: 10, scaleInfo: [{ targetType: 0, proId: 10000, scale: 1000 }]}],
+                effects: [{ type: 'hurt', value: 450,prosInfo:[{targetType: 0, proId:1, scale:0.5}], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }]}],
                 buffs: [],
                 selectors: [{ type: 'alive', value: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }],
                 trigger: { type: 'event', value: 'animCompleted'} 
             }
         ],
-        atkAnim: 'attack01'
+        atkAnim: 'attack01',
+        name: '元气弹',
+        desc: '诸葛亮短暂蓄力后锁定目标发出一击强力元气弹，造成450+50%法术加成点伤害；目标每损失1%最大生命值元气弹就会增加2%伤害。'
     },
     '10002': {
         id: '10002',
@@ -21,7 +23,7 @@ export default {
             {
                 spinePath: 'DFP/DFP',
                 offset: { x: 50, y: 150 },
-                effects: [{ type: 'hurt', value: 50,scaleInfo:[{targetType: 0, proId: 10000, scale: 1000}] }],
+                effects: [{ type: 'hurt', value: 50}],
                 buffs: [],
                 selectors: [{ type: 'alive', value: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }],
                 trigger: { type: 'event', value: 'animCompleted' }
@@ -36,7 +38,7 @@ export default {
             {
                 spinePath: 'DFP/DFP',
                 offset: { x: 0, y: 100 },
-                effects: [{ type: 'hurt', value: 10, scaleInfo: [{ targetType: 0, proId: 10000, scale: 1000 }]}],
+                effects: [{ type: 'hurt', value: 10}],
                 buffs: [],
                 selectors: [{ type: 'alive', value: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }],
                 trigger: { type: 'event', value: 'animCompleted' }

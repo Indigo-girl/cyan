@@ -13,6 +13,7 @@ const CONTEXT_CONST = {
     EXTRA_ID: {
         // 数值1，需要配合scale来确定数值
         ONE: 10000,
+        // 损血百分比（1=>1%）
         HP_LOSS_PERCENT: 10001,
     },
 
@@ -48,7 +49,8 @@ const CONTEXT_CONST = {
             case this.EXTRA_ID.HP_LOSS_PERCENT:
                 const hp = context.getHp();
                 const maxHp = context.getMaxHp();
-                return math.floor((1 - hp / maxHp) * 1000);
+                console.log('hp:',hp,'maxHp:', maxHp);
+                return Math.floor((1 - hp / maxHp) * 100);
             default:
                 console.warn(`unknow extra id:${proId}`);
                 return 0;

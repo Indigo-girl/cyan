@@ -33,7 +33,7 @@ class RoleContext{
 
     getRealProp(id) {
         if(id === ContextConst.PRO_ID.HP){
-            return this.getHp();
+            return limit(ContextConst.PRO_ID.HP, this.getBaseProp(ContextConst.PRO_ID.HP), this);
         }
         if(this._isPropDirty(id)){
             this.updateProp(id);
@@ -75,7 +75,7 @@ class RoleContext{
     }
 
     getHp(){
-        return this.getBaseProp(ContextConst.PRO_ID.HP);
+        return this.getRealProp(ContextConst.PRO_ID.HP);
     }
 
     changeHp(delta){

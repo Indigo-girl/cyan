@@ -30,15 +30,15 @@ cc.Class({
     },
 
     addHero(){
-        let entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, 500);
+        let entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, 1000);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50),
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
-        entity.setNormalSkillIds(['10001', '10001', '10002']);
+        entity.setNormalSkillIds(['10001']);
     },
 
     addEnemy(){
-        let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, 100);
-        entity.setNormalSkillIds(['10001']);
+        let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, 1000);
+        entity.setNormalSkillIds(['10003']);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50), 
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
     },
@@ -72,7 +72,7 @@ cc.Class({
         roleContext.init({
             0: hp,
             1: 100,
-            2: 100,
+            2: hp,
             3: 100
         });
         const logicEntity = new RoleEntity(roleContext, camp);
