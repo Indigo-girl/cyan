@@ -134,7 +134,7 @@ cc.Class({
         const wpos = atker.view.convertToWorldSpaceAR(bullet.view.position);
         const tpos = this.node.convertToNodeSpaceAR(wpos);
         bullet.view.position = tpos;
-        bullet.view.scaleX = atker.getDirect() * bullet.view.scaleX;
+        bullet.view.scaleX = - atker.getDirect() * bullet.view.scaleX;
     },
 
     removeBullet(bullet) {

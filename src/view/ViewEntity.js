@@ -25,7 +25,7 @@ class ViewEntity{
         this.view = node;
         cc.loader.loadRes(spinePath, sp.SkeletonData, (err, res) => {
             if(err){
-                console.err(err);
+                console.warn(err);
                 return;
             }
             const skeleton = node.addComponent(sp.Skeleton);
@@ -181,6 +181,30 @@ class ViewEntity{
 
     getSize(){
         return cc.size(50, 50);
+    }
+
+    showHitEffect(effectPath){
+        if(!effectPath || effectPath === ''){
+            console.warn('非法的受击特效：', effectPath);
+            return;
+        }
+        // TODO 受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
+        const node = new cc.Node('effect');
+        node.parent = this.view;
+        // TODO 设置位置
+        cc.loader.loadRes(effectPath, sp.SkeletonData, (err, res) => {
+            if (err) {
+                console.warn(effectPath, err);
+                return;
+            }
+            const skeleton = node.addComponent(sp.Skeleton);
+            skeleton.skeletonData = res;
+            skeleton.loop = false;
+            skeleton.setToSetupPose();
+            skeleton.premultipliedAlpha = false;
+            skeleton.setCompleteListener(() => node.destroy());
+            skeleton.setAnimation(0, 'effect', false);
+        });
     }
 
 }

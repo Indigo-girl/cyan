@@ -72,8 +72,8 @@ export default {
         radius: 500,
         bullets: [
             {
-                spinePath: 'DFP/DFP',
-                hitEffect: '',
+                spinePath: 'bullet/10002/10002',
+                hitEffect: 'DFP/DFP',
                 offset: { x: 0, y: 100 },
                 effects: [{ type: 'hurt', value: 450, prosInfo: [{ targetType: 0, proId: 1, scale: 0.5 }], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }] }],
                 buffs: [],
