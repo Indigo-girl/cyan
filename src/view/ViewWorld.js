@@ -25,23 +25,27 @@ cc.Class({
     },
 
     _featureSkill(){
-        this.addHero();
-        this.addEnemy();
-        this.addEnemy();
+        let hero = this.addHero();
+        let entity1 = this.addEnemy();
+        entity1.setPosition(hero.getPosition().add(400, 20))
+        let entity2 = this.addEnemy();
+        entity2.setPosition(hero.getPosition().add(300, -20));
     },
 
     addHero(){
         let entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, 1000);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50),
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
-        entity.setNormalSkillIds(['10001']);
+        entity.setNormalSkillIds(['10002']);
+        return entity;
     },
 
     addEnemy(){
         let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, this.randFunc(800, 1000));
-        entity.setNormalSkillIds(['10003']);
+        entity.setNormalSkillIds(['3']);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50), 
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
+        return entity;
     },
 
     _addSampleEntity(camp, hp){
@@ -55,7 +59,7 @@ cc.Class({
             },
             'walk': {
                 'dead': 'dead',
-                'reachAtkArea': 'atk'
+                'reachPos': 'atk'
             },
             'atk': {
                 'dead': 'dead',

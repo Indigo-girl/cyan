@@ -32,6 +32,7 @@ class ViewBullet{
     fire() {
         this._fired = true;
         pubfunc.getWorld().fireBullet(this);
+        this.direct = this.atker.getDirect();
         cc.loader.loadRes(this.spinePath, sp.SkeletonData, (err, res) => {
             if (err) {
                 console.err(err);
@@ -99,14 +100,34 @@ class ViewBullet{
         const effects = this.effects;
         if (effects && effects.length > 0) {
             const targets = this.getTargets();
+            if(targets.length < 1){
+                console.warn('子弹没有对任何目标生效');
+            }
             for (const target of targets) {
                 target.doEffects(effects);
             }
         }
     }
 
+    getFirstTarget(){
+        // 需要排除范围选择器
+        return this.selector.getTargets(this.atker, this, pubfunc.getWorld(), true)[0];
+    }
+
     getTargets() {
-        return this.selector.getTargets(this.atker, pubfunc.getWorld());
+        return this.selector.getTargets(this.atker, this, pubfunc.getWorld());
+    }
+
+    getPosition(){
+        return this.view.getPosition();
+    }
+
+    getDirect(){
+        if(this.direct){
+            return this.direct
+        }else{
+            return this.atker.getDirect();
+        }
     }
 
     destroy(){

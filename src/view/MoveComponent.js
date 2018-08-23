@@ -72,7 +72,7 @@ class MoveComponent{
             if(dist.mag() <= SPEED){
                 this.setPosition(targetPos);
                 // 抛出到达事件
-                this.viewEntity.handleEvent({ type: 'reachAtkArea' });
+                this.viewEntity.handleEvent({ type: 'reachPos' });
                 this.targetInfo = null;
                 return;
             }

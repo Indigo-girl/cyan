@@ -5,14 +5,15 @@ class BaseSelector{
     /**
      * 获取目标。模板方法，请不要重写
      * @param {ViewEntity} entity -施法者
+     * @param {ViewBullet} bullet
      * @param {ViewWorld} world
      * @returns
      * @memberof BaseSelector
      */
-    getTargets(entity, world){
+    getTargets(entity, bullet, world){
         let targets = world.getAllEntity();
         targets = targets.filter((e)=>{
-            return this.filter(e, entity, world);
+            return this.filter(e, entity, bullet, world);
         });
         targets = this.sort(targets);
         targets = this.truncate(targets);
@@ -23,11 +24,12 @@ class BaseSelector{
      * 筛选方法
      * @param {ViewEntity} target
      * @param {ViewEntity} entity
+     * @param {ViewBullet} bullet
      * @param {ViewWorld} world
      * @return {bool}
      * @memberof BaseSelector
      */
-    filter(target, entity, world){
+    filter(target, entity, bullet, world){
         return true;
     }
 

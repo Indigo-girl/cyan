@@ -2,6 +2,7 @@ import AliveSelector from '../view/selector/AliveSelector';
 import CampSelector from '../view/selector/CampSelector';
 import TruncateSelector from '../view/selector/TruncateSelector';
 import PropSorter from '../view/selector/PropSorter';
+import SectorSelector from '../view/selector/SectorSelector';
 import ComplexSelector from '../view/selector/ComplexSelector';
 
 class SelectorParser{
@@ -16,6 +17,8 @@ class SelectorParser{
                 return this._parseTruncate(selectorConfig, owner);
             case 'propSorter':
                 return this._parsePropSorter(selectorConfig, owner);
+            case 'sector':
+                return this._parseSectorSelector(selectorConfig, owner);
             default:
                 console.warn('未知的selector类型：', selectorConfig);
         }
@@ -38,6 +41,11 @@ class SelectorParser{
 
     _parsePropSorter(config){
         const selector = new PropSorter(config.proId, config.bValue);
+        return selector;
+    }
+
+    _parseSectorSelector(config){
+        const selector = new SectorSelector(config.degree, config.radius);
         return selector;
     }
 

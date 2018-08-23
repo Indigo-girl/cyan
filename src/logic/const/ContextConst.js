@@ -17,6 +17,11 @@ const CONTEXT_CONST = {
         HP_LOSS_PERCENT: 10001,
     },
 
+    DIRECT: {
+        RIGHT: 1,
+        LEFT: -1
+    },
+
     CAMP: {
         ALL: 0,
         // Entity属性中仅使用绝对阵营： PLAYER & MONSTER

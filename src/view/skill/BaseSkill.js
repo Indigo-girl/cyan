@@ -25,30 +25,9 @@ class BaseSkill{
     }
 
     getFirstTarget(){
-        const entity = this.owner;
-        const world = pubfunc.getWorld();
         const firstBullet =  this.bullets[0];
-        const targets = firstBullet.getTargets(entity, world);
-        return targets[0];
+        return firstBullet.getFirstTarget();
     }
-
-    // 使用pubfunc中的方法
-    // getAtkPos(){
-    //     const target = this.getFirstTarget();
-    //     return this._getAtkPos(this.owner, target);
-    // }
-
-    // _getAtkPos(atk, def){
-    //     const atkPos = atk.getPosition();
-    //     const defPos = def.getPosition();
-    //     if(defPos.x >= atkPos.x){
-    //         const x = Math.max(atkPos.x, defPos.x - this.radius);
-    //         return new Vec2(x, defPos.y);
-    //     }else{
-    //         const x = Math.min(defPos.x + this.radius, atkPos.x);
-    //         return new Vec2(x, defPos.y);
-    //     }
-    // }
 
 }
 

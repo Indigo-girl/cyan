@@ -10,16 +10,23 @@ class ComplexSelector extends BaseSelector{
     /**
      * 获取目标。模板方法，请不要重写
      * @param {ViewEntity} entity -施法者
+     * @param {ViewBullet} bullet
      * @param {ViewWorld} world
+     * @param {bool} excludeRange -是否排除范围选择器
      * @returns
      * @memberof ComplexSelector
      */
-    getTargets(entity, world) {
-        let targets = super.getTargets(entity, world);
-        for(const selector of this.selectors){
+    getTargets(entity, bullet, world, excludeRange) {
+        this.excludeRange = !!excludeRange;
+        let targets = super.getTargets(entity, bullet, world, excludeRange);
+        let selectors = this.selectors;
+        if (this.excludeRange) {
+            selectors = selectors.filter((e) => { return !e.isRange;});
+        }
+        for (const selector of selectors){
             targets = selector.sort(targets);
         }
-        for (const selector of this.selectors) {
+        for (const selector of selectors) {
             targets = selector.truncate(targets);
         }
         return targets;
@@ -29,13 +36,18 @@ class ComplexSelector extends BaseSelector{
      * 筛选方法
      * @param {ViewEntity} target
      * @param {ViewEntity} entity
+     * @param {ViewBullet} bullet
      * @param {ViewWorld} world
      * @return {bool}
-     * @memberof BaseSelectors
+     * @memberof ComplexSelector
      */
-    filter(target, entity, world) {
-        for(const selector of this.selectors){
-            if(!selector.filter(target, entity, world)){
+    filter(target, entity, bullet, world) {
+        let selectors = this.selectors;
+        if (this.excludeRange) {
+            selectors = selectors.filter((e) => !e.isRange);
+        }
+        for(const selector of selectors){
+            if(!selector.filter(target, entity, bullet, world)){
                 return false
             }
         }

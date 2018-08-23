@@ -10,12 +10,10 @@ class AliveSelector extends BaseSelector{
     /**
      * 筛选方法
      * @param {ViewEntity} target
-     * @param {ViewEntity} entity
-     * @param {ViewWorld} world
      * @return {bool}
      * @memberof BaseSelector
      */
-    filter(target, entity, world) {
+    filter(target) {
         return this.alive === !!target.isAlive();
     }
 

@@ -17,11 +17,10 @@ class CampSelector extends BaseSelector{
      * 筛选方法
      * @param {ViewEntity} target
      * @param {ViewEntity} entity
-     * @param {ViewWorld} world
      * @return {bool}
      * @memberof CampSelector
      */
-    filter(target, entity, world) {
+    filter(target, entity) {
         let targetCamp = this.camp;
         if (this.camp == ContextConst.CAMP.ALL) {
             return true;
