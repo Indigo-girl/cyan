@@ -9,13 +9,11 @@ class HpEffect extends BaseEffect{
 
     doEffect(target){
         console.log('do hp effect:', this.delta);
-        const roleContext = target.logicEntity.getContext();
-        roleContext.changeHp(this.delta);
+        target.logicEntity.changeHp(this.delta);
     }
 
     undoEffect(target){
-        const roleContext = target.logicEntity.getContext();
-        roleContext.changeHp(-this.delta);
+        target.logicEntity.changeHp(-this.delta);
     }
 }
 

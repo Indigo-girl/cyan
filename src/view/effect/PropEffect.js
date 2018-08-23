@@ -1,10 +1,6 @@
 import BaseEffect from './BaseEffect';
 import AddCalculator from '../../logic/calculator/AddCalculator';
-
-const TARGET_TYPE = {
-    OWNER: 0,
-    TARGET: 1
-};
+import ContextConst from '../../logic/const/ContextConst';
 
 class PropEffect extends BaseEffect {
 
@@ -40,12 +36,12 @@ class PropEffect extends BaseEffect {
         for (const item of this.info) {
             let context;
             switch (item[0]) {
-            case TARGET_TYPE.OWNER:
-                context = this.context;
-                break;
-            case TARGET_TYPE.TARGET:
-                context = targetContext;
-                break;
+                case ContextConst.TARGET_TYPE.OWNER:
+                    context = this.context;
+                    break;
+                case ContextConst.TARGET_TYPE.TARGET:
+                    context = targetContext;
+                    break;
             }
             const delta = context.getRealProp(item.proId) * item.scale;
             total += delta;
@@ -54,7 +50,5 @@ class PropEffect extends BaseEffect {
     }
 
 }
-
-PropEffect.TARGET_TYPE = TARGET_TYPE;
 
 export default PropEffect;

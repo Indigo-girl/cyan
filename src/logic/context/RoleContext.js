@@ -15,7 +15,11 @@ class RoleContext{
         const ids = Object.keys(props);
         for(const proId of ids){
             this._setBaseProp(proId, props[proId]);
-        }
+        }    
+    }
+
+    getExtraProp(id){
+        return ContextConst.getExtraProp(id, this);
     }
 
     getBaseProp(id){

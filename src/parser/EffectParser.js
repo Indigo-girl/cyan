@@ -1,6 +1,8 @@
 import HpEffect from '../view/effect/HpEffect';
 import PropEffect from '../view/effect/PropEffect';
 import Resurrect from '../view/effect/ResurrectEffect';
+import ExtraHpEffect from '../view/effect/ExtraHpEffect';
+import HurtEffect from '../view/effect/HurtEffect';
 
 class EffectParser {
 
@@ -12,12 +14,16 @@ class EffectParser {
      */
     parse(effectConfig, atker) {
         switch (effectConfig.type) {
+            case 'hurt':
+                return this._parseHurtEffect(effectConfig, atker);
             case 'hp':
                 return this._parseHpEffect(effectConfig, atker);
             case 'prop':
                 return this._parsePropEffect(effectConfig, atker);
             case 'resurrect':
                 return this._parseResurrect(effectConfig, atker);
+            case 'extraHp':
+                return this._parseExtraHpEffect(effectConfig, atker);
             default:
                 console.warn('未知的effect类型:', effectConfig);
         }
@@ -31,13 +37,21 @@ class EffectParser {
         // config = {
         //     type: 'resurrect',
         //     value: 1, //属性ID
-        //     additions: [{ targetType: 0, proId: 1, scale: 1.5 }],
+        //     prosInfo: [{ targetType: 0, proId: 1, scale: 1.5 }],
         // }
-        return new PropEffect(config.proId, config.additions, atker);
+        return new PropEffect(config.proId, config.prosInfo, atker);
     }
 
     _parseResurrect() {
         return new Resurrect();
+    }
+
+    _parseExtraHpEffect(config, atker) {
+        return new ExtraHpEffect(config.prosInfo, atker);
+    }
+
+    _parseHurtEffect(config, atker) {
+        return new HurtEffect(config.value, config.prosInfo, config.scaleInfo, atker);
     }
 
 }

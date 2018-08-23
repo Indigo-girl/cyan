@@ -32,12 +32,16 @@ class RoleEntity extends BaseEntity{
         return this.getContext().getMaxHp();
     }
 
-    getRealProp(){
-        return this.getContext().getRealProp();
+    getRealProp(proId){
+        return this.getContext().getRealProp(proId);
     }
 
     getBaseProp(){
         return this.getContext().getBaseProp();
+    }
+
+    getExtraProp(proId){
+        return this.getContext().getExtraProp(proId);
     }
 
     replaceContext(context){

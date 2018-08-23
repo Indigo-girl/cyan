@@ -6,7 +6,7 @@ export default {
             {
                 spinePath: 'DFP/DFP',
                 offset: {x: 0, y: 100},
-                effects: [{type: 'hp', value: -10}],
+                effects: [{ type: 'hurt', value: 10, scaleInfo: [{ targetType: 0, proId: 10000, scale: 1000 }]}],
                 buffs: [],
                 selectors: [{ type: 'alive', value: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }],
                 trigger: { type: 'event', value: 'animCompleted'} 
@@ -21,7 +21,7 @@ export default {
             {
                 spinePath: 'DFP/DFP',
                 offset: { x: 50, y: 150 },
-                effects: [{ type: 'hp', value: -50 }],
+                effects: [{ type: 'hurt', value: 50,scaleInfo:[{targetType: 0, proId: 10000, scale: 1000}] }],
                 buffs: [],
                 selectors: [{ type: 'alive', value: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }],
                 trigger: { type: 'event', value: 'animCompleted' }
@@ -36,7 +36,7 @@ export default {
             {
                 spinePath: 'DFP/DFP',
                 offset: { x: 0, y: 100 },
-                effects: [{ type: 'hp', value: -10 }],
+                effects: [{ type: 'hurt', value: 10, scaleInfo: [{ targetType: 0, proId: 10000, scale: 1000 }]}],
                 buffs: [],
                 selectors: [{ type: 'alive', value: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }],
                 trigger: { type: 'event', value: 'animCompleted' }
