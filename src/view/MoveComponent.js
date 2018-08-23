@@ -42,7 +42,10 @@ class MoveComponent{
 
     seek(pos){
         let selfPos = this.getPosition();
-        let desireHead = pos.sub(selfPos).normalizeSelf();
+        let desireHead = pos.sub(selfPos)
+        if(desireHead.x !== 0 || desireHead.y !== 0){
+            desireHead.normalizeSelf();
+        }
         let desireSpeed = desireHead.mul(SPEED);
         let force = desireSpeed.sub(this.viewEntity.getHead().mul(SPEED));
         return force;

@@ -13,6 +13,7 @@ class SearchState extends BaseState{
         const skill = sm.viewEntity.nextSkill();
         const firstTarget = skill.getFirstTarget()
         if(firstTarget){
+            console.log(sm.viewEntity.id, 'search target is:', firstTarget.id, firstTarget.logicEntity.getHp());
             sm.viewEntity.handleEvent({
                 type: 'moveInRadius',
                 detail: {

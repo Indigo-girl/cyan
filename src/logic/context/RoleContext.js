@@ -32,6 +32,9 @@ class RoleContext{
     }
 
     getRealProp(id) {
+        if(ContextConst.isExtraId(id)){
+            return this.getExtraProp(id);
+        }
         if(id === ContextConst.PRO_ID.HP){
             return limit(ContextConst.PRO_ID.HP, this.getBaseProp(ContextConst.PRO_ID.HP), this);
         }

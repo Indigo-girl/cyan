@@ -27,6 +27,7 @@ cc.Class({
     _featureSkill(){
         this.addHero();
         this.addEnemy();
+        this.addEnemy();
     },
 
     addHero(){
@@ -37,7 +38,7 @@ cc.Class({
     },
 
     addEnemy(){
-        let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, 1000);
+        let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, this.randFunc(800, 1000));
         entity.setNormalSkillIds(['10003']);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50), 
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));

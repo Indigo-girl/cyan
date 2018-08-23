@@ -1,6 +1,7 @@
 import AliveSelector from '../view/selector/AliveSelector';
 import CampSelector from '../view/selector/CampSelector';
 import TruncateSelector from '../view/selector/TruncateSelector';
+import PropSorter from '../view/selector/PropSorter';
 import ComplexSelector from '../view/selector/ComplexSelector';
 
 class SelectorParser{
@@ -13,13 +14,15 @@ class SelectorParser{
                 return this._parseCamp(selectorConfig, owner);
             case 'truncate':
                 return this._parseTruncate(selectorConfig, owner);
+            case 'propSorter':
+                return this._parsePropSorter(selectorConfig, owner);
             default:
                 console.warn('未知的selector类型：', selectorConfig);
         }
     }
 
     _parseAlive(config){
-        const selector = new AliveSelector(config.value);
+        const selector = new AliveSelector(config.bValue);
         return selector;
     }
 
@@ -30,6 +33,11 @@ class SelectorParser{
 
     _parseTruncate(config){
         const selector = new TruncateSelector(config.value);
+        return selector;
+    }
+
+    _parsePropSorter(config){
+        const selector = new PropSorter(config.proId, config.bValue);
         return selector;
     }
 
