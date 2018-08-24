@@ -4,7 +4,7 @@ export default {
         radius: 500,
         bullets: [
             {
-                spinePath: 'DFP/DFP',
+                spinePath: 'bullet/10001/10001',
                 hitEffect: '',
                 offset: {x: 0, y: 100},
                 effects: [{ type: 'hurt', value: 450,prosInfo:[{targetType: 0, proId:1, scale:0.5}], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }]}],
@@ -23,7 +23,7 @@ export default {
         radius: 500,
         bullets: [
             {
-                spinePath: 'DFP/DFP',
+                spinePath: 'bullet/10001/10001',
                 offset: { x: 50, y: 150 },
                 effects: [{ type: 'hurt', value: 50}],
                 buffs: [],
@@ -38,7 +38,7 @@ export default {
         radius: 600,
         bullets: [
             {
-                spinePath: 'DFP/DFP',
+                spinePath: 'bullet/10001/10001',
                 offset: { x: 0, y: 100 },
                 effects: [{ type: 'hurt', value: 10}],
                 buffs: [],
@@ -53,7 +53,7 @@ export default {
         radius: 500,
         bullets: [
             {
-                spinePath: 'DFP/DFP',
+                spinePath: 'bullet/10001/10001',
                 hitEffect: '',
                 offset: { x: 0, y: 100 },
                 effects: [{ type: 'hurt', value: 450, prosInfo: [{ targetType: 0, proId: 1, scale: 0.5 }], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }] }],
@@ -73,7 +73,7 @@ export default {
         bullets: [
             {
                 spinePath: 'bullet/10002/10002',
-                hitEffect: 'DFP/DFP',
+                hitEffect: '',
                 offset: { x: 0, y: 100 },
                 effects: [{ type: 'hurt', value: 450, prosInfo: [{ targetType: 0, proId: 1, scale: 0.5 }], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }] }],
                 buffs: [],
