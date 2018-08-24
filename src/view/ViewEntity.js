@@ -5,14 +5,14 @@ import pubfunc from '../logic/utils/pubfunc';
 
 class ViewEntity{
 
-    constructor(entity, spinePath, stateConfig){
+    constructor(entity, modelInfo, stateConfig){
         this.id = entity.id;
         // 逻辑实体，用于管理数值状态
         this.logicEntity = entity;
         // 初始化状态机
         this._initState = stateConfig.initState || 'idle';
         this.sm = new StateMachine(this, stateConfig);
-        this._initView(spinePath);
+        this._initView(modelInfo);
         this.moveComp = new MoveComponent(this);
         this.skillComp = new SkillComponent(this);
         // 子弹需要在索敌的时候就准备
@@ -20,10 +20,11 @@ class ViewEntity{
         this._direct = -1;
     }
 
-    _initView(spinePath){
+    _initView(modelInfo){
         const node = new cc.Node(this.id);
+        node.setScale(modelInfo.scale);
         this.view = node;
-        cc.loader.loadRes(spinePath, sp.SkeletonData, (err, res) => {
+        cc.loader.loadRes(modelInfo.spinePath, sp.SkeletonData, (err, res) => {
             if(err){
                 console.warn(err);
                 return;
@@ -34,6 +35,8 @@ class ViewEntity{
             skeleton.setToSetupPose();
             skeleton.premultipliedAlpha = false;
             skeleton.setCompleteListener(() => this.onAnimCompleted());
+            skeleton.setEventListener((...args)=>console.log('spine事件：', args));
+            skeleton.setSkin(modelInfo.skin);
             this.sm.changeState(this._initState);
         });
     }

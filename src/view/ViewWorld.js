@@ -81,7 +81,11 @@ cc.Class({
             3: 100
         });
         const logicEntity = new RoleEntity(roleContext, camp);
-        const entity = new ViewEntity(logicEntity, 'KM/KM', stateConfig);
+        const entity = new ViewEntity(logicEntity, {
+            spinePath: 'role/ZGL/ZGL',
+            skin: 'ZGL04',
+            scale: 0.5
+        }, stateConfig);
         entity.setHead(cc.v2(1, 0));
         this.addEntity(entity);
         return entity;
