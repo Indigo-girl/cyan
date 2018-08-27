@@ -5,6 +5,8 @@ import ViewEntity from './ViewEntity';
 import pubfunc from '../logic/utils/pubfunc';
 import ContextConst from '../logic/const/ContextConst';
 import stateConfig from '../../config/stateConfig';
+import RoleParser from '../parser/RoleParser';
+import heros from '../../config/hero';
 
 // ViewWorld需要绑定在对应的战场节点上
 cc.Class({
@@ -29,41 +31,27 @@ cc.Class({
         let hero = this.addHero();
         let entity1 = this.addEnemy();
         entity1.setPosition(hero.getPosition().add(400, 20))
-        let entity2 = this.addEnemy();
-        entity2.setPosition(hero.getPosition().add(300, -20));
+        // let entity2 = this.addEnemy();
+        // entity2.setPosition(hero.getPosition().add(300, -20));
     },
 
     addHero(){
-        let entity = this._addSampleEntity(ContextConst.CAMP.PLAYER, 1000);
+        let entity = this.addConfigEnetity('1001', ContextConst.CAMP.PLAYER);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50),
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
-        entity.setNormalSkillIds(['10002']);
         return entity;
     },
 
     addEnemy(){
-        let entity = this._addSampleEntity(ContextConst.CAMP.MONSTER, this.randFunc(800, 1000));
-        entity.setNormalSkillIds(['3']);
+        let entity = this.addConfigEnetity('1002', ContextConst.CAMP.MONSTER);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50), 
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
         return entity;
     },
 
-    _addSampleEntity(camp, hp){
-        const roleContext = new RoleContext();
-        roleContext.init({
-            0: hp,
-            1: 100,
-            2: hp,
-            3: 100
-        });
-        const logicEntity = new RoleEntity(roleContext, camp);
-        const entity = new ViewEntity(logicEntity, {
-            spinePath: 'role/ZGL/ZGL',
-            skin: 'ZGL04',
-            scale: 0.5
-        }, stateConfig);
-        entity.setHead(cc.v2(1, 0));
+    addConfigEnetity(configId, camp){
+        const config = heros[configId];
+        const entity = RoleParser.parse(config, camp);
         this.addEntity(entity);
         return entity;
     },

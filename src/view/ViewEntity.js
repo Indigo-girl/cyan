@@ -109,6 +109,10 @@ class ViewEntity{
         return this.logicEntity.isAlive();
     }
 
+    setEnergySkillId(id){
+        this.skillComp.setEnergySkill(id);
+    }
+
     setNormalSkillIds(ids, index){
         this.skillComp.setNormalSkills(ids, index);
     }

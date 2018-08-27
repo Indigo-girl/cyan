@@ -4,18 +4,24 @@ import ContextConst from '../const/ContextConst';
 
 class RoleContext{
 
-    constructor(){
+    constructor(props){
         this._calId = 0;
         this._cals = {};
         this._propDirty = {};
         this._realProp = {};
+        this.init(props);
     }
 
     init(props){
-        const ids = Object.keys(props);
-        for(const proId of ids){
-            this._setBaseProp(proId, props[proId]);
-        }    
+        const keys = Object.keys(props);
+        for(const key of keys){
+            const proId = ContextConst.PRO_ID[key];
+            if(typeof proId === 'number'){
+                this._setBaseProp(proId, props[key]);
+            }else{
+                console.warn(`无法找到${key}对应proId`);
+            }
+        } 
     }
 
     getExtraProp(id){
@@ -35,13 +41,27 @@ class RoleContext{
         if(ContextConst.isExtraId(id)){
             return this.getExtraProp(id);
         }
-        if(id === ContextConst.PRO_ID.HP){
-            return limit(ContextConst.PRO_ID.HP, this.getBaseProp(ContextConst.PRO_ID.HP), this);
+        if(ContextConst.isCostPro(id)){
+            return this.getCostProp(id);
         }
         if(this._isPropDirty(id)){
             this.updateProp(id);
         }
         return limit(id, this._realProp[id], this);
+    }
+
+    getCostProp(proId){
+        let value = this.getBaseProp(proId);
+        let max = this.getRealProp(ContextConst.getCostProMaxId(proId));
+        value = Math.max(0, Math.min(max, value));
+        return value;
+    }
+
+    setCostProp(proId, value){
+        let max = this.getRealProp(ContextConst.getCostProMaxId(proId));
+        value = Math.max(0, Math.min(max, value));
+        this._setBaseProp(proId, value);
+        return value; 
     }
 
     updateProp(proId) {
@@ -74,7 +94,7 @@ class RoleContext{
     }
 
     getMaxHp(){
-        return this.getRealProp(ContextConst.PRO_ID.MAXHP);
+        return this.getRealProp(ContextConst.PRO_ID.MAX_HP);
     }
 
     getHp(){
@@ -82,13 +102,9 @@ class RoleContext{
     }
 
     changeHp(delta){
-        if(delta < 0 && delta < -this.getHp()){
-            delta = - this.getHp();
-        }else if(delta > 0 && this.getHp() + delta > this.getMaxHp()){
-            delta = this.getMaxHp() - this.getHp();
-        }
-        this._setBaseProp(ContextConst.PRO_ID.HP, this.getHp() + delta);
-        return delta;
+        const oldHp = this.getHp();
+        this.setCostProp(ContextConst.PRO_ID.HP, oldHp + delta);
+        return this.getHp() - oldHp;
     }
 
     _getCalculatorQueue(id){

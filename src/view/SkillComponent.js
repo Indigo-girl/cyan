@@ -1,5 +1,6 @@
 import SkillParser from '../parser/SkillParser';
 import skills from '../../config/skills';
+import ContextConst from '../logic/const/ContextConst';
 
 /**
  * 技能组件
@@ -22,15 +23,31 @@ class SkillComponent{
     }
 
     nextSkill(){
-        // 根据施法条件来判定下一次的施法
-        if(this.normalIndex >= this.normalSkillIds.length){
-            this.normalIndex = 0;
+        const context = this.owner.logicEntity.getContext();
+        const energy = context.getCostProp(ContextConst.PRO_ID.ENERGY);
+        const maxEnergy = context.getRealProp(ContextConst.PRO_ID.MAX_ENERGY);
+        let skillId;
+        if (energy>=maxEnergy){
+            skillId = this.energySkill;
+        }else{
+            // 根据施法条件来判定下一次的施法
+            if (this.normalIndex >= this.normalSkillIds.length) {
+                this.normalIndex = 0;
+            }
+            skillId = this.normalSkillIds[this.normalIndex];
+            this.normalIndex++;
         }
-        const skillId = this.normalSkillIds[this.normalIndex];
+        return this.getSkillById(skillId);
+    }
+
+    getSkillById(skillId){
         const skillConfig = skills[skillId];
         let configSkill = SkillParser.parse(skillConfig, this.owner);
-        this.normalIndex++;
         return configSkill;
+    }
+
+    setEnergySkill(skillId){
+        this.energySkill = skillId;
     }
 
 }

@@ -1,13 +1,26 @@
 const CONTEXT_CONST = {
     PRO_ID: {
         HP: 0,
-        MP: 1,
-        MAXHP: 2,
-        MAXMP: 3,
-        MAXSPEED: 4,
+        MAX_HP: 1,
+        ENERGY: 2,
+        MAX_ENERGY: 3,
+        MAX_SPEED: 4,
         ATK: 5,
         DEF: 6,
-        AGI: 7,
+    },
+
+    isCostPro(proId){
+        return proId === this.PRO_ID.HP || proId === this.PRO_ID.ENERGY;
+    },
+
+    getCostProMaxId(proId){
+        switch(proId){
+            case this.PRO_ID.HP:
+                return this.PRO_ID.MAX_HP;
+            case this.PRO_ID.ENERGY:
+                return this.PRO_ID.MAX_ENERGY;
+        }
+        console.warn(`没有找到${proId}对应的maxProId`);
     },
 
     EXTRA_ID: {
