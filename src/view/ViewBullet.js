@@ -1,4 +1,5 @@
 import pubfunc from '../logic/utils/pubfunc';
+import FollowTrace from '../view/trace/FollowTrace';
 
 let _id = 0;
 
@@ -13,6 +14,7 @@ class ViewBullet{
         this.selector = info.selector;
         this.atker = atker;
         this.trigger = info.trigger;
+        this.traceConf = info.trace;
         this.spinePath = info.spinePath;
         this.hitEffect = info.hitEffect;
         this.offset = info.offset || cc.v2(0, 0);
@@ -48,15 +50,21 @@ class ViewBullet{
             skeleton.setCompleteListener(() => this.handleEvent({type: 'animCompleted'}));
             skeleton.setAnimation(0, 'effect', false);
         });
+        // 创建trace
+        const traceConf = this.traceConf
+        if(traceConf){
+            switch(traceConf.type){
+                case 'follow':
+                    const head = traceConf.initHead;
+                    this.trace = new FollowTrace(this, this.getFirstTarget(), cc.v2(head.x, head.y), traceConf.speed);
+            }
+        }
     }
 
     handleEvent(event){
+        console.log('子弹接收到事件:', event);
         this.trigger.handleEvent(event);
         this.tryTrigger();
-        if(event.type === 'animCompleted'){
-            // TODO 如果是范围伤害直接影响所有目标
-            this.destroy();
-        }
     }
 
     update(){
@@ -77,6 +85,9 @@ class ViewBullet{
                 zIndex = Math.max(zIndex, target.view.zIndex);
             }
             this.view.zIndex = zIndex;
+            if(this.trace){
+                this.trace.update();
+            }
         }
     }
 
@@ -92,6 +103,8 @@ class ViewBullet{
                     target.showHitEffect(this.hitEffect)
                 }
             }
+            // 每个子弹可以被触发一次，触发后就销毁
+            this.destroy();
         }
     }
 
@@ -106,6 +119,10 @@ class ViewBullet{
 
     getPosition(){
         return this.view.getPosition();
+    }
+
+    setPosition(pos){
+        this.view.position = pos;
     }
 
     getDirect(){

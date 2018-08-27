@@ -1,10 +1,6 @@
 import CommonConst from '../logic/const/CommonConst';
-import RoleEntity from '../logic/entity/RoleEntity';
-import RoleContext from '../logic/entity/RoleContext';
-import ViewEntity from './ViewEntity';
 import pubfunc from '../logic/utils/pubfunc';
 import ContextConst from '../logic/const/ContextConst';
-import stateConfig from '../../config/stateConfig';
 import RoleParser from '../parser/RoleParser';
 import heros from '../../config/hero';
 
@@ -29,8 +25,9 @@ cc.Class({
 
     _featureSkill(){
         let hero = this.addHero();
+        hero.setPosition(cc.v2(-500, -20))
         let entity1 = this.addEnemy();
-        entity1.setPosition(hero.getPosition().add(400, 20))
+        entity1.setPosition(cc.v2(700, 20));
         // let entity2 = this.addEnemy();
         // entity2.setPosition(hero.getPosition().add(300, -20));
     },

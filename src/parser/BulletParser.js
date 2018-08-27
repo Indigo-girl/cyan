@@ -24,7 +24,8 @@ class BulletParser{
             spinePath: bulletConfig.spinePath,
             hitEffect: bulletConfig.hitEffect,
             offset: cc.v2(bulletConfig.offset.x, bulletConfig.offset.y),
-            trigger: trigger
+            trigger: trigger,
+            trace: bulletConfig.trace
         });
         return bullet;
     }

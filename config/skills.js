@@ -59,7 +59,8 @@ export default {
                 effects: [{ type: 'hurt', value: 450, prosInfo: [{ targetType: 0, proId: 1, scale: 0.5 }], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }] }],
                 buffs: [],
                 selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }, { type: 'propSorter', bValue: false, proId: 0 }],
-                trigger: { type: 'event', value: 'animCompleted' }
+                trigger: { type: 'event', value: 'animCompleted' },
+                // trace: {type: 'follow', initHead:{x: 1, y: 2}, speed: 20}
             }
         ],
         atkAnim: 'attack01',
