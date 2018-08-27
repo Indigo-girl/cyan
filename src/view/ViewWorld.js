@@ -4,6 +4,7 @@ import RoleContext from '../logic/entity/RoleContext';
 import ViewEntity from './ViewEntity';
 import pubfunc from '../logic/utils/pubfunc';
 import ContextConst from '../logic/const/ContextConst';
+import stateConfig from '../../config/stateConfig';
 
 // ViewWorld需要绑定在对应的战场节点上
 cc.Class({
@@ -49,30 +50,6 @@ cc.Class({
     },
 
     _addSampleEntity(camp, hp){
-        const stateConfig = {
-            'search': {
-                'dead': 'dead',
-                'moveToPos': 'walk',
-                'freeWalk': 'walk',
-                'moveInRadius': 'walk',
-                'targetNotFound': 'idle',
-            },
-            'walk': {
-                'dead': 'dead',
-                'reachPos': 'atk'
-            },
-            'atk': {
-                'dead': 'dead',
-                'animCompleted': 'search'
-            },
-            'dead': {
-                'resurrect': 'search'
-            },
-            'idle': {
-                'animCompleted': 'search'
-            },
-            'initState': 'search'
-        };
         const roleContext = new RoleContext();
         roleContext.init({
             0: hp,
