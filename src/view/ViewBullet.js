@@ -37,19 +37,23 @@ class ViewBullet{
         this._fired = true;
         pubfunc.getWorld().fireBullet(this);
         this.direct = this.atker.getDirect();
-        cc.loader.loadRes(this.spinePath, sp.SkeletonData, (err, res) => {
-            if (err) {
-                console.warn(this.spinePath, err);
-                return;
-            }
-            const skeleton = this.view.addComponent(sp.Skeleton);
-            skeleton.skeletonData = res;
-            skeleton.loop = false;
-            skeleton.setToSetupPose();
-            skeleton.premultipliedAlpha = false;
-            skeleton.setCompleteListener(() => this.handleEvent({type: 'animCompleted'}));
-            skeleton.setAnimation(0, 'effect', false);
-        });
+        if(!this.spinePath || this.spinePath === ''){
+            console.log('bullet without spine effect');
+        }else{
+            cc.loader.loadRes(this.spinePath, sp.SkeletonData, (err, res) => {
+                if (err) {
+                    console.warn(this.spinePath, err);
+                    return;
+                }
+                const skeleton = this.view.addComponent(sp.Skeleton);
+                skeleton.skeletonData = res;
+                skeleton.loop = false;
+                skeleton.setToSetupPose();
+                skeleton.premultipliedAlpha = false;
+                skeleton.setCompleteListener(() => this.handleEvent({ type: 'animCompleted' }));
+                skeleton.setAnimation(0, 'effect', false);
+            });
+        }
         // 创建trace
         const traceConf = this.traceConf
         if(traceConf){

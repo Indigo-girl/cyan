@@ -87,4 +87,26 @@ export default {
         name: '元气弹',
         desc: '诸葛亮短暂蓄力后锁定目标发出一击强力元气弹，造成450+50%法术加成点伤害；目标每损失1%最大生命值元气弹就会增加2%伤害。'
     },
+    '10003': {
+        id: '10003',
+        radius: 500,
+        jump: true,
+        jumpDist: 0,
+        jumpDuration: 30,
+        bullets: [
+            {
+                spinePath: '',
+                hitEffect: '',
+                offset: { x: 0, y: 0 },
+                effects: [{ type: 'hurt', value: 450, prosInfo: [{ targetType: 0, proId: 1, scale: 0.5 }], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }] }],
+                buffs: [],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false}, {type: 'circle', radius: 200}],
+                trigger: { type: 'base'},
+            }
+        ],
+        atkAnim: 'attack02',
+        prepareEffect: 'prepare',
+        name: '元气弹',
+        desc: '诸葛亮短暂蓄力后锁定目标发出一击强力元气弹，造成450+50%法术加成点伤害；目标每损失1%最大生命值元气弹就会增加2%伤害。'
+    },
 }

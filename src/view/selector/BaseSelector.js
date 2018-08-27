@@ -15,7 +15,7 @@ class BaseSelector{
         targets = targets.filter((e)=>{
             return this.filter(e, entity, bullet, world);
         });
-        targets = this.sort(targets);
+        targets = this.sort(targets, entity);
         targets = this.truncate(targets);
         return targets;
     }
@@ -36,10 +36,11 @@ class BaseSelector{
     /**
      * 对目标进行排序
      * @param {Array.<ViewEntity>} targets
+     * @param {ViewEntity} atker
      * @return {Array.<ViewEntity>}
      * @memberof BaseSelector
      */
-    sort(targets){
+    sort(targets, atker){
         return targets;
     }
 

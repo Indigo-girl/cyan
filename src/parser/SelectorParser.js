@@ -2,7 +2,9 @@ import AliveSelector from '../view/selector/AliveSelector';
 import CampSelector from '../view/selector/CampSelector';
 import TruncateSelector from '../view/selector/TruncateSelector';
 import PropSorter from '../view/selector/PropSorter';
+import DistSorter from '../view/selector/DistSorter';
 import SectorSelector from '../view/selector/SectorSelector';
+import CircleSelector from '../view/selector/CircleSelector';
 import ComplexSelector from '../view/selector/ComplexSelector';
 
 class SelectorParser{
@@ -17,8 +19,12 @@ class SelectorParser{
                 return this._parseTruncate(selectorConfig, owner);
             case 'propSorter':
                 return this._parsePropSorter(selectorConfig, owner);
+            case 'distSorter':
+                return new DistSorter(selectorConfig.bValue);
             case 'sector':
                 return this._parseSectorSelector(selectorConfig, owner);
+            case 'circle':
+                return new CircleSelector(selectorConfig.radius);
             default:
                 console.warn('未知的selector类型：', selectorConfig);
         }

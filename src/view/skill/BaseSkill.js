@@ -1,5 +1,3 @@
-import pubfunc from '../../logic/utils/pubfunc';
-
 class BaseSkill{
 
     constructor(owner, bullets, radius, atkAnim){
@@ -27,6 +25,13 @@ class BaseSkill{
     getFirstTarget(){
         const firstBullet =  this.bullets[0];
         return firstBullet.getFirstTarget();
+    }
+
+    setJumpInfo(dist, duration){
+        this.jumpInfo = {
+            dist: dist,
+            duration: duration
+        }
     }
 
 }

@@ -35,7 +35,10 @@ class ViewEntity{
             skeleton.setToSetupPose();
             skeleton.premultipliedAlpha = false;
             skeleton.setCompleteListener(() => this.onAnimCompleted());
-            skeleton.setEventListener((...args)=>console.log('spine事件：', args));
+            skeleton.setEventListener((trace, event)=>{
+                console.log('spine事件：', event.data);
+                this.handleEvent({type: event.data.name});
+            });
             skeleton.setSkin(modelInfo.skin);
             this.sm.changeState(this._initState);
         });
@@ -130,7 +133,7 @@ class ViewEntity{
         if(!this._curSkill){
             throw new Error('需要预先执行nextSkill');
         }
-        this._curSkill.fireBullets(40);
+        this._curSkill.fireBullets();
     }
 
     addBuff(buff){

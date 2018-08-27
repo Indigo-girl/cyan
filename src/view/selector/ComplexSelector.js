@@ -24,7 +24,7 @@ class ComplexSelector extends BaseSelector{
             selectors = selectors.filter((e) => { return !e.isRange;});
         }
         for (const selector of selectors){
-            targets = selector.sort(targets);
+            targets = selector.sort(targets, entity);
         }
         for (const selector of selectors) {
             targets = selector.truncate(targets);

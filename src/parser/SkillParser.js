@@ -9,6 +9,9 @@ class SkillParser{
             bullets.push(BulletParser.parse(config, owner));
         }
         let skill = new BaseSkill(owner, bullets, skillConfig.radius, skillConfig.atkAnim);
+        if(skillConfig.jump){
+            skill.setJumpInfo(skillConfig.jumpDist, skillConfig.jumpDuration);
+        }
         return skill;
     }
 
