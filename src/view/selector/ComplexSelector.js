@@ -54,6 +54,25 @@ class ComplexSelector extends BaseSelector{
         return true;
     }
 
+    /**
+     * 筛选方法
+     * @param {ViewEntity} target
+     * @param {ViewEntity} entity
+     * @param {ViewBullet} bullet
+     * @param {ViewWorld} world
+     * @return {bool}
+     * @memberof ComplexSelector
+     */
+    checkTarget(target, entity, bullet, world){
+        let selectors = this.selectors.filter((e) => !e.isRange);
+        for (const selector of selectors) {
+            if (!selector.filter(target, entity, bullet, world)) {
+                return false
+            }
+        }
+        return true;
+    }
+
 }
 
 export default ComplexSelector;

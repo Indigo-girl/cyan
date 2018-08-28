@@ -54,6 +54,21 @@ class BaseSkill{
         return firstBullet.getFirstTarget();
     }
 
+    /**
+     * 判定目标是否还满足技能指向
+     * @param {ViewEntity} target
+     * @returns
+     * @memberof BaseSkill
+     */
+    checkTarget(target){
+        for(const bullet of this.bullets){
+            if(bullet.checkTarget(target)){
+                return true;
+            }
+        }
+        return false;
+    }
+
     setJumpInfo(dist, duration){
         this.jumpInfo = {
             dist: dist,

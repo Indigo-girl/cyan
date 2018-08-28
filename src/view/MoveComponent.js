@@ -59,6 +59,14 @@ class MoveComponent{
             if(this.targetInfo.tyep === 'static'){
                 targetPos = this.targetInfo.pos
             }else if(this.targetInfo.type === 'dynamic'){
+                const skill = this.viewEntity.getCurSkill();
+                if (!skill.checkTarget(this.targetInfo.target)){
+                    this.viewEntity.handleEvent({
+                        // 目标不符合条件
+                        type: 'targetUnfit'
+                    });
+                    return;
+                }
                 targetPos = ViewUtils.getAtkPos(this.viewEntity, this.targetInfo.target, this.targetInfo.radius);
             }
             let dist = targetPos.sub(selfPos);

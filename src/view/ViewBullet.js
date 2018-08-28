@@ -129,6 +129,10 @@ class ViewBullet{
         return this.selector.getTargets(this.atker, this, pubfunc.getWorld());
     }
 
+    checkTarget(target){
+        return this.selector.checkTarget(target, this.atker, this, pubfunc.getWorld());
+    }
+
     getPosition(){
         return this.view.getPosition();
     }

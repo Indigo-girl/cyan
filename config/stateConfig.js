@@ -7,9 +7,17 @@ export default {
             'moveInRadius': 'walk',
             'targetNotFound': 'idle',
         },
+        'research': {
+            'dead': 'dead',
+            'moveToPos': 'walk',
+            'freeWalk': 'walk',
+            'moveInRadius': 'walk',
+            'targetNotFound': 'idle',
+        },
         'walk': {
             'dead': 'dead',
-            'reachPos': 'atk'
+            'reachPos': 'atk',
+            'targetUnfit': 'research',
         },
         'atk': {
             'dead': 'dead',
