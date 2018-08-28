@@ -23,12 +23,12 @@ class AtkState extends BaseState {
 
     handleEvent(event, sm){
         super.handleEvent(event, sm);
+        const skill = sm.viewEntity.getCurSkill();
         switch(event.type){
             case 'fire':
                 sm.viewEntity.castSkill();
                 break;
             case 'jump':
-                const skill = sm.viewEntity.getCurSkill();
                 if (skill.jumpInfo) {
                     const pos = skill.getFirstTarget().getPosition();
                     const posTo = cc.v2(pos.x - sm.viewEntity.getDirect() * skill.jumpInfo.dist, pos.y);
@@ -36,6 +36,8 @@ class AtkState extends BaseState {
                 }
                 break;
             case 'prepare':
+                skill.showPrepareEffect();
+                break;
         }
     }
     

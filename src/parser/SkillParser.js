@@ -8,7 +8,12 @@ class SkillParser{
         for(const config of skillConfig.bullets){
             bullets.push(BulletParser.parse(config, owner));
         }
-        let skill = new BaseSkill(owner, bullets, skillConfig.radius, skillConfig.atkAnim);
+        let preparePoint = skillConfig.preparePoint || {x: 0, y: 0};
+        let skill = new BaseSkill(owner, bullets, skillConfig.radius, {
+            atkAnim: skillConfig.atkAnim,
+            prepareEffect: skillConfig.prepareEffect,
+            preparePoint: cc.v2(preparePoint.x, preparePoint.y)
+        });
         if(skillConfig.jump){
             skill.setJumpInfo(skillConfig.jumpDist, skillConfig.jumpDuration);
         }
