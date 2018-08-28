@@ -45,13 +45,16 @@ class ViewBullet{
                     console.warn(this.spinePath, err);
                     return;
                 }
+                if(!cc.isValid(this.view)){
+                    return;
+                }
                 const skeleton = this.view.addComponent(sp.Skeleton);
                 skeleton.skeletonData = res;
-                skeleton.loop = false;
+                skeleton.loop = true;
                 skeleton.setToSetupPose();
                 skeleton.premultipliedAlpha = false;
                 skeleton.setCompleteListener(() => this.handleEvent({ type: 'animCompleted' }));
-                skeleton.setAnimation(0, 'effect', false);
+                skeleton.setAnimation(0, 'effect', true);
             });
         }
         // 创建trace
@@ -67,8 +70,12 @@ class ViewBullet{
 
     handleEvent(event){
         console.log('子弹接收到事件:', event);
-        this.trigger.handleEvent(event);
-        this.tryTrigger();
+        if(event.type === 'targetNotFound'){
+            this.destroy();
+        }else{
+            this.trigger.handleEvent(event);
+            this.tryTrigger();
+        }
     }
 
     update(){

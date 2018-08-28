@@ -16,6 +16,7 @@ export default {
         skills: ['10001'],
         energySkill: '10002',
         stateTrans: 'default',
+        hitPoint: {x: 0, y: 150}
     },
 
     '1002': {
@@ -34,6 +35,7 @@ export default {
         skills: ['10003'],
         energySkill: '10002',
         stateTrans: 'default',
+        hitPoint: { x: 0, y: 200 }
     },
 
 };

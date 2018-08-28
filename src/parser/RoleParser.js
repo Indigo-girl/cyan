@@ -11,7 +11,8 @@ class RoleParser{
         const entity = new ViewEntity(logicEntity, {
             spinePath: config.spinePath,
             skin: config.skin,
-            scale: config.scale
+            scale: config.scale,
+            hitPoint: cc.v2(config.hitPoint.x, config.hitPoint.y)
         }, stateConfig[config.stateTrans]);
         entity.setNormalSkillIds(config.skills);
         entity.setEnergySkillId(config.energySkill);

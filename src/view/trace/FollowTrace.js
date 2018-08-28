@@ -28,8 +28,8 @@ class FollowTrace extends BaseTrace{
 
     checkReach(){
         let pos = this.owner.getPosition();
-        let targetPos = this.target.getPosition();
-        return pos.x === targetPos.x && pos.y === targetPos.y;
+        let targetPos = this.target.getHitPosition();
+        return targetPos.sub(pos).mag() < this.speed / 2;
     }
 
     seek(pos) {
@@ -45,6 +45,9 @@ class FollowTrace extends BaseTrace{
 
     update() {
         if(!this.target){
+            this.owner.handleEvent({
+                type: 'targetNotFound'
+            });
             return;
         }
         if (this.reached){
@@ -52,7 +55,7 @@ class FollowTrace extends BaseTrace{
         }
         let destV = this.getHead().mul(this.speed);
         const selfPos = this.owner.getPosition();
-        let targetPos = this.target.getPosition();
+        let targetPos = this.target.getHitPosition();
         let dist = targetPos.sub(selfPos);
         const force = this.seek(targetPos);
         destV = destV.add(force);

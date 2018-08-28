@@ -10,12 +10,7 @@ class AtkState extends BaseState {
         super.onEnter(sm);
         const skill = sm.viewEntity.getCurSkill();
         sm.viewEntity.playAnim(skill.atkAnim);
-        if(skill.jumpInfo){ 
-            const pos = skill.getFirstTarget().getPosition();
-            const posTo = cc.v2(pos.x - sm.viewEntity.getDirect() * skill.jumpInfo.dist, pos.y);
-            console.log('jump info:', skill.jumpInfo, posTo);
-            sm.viewEntity.view.runAction(cc.moveTo(skill.jumpInfo.duration / 30, posTo));
-        }
+        
     }
 
     onExit(sm) {
@@ -28,8 +23,19 @@ class AtkState extends BaseState {
 
     handleEvent(event, sm){
         super.handleEvent(event, sm);
-        if(event.type === 'fire'){
-            sm.viewEntity.castSkill();
+        switch(event.type){
+            case 'fire':
+                sm.viewEntity.castSkill();
+                break;
+            case 'jump':
+                const skill = sm.viewEntity.getCurSkill();
+                if (skill.jumpInfo) {
+                    const pos = skill.getFirstTarget().getPosition();
+                    const posTo = cc.v2(pos.x - sm.viewEntity.getDirect() * skill.jumpInfo.dist, pos.y);
+                    sm.viewEntity.view.runAction(cc.moveTo(skill.jumpInfo.duration / 30, posTo));
+                }
+                break;
+            case 'prepare':
         }
     }
     

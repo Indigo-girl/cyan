@@ -21,6 +21,7 @@ class ViewEntity{
     }
 
     _initView(modelInfo){
+        this.hitPoint = modelInfo.hitPoint;
         const node = new cc.Node(this.id);
         node.setScale(modelInfo.scale);
         this.view = node;
@@ -215,6 +216,12 @@ class ViewEntity{
             skeleton.setCompleteListener(() => node.destroy());
             skeleton.setAnimation(0, 'effect', false);
         });
+    }
+
+    getHitPosition(){
+        let pos = this.view.convertToWorldSpaceAR(this.hitPoint);
+        let wpos = this.view.parent.convertToNodeSpaceAR(pos);
+        return wpos;
     }
 
 }
