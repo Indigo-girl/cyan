@@ -21,10 +21,12 @@ class ViewEntity{
     }
 
     _initView(modelInfo){
+        this.view = new cc.Node();
         this.hitPoint = modelInfo.hitPoint;
         const node = new cc.Node(this.id);
         node.setScale(modelInfo.scale);
-        this.view = node;
+        node.parent = this.view;
+        this.spineNode = node;
         cc.loader.loadRes(modelInfo.spinePath, sp.SkeletonData, (err, res) => {
             if(err){
                 console.warn(err);
@@ -55,15 +57,15 @@ class ViewEntity{
     }
 
     playAnim(name, loop) {
-        this.view.getComponent(sp.Skeleton).setAnimation(0, name, !!loop);
+        this.spineNode.getComponent(sp.Skeleton).setAnimation(0, name, !!loop);
     }
     
     pauseAnim() {
-        this.view.getComponent(sp.Skeleton).paused = true;
+        this.spineNode.getComponent(sp.Skeleton).paused = true;
     }
 
     resumeAnim() {
-        this.view.getComponent(sp.Skeleton).paused = false;
+        this.spineNode.getComponent(sp.Skeleton).paused = false;
     }
 
     // vec2.x>0为x轴方向
