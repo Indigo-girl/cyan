@@ -5,7 +5,7 @@ export default {
         bullets: [
             {
                 spinePath: 'bullet/ZGL/bullet_yqd',
-                hitEffect: '',
+                hitEffect: 'bullet/ZGL/hit_yqd',
                 offset: { x: 0, y: 350 },
                 effects: [{ type: 'hurt', value: 450, prosInfo: [{ targetType: 0, proId: 1, scale: 0.5 }], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }] }],
                 buffs: [],
@@ -22,7 +22,7 @@ export default {
     },
     '10002': {
         id: '10002',
-        radius: 500,
+        radius: 1000,
         bullets: [
             {
                 spinePath: 'bullet/10002/10002',

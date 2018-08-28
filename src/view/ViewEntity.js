@@ -204,6 +204,7 @@ class ViewEntity{
         // TODO 受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
         const node = new cc.Node('effect');
         node.parent = this.view;
+        node.position = this.hitPoint;
         // TODO 设置位置
         cc.loader.loadRes(effectPath, sp.SkeletonData, (err, res) => {
             if (err) {
