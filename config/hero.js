@@ -3,7 +3,7 @@ export default {
     '1001': {
         spinePath: 'role/ZGL/ZGL',
         skin: 'ZGL04',
-        scale: 0.5,
+        scale: 0.4,
         props: {
             HP: 4000,
             MAX_HP: 4000,
@@ -22,7 +22,7 @@ export default {
     '1002': {
         spinePath: 'role/CYJ/CYJ',
         skin: 'CYJ04',
-        scale: 0.5,
+        scale: 0.4,
         props: {
             HP: 3000,
             MAX_HP: 3000,

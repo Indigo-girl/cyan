@@ -8,7 +8,7 @@ class DistSorter extends BaseSelector {
     }
 
     getDist(a, b){
-        return a.getPosition().sub(b.getPosition()).magSq();
+        return a.getPosition().sub(b.getPosition()).mag();
     }
 
     sort(targets, atker) {
