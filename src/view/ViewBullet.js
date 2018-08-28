@@ -71,6 +71,7 @@ class ViewBullet{
     handleEvent(event){
         console.log('子弹接收到事件:', event);
         if(event.type === 'targetNotFound'){
+            // 当追踪目标消失时，直接销毁子弹
             this.destroy();
         }else{
             this.trigger.handleEvent(event);

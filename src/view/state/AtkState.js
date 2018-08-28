@@ -30,7 +30,11 @@ class AtkState extends BaseState {
                 break;
             case 'jump':
                 if (skill.jumpInfo) {
-                    const pos = skill.getFirstTarget().getPosition();
+                    const target = skill.getFirstTarget();
+                    if(!target){
+                        break;
+                    }
+                    const pos = target.getPosition();
                     const posTo = cc.v2(pos.x - sm.viewEntity.getDirect() * skill.jumpInfo.dist, pos.y);
                     sm.viewEntity.view.runAction(cc.moveTo(skill.jumpInfo.duration / 30, posTo));
                 }
