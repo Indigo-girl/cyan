@@ -1,7 +1,7 @@
 export default {
     '10001': {
         id: '10001',
-        radius: 1000,
+        radius: 500,
         bullets: [
             {
                 spinePath: 'bullet/ZGL/bullet_yqd',
@@ -40,10 +40,10 @@ export default {
     },
     '10003': {
         id: '10003',
-        radius: 500,
+        radius: 300,
         jump: true,
-        jumpDist: 0,
-        jumpDuration: 40,
+        jumpDist: 100,
+        jumpDuration: 10,
         bullets: [
             {
                 spinePath: '',
