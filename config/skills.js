@@ -1,6 +1,6 @@
 export default {
-    '10001': {
-        id: '10001',
+    '100101': {
+        id: '100101',
         type: 0,
         radius: 500,
         bullets: [
@@ -18,11 +18,9 @@ export default {
         atkAnim: 'attack02',
         prepareEffect: 'bullet/ZGL/prepare_yqd',
         preparePoint: {x:-50 ,y: 300},
-        name: '元气弹',
-        desc: '诸葛亮短暂蓄力后锁定目标发出一击强力元气弹，造成450+50%法术加成点伤害；目标每损失1%最大生命值元气弹就会增加2%伤害。'
     },
-    '10002': {
-        id: '10002',
+    '100102': {
+        id: '100102',
         type: 1,
         radius: 1000,
         bullets: [
@@ -37,12 +35,10 @@ export default {
             }
         ],
         atkAnim: 'attack01',
-        prepareEffect: 'prepare',
-        name: '元气弹',
-        desc: '诸葛亮短暂蓄力后锁定目标发出一击强力元气弹，造成450+50%法术加成点伤害；目标每损失1%最大生命值元气弹就会增加2%伤害。'
+        prepareEffect: '',
     },
-    '10003': {
-        id: '10003',
+    '100201': {
+        id: '100201',
         type: 0,
         radius: 300,
         jump: true,
@@ -60,8 +56,30 @@ export default {
             }
         ],
         atkAnim: 'attack02',
-        prepareEffect: 'prepare',
-        name: '元气弹',
-        desc: '诸葛亮短暂蓄力后锁定目标发出一击强力元气弹，造成450+50%法术加成点伤害；目标每损失1%最大生命值元气弹就会增加2%伤害。'
+        prepareEffect: '',
+    },
+    '100301': {
+        id: '100301',
+        type: 0,
+        radius: 500,
+        move: true,
+        moveDist: 100,
+        moveDuration: 10,
+        // 攻击完成后返回
+        backAfterAtk: true,
+        backDuration: 0,
+        bullets: [
+            {
+                spinePath: '',
+                hitEffect: '',
+                offset: { x: 0, y: 0 },
+                effects: [{ type: 'hurt', value: 600}],
+                buffs: [],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'circle', radius: 200 }],
+                trigger: { type: 'base' },
+            }
+        ],
+        atkAnim: 'attack01',
+        prepareEffect: '',
     },
 }

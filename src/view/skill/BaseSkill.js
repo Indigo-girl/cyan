@@ -11,6 +11,8 @@ class BaseSkill{
         this.prepareEffect = info.prepareEffect;
         this.preparePoint = info.preparePoint;
         this.type = info.type;
+        this.backAfterAtk = info.backAfterAtk;
+        this.backDuration = info.backDuration;
         this._fired = false;  
     }
 
@@ -74,6 +76,13 @@ class BaseSkill{
         this.jumpInfo = {
             dist: dist,
             duration: duration
+        }
+    }
+
+    setmoveInfo(dist, duration) {
+        this.moveInfo = {
+            dist: dist,
+            duration: duration,
         }
     }
 

@@ -10,14 +10,15 @@ class AtkState extends BaseState {
         super.onEnter(sm);
         const skill = sm.viewEntity.getCurSkill();
         sm.viewEntity.playAnim(skill.atkAnim);
-        
+        if(skill.backAfterAtk){
+            sm.atkPos = sm.viewEntity.getPosition();
+        }
+        this.move(sm);
     }
 
     onExit(sm) {
-        const skill = sm.viewEntity.getCurSkill();
-        if(skill.jumpInfo){
-            sm.viewEntity.view.stopAllActions();
-        }
+        sm.viewEntity.view.stopAllActions();
+        this.back(sm);
         super.onExit(sm);
     }
 
@@ -29,22 +30,49 @@ class AtkState extends BaseState {
                 sm.viewEntity.castSkill();
                 break;
             case 'jump':
-                if (skill.jumpInfo) {
-                    const target = skill.getFirstTarget();
-                    if(!target){
-                        break;
-                    }
-                    const pos = target.getPosition();
-                    const posTo = cc.v2(pos.x - sm.viewEntity.getDirect() * skill.jumpInfo.dist, pos.y);
-                    sm.viewEntity.view.runAction(cc.moveTo(skill.jumpInfo.duration / 30, posTo));
-                }
+                this.jump(sm);
                 break;
             case 'prepare':
                 skill.showPrepareEffect();
                 break;
         }
     }
+
+    move(sm){
+        const skill = sm.viewEntity.getCurSkill();
+        if (skill.moveInfo) {
+            const target = skill.getFirstTarget();
+            if (!target) {
+                return;
+            }
+            const pos = target.getPosition();
+            const posTo = cc.v2(pos.x - sm.viewEntity.getDirect() * skill.moveInfo.dist, pos.y);
+            sm.viewEntity.view.stopAllActions();
+            sm.viewEntity.view.runAction(cc.moveTo(skill.moveInfo.duration / 30, posTo));
+        }
+    }
+
+    jump(sm){
+        const skill = sm.viewEntity.getCurSkill();
+        if (skill.jumpInfo) {
+            const target = skill.getFirstTarget();
+            if (!target) {
+                return;
+            }
+            const pos = target.getPosition();
+            const posTo = cc.v2(pos.x - sm.viewEntity.getDirect() * skill.jumpInfo.dist, pos.y);
+            sm.viewEntity.view.stopAllActions();
+            sm.viewEntity.view.runAction(cc.moveTo(skill.jumpInfo.duration / 30, posTo));
+        }
+    }
     
+    back(sm){
+        const skill = sm.viewEntity.getCurSkill();
+        if (skill.backAfterAtk) {
+            sm.viewEntity.view.stopAllActions();
+            sm.viewEntity.setPosition(sm.atkPos);
+        }
+    }
 }
 
 export default AtkState;

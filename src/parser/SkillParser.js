@@ -13,10 +13,15 @@ class SkillParser{
             atkAnim: skillConfig.atkAnim,
             prepareEffect: skillConfig.prepareEffect,
             preparePoint: cc.v2(preparePoint.x, preparePoint.y),
-            type: skillConfig.type
+            type: skillConfig.type,
+            backAfterAtk: skillConfig.backAfterAtk,
+            backDuration: skillConfig.backDuration,
         });
         if(skillConfig.jump){
             skill.setJumpInfo(skillConfig.jumpDist, skillConfig.jumpDuration);
+        }
+        if(skillConfig.move){
+            skill.setmoveInfo(skillConfig.moveDist, skillConfig.moveDuration);
         }
         return skill;
     }
