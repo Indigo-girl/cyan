@@ -1,5 +1,6 @@
 import pubfunc from '../logic/utils/pubfunc';
 import FollowTrace from '../view/trace/FollowTrace';
+import AtkUtils from './AtkUtils';
 
 let _id = 0;
 
@@ -104,16 +105,21 @@ class ViewBullet{
     }
 
     tryTrigger(){
-        if (this.trigger.trigger(this, this.getTargets(), pubfunc.getWorld())) {
-            const targets = this.getTargets();
+        const targets = this.getTargets();
+        if (this.trigger.trigger(this, targets, pubfunc.getWorld())) {
             const buffs = this.buffs;
             const effects = this.effects;
             for (const target of targets) {
-                // TODO 判定闪避
-                target.doEffects(effects);
-                target.addBuffs(buffs);
-                if(this.hitEffect && this.hitEffect != ''){
-                    target.showHitEffect(this.hitEffect)
+                // 判定命中
+                const accProb = AtkUtils.getAccProb(this.atker, target);
+                const rvalue = pubfunc.getWorld().randFunc();
+                console.log(`${this.atker.id}=>${target.id}命中判定:${accProb>=rvalue},accProb:${accProb},rvalue:${rvalue}`);
+                if (rvalue <= accProb){
+                    target.doEffects(effects);
+                    target.addBuffs(buffs);
+                    if (this.hitEffect && this.hitEffect != '') {
+                        target.showHitEffect(this.hitEffect)
+                    }
                 }
             }
             // 每个子弹可以被触发一次，触发后就销毁

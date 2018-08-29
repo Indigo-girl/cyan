@@ -32,6 +32,10 @@ class RoleEntity extends BaseEntity{
         return this.getContext().getMaxHp();
     }
 
+    setMaxHp(value){
+        return this.getContext().setMaxHp(value);
+    }
+
     getRealProp(proId){
         return this.getContext().getRealProp(proId);
     }
@@ -70,6 +74,10 @@ class RoleEntity extends BaseEntity{
 
     isAlive(){
         return this.getContext().getHp() > 0;
+    }
+
+    getLevel(){
+        return this.getContext().level || 1;
     }
 }
 

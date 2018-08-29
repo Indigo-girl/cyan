@@ -2,6 +2,7 @@ import StateMachine from './state/StateMachine';
 import MoveComponent from './MoveComponent';
 import SkillComponent from './SkillComponent';
 import pubfunc from '../logic/utils/pubfunc';
+import AtkUtils from './AtkUtils';
 
 class ViewEntity{
 
@@ -173,8 +174,10 @@ class ViewEntity{
         }
     }
 
-    onHurt(hurtValue){
-        
+    onHurt(hurtValue, atker){
+        let hurt = AtkUtils.getHurt(hurtValue, atker, this);
+        console.log(`${this.id}受到来自${atker.id}的${hurt}点伤害`);
+        this.logicEntity.changeHp(-hurt);
     }
 
     onDead(){

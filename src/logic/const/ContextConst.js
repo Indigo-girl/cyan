@@ -8,6 +8,7 @@ const CONTEXT_CONST = {
         ATK: 5,
         DEF: 6,
         CRIT_SCALE: 7,
+        // 暴击
         CRIT: 8,
         // 命中
         ACCURACY: 9,

@@ -17,7 +17,7 @@ class HurtEffect extends BaseEffect{
         const scaleValue = 1000 + ContextConst.getEffectValue(this.scaleInfo, target, this.owner);
         this.delta = Math.floor((this.base + proValue) * scaleValue / 1000);
         console.log(`${this.owner.id}对${target.id}造成base:${this.base},pro:${proValue},scale:${scaleValue/1000}，最终伤害为：${this.delta}`);
-        target.logicEntity.changeHp(-this.delta);
+        target.onHurt(this.delta, this.owner);
     }
 
     undoEffect(target){
