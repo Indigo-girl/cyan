@@ -21,7 +21,7 @@ class PropEffect extends BaseEffect {
 
     doEffect(target) {
         const roleContext = target.logicEntity.getContext();
-        let value = this.calculateValue(roleContext);
+        let value = ContextConst.getEffectValue(this.info, target, this.owner);
         this.cal = new AddCalculator(this.proId, 1, value);
         roleContext.addCalculator(this.cal);
     }
@@ -29,24 +29,6 @@ class PropEffect extends BaseEffect {
     undoEffect(target){
         const roleContext = target.logicEntity.getContext();
         roleContext.rmCalculator(this.cal);
-    }
-
-    calculateValue(targetContext) {
-        let total = 0;
-        for (const item of this.info) {
-            let context;
-            switch (item[0]) {
-                case ContextConst.TARGET_TYPE.OWNER:
-                    context = this.context;
-                    break;
-                case ContextConst.TARGET_TYPE.TARGET:
-                    context = targetContext;
-                    break;
-            }
-            const delta = context.getRealProp(item.proId) * item.scale;
-            total += delta;
-        }
-        return total;
     }
 
 }

@@ -109,6 +109,7 @@ class ViewBullet{
             const buffs = this.buffs;
             const effects = this.effects;
             for (const target of targets) {
+                // TODO 判定闪避
                 target.doEffects(effects);
                 target.addBuffs(buffs);
                 if(this.hitEffect && this.hitEffect != ''){

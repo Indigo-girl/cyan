@@ -7,6 +7,16 @@ const CONTEXT_CONST = {
         MAX_SPEED: 4,
         ATK: 5,
         DEF: 6,
+        CRIT_SCALE: 7,
+        CRIT: 8,
+        // 命中
+        ACCURACY: 9,
+        // 闪避
+        DODGE: 10,
+        // 韧性
+        TOUGH: 11,
+        // 攻速: 动画播放速率
+        ATK_SPEED: 12,
     },
 
     isCostPro(proId){
@@ -21,6 +31,19 @@ const CONTEXT_CONST = {
                 return this.PRO_ID.MAX_ENERGY;
         }
         console.warn(`没有找到${proId}对应的maxProId`);
+    },
+
+    isCostMaxPro(proId){
+        return proId === this.PRO_ID.MAX_HP || proId === this.PRO_ID.MAX_ENERGY;
+    },
+
+    getMaxProCostId(proId){
+        switch(proId){
+            case this.PRO_ID.MAX_HP:
+                return this.PRO_ID.HP;
+            case this.PRO_ID.MAX_ENERGY:
+                return this.PRO_ID.ENERGY;
+        }
     },
 
     EXTRA_ID: {

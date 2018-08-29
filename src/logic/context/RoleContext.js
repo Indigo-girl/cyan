@@ -44,6 +44,9 @@ class RoleContext{
         if(ContextConst.isCostPro(id)){
             return this.getCostProp(id);
         }
+        if(ContextConst.isCostMaxPro(id)){
+            return this.getMaxCostProp(id);
+        }
         if(this._isPropDirty(id)){
             this.updateProp(id);
         }
@@ -62,6 +65,20 @@ class RoleContext{
         value = Math.max(0, Math.min(max, value));
         this._setBaseProp(proId, value);
         return value; 
+    }
+
+    getMaxCostProp(proId){
+        let value = this.getBaseProp(proId);
+        return limit(proId, value, this);
+    }
+
+    setMaxCostProp(proId, value){
+        const oldValue = this.getMaxCostProp(proId);
+        value = limit(proId, value, this);
+        this._setBaseProp(proId, value);
+        const costProId = ContextConst.getMaxProCostId(proId);
+        this.setCostProp(costProId, this.getCostProp(costProId) + value - oldValue);
+        return value;
     }
 
     updateProp(proId) {
@@ -95,6 +112,10 @@ class RoleContext{
 
     getMaxHp(){
         return this.getRealProp(ContextConst.PRO_ID.MAX_HP);
+    }
+
+    setMaxHp(value){
+        return this.setMaxCostProp(ContextConst.PRO_ID.MAX_HP, value);
     }
 
     getHp(){

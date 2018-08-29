@@ -173,6 +173,10 @@ class ViewEntity{
         }
     }
 
+    onHurt(hurtValue){
+        
+    }
+
     onDead(){
         this.view.active = false;
     }
