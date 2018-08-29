@@ -62,6 +62,10 @@ class RoleEntity extends BaseEntity{
         return this.getContext().getExtraProp(proId);
     }
 
+    setExtraInfo(proId, value){
+        this.getContext().setExtraInfo(proId, value);
+    }
+
     replaceContext(context){
         this._contextStack[this._contextStack.length - 1] = context;
         this.onContextChanged();

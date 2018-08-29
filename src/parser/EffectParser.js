@@ -37,11 +37,6 @@ class EffectParser {
     }
 
     _parsePropEffect(config, atker) {
-        // config = {
-        //     type: 'resurrect',
-        //     value: 1, //属性ID
-        //     prosInfo: [{ targetType: 0, proId: 1, scale: 1.5 }],
-        // }
         return new PropEffect(config.proId, config.prosInfo, atker);
     }
 

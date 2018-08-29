@@ -43,13 +43,14 @@ class BaseBuff{
     }
 
     tryTrigger(){
-        if(this.maxTriggerCount <= this.triggerCount){
-            return;
-        }
         if (this.trigger.trigger(this.caster, [this.target], pubfunc.getWorld())) {
             this.target.doEffects(this.effects);
             this.triggerCount++;
             this.trigger.clear();
+            // 超过最大触发次数就移除此buff
+            if (this.maxTriggerCount <= this.triggerCount) {
+                this.onExit();
+            }
         }
     }
 

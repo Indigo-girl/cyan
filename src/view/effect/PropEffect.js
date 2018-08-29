@@ -23,7 +23,9 @@ class PropEffect extends BaseEffect {
         const roleContext = target.logicEntity.getContext();
         let value = ContextConst.getEffectValue(this.info, target, this.owner);
         this.cal = new AddCalculator(this.proId, 1, value);
+        const oldValue = roleContext.getRealProp(this.proId);
         roleContext.addCalculator(this.cal);
+        console.log(`PropEffect生效，${this.proId}:${oldValue}=>${roleContext.getRealProp(this.proId)}`);
     }
 
     undoEffect(target){

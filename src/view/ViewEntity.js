@@ -3,6 +3,7 @@ import MoveComponent from './MoveComponent';
 import SkillComponent from './SkillComponent';
 import pubfunc from '../logic/utils/pubfunc';
 import AtkUtils from './AtkUtils';
+import ContextConst from '../logic/const/ContextConst';
 
 class ViewEntity{
 
@@ -114,6 +115,7 @@ class ViewEntity{
 
     handleEvent(event){
         for(const buff of this._buffs){
+            // buff可以阻止事件的传递
             if(!buff.handleEvent(event)){
                 return;
             }
@@ -174,14 +176,12 @@ class ViewEntity{
         for(const effect of effects){
             effect.doEffect(this);
         }
-        this.checkDead();
     }
 
     undoEffects(effects){
         for (const effect of effects) {
             effect.undoEffect(this);
         }
-        this.checkDead();
     }
 
     checkDead(){
@@ -193,12 +193,25 @@ class ViewEntity{
     }
 
     onHurt(hurtValue, atker){
+        // 已经死亡的不会受伤
+        if(!this.isAlive()){
+            return
+        }
         let role = this.logicEntity
         let hurt = AtkUtils.getHurt(hurtValue, atker, this);
         const realHurt = role.changeHp(-hurt);
-        const energy = Math.floor(-realHurt / role.getMaxHp() * 100) * 10;
+        // 设置统计信息
+        this.logicEntity.setExtraInfo(ContextConst.EXTRA_ID.LAST_HURT_VALUE, -realHurt);
+        const hurtPercent = Math.floor(-realHurt / role.getMaxHp() * 100);
+        this.logicEntity.setExtraInfo(ContextConst.EXTRA_ID.LAST_HURT_PERCENT, hurtPercent);
+        const energy = hurtPercent * 10;
         role.setEnergy(role.getEnergy() + energy);
         console.log(`${this.id}受到来自${atker.id}的${hurt}点伤害,怒气值增加${energy},当前为${role.getEnergy()}`);
+        this.handleEvent({
+            type: 'onHurt',
+            value: -realHurt
+        });
+        this.checkDead();
     }
 
     onDead(){

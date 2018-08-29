@@ -9,6 +9,7 @@ class RoleContext{
         this._cals = {};
         this._propDirty = {};
         this._realProp = {};
+        this._extraInfo = {};
         this.level = info.level || 1;
         this.init(props);
     }
@@ -27,6 +28,14 @@ class RoleContext{
 
     getExtraProp(id){
         return ContextConst.getExtraProp(id, this);
+    }
+
+    getExtraInfo(id){
+        return this._extraInfo[id] || 0;
+    }
+
+    setExtraInfo(id, value){
+        this._extraInfo[id] = value;
     }
 
     getBaseProp(id){
