@@ -1,4 +1,5 @@
 import CommonConst from '../const/CommonConst';
+import Log from '../../lib/Log';
 
 let _id = CommonConst.ENTITY_MIN_ID;
 // 所有的BaseEntity的锚点都在cc.v2(0.5, 0)
@@ -15,7 +16,7 @@ class BaseEntity{
     }
 
     handleEvent(event){
-        console.log(`entity id: ${this.id} recieve event:`, event);
+        Log.log(`entity id: ${this.id} recieve event:`, event);
     }
 }
 

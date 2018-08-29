@@ -1,4 +1,5 @@
 import ViewUtils from './ViewUtils';
+import Log from '../lib/Log';
 
 const SPEED = 2;
 
@@ -9,7 +10,7 @@ class MoveComponent{
     }
 
     moveTo(pos){
-        console.log('targe pos in move comp:', pos);
+        Log.log('targe pos in move comp:', pos);
         this.targetInfo = {
             type: 'static',
             pos: pos

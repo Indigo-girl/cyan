@@ -1,6 +1,7 @@
 import BaseEffect from './BaseEffect';
 import AddCalculator from '../../logic/calculator/AddCalculator';
 import ContextConst from '../../logic/const/ContextConst';
+import Log from '../../lib/Log';
 
 class PropEffect extends BaseEffect {
 
@@ -25,7 +26,7 @@ class PropEffect extends BaseEffect {
         this.cal = new AddCalculator(this.proId, 1, value);
         const oldValue = roleContext.getRealProp(this.proId);
         roleContext.addCalculator(this.cal);
-        console.log(`PropEffect生效，${this.proId}:${oldValue}=>${roleContext.getRealProp(this.proId)}`);
+        Log.log(`PropEffect生效，${this.proId}:${oldValue}=>${roleContext.getRealProp(this.proId)}`);
     }
 
     undoEffect(target){

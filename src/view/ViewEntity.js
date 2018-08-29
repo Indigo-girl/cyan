@@ -4,6 +4,7 @@ import SkillComponent from './SkillComponent';
 import pubfunc from '../logic/utils/pubfunc';
 import AtkUtils from './AtkUtils';
 import ContextConst from '../logic/const/ContextConst';
+import Log from '../lib/Log';
 
 class ViewEntity{
 
@@ -42,7 +43,7 @@ class ViewEntity{
             skeleton.premultipliedAlpha = false;
             skeleton.setCompleteListener(() => this.onAnimCompleted());
             skeleton.setEventListener((trace, event)=>{
-                console.log('spine事件：', event.data);
+                Log.log('spine事件：', event.data);
                 this.handleEvent({type: event.data.name});
             });
             skeleton.setSkin(modelInfo.skin);
@@ -152,7 +153,7 @@ class ViewEntity{
         // 释放链式技能时，获得100点基础怒气
         if(this._curSkill.type === 0){
             this.logicEntity.setEnergy(this.logicEntity.getEnergy() + 100);
-            console.log(`${this.id}释放链式技能，怒气加100，当前为:${this.logicEntity.getEnergy()}`);
+            Log.log(`${this.id}释放链式技能，怒气加100，当前为:${this.logicEntity.getEnergy()}`);
         }
     }
 
@@ -206,7 +207,7 @@ class ViewEntity{
         this.logicEntity.setExtraInfo(ContextConst.EXTRA_ID.LAST_HURT_PERCENT, hurtPercent);
         const energy = hurtPercent * 10;
         role.setEnergy(role.getEnergy() + energy);
-        console.log(`${this.id}受到来自${atker.id}的${hurt}点伤害,怒气值增加${energy},当前为${role.getEnergy()}`);
+        Log.log(`${this.id}受到来自${atker.id}的${hurt}点伤害,怒气值增加${energy},当前为${role.getEnergy()}`);
         this.handleEvent({
             type: 'onHurt',
             value: -realHurt

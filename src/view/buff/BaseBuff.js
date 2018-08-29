@@ -1,4 +1,5 @@
 import pubfunc from '../../logic/utils/pubfunc';
+import Log from '../../lib/Log';
 
 let _id = 0;
 
@@ -31,7 +32,7 @@ class BaseBuff{
     onEnter(target){
         this.target = target;
         this.tryTrigger();
-        console.log(`buff:${this.id}  onEnter`);
+        Log.log(`buff:${this.id}  onEnter`);
     }
 
     onExit(){
@@ -39,7 +40,7 @@ class BaseBuff{
         if(this.enableUndo){
             this.target.undoEffects(this.effects);
         }
-        console.log(`buff:${this.id}   onExit`);
+        Log.log(`buff:${this.id}   onExit`);
     }
 
     tryTrigger(){

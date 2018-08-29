@@ -1,6 +1,7 @@
 import pubfunc from '../logic/utils/pubfunc';
 import FollowTrace from '../view/trace/FollowTrace';
 import AtkUtils from './AtkUtils';
+import Log from '../lib/Log';
 
 let _id = 0;
 
@@ -41,7 +42,7 @@ class ViewBullet{
         pubfunc.getWorld().fireBullet(this);
         this.direct = this.atker.getDirect();
         if(!this.spinePath || this.spinePath === ''){
-            console.log('bullet without spine effect');
+            Log.log('bullet without spine effect');
         }else{
             cc.loader.loadRes(this.spinePath, sp.SkeletonData, (err, res) => {
                 if (err) {
@@ -72,7 +73,7 @@ class ViewBullet{
     }
 
     handleEvent(event){
-        console.log('子弹接收到事件:', event);
+        Log.log('子弹接收到事件:', event);
         if(event.type === 'targetNotFound'){
             // 当追踪目标消失时，直接销毁子弹
             this.destroy();
@@ -115,7 +116,7 @@ class ViewBullet{
                 // 判定命中
                 const accProb = AtkUtils.getAccProb(this.atker, target);
                 const rvalue = pubfunc.getWorld().randFunc();
-                console.log(`${this.atker.id}=>${target.id}命中判定:${accProb>=rvalue},accProb:${accProb},rvalue:${rvalue}`);
+                Log.log(`${this.atker.id}=>${target.id}命中判定:${accProb>=rvalue},accProb:${accProb},rvalue:${rvalue}`);
                 if (rvalue <= accProb){
                     target.doEffects(effects);
                     target.addBuffs(buffs);
@@ -126,7 +127,7 @@ class ViewBullet{
                     if (!target.isAlive()){
                         const role = this.atker.logicEntity;
                         role.setEnergy(role.getEnergy() + 300);
-                        console.log(`${role.id}造成目标死亡，怒气加300，当前为:${role.getEnergy()}`);
+                        Log.log(`${role.id}造成目标死亡，怒气加300，当前为:${role.getEnergy()}`);
                     }
                 }
             }
@@ -180,7 +181,7 @@ class ViewBullet{
                 return true;
             }
         });
-        console.log('子弹爆炸波及人数:', explodeTargets.length);
+        Log.log('子弹爆炸波及人数:', explodeTargets.length);
         for(const target of explodeTargets){
             target.doEffects(this.explodeEffects);
         }

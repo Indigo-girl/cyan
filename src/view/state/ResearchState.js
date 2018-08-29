@@ -1,4 +1,5 @@
 import BaseState from './BaseState';
+import Log from '../../lib/Log';
 
 // 索敌
 class ResearchState extends BaseState {
@@ -13,7 +14,7 @@ class ResearchState extends BaseState {
         const skill = sm.viewEntity.getCurSkill();
         const firstTarget = skill.getFirstTarget()
         if (firstTarget) {
-            console.log(sm.viewEntity.id, 'search target is:', firstTarget.id, firstTarget.logicEntity.getHp());
+            Log.log(sm.viewEntity.id, 'search target is:', firstTarget.id, firstTarget.logicEntity.getHp());
             sm.viewEntity.handleEvent({
                 type: 'moveInRadius',
                 detail: {

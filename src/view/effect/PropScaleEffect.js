@@ -1,5 +1,6 @@
 import BaseEffect from './BaseEffect';
 import ScaleCalculator from '../../logic/calculator/ScaleCalculator';
+import Log from '../../lib/Log';
 
 class PropScaleEffect extends BaseEffect {
 
@@ -23,7 +24,7 @@ class PropScaleEffect extends BaseEffect {
         this.cal = new ScaleCalculator(this.proId, 1, this.scale);
         const oldValue = roleContext.getRealProp(this.proId);
         roleContext.addCalculator(this.cal);
-        console.log(`PropScaleEffect生效,属性${this.proId}:${oldValue}=>${roleContext.getRealProp(this.proId)}`);
+        Log.log(`PropScaleEffect生效,属性${this.proId}:${oldValue}=>${roleContext.getRealProp(this.proId)}`);
     }
 
     undoEffect(target) {

@@ -1,3 +1,5 @@
+import Log from '../../lib/Log';
+
 const CONTEXT_CONST = {
     PRO_ID: {
         HP: 0,
@@ -99,13 +101,13 @@ const CONTEXT_CONST = {
             case this.EXTRA_ID.HP_LOSS_PERCENT:
                 const hp = context.getHp();
                 const maxHp = context.getMaxHp();
-                console.log('hp:',hp,'maxHp:', maxHp);
+                Log.log('hp:',hp,'maxHp:', maxHp);
                 return Math.floor((1 - hp / maxHp) * 100);
             case this.EXTRA_ID.LAST_HURT_PERCENT:
             case this.EXTRA_ID.LAST_HURT_VALUE:
                 return context.getExtraInfo(proId);
             default:
-                console.warn(`unknow extra id:${proId}`);
+                Log.warn(`unknow extra id:${proId}`);
                 return 0;
         }
     },

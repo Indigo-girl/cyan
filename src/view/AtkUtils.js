@@ -1,5 +1,6 @@
 import ContextConst from '../logic/const/ContextConst';
 import pubfunc from '../logic/utils/pubfunc';
+import Log from '../lib/Log';
 
 /**
  * 获取闪避概率
@@ -60,7 +61,7 @@ function getHurt(skillHurt, atker, target){
     if(rvalue <= critProb){
         value = value * 1.5;
     }
-    console.log(`skillHurt:${skillHurt},hurtAvoid:${hurtAvoid},critProb:${critProb},rvalue:${rvalue},final:${value}`);
+    Log.log(`skillHurt:${skillHurt},hurtAvoid:${hurtAvoid},critProb:${critProb},rvalue:${rvalue},final:${value}`);
     return value;
 }
 
