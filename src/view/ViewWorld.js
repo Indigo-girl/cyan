@@ -25,11 +25,11 @@ cc.Class({
 
     _featureSkill(){
         let hero = this.addHero();
+        hero.setPosition(cc.v2(-500, -300));
+        hero = this.addHero();
         hero.setPosition(cc.v2(-500, -300))
         let entity1 = this.addEnemy();
         entity1.setPosition(cc.v2(700, -300));
-        // let entity2 = this.addEnemy();
-        // entity2.setPosition(hero.getPosition().add(300, -20));
     },
 
     addHero(){

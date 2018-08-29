@@ -18,6 +18,8 @@ class ViewBullet{
         this.traceConf = info.trace;
         this.spinePath = info.spinePath;
         this.hitEffect = info.hitEffect;
+        this.explodeEffects = info.explodeEffects || [];
+        this.explodeSelector = info.explodeSelector;
         this.offset = info.offset || cc.v2(0, 0);
         this._fired = false;
 
@@ -128,6 +130,7 @@ class ViewBullet{
                     }
                 }
             }
+            this.explode();
             // 每个子弹可以被触发一次，触发后就销毁
             this.destroy();
         }
@@ -159,6 +162,27 @@ class ViewBullet{
             return this.direct
         }else{
             return this.atker.getDirect();
+        }
+    }
+
+    explode(){
+        this.offset = cc.v2(0, 0);
+        if(!this.explodeSelector){
+            return;
+        }
+        let targets = this.getTargets();
+        let explodeTargets = this.explodeSelector.getTargets(this.atker, this, pubfunc.getWorld());
+        explodeTargets = explodeTargets.filter((e)=>{
+            const target = targets.find((target)=>e===target);
+            if(target){
+                return false
+            }else{
+                return true;
+            }
+        });
+        console.log('子弹爆炸波及人数:', explodeTargets.length);
+        for(const target of explodeTargets){
+            target.doEffects(this.explodeEffects);
         }
     }
 

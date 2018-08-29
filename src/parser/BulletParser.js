@@ -19,6 +19,15 @@ class BulletParser{
         }
         const selector = SelectorParser.parseComplex(bulletConfig.selectors, owner);
         const trigger = TriggerParser.parse(bulletConfig.trigger, owner);
+        
+        let explodeSelector;
+        const explodeEffects = [];
+        if (bulletConfig.explodeSelectors && bulletConfig.explodeSelectors.length > 0) {
+            explodeSelector = SelectorParser.parseComplex(bulletConfig.explodeSelectors, owner);
+            for (const config of bulletConfig.explodeEffects) {
+                explodeEffects.push(EffectParser.parse(config, owner));
+            }
+        }
         const bullet = new ViewBullet(owner, {
             effects: effects,
             buffs: buffs,
@@ -27,7 +36,9 @@ class BulletParser{
             hitEffect: bulletConfig.hitEffect,
             offset: cc.v2(bulletConfig.offset.x, bulletConfig.offset.y),
             trigger: trigger,
-            trace: bulletConfig.trace
+            trace: bulletConfig.trace,
+            explodeSelector: explodeSelector,
+            explodeEffects: explodeEffects
         });
         return bullet;
     }

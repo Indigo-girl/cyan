@@ -115,11 +115,13 @@ export default {
                 spinePath: 'bullet/ZGL/bullet_yqd',
                 hitEffect: 'bullet/ZGL/hit_yqd',
                 offset: { x: 0, y: 350 },
-                effects: [{ type: 'hurt', value: 0, prosInfo: [{ targetType: 0, proId: 5, scale: 1 }], }],
+                effects: [{ type: 'hurt', value: 0, prosInfo: [{ targetType: 0, proId: 5, scale: 1 }] }],
                 buffs: [],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }, { type: 'propSorter', bValue: false, proId: 0 }],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'truncate', value: 1 }],
                 trigger: { type: 'event', value: 'traceReach' },
-                trace: { type: 'follow', initHead: { x: 1, y: 2 }, speed: 20 }
+                trace: { type: 'follow', initHead: { x: 1, y: 2 }, speed: 20 },
+                explodeSelectors: [{ type: 'circle', radius: 500 }],
+                explodeEffects: [{type: 'hurt', value: 0, prosInfo: [{ targetType: 0, proId: 5, scale: 0.5 }]}]
             }
         ],
         atkAnim: 'attack01',
