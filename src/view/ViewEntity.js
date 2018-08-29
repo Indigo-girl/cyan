@@ -18,6 +18,7 @@ class ViewEntity{
         this.skillComp = new SkillComponent(this);
         // 子弹需要在索敌的时候就准备
         this._bullets = [];
+        this._buffs = [];
         this._direct = -1;
     }
 
@@ -53,6 +54,9 @@ class ViewEntity{
     }
 
     update() {
+        for(const buff of this._buffs){
+            buff.update();
+        }
         this.sm.update();
         this.view.zIndex = this.view.parent.height - this.getPosition().y;
     }
@@ -109,6 +113,11 @@ class ViewEntity{
     }
 
     handleEvent(event){
+        for(const buff of this._buffs){
+            if(!buff.handleEvent(event)){
+                return;
+            }
+        }
         this.sm.handleEvent(event);
     }
 
@@ -146,7 +155,13 @@ class ViewEntity{
     }
 
     addBuff(buff){
-        // TODO 待实现，需要注意buff的进入回调以及状态检查
+        // 需要注意buff的进入回调以及状态检查
+        buff.onEnter(this);
+        this._buffs.push(buff);
+    }
+
+    rmBuff(buff){
+        this._buffs = this._buffs.filter((e)=>e.id!==buff.id);
     }
 
     addBuffs(buffs){
