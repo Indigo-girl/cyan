@@ -48,7 +48,7 @@ cc.Class({
 
     addConfigEnetity(configId, camp){
         const config = heros[configId];
-        const entity = RoleParser.parse(config, camp);
+        const entity = RoleParser.parse(config, {camp: camp, level: 5});
         this.addEntity(entity);
         return entity;
     },

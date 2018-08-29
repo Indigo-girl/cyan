@@ -4,11 +4,12 @@ import ContextConst from '../const/ContextConst';
 
 class RoleContext{
 
-    constructor(props){
+    constructor(props, info){
         this._calId = 0;
         this._cals = {};
         this._propDirty = {};
         this._realProp = {};
+        this.level = info.level || 1;
         this.init(props);
     }
 
