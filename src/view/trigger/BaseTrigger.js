@@ -1,6 +1,7 @@
 class BaseTrigger{
 
     constructor(){
+        this.fulfill = false;
     }
 
     /**
@@ -12,7 +13,11 @@ class BaseTrigger{
      * @memberof BaseTrigger
      */
     trigger(atk, targets, world){
-        return true;
+        return this.fulfill;
+    }
+
+    clear(){
+        this.fulfill = false;
     }
 
     /**

@@ -1,4 +1,4 @@
-import BaseTrigger from '../view/trigger/BaseTrigger';
+import InstantTrigger from '../view/trigger/InstantTrigger';
 import DelayTrigger from '../view/trigger/DelayTrigger';
 import EventTrigger from '../view/trigger/EventTrigger';
 
@@ -6,8 +6,8 @@ class TriggerParser{
 
     parse(triggerConfig, owner){
         switch(triggerConfig.type){
-            case 'base':
-                return this._parseBase(triggerConfig);
+            case 'instant':
+                return new InstantTrigger();
             case 'delay':
                 return this._parseDelay(triggerConfig);
             case 'event':
@@ -15,10 +15,6 @@ class TriggerParser{
             default:
                 console.warn("未知的Trigger类型:", triggerConfig);
         }
-    }
-
-    _parseBase(config){
-        return new BaseTrigger();
     }
 
     _parseDelay(config){

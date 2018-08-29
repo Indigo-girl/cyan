@@ -44,7 +44,7 @@ export default {
             TOUGH: 0,
             ATK_SPEED: 1,
         },
-        skills: ['100201'],
+        skills: ['100202'],
         energySkill: '100202',
         stateTrans: 'default',
         hitPoint: { x: -50, y: 150 }

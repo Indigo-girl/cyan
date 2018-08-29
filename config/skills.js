@@ -98,7 +98,7 @@ export default {
                 effects: [{ type: 'hurt', value: 300}],
                 buffs: [],
                 selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false}, {type: 'circle', radius: 200}],
-                trigger: { type: 'base'},
+                trigger: { type: 'instant'},
             }
         ],
         atkAnim: 'attack02',
@@ -145,7 +145,7 @@ export default {
                 effects: [{ type: 'hurt', value: 600}],
                 buffs: [],
                 selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'circle', radius: 200 }],
-                trigger: { type: 'base' },
+                trigger: { type: 'instant' },
             }
         ],
         atkAnim: 'attack01',
