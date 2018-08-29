@@ -3,6 +3,7 @@ import PropEffect from '../view/effect/PropEffect';
 import Resurrect from '../view/effect/ResurrectEffect';
 import ExtraHpEffect from '../view/effect/ExtraHpEffect';
 import HurtEffect from '../view/effect/HurtEffect';
+import PropScaleEffect from '../view/effect/PropScaleEffect';
 
 class EffectParser {
 
@@ -20,6 +21,8 @@ class EffectParser {
                 return this._parseHpEffect(effectConfig, atker);
             case 'prop':
                 return this._parsePropEffect(effectConfig, atker);
+            case 'propScale':
+                return new PropScaleEffect(config.proId, config.scale, atker);
             case 'resurrect':
                 return this._parseResurrect(effectConfig, atker);
             case 'extraHp':

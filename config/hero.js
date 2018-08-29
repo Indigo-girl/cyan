@@ -45,7 +45,7 @@ export default {
             ATK_SPEED: 1,
         },
         skills: ['100201'],
-        energySkill: '100102',
+        energySkill: '100202',
         stateTrans: 'default',
         hitPoint: { x: -50, y: 150 }
     },
@@ -70,7 +70,7 @@ export default {
             ATK_SPEED: 1,
         },
         skills: ['100301'],
-        energySkill: '100102',
+        energySkill: '100302',
         stateTrans: 'default',
         hitPoint: { x: -50, y: 150 }
     },
