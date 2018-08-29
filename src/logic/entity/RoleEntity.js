@@ -1,4 +1,5 @@
 import BaseEntity from './BaseEntity';
+import ContextConst from '../const/ContextConst';
 
 class RoleEntity extends BaseEntity{
 
@@ -34,6 +35,19 @@ class RoleEntity extends BaseEntity{
 
     setMaxHp(value){
         return this.getContext().setMaxHp(value);
+    }
+
+    getEnergy(){
+        return this.getRealProp(ContextConst.PRO_ID.ENERGY);
+    }
+
+    setEnergy(value){
+        return this.getContext().setCostProp(ContextConst.PRO_ID.ENERGY, value);
+    }
+
+    energyIsFull(){
+        const ctx = this.getContext();
+        return ctx.getRealProp(ContextConst.PRO_ID.ENERGY) >= ctx.getRealProp(ContextConst.PRO_ID.MAX_ENERGY);
     }
 
     getRealProp(proId){

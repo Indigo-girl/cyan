@@ -23,11 +23,9 @@ class SkillComponent{
     }
 
     nextSkill(){
-        const context = this.owner.logicEntity.getContext();
-        const energy = context.getCostProp(ContextConst.PRO_ID.ENERGY);
-        const maxEnergy = context.getRealProp(ContextConst.PRO_ID.MAX_ENERGY);
         let skillId;
-        if (energy>=maxEnergy){
+        if (this.owner.logicEntity.energyIsFull()){
+            this.owner.logicEntity.setEnergy(0);
             skillId = this.energySkill;
         }else{
             // 根据施法条件来判定下一次的施法

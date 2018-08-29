@@ -138,6 +138,11 @@ class ViewEntity{
             throw new Error('需要预先执行nextSkill');
         }
         this._curSkill.fireBullets();
+        // 释放链式技能时，获得100点基础怒气
+        if(this._curSkill.type === 0){
+            this.logicEntity.setEnergy(this.logicEntity.getEnergy() + 100);
+            console.log(`${this.id}释放链式技能，怒气加100，当前为:${this.logicEntity.getEnergy()}`);
+        }
     }
 
     addBuff(buff){
@@ -175,9 +180,12 @@ class ViewEntity{
     }
 
     onHurt(hurtValue, atker){
+        let role = this.logicEntity
         let hurt = AtkUtils.getHurt(hurtValue, atker, this);
-        console.log(`${this.id}受到来自${atker.id}的${hurt}点伤害`);
-        this.logicEntity.changeHp(-hurt);
+        const realHurt = role.changeHp(-hurt);
+        const energy = Math.floor(-realHurt / role.getMaxHp() * 100) * 10;
+        role.setEnergy(role.getEnergy() + energy);
+        console.log(`${this.id}受到来自${atker.id}的${hurt}点伤害,怒气值增加${energy},当前为${role.getEnergy()}`);
     }
 
     onDead(){

@@ -12,7 +12,8 @@ class SkillParser{
         let skill = new BaseSkill(owner, bullets, skillConfig.radius, {
             atkAnim: skillConfig.atkAnim,
             prepareEffect: skillConfig.prepareEffect,
-            preparePoint: cc.v2(preparePoint.x, preparePoint.y)
+            preparePoint: cc.v2(preparePoint.x, preparePoint.y),
+            type: skillConfig.type
         });
         if(skillConfig.jump){
             skill.setJumpInfo(skillConfig.jumpDist, skillConfig.jumpDuration);

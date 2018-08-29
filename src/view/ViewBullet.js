@@ -120,6 +120,12 @@ class ViewBullet{
                     if (this.hitEffect && this.hitEffect != '') {
                         target.showHitEffect(this.hitEffect)
                     }
+                    // 子弹造成目标死亡
+                    if (!target.isAlive()){
+                        const role = this.atker.logicEntity;
+                        role.setEnergy(role.getEnergy() + 300);
+                        console.log(`${role.id}造成目标死亡，怒气加300，当前为:${role.getEnergy()}`);
+                    }
                 }
             }
             // 每个子弹可以被触发一次，触发后就销毁

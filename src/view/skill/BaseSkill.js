@@ -10,6 +10,7 @@ class BaseSkill{
         this.atkAnim = info.atkAnim;
         this.prepareEffect = info.prepareEffect;
         this.preparePoint = info.preparePoint;
+        this.type = info.type;
         this._fired = false;  
     }
 
