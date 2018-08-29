@@ -170,18 +170,16 @@ class ViewEntity{
         }
     }
 
-    /**
-     * 不推荐之间调用doEffect，因为这里没有效果检查
-     * @param {BaseEffect} effect
-     * @memberof ViewEntity
-     */
-    doEffect(effect){
-        effect.doEffect(this);
-    }
-
     doEffects(effects){
         for(const effect of effects){
-            this.doEffect(effect);
+            effect.doEffect(this);
+        }
+        this.checkDead();
+    }
+
+    undoEffects(effects){
+        for (const effect of effects) {
+            effect.undoEffect(this);
         }
         this.checkDead();
     }

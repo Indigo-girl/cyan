@@ -3,6 +3,7 @@ import EffectParser from './EffectParser';
 import BuffParser from './BuffParser';
 import SelectorParser from './SelectorParser';
 import TriggerParser from './TriggerParser';
+import buffs from '../../config/buff';
 
 class BulletParser{
 
@@ -12,7 +13,8 @@ class BulletParser{
             effects.push(EffectParser.parse(config, owner));
         }
         const buffs = [];
-        for(const config of bulletConfig.buffs){
+        for(const buffId of bulletConfig.buffs){
+            const config = this.getBuffConfigById(buffId);
             buffs.push(BuffParser.parse(config, owner));
         }
         const selector = SelectorParser.parseComplex(bulletConfig.selectors, owner);
@@ -28,6 +30,10 @@ class BulletParser{
             trace: bulletConfig.trace
         });
         return bullet;
+    }
+
+    getBuffConfigById(id){
+        return buffs[id];
     }
 }
 

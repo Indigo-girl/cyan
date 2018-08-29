@@ -22,7 +22,7 @@ class EffectParser {
             case 'prop':
                 return this._parsePropEffect(effectConfig, atker);
             case 'propScale':
-                return new PropScaleEffect(config.proId, config.scale, atker);
+                return new PropScaleEffect(effectConfig.proId, effectConfig.scale, atker);
             case 'resurrect':
                 return this._parseResurrect(effectConfig, atker);
             case 'extraHp':
