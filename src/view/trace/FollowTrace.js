@@ -19,7 +19,7 @@ class FollowTrace extends BaseTrace{
 
     setHead(head){
         this.head = head.normalize();
-        this.owner.rotation = Math.atan(this.head.y / this.head.x) * 180 / Math.PI;
+        this.owner.view.rotation = -Math.atan(this.head.y / this.head.x) * 180 / Math.PI;
     }
 
     getHead(){

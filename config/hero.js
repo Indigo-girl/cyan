@@ -51,7 +51,7 @@ export default {
     },
 
     '1003': {
-        spinePath: 'role/JK/LB04',
+        spinePath: 'role/JK/JK',
         skin: 'JK04',
         scale: 0.4,
         props: {

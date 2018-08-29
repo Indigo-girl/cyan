@@ -27,7 +27,7 @@ export default {
         bullets: [
             {
                 spinePath: 'bullet/10002/10002',
-                hitEffect: '',
+                hitEffect: 'bullet/ZGL/hit_yqd',
                 offset: { x: 0, y: 100 },
                 // effects: [{ type: 'hurt', value: 600, prosInfo: [{ targetType: 0, proId: 5, scale: 0.5 }], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }] }],
                 effects: [{ type: 'hurt', value: 1000}],
