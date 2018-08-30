@@ -8,7 +8,7 @@ class PropEffect extends BaseEffect {
     /**
      *Creates an instance of PropEffect.
      * @param {number} proId - 目标对象生效的属性ID
-     * @param {Array.<Object>} info - [{targetType: 0, proId: 1, scale: 1.5}...]形式的数组，用于计算效果的值
+     * @param {Array.<Object>} info - [{targetType: 0, proId: 1, scale: 1.5, step: 0}...]形式的数组，用于计算效果的值
      * @param {ViewEntity} owner - 生成此效果的对象
      * @memberof PropEffect
      */

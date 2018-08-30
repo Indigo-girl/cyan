@@ -120,25 +120,33 @@ const CONTEXT_CONST = {
      * @returns
      */
     getEffectValue(prosInfo, target, owner) { 
+        return this.getProsInfoValue(prosInfo, target.logicEntity.getContext(), 
+            owner.logicEntity.getContext());
+    },
+
+
+    /**
+     * 获取prosInfo的值
+     * @param {Object} prosInfo
+     * @param {RoleContext} target
+     * @param {RoleContext} owner
+     * @returns
+     */
+    getProsInfoValue(prosInfo, target, owner) {
         let total = 0;
         for (const info of prosInfo) {
-            let logic;
-            switch(info.targetType){
+            let context;
+            switch (info.targetType) {
                 case this.TARGET_TYPE.OWNER:
-                    logic = owner.logicEntity;
+                    context = owner;
                     break;
                 case this.TARGET_TYPE.TARGET:
-                    logic = target.logicEntity;
+                    context = target;
                     break;
             }
-            let value;
-            if (this.isExtraId(info.proId)) {
-                value = logic.getExtraProp(info.proId);
-            } else {
-                value = logic.getRealProp(info.proId);
-            }
+            let value = context.getRealProp(info.proId);
             // 如果设置了步进，则scale为步进收益
-            if (info.step){
+            if (info.step) {
                 value = Math.floor(value / info.step);
             }
             total += value * info.scale;

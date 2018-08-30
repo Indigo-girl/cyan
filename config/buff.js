@@ -12,7 +12,8 @@ export default {
     '10020301': {
         id: '10020301',
         type: 'base',
-        effects: [{ type: 'prop',  proId: 6, prosInfo: [{ targetType: 1, proId: 10003, scale: 10, step: 3}]}],
+        effects: [{ type: 'propDirty', proId: 6, prosInfo: [{ targetType: 1, proId: 10001, scale: 10, step: 3 }] }, 
+            { type: 'propDirty', proId: 11, prosInfo: [{ targetType: 1, proId: 10001, scale: 10, step: 3 }] }],
         trigger: {type: 'event', value: 'onHurt'},
         maxTriggerCount: 1,
         enableUndo: false,

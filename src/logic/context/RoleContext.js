@@ -1,6 +1,7 @@
 import PriorityQueue from '../utils/PriorityQueue';
 import limit from '../utils/RolePropLimit';
 import ContextConst from '../const/ContextConst';
+import Log from '../../lib/Log';
 
 class RoleContext{
 
@@ -21,7 +22,7 @@ class RoleContext{
             if(typeof proId === 'number'){
                 this._setBaseProp(proId, props[key]);
             }else{
-                console.warn(`无法找到${key}对应proId`);
+                Log.warn(`无法找到${key}对应proId`);
             }
         } 
     }
@@ -154,7 +155,16 @@ class RoleContext{
     }
 
     _isPropDirty(id){
-        return this._propDirty[id];
+        if(this._propDirty[id]){
+            return true;
+        }
+        const queue = this._getCalculatorQueue(proId);
+        for (const cal of queue) {
+            if(cal.dirty){
+                return true;
+            }
+        }
+        return false;
     }
 
     doEffect(effect) {
