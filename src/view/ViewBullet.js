@@ -111,10 +111,11 @@ class ViewBullet{
 
     tryTrigger(){
         const targets = this.getTargets();
-        if (this.trigger.trigger(this, targets, pubfunc.getWorld())) {
+        if (this.trigger.trigger(this.atker, targets, pubfunc.getWorld(), this)) {
             const buffs = this.buffs;
             const effects = this.effects;
-            for (const target of targets) {
+            const triggerTargets = this.trigger.getTriggeredTargets();
+            for (const target of triggerTargets) {
                 // 判定命中
                 let hit = this.mustHit;
                 if(!hit){
@@ -139,9 +140,11 @@ class ViewBullet{
                     }
                 }
             }
-            this.explode();
-            // 每个子弹可以被触发一次，触发后就销毁
-            this.destroy();
+            // 每个子弹可以爆炸一次，爆炸后消失
+            if (this.trigger.triggerDestroy()){
+                this.explode();
+                this.destroy();
+            }
         }
     }
 

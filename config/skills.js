@@ -33,8 +33,8 @@ export default {
                 // effects: [{ type: 'hurt', value: 600, prosInfo: [{ targetType: 0, proId: 5, scale: 0.5 }], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }] }],
                 effects: [{ type: 'hurt', value: 1000}],
                 buffs: [],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'sector', degree: 60, radius: 1000 }],
-                trigger: { type: 'event', value: 'animCompleted' }
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'sector', degree: 30, radius: 1000 }],
+                trigger: { type: 'horizon', length: 1000, speed: 30, isBulletMove: false }
             }
         ],
         atkAnim: 'attack01',
