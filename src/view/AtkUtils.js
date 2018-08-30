@@ -3,7 +3,7 @@ import pubfunc from '../logic/utils/pubfunc';
 import Log from '../lib/Log';
 
 /**
- * 获取闪避概率
+ * 获取命中概率
  * @param {ViewEntity} atker
  * @param {ViewEntity} target
  */
@@ -12,7 +12,7 @@ function getAccProb(atker, target){
     const tlogic = target.logicEntity;
     const acc = alogic.getRealProp(ContextConst.PRO_ID.ACCURACY);
     const dodge = tlogic.getRealProp(ContextConst.PRO_ID.DODGE);
-    return Math.min(1, Math.max(0, (acc - dodge) / 1000));
+    return Math.min(1, Math.max(0, (acc + 1000 - dodge) / 1000));
 }
 
 
