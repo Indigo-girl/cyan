@@ -37,6 +37,7 @@ class BulletParser{
             offset: cc.v2(bulletConfig.offset.x, bulletConfig.offset.y),
             trigger: trigger,
             trace: bulletConfig.trace,
+            mustHit: bulletConfig.mustHit,
             explodeSelector: explodeSelector,
             explodeEffects: explodeEffects
         });

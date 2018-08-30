@@ -21,6 +21,8 @@ class ViewBullet{
         this.hitEffect = info.hitEffect;
         this.explodeEffects = info.explodeEffects || [];
         this.explodeSelector = info.explodeSelector;
+        // 必定命中
+        this.mustHit = !!info.mustHit; 
         this.offset = info.offset || cc.v2(0, 0);
         this._fired = false;
 
@@ -114,10 +116,16 @@ class ViewBullet{
             const effects = this.effects;
             for (const target of targets) {
                 // 判定命中
-                const accProb = AtkUtils.getAccProb(this.atker, target);
-                const rvalue = pubfunc.getWorld().randFunc();
-                Log.log(`${this.atker.id}=>${target.id}命中判定:${accProb>=rvalue},accProb:${accProb},rvalue:${rvalue}`);
-                if (rvalue <= accProb){
+                let hit = this.mustHit;
+                if(!hit){
+                    const accProb = AtkUtils.getAccProb(this.atker, target);
+                    const rvalue = pubfunc.getWorld().randFunc();
+                    hit = rvalue <= accProb;
+                    Log.log(`${this.atker.id}=>${target.id}命中判定:${hit},accProb:${accProb},rvalue:${rvalue}`);
+                }else{
+                    Log.log(`${this.atker.id}=>${target.id}命中判定:子弹必定命中`);
+                }
+                if (hit){
                     target.doEffects(effects);
                     target.addBuffs(buffs);
                     if (this.hitEffect && this.hitEffect != '') {

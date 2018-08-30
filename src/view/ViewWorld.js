@@ -38,7 +38,7 @@ cc.Class({
     },
 
     addEnemy(){
-        let entity = this.addConfigEnetity('1003', ContextConst.CAMP.MONSTER);
+        let entity = this.addConfigEnetity('1002', ContextConst.CAMP.MONSTER);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50), 
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
         return entity;
@@ -64,6 +64,7 @@ cc.Class({
         entity.view.parent = this.node;
         this._entities[entity.id] = entity;
         this._entityList.push(entity);
+        entity.applyPassiveSkills();
     },
 
     getEntityById(id){

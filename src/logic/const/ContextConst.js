@@ -71,6 +71,7 @@ const CONTEXT_CONST = {
         // 以下是相对阵营
         FRIEND: 3,
         ENEMY: 4,
+        SELF: 5,
     },
 
     TARGET_TYPE: {

@@ -48,6 +48,18 @@ class SkillComponent{
         this.energySkill = skillId;
     }
 
+    setPassiveSkillIds(skillIds){
+        skillIds = skillIds || [];
+        this.passiveSkillIds = skillIds.slice();
+    }
+
+    applyPassiveSkills(){
+        for(const id of this.passiveSkillIds){
+            const skill = this.getSkillById(id);
+            skill.fireBullets();
+        }
+    }
+
 }
 
 export default SkillComponent;

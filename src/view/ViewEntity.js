@@ -128,6 +128,10 @@ class ViewEntity{
         return this.logicEntity.isAlive();
     }
 
+    setPassiveSkillIds(ids){
+        this.skillComp.setPassiveSkillIds(ids);
+    }
+
     setEnergySkillId(id){
         this.skillComp.setEnergySkill(id);
     }
@@ -155,6 +159,11 @@ class ViewEntity{
             this.logicEntity.setEnergy(this.logicEntity.getEnergy() + 100);
             Log.log(`${this.id}释放链式技能，怒气加100，当前为:${this.logicEntity.getEnergy()}`);
         }
+    }
+
+    applyPassiveSkills(){
+        Log.log(`${this.id}使用被动技能========`);
+        this.skillComp.applyPassiveSkills();
     }
 
     addBuff(buff){

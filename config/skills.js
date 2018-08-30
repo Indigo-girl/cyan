@@ -31,7 +31,7 @@ export default {
                 offset: { x: 0, y: 100 },
                 // effects: [{ type: 'hurt', value: 600, prosInfo: [{ targetType: 0, proId: 5, scale: 0.5 }], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }] }],
                 effects: [{ type: 'hurt', value: 1000}],
-                buffs: ['10020301'],
+                buffs: [],
                 selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'sector', degree: 60, radius: 1000 }],
                 trigger: { type: 'event', value: 'animCompleted' }
             }
@@ -102,6 +102,27 @@ export default {
             }
         ],
         atkAnim: 'attack02',
+        prepareEffect: '',
+    },
+
+    '100203': {
+        id: '100203',
+        type: 2,
+        radius: 10000,
+        bullets: [
+            {
+                spinePath: '',
+                hitEffect: '',
+                offset: { x: 0, y: 0 },
+                effects: [{ type: 'propDirty', proId: 6, prosInfo: [{ targetType: 1, proId: 10001, scale: 10, step: 3 }] },
+                    { type: 'propDirty', proId: 11, prosInfo: [{ targetType: 1, proId: 10001, scale: 10, step: 3 }] }],
+                buffs: [],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 5 }],
+                trigger: { type: 'instant' },
+                mustHit: true,
+            }
+        ],
+        atkAnim: '',
         prepareEffect: '',
     },
 

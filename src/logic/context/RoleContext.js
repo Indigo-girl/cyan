@@ -100,6 +100,7 @@ class RoleContext{
             current = cal.calculate(current, base, this);
         }
         this._realProp[proId] = current;
+        Log.log(`${this.id} update proid:${proId}，value is:${current}`);
     }
 
     addCalculator(calculator){
