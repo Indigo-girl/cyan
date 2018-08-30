@@ -185,16 +185,16 @@ export default {
     '100302': {
         id: '100302',
         type: 1,
-        radius: 500,
+        radius: 600,
         bullets: [
             {
-                spinePath: '',
-                hitEffect: '',
-                offset: { x: 0, y: 0 },
+                spinePath: 'bullet/JK/bullet_hg',
+                hitEffect: 'bullet/ZGL/hit_yqd',
+                offset: { x: 200, y: -10 },
                 effects: [{ type: 'hurt', value: 600, scaleInfo: [{ targetType: 1, proId: 10001, scale: 10 }]}],
                 buffs: [],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'rect', width: 500, height: 200}],
-                trigger: { type: 'instant' },
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'rect', width: 780, height: 200}],
+                trigger: { type: 'horizon', length: 1000, speed: 30, isBulletMove: false },
             }
         ],
         atkAnim: 'attack02',
