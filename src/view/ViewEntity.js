@@ -77,6 +77,9 @@ class ViewEntity{
 
     // vec2.x>0为x轴方向
     setHead(dir){
+        if(dir.x===0 && dir.y===0){
+            return;
+        }
         dir = dir.normalize();
         if(dir.x < 0){
             this._direct = -1;

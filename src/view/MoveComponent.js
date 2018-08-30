@@ -68,7 +68,7 @@ class MoveComponent{
                     });
                     return;
                 }
-                targetPos = ViewUtils.getAtkPos(this.viewEntity, this.targetInfo.target, this.targetInfo.radius);
+                targetPos = ViewUtils.getAtkPos(this.viewEntity, this.targetInfo.target, this.targetInfo.radius, this.targetInfo.alignY);
             }
             let dist = targetPos.sub(selfPos);
             const force = this.seek(targetPos);

@@ -18,6 +18,7 @@ class SkillParser{
             backDuration: skillConfig.backDuration,
         });
         skill.configId = skillConfig.id;
+        skill.alignY = skillConfig.alignY;
         if(skillConfig.jump){
             skill.setJumpInfo(skillConfig.jumpDist, skillConfig.jumpDuration);
         }

@@ -20,7 +20,7 @@ class SearchState extends BaseState{
                 detail: {
                     radius: skill.radius,
                     target: firstTarget,
-                    alignY: true
+                    alignY: skill.alignY
                 }
             });
         }else{

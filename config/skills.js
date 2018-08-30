@@ -18,6 +18,7 @@ export default {
         atkAnim: 'attack01',
         prepareEffect: '',
         preparePoint: { x: -50, y: 300 },
+        alignY: false,
     },
 
     '100101': {
@@ -38,6 +39,7 @@ export default {
         ],
         atkAnim: 'attack01',
         prepareEffect: '',
+        alignY: true,
     },
 
     '100102': {
@@ -59,6 +61,7 @@ export default {
         atkAnim: 'attack02',
         prepareEffect: 'bullet/ZGL/prepare_yqd',
         preparePoint: {x:-50 ,y: 300},
+        alignY: false,
     },
 
     // 临时普攻
@@ -81,6 +84,7 @@ export default {
         atkAnim: 'attack01',
         prepareEffect: '',
         preparePoint: { x: -50, y: 300 },
+        alignY: false,
     },
     
     '100202': {
@@ -103,6 +107,7 @@ export default {
         ],
         atkAnim: 'attack02',
         prepareEffect: '',
+        alignY: false,
     },
 
     '100203': {
@@ -124,6 +129,7 @@ export default {
         ],
         atkAnim: '',
         prepareEffect: '',
+        alignY: false,
     },
 
     // 临时普攻
@@ -148,6 +154,7 @@ export default {
         atkAnim: 'attack01',
         prepareEffect: '',
         preparePoint: { x: -50, y: 300 },
+        alignY: false,
     },
 
     // '100302': {
@@ -192,6 +199,7 @@ export default {
         ],
         atkAnim: 'attack02',
         prepareEffect: '',
+        alignY: true,
     },
 
     '100303': {
@@ -213,6 +221,7 @@ export default {
         ],
         atkAnim: '',
         prepareEffect: '',
+        alignY: false,
     },
 
     // 临时普攻
@@ -237,6 +246,7 @@ export default {
         atkAnim: 'attack01',
         prepareEffect: '',
         preparePoint: { x: -50, y: 300 },
+        alignY: false,
     },
 
     '100402': {
@@ -250,14 +260,16 @@ export default {
                 offset: { x: 0, y: 0 },
                 effects: [{ type: 'hurt', value: 500 }],
                 buffs: [],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, {type: 'rect', width: 500, height: 200}],
                 trigger: { type: 'event', value: 'traceReach'},
+                trace: { type: 'follow', initHead: { x: 1, y: 2 }, speed: 20 },
                 explodeSelectors: [{ type: 'circle', radius: 500 }],
                 explodeEffects: [{ type: 'hurt', value: 500}]
             }
         ],
         atkAnim: 'attack02',
         prepareEffect: '',
+        alignY: true,
     },
 
     '100403': {
