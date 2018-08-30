@@ -154,6 +154,7 @@ class ViewEntity{
             throw new Error('需要预先执行nextSkill');
         }
         this._curSkill.fireBullets();
+        Log.log(`${this.id}释放技能${this._curSkill.configId}`);
         // 释放链式技能时，获得100点基础怒气
         if(this._curSkill.type === 0){
             this.logicEntity.setEnergy(this.logicEntity.getEnergy() + 100);

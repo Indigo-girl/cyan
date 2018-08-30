@@ -150,28 +150,47 @@ export default {
         preparePoint: { x: -50, y: 300 },
     },
 
+    // '100302': {
+    //     id: '100302',
+    //     type: 1,
+    //     radius: 500,
+    //     move: true,
+    //     moveDist: 100,
+    //     moveDuration: 10,
+    //     // 攻击完成后返回
+    //     backAfterAtk: true,
+    //     backDuration: 0,
+    //     bullets: [
+    //         {
+    //             spinePath: '',
+    //             hitEffect: '',
+    //             offset: { x: 0, y: 0 },
+    //             effects: [{ type: 'hurt', value: 600}],
+    //             buffs: [],
+    //             selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'circle', radius: 200 }],
+    //             trigger: { type: 'instant' },
+    //         }
+    //     ],
+    //     atkAnim: 'attack01',
+    //     prepareEffect: '',
+    // },
+
     '100302': {
         id: '100302',
         type: 1,
         radius: 500,
-        move: true,
-        moveDist: 100,
-        moveDuration: 10,
-        // 攻击完成后返回
-        backAfterAtk: true,
-        backDuration: 0,
         bullets: [
             {
                 spinePath: '',
                 hitEffect: '',
                 offset: { x: 0, y: 0 },
-                effects: [{ type: 'hurt', value: 600}],
+                effects: [{ type: 'hurt', value: 600, scaleInfo: [{ targetType: 1, proId: 10001, scale: 10 }]}],
                 buffs: [],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'circle', radius: 200 }],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'rect', width: 500, height: 200}],
                 trigger: { type: 'instant' },
             }
         ],
-        atkAnim: 'attack01',
+        atkAnim: 'attack02',
         prepareEffect: '',
     },
 

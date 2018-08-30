@@ -71,7 +71,7 @@ export default {
             TOUGH: 0,
             ATK_SPEED: 1,
         },
-        skills: ['100301'],
+        skills: ['100302'],
         energySkill: '100302',
         passiveSkills: ['100303'],
         stateTrans: 'default',

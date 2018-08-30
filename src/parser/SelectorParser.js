@@ -5,6 +5,7 @@ import PropSorter from '../view/selector/PropSorter';
 import DistSorter from '../view/selector/DistSorter';
 import SectorSelector from '../view/selector/SectorSelector';
 import CircleSelector from '../view/selector/CircleSelector';
+import RectSelector from '../view/selector/RectSelector';
 import ComplexSelector from '../view/selector/ComplexSelector';
 
 class SelectorParser{
@@ -25,6 +26,8 @@ class SelectorParser{
                 return this._parseSectorSelector(selectorConfig, owner);
             case 'circle':
                 return new CircleSelector(selectorConfig.radius);
+            case 'rect':
+                return new RectSelector(selectorConfig.width, selectorConfig.height);
             default:
                 console.warn('未知的selector类型：', selectorConfig);
         }
