@@ -8,8 +8,7 @@ import heros from '../../config/hero';
 cc.Class({
     extends: cc.Component,
 
-    properties: {
-    },
+    properties: {},
 
     ctor(){
         this._entities = {};
@@ -27,7 +26,7 @@ cc.Class({
         let hero = this.addHero();
         hero.setPosition(cc.v2(-500, -300));
         let entity1 = this.addEnemy();
-        entity1.setPosition(cc.v2(300, 0));
+        entity1.setPosition(cc.v2(0, 0));
     },
 
     addHero(){
@@ -73,6 +72,19 @@ cc.Class({
 
     getAllEntity(){
         return this._entityList.slice();
+    },
+
+    /**
+     * 获取所有非移动和死亡的实体
+     * @return {Array.<ViewEntity>}
+     */
+    getAllStayEntity(){
+        let entities = this.getAllEntity();
+        entities = entities.filter((e) => {
+            const name = e.sm.getCurState().name
+            return name!=='dead' && name!=='walk';
+        });
+        return entities;
     },
 
     removeEntity(id){

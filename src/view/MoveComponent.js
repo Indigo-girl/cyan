@@ -78,11 +78,7 @@ class MoveComponent{
             let dist = targetPos.sub(selfPos);
             const force = this.seek(targetPos);
             destV = destV.add(force);
-            if(this.targetInfo.target) {
-                this.viewEntity.setHead(this.targetInfo.target.getPosition().sub(selfPos));
-            } else{
-                this.viewEntity.setHead(dist);
-            }
+            this.viewEntity.setHead(dist);
             if (dist.mag() <= SPEED) {
                 this.setPosition(targetPos);
                 // 抛出到达事件

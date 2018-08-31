@@ -254,6 +254,16 @@ class ViewEntity{
         return cc.size(50, 50);
     }
 
+    /**
+     * 获取碰撞矩形
+     * @returns
+     * @memberof ViewEntity
+     */
+    getCollisionRect(){
+        const edgeLen = 50;
+        return cc.rect(this.view.x - edgeLen / 2, this.view.y - edgeLen/ 2, edgeLen, edgeLen);
+    }
+
     showHitEffect(effectPath){
         if(!effectPath || effectPath === ''){
             console.warn('非法的受击特效：', effectPath);

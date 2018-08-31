@@ -47,7 +47,7 @@ export default {
     '100102': {
         id: '100102',
         type: 1,
-        radius: 500,
+        radius: 200,
         bullets: [
             {
                 spinePath: 'bullet/ZGL/bullet_yqd',
