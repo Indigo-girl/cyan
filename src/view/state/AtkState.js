@@ -11,7 +11,9 @@ class AtkState extends BaseState {
         const skill = sm.viewEntity.getCurSkill();
         sm.viewEntity.playAnim(skill.atkAnim);
         const target = skill.getFirstTarget();
-        sm.viewEntity.setHead(target.getPosition().sub(sm.viewEntity.getPosition()));
+        if(target){
+            sm.viewEntity.setHead(target.getPosition().sub(sm.viewEntity.getPosition()));
+        }
         if(skill.backAfterAtk){
             sm.atkPos = sm.viewEntity.getPosition();
         }
