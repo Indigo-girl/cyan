@@ -27,7 +27,7 @@ cc.Class({
         let hero = this.addHero();
         hero.setPosition(cc.v2(-500, -300));
         let entity1 = this.addEnemy();
-        entity1.setPosition(cc.v2(700, 300));
+        entity1.setPosition(cc.v2(300, 0));
     },
 
     addHero(){
@@ -38,7 +38,7 @@ cc.Class({
     },
 
     addEnemy(){
-        let entity = this.addConfigEnetity('1003', ContextConst.CAMP.MONSTER);
+        let entity = this.addConfigEnetity('1000', ContextConst.CAMP.MONSTER);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50), 
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
         return entity;

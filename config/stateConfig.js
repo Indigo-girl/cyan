@@ -29,8 +29,15 @@ export default {
             'resurrect': 'search'
         },
         'idle': {
+            'dead': 'dead',
             'animCompleted': 'search'
         },
         'initState': 'search'
+    },
+    target: {
+        'idle': {
+            'dead': 'dead',
+        },
+        'initState': 'idle'
     }
 };

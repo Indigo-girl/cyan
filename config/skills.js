@@ -41,7 +41,7 @@ export default {
         prepareEffect: '',
         alignY: true,
         ratio1: 0.7,
-        ratio2: 0.3
+        ratio2: 0.5
     },
 
     '100102': {

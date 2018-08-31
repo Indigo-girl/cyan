@@ -1,4 +1,30 @@
 export default {
+    // 靶子，不会移动
+    '1000': {
+        spinePath: 'role/JK/JK',
+        skin: 'JK04',
+        scale: 0.4,
+        props: {
+            HP: 20000,
+            MAX_HP: 20000,
+            ENERGY: 0,
+            MAX_ENERGY: 1000,
+            MAX_SPEED: 2,
+            ATK: 100,
+            DEF: 100,
+            CRIT_SCALE: 1.5,
+            CRIT: 150,
+            ACCURACY: 0,
+            DODGE: 100,
+            TOUGH: 0,
+            ATK_SPEED: 1,
+        },
+        skills: ['100302'],
+        energySkill: '100302',
+        passiveSkills: ['100303'],
+        stateTrans: 'target',
+        hitPoint: { x: -50, y: 150 }
+    },
 
     '1001': {
         spinePath: 'role/ZGL/ZGL',
@@ -19,7 +45,7 @@ export default {
             TOUGH: 0,
             ATK_SPEED: 1,
         },
-        skills: ['100101', '100102'],
+        skills: ['100101'],
         energySkill: '100102',
         passiveSkills: [],
         stateTrans: 'default',

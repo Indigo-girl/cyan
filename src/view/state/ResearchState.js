@@ -5,12 +5,12 @@ import Log from '../../lib/Log';
 class ResearchState extends BaseState {
 
     constructor() {
-        super('search');
+        super('research');
     }
 
     onEnter(sm) {
         super.onEnter(sm);
-        // TODO  初始化技能/获取目标/发出移动事件
+        // 初始化技能/获取目标/发出移动事件
         const skill = sm.viewEntity.getCurSkill();
         const firstTarget = skill.getFirstTarget()
         if (firstTarget) {

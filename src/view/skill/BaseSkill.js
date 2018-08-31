@@ -25,11 +25,10 @@ class BaseSkill{
             console.warn('非法的受击特效：', this.prepareEffect);
             return;
         }
-        // TODO 受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
+        // 受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
         const node = new cc.Node('effect');
         node.parent = this.owner.view;
         node.position = this.preparePoint || cc.v2(0, 0);
-        // TODO 设置位置
         cc.loader.loadRes(this.prepareEffect, sp.SkeletonData, (err, res) => {
             if (err) {
                 console.warn(effectPath, err);
