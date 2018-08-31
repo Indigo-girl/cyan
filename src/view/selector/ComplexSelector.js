@@ -73,6 +73,22 @@ class ComplexSelector extends BaseSelector{
         return true;
     }
 
+    /**
+     * 获取攻击位置
+     * @param {ViewEntity} atker
+     * @param {ViewEntity} target
+     * @param {number} ratio1 -[0-1]
+     * @param {number} ratio2 -[0-1]
+     * @memberof ComplexSelector
+     */
+    getAtkPos(atker, target, ratio1, ratio2) {
+        const selector = this.selectors.find((e)=>e.isRange);
+        if(selector){
+            return selector.getAtkPos(atker, target, ratio1, ratio2);
+        }
+        // 如果没有找到范围选择器则返回undefined
+    }
+
 }
 
 export default ComplexSelector;

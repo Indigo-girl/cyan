@@ -1,6 +1,7 @@
 import PriorityQueue from '../utils/PriorityQueue';
 import limit from '../utils/RolePropLimit';
 import ContextConst from '../const/ContextConst';
+import Log from '../../lib/Log';
 
 class RoleContext{
 
@@ -9,6 +10,7 @@ class RoleContext{
         this._cals = {};
         this._propDirty = {};
         this._realProp = {};
+        this._extraInfo = {};
         this.level = info.level || 1;
         this.init(props);
     }
@@ -20,13 +22,21 @@ class RoleContext{
             if(typeof proId === 'number'){
                 this._setBaseProp(proId, props[key]);
             }else{
-                console.warn(`无法找到${key}对应proId`);
+                Log.warn(`无法找到${key}对应proId`);
             }
         } 
     }
 
     getExtraProp(id){
         return ContextConst.getExtraProp(id, this);
+    }
+
+    getExtraInfo(id){
+        return this._extraInfo[id] || 0;
+    }
+
+    setExtraInfo(id, value){
+        this._extraInfo[id] = value;
     }
 
     getBaseProp(id){
@@ -90,6 +100,7 @@ class RoleContext{
             current = cal.calculate(current, base, this);
         }
         this._realProp[proId] = current;
+        Log.log(`${this.id} update proid:${proId}，value is:${current}`);
     }
 
     addCalculator(calculator){
@@ -145,7 +156,16 @@ class RoleContext{
     }
 
     _isPropDirty(id){
-        return this._propDirty[id];
+        if(this._propDirty[id]){
+            return true;
+        }
+        const queue = this._getCalculatorQueue(proId);
+        for (const cal of queue) {
+            if(cal.dirty){
+                return true;
+            }
+        }
+        return false;
     }
 
     doEffect(effect) {

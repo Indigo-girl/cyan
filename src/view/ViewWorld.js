@@ -8,8 +8,7 @@ import heros from '../../config/hero';
 cc.Class({
     extends: cc.Component,
 
-    properties: {
-    },
+    properties: {},
 
     ctor(){
         this._entities = {};
@@ -25,11 +24,9 @@ cc.Class({
 
     _featureSkill(){
         let hero = this.addHero();
-        hero.setPosition(cc.v2(-500, -300))
+        hero.setPosition(cc.v2(-500, -300));
         let entity1 = this.addEnemy();
-        entity1.setPosition(cc.v2(700, -300));
-        // let entity2 = this.addEnemy();
-        // entity2.setPosition(hero.getPosition().add(300, -20));
+        entity1.setPosition(cc.v2(0, 0));
     },
 
     addHero(){
@@ -40,7 +37,7 @@ cc.Class({
     },
 
     addEnemy(){
-        let entity = this.addConfigEnetity('1002', ContextConst.CAMP.MONSTER);
+        let entity = this.addConfigEnetity('1000', ContextConst.CAMP.MONSTER);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50), 
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
         return entity;
@@ -66,6 +63,7 @@ cc.Class({
         entity.view.parent = this.node;
         this._entities[entity.id] = entity;
         this._entityList.push(entity);
+        entity.applyPassiveSkills();
     },
 
     getEntityById(id){
@@ -74,6 +72,19 @@ cc.Class({
 
     getAllEntity(){
         return this._entityList.slice();
+    },
+
+    /**
+     * 获取所有非移动和死亡的实体
+     * @return {Array.<ViewEntity>}
+     */
+    getAllStayEntity(){
+        let entities = this.getAllEntity();
+        entities = entities.filter((e) => {
+            const name = e.sm.getCurState().name
+            return name!=='dead' && name!=='walk';
+        });
+        return entities;
     },
 
     removeEntity(id){

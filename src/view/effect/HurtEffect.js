@@ -1,5 +1,6 @@
 import BaseEffect from './BaseEffect';
 import ContextConst from '../../logic/const/ContextConst';
+import Log from '../../lib/Log';
 
 class HurtEffect extends BaseEffect{
 
@@ -16,7 +17,7 @@ class HurtEffect extends BaseEffect{
         const proValue = ContextConst.getEffectValue(this.prosInfo, target, this.owner);
         const scaleValue = 1000 + ContextConst.getEffectValue(this.scaleInfo, target, this.owner);
         this.delta = Math.floor((this.base + proValue) * scaleValue / 1000);
-        console.log(`${this.owner.id}对${target.id}造成base:${this.base},pro:${proValue},scale:${scaleValue/1000}，最终伤害为：${this.delta}`);
+        Log.log(`${this.owner.id}对${target.id}造成base:${this.base},pro:${proValue},scale:${scaleValue/1000}，最终伤害为：${this.delta}`);
         target.onHurt(this.delta, this.owner);
     }
 

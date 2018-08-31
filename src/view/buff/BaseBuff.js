@@ -1,4 +1,5 @@
 import pubfunc from '../../logic/utils/pubfunc';
+import Log from '../../lib/Log';
 
 let _id = 0;
 
@@ -31,7 +32,7 @@ class BaseBuff{
     onEnter(target){
         this.target = target;
         this.tryTrigger();
-        console.log(`buff:${this.id}  onEnter`);
+        Log.log(`buff:${this.id}  onEnter`);
     }
 
     onExit(){
@@ -39,17 +40,18 @@ class BaseBuff{
         if(this.enableUndo){
             this.target.undoEffects(this.effects);
         }
-        console.log(`buff:${this.id}   onExit`);
+        Log.log(`buff:${this.id}   onExit`);
     }
 
     tryTrigger(){
-        if(this.maxTriggerCount <= this.triggerCount){
-            return;
-        }
         if (this.trigger.trigger(this.caster, [this.target], pubfunc.getWorld())) {
             this.target.doEffects(this.effects);
             this.triggerCount++;
             this.trigger.clear();
+            // 超过最大触发次数就移除此buff
+            if (this.maxTriggerCount <= this.triggerCount) {
+                this.onExit();
+            }
         }
     }
 

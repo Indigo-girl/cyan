@@ -5,6 +5,7 @@ export default {
             'moveToPos': 'walk',
             'freeWalk': 'walk',
             'moveInRadius': 'walk',
+            'moveForSkill': 'walk',
             'targetNotFound': 'idle',
         },
         'research': {
@@ -12,6 +13,7 @@ export default {
             'moveToPos': 'walk',
             'freeWalk': 'walk',
             'moveInRadius': 'walk',
+            'moveForSkill': 'walk',
             'targetNotFound': 'idle',
         },
         'walk': {
@@ -27,8 +29,15 @@ export default {
             'resurrect': 'search'
         },
         'idle': {
+            'dead': 'dead',
             'animCompleted': 'search'
         },
         'initState': 'search'
+    },
+    target: {
+        'idle': {
+            'dead': 'dead',
+        },
+        'initState': 'idle'
     }
 };

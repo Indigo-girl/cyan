@@ -1,4 +1,5 @@
 import BaseEffect from './BaseEffect';
+import Log from '../../lib/Log';
 
 class HpEffect extends BaseEffect{
 
@@ -8,7 +9,7 @@ class HpEffect extends BaseEffect{
     }
 
     doEffect(target){
-        console.log('do hp effect:', this.delta);
+        Log.log('do hp effect:', this.delta);
         target.logicEntity.changeHp(this.delta);
     }
 

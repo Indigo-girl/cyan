@@ -13,6 +13,10 @@ class BaseSkill{
         this.type = info.type;
         this.backAfterAtk = info.backAfterAtk;
         this.backDuration = info.backDuration;
+        this.configId = info.configId;
+        this.alignY = info.alignY;
+        this.ratio1 = info.ratio1;
+        this.ratio2 = info.ratio2;
         this._fired = false;  
     }
 
@@ -21,11 +25,10 @@ class BaseSkill{
             console.warn('非法的受击特效：', this.prepareEffect);
             return;
         }
-        // TODO 受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
+        // 受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
         const node = new cc.Node('effect');
         node.parent = this.owner.view;
         node.position = this.preparePoint || cc.v2(0, 0);
-        // TODO 设置位置
         cc.loader.loadRes(this.prepareEffect, sp.SkeletonData, (err, res) => {
             if (err) {
                 console.warn(effectPath, err);
@@ -55,6 +58,19 @@ class BaseSkill{
     getFirstTarget(){
         const firstBullet =  this.bullets[0];
         return firstBullet.getFirstTarget();
+    }
+
+    /**
+     * 获取范围筛选器建议的目标位置
+     * @param {ViewEntity} target
+     * @param {number} ratio1 -[0-1]
+     * @param {number} ratio2 -[0-1]
+     * @returns - 如果有建议的位置返回建议的位置，如果没有返回undefined
+     * @memberof BaseSkill
+     */
+    getAtkPos(target, ratio1, ratio2) {
+        const firstBullet = this.bullets[0];
+        return firstBullet.getAtkPos(this.owner, target, ratio1, ratio2);
     }
 
     /**

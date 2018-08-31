@@ -7,6 +7,7 @@ class Calculator{
         _id++;
         this.proId = proId;
         this.seq = seq;
+        this.dirty = false;
     }
 
     calculate(current, origin, target){

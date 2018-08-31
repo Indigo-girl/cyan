@@ -28,6 +28,8 @@ class CampSelector extends BaseSelector{
             targetCamp = entity.logicEntity.getCamp();
         } else if (this.camp == ContextConst.CAMP.ENEMY) {
             targetCamp = entity.logicEntity.getCamp() === ContextConst.CAMP.PLAYER ? ContextConst.CAMP.MONSTER : ContextConst.CAMP.PLAYER;
+        } else if (this.camp === ContextConst.CAMP.SELF ){
+            return target === entity;
         }
         return target.logicEntity.isCamp(targetCamp);
     }

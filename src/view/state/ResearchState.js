@@ -1,19 +1,20 @@
 import BaseState from './BaseState';
+import Log from '../../lib/Log';
 
 // 索敌
 class ResearchState extends BaseState {
 
     constructor() {
-        super('search');
+        super('research');
     }
 
     onEnter(sm) {
         super.onEnter(sm);
-        // TODO  初始化技能/获取目标/发出移动事件
+        // 初始化技能/获取目标/发出移动事件
         const skill = sm.viewEntity.getCurSkill();
         const firstTarget = skill.getFirstTarget()
         if (firstTarget) {
-            console.log(sm.viewEntity.id, 'search target is:', firstTarget.id, firstTarget.logicEntity.getHp());
+            Log.log(sm.viewEntity.id, 'search target is:', firstTarget.id, firstTarget.logicEntity.getHp());
             sm.viewEntity.handleEvent({
                 type: 'moveInRadius',
                 detail: {

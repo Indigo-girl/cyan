@@ -1,6 +1,7 @@
 import InstantTrigger from '../view/trigger/InstantTrigger';
 import DelayTrigger from '../view/trigger/DelayTrigger';
 import EventTrigger from '../view/trigger/EventTrigger';
+import HorizonTrigger from '../view/trigger/HorizonTrigger';
 
 class TriggerParser{
 
@@ -12,6 +13,8 @@ class TriggerParser{
                 return this._parseDelay(triggerConfig);
             case 'event':
                 return this._parseEvent(triggerConfig, owner);
+            case 'horizon':
+                return new HorizonTrigger(triggerConfig.length, triggerConfig.speed, triggerConfig.isBulletMove);
             default:
                 console.warn("未知的Trigger类型:", triggerConfig);
         }

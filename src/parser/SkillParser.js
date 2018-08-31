@@ -16,6 +16,10 @@ class SkillParser{
             type: skillConfig.type,
             backAfterAtk: skillConfig.backAfterAtk,
             backDuration: skillConfig.backDuration,
+            ratio1: skillConfig.ratio1,
+            ratio2: skillConfig.ratio2,
+            configId: skillConfig.id,
+            alignY: skillConfig.alignY,
         });
         if(skillConfig.jump){
             skill.setJumpInfo(skillConfig.jumpDist, skillConfig.jumpDuration);

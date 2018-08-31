@@ -16,14 +16,21 @@ class BuffParser{
             effects.push(EffectParser.parse(config, owner));
         }
         const trigger = TriggerParser.parse(buffConfig.trigger, owner);
+        let buff;
         switch(buffConfig.type){
             case 'base':
-                return new BaseBuff(owner, effects, trigger, info);
+                buff = new BaseBuff(owner, effects, trigger, info);
+                break;
             case 'duration':
-                return new DurationBuff(owner, effects, trigger, info);
+                buff = new DurationBuff(owner, effects, trigger, info);
+                break;
             default:
                 console.warn(`未知的buff类型:${buffConfig.type}`);
         }
+        if(buff){
+            buff.configId = buffConfig.id;
+        }
+        return buff;
     }
 
 }

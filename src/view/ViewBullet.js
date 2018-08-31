@@ -1,6 +1,7 @@
 import pubfunc from '../logic/utils/pubfunc';
 import FollowTrace from '../view/trace/FollowTrace';
 import AtkUtils from './AtkUtils';
+import Log from '../lib/Log';
 
 let _id = 0;
 
@@ -18,6 +19,10 @@ class ViewBullet{
         this.traceConf = info.trace;
         this.spinePath = info.spinePath;
         this.hitEffect = info.hitEffect;
+        this.explodeEffects = info.explodeEffects || [];
+        this.explodeSelector = info.explodeSelector;
+        // 必定命中
+        this.mustHit = !!info.mustHit; 
         this.offset = info.offset || cc.v2(0, 0);
         this._fired = false;
 
@@ -39,7 +44,7 @@ class ViewBullet{
         pubfunc.getWorld().fireBullet(this);
         this.direct = this.atker.getDirect();
         if(!this.spinePath || this.spinePath === ''){
-            console.log('bullet without spine effect');
+            Log.log('bullet without spine effect');
         }else{
             cc.loader.loadRes(this.spinePath, sp.SkeletonData, (err, res) => {
                 if (err) {
@@ -70,7 +75,7 @@ class ViewBullet{
     }
 
     handleEvent(event){
-        console.log('子弹接收到事件:', event);
+        Log.log('子弹接收到事件:', event);
         if(event.type === 'targetNotFound'){
             // 当追踪目标消失时，直接销毁子弹
             this.destroy();
@@ -106,15 +111,22 @@ class ViewBullet{
 
     tryTrigger(){
         const targets = this.getTargets();
-        if (this.trigger.trigger(this, targets, pubfunc.getWorld())) {
+        if (this.trigger.trigger(this.atker, targets, pubfunc.getWorld(), this)) {
             const buffs = this.buffs;
             const effects = this.effects;
-            for (const target of targets) {
+            const triggerTargets = this.trigger.getTriggeredTargets();
+            for (const target of triggerTargets) {
                 // 判定命中
-                const accProb = AtkUtils.getAccProb(this.atker, target);
-                const rvalue = pubfunc.getWorld().randFunc();
-                console.log(`${this.atker.id}=>${target.id}命中判定:${accProb>=rvalue},accProb:${accProb},rvalue:${rvalue}`);
-                if (rvalue <= accProb){
+                let hit = this.mustHit;
+                if(!hit){
+                    const accProb = AtkUtils.getAccProb(this.atker, target);
+                    const rvalue = pubfunc.getWorld().randFunc();
+                    hit = rvalue <= accProb;
+                    Log.log(`${this.atker.id}=>${target.id}命中判定:${hit},accProb:${accProb},rvalue:${rvalue}`);
+                }else{
+                    Log.log(`${this.atker.id}=>${target.id}命中判定:子弹必定命中`);
+                }
+                if (hit){
                     target.doEffects(effects);
                     target.addBuffs(buffs);
                     if (this.hitEffect && this.hitEffect != '') {
@@ -124,13 +136,20 @@ class ViewBullet{
                     if (!target.isAlive()){
                         const role = this.atker.logicEntity;
                         role.setEnergy(role.getEnergy() + 300);
-                        console.log(`${role.id}造成目标死亡，怒气加300，当前为:${role.getEnergy()}`);
+                        Log.log(`${role.id}造成目标死亡，怒气加300，当前为:${role.getEnergy()}`);
                     }
                 }
             }
-            // 每个子弹可以被触发一次，触发后就销毁
-            this.destroy();
+            // 每个子弹可以爆炸一次，爆炸后消失
+            if (this.trigger.triggerDestroy()){
+                this.explode();
+                this.destroy();
+            }
         }
+    }
+
+    getAtkPos(atker, target, ratio1, ratio2) {
+        return this.selector.getAtkPos(atker, target, ratio1, ratio2);
     }
 
     getFirstTarget(){
@@ -159,6 +178,27 @@ class ViewBullet{
             return this.direct
         }else{
             return this.atker.getDirect();
+        }
+    }
+
+    explode(){
+        this.offset = cc.v2(0, 0);
+        if(!this.explodeSelector){
+            return;
+        }
+        let targets = this.getTargets();
+        let explodeTargets = this.explodeSelector.getTargets(this.atker, this, pubfunc.getWorld());
+        explodeTargets = explodeTargets.filter((e)=>{
+            const target = targets.find((target)=>e===target);
+            if(target){
+                return false
+            }else{
+                return true;
+            }
+        });
+        Log.log('子弹爆炸波及人数:', explodeTargets.length);
+        for(const target of explodeTargets){
+            target.doEffects(this.explodeEffects);
         }
     }
 

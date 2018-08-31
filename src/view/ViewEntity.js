@@ -3,6 +3,8 @@ import MoveComponent from './MoveComponent';
 import SkillComponent from './SkillComponent';
 import pubfunc from '../logic/utils/pubfunc';
 import AtkUtils from './AtkUtils';
+import ContextConst from '../logic/const/ContextConst';
+import Log from '../lib/Log';
 
 class ViewEntity{
 
@@ -41,7 +43,7 @@ class ViewEntity{
             skeleton.premultipliedAlpha = false;
             skeleton.setCompleteListener(() => this.onAnimCompleted());
             skeleton.setEventListener((trace, event)=>{
-                console.log('spine事件：', event.data);
+                Log.log('spine事件：', event.data);
                 this.handleEvent({type: event.data.name});
             });
             skeleton.setSkin(modelInfo.skin);
@@ -75,6 +77,9 @@ class ViewEntity{
 
     // vec2.x>0为x轴方向
     setHead(dir){
+        if(dir.x===0 && dir.y===0){
+            return;
+        }
         dir = dir.normalize();
         if(dir.x < 0){
             this._direct = -1;
@@ -96,7 +101,6 @@ class ViewEntity{
     }
 
     getPosition(){
-        // TODO 逻辑坐标和显示坐标转换
         return this.view.getPosition();
     }
 
@@ -112,8 +116,13 @@ class ViewEntity{
         this.moveComp.moveInRadius(target, radius, alignY);
     }
 
+    moveForSkill(target, skill){
+        this.moveComp.moveForSkill(target, skill);
+    }
+
     handleEvent(event){
         for(const buff of this._buffs){
+            // buff可以阻止事件的传递
             if(!buff.handleEvent(event)){
                 return;
             }
@@ -123,6 +132,10 @@ class ViewEntity{
 
     isAlive(){
         return this.logicEntity.isAlive();
+    }
+
+    setPassiveSkillIds(ids){
+        this.skillComp.setPassiveSkillIds(ids);
     }
 
     setEnergySkillId(id){
@@ -147,11 +160,17 @@ class ViewEntity{
             throw new Error('需要预先执行nextSkill');
         }
         this._curSkill.fireBullets();
+        Log.log(`${this.id}释放技能${this._curSkill.configId}`);
         // 释放链式技能时，获得100点基础怒气
         if(this._curSkill.type === 0){
             this.logicEntity.setEnergy(this.logicEntity.getEnergy() + 100);
-            console.log(`${this.id}释放链式技能，怒气加100，当前为:${this.logicEntity.getEnergy()}`);
+            Log.log(`${this.id}释放链式技能，怒气加100，当前为:${this.logicEntity.getEnergy()}`);
         }
+    }
+
+    applyPassiveSkills(){
+        Log.log(`${this.id}使用被动技能========`);
+        this.skillComp.applyPassiveSkills();
     }
 
     addBuff(buff){
@@ -174,14 +193,12 @@ class ViewEntity{
         for(const effect of effects){
             effect.doEffect(this);
         }
-        this.checkDead();
     }
 
     undoEffects(effects){
         for (const effect of effects) {
             effect.undoEffect(this);
         }
-        this.checkDead();
     }
 
     checkDead(){
@@ -193,12 +210,25 @@ class ViewEntity{
     }
 
     onHurt(hurtValue, atker){
+        // 已经死亡的不会受伤
+        if(!this.isAlive()){
+            return
+        }
         let role = this.logicEntity
         let hurt = AtkUtils.getHurt(hurtValue, atker, this);
         const realHurt = role.changeHp(-hurt);
-        const energy = Math.floor(-realHurt / role.getMaxHp() * 100) * 10;
+        // 设置统计信息
+        this.logicEntity.setExtraInfo(ContextConst.EXTRA_ID.LAST_HURT_VALUE, -realHurt);
+        const hurtPercent = Math.floor(-realHurt / role.getMaxHp() * 100);
+        this.logicEntity.setExtraInfo(ContextConst.EXTRA_ID.LAST_HURT_PERCENT, hurtPercent);
+        const energy = hurtPercent * 10;
         role.setEnergy(role.getEnergy() + energy);
-        console.log(`${this.id}受到来自${atker.id}的${hurt}点伤害,怒气值增加${energy},当前为${role.getEnergy()}`);
+        Log.log(`${this.id}受到来自${atker.id}的${hurt}点伤害,怒气值增加${energy},当前为${role.getEnergy()}`);
+        this.handleEvent({
+            type: 'onHurt',
+            value: -realHurt
+        });
+        this.checkDead();
     }
 
     onDead(){
@@ -224,16 +254,25 @@ class ViewEntity{
         return cc.size(50, 50);
     }
 
+    /**
+     * 获取碰撞矩形
+     * @returns
+     * @memberof ViewEntity
+     */
+    getCollisionRect(){
+        const edgeLen = 50;
+        return cc.rect(this.view.x - edgeLen / 2, this.view.y - edgeLen/ 2, edgeLen, edgeLen);
+    }
+
     showHitEffect(effectPath){
         if(!effectPath || effectPath === ''){
             console.warn('非法的受击特效：', effectPath);
             return;
         }
-        // TODO 受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
+        //  受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
         const node = new cc.Node('effect');
         node.parent = this.view;
         node.position = this.hitPoint;
-        // TODO 设置位置
         cc.loader.loadRes(effectPath, sp.SkeletonData, (err, res) => {
             if (err) {
                 console.warn(effectPath, err);

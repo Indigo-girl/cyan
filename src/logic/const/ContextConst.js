@@ -1,3 +1,5 @@
+import Log from '../../lib/Log';
+
 const CONTEXT_CONST = {
     PRO_ID: {
         HP: 0,
@@ -52,6 +54,8 @@ const CONTEXT_CONST = {
         ONE: 10000,
         // 损血百分比（1=>1%）
         HP_LOSS_PERCENT: 10001,
+        LAST_HURT_VALUE: 10002,
+        LAST_HURT_PERCENT: 10003,
     },
 
     DIRECT: {
@@ -67,11 +71,18 @@ const CONTEXT_CONST = {
         // 以下是相对阵营
         FRIEND: 3,
         ENEMY: 4,
+        SELF: 5,
     },
 
     TARGET_TYPE: {
         OWNER: 0,
         TARGET: 1
+    },
+
+    SKILL_TYPE: {
+        NORMAL: 0,
+        ENERGY: 1,
+        PASSIVE: 2
     },
 
     isExtraId(proId){
@@ -91,10 +102,13 @@ const CONTEXT_CONST = {
             case this.EXTRA_ID.HP_LOSS_PERCENT:
                 const hp = context.getHp();
                 const maxHp = context.getMaxHp();
-                console.log('hp:',hp,'maxHp:', maxHp);
+                Log.log('hp:',hp,'maxHp:', maxHp);
                 return Math.floor((1 - hp / maxHp) * 100);
+            case this.EXTRA_ID.LAST_HURT_PERCENT:
+            case this.EXTRA_ID.LAST_HURT_VALUE:
+                return context.getExtraInfo(proId);
             default:
-                console.warn(`unknow extra id:${proId}`);
+                Log.warn(`unknow extra id:${proId}`);
                 return 0;
         }
     },
@@ -107,22 +121,36 @@ const CONTEXT_CONST = {
      * @returns
      */
     getEffectValue(prosInfo, target, owner) { 
+        return this.getProsInfoValue(prosInfo, target.logicEntity.getContext(), 
+            owner.logicEntity.getContext());
+    },
+
+
+    /**
+     * 获取prosInfo的值
+     * @param {Object} prosInfo
+     * @param {RoleContext} target
+     * @param {RoleContext} owner
+     * @returns
+     */
+    getProsInfoValue(prosInfo, target, owner) {
         let total = 0;
         for (const info of prosInfo) {
-            let logic;
-            switch(info.targetType){
+            let context;
+            switch (info.targetType) {
                 case this.TARGET_TYPE.OWNER:
-                    logic = owner.logicEntity;
+                    context = owner;
                     break;
                 case this.TARGET_TYPE.TARGET:
-                    logic = target.logicEntity;
+                    context = target;
                     break;
             }
-            if (this.isExtraId(info.proId)) {
-                total += logic.getExtraProp(info.proId) * info.scale;
-            } else {
-                total += logic.getRealProp(info.proId) * info.scale;
+            let value = context.getRealProp(info.proId);
+            // 如果设置了步进，则scale为步进收益
+            if (info.step) {
+                value = Math.floor(value / info.step);
             }
+            total += value * info.scale;
         }
         return total;
     }

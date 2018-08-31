@@ -4,6 +4,7 @@ import Resurrect from '../view/effect/ResurrectEffect';
 import ExtraHpEffect from '../view/effect/ExtraHpEffect';
 import HurtEffect from '../view/effect/HurtEffect';
 import PropScaleEffect from '../view/effect/PropScaleEffect';
+import PropDirtyEffect from '../view/effect/PropDirtyEffect';
 
 class EffectParser {
 
@@ -21,6 +22,8 @@ class EffectParser {
                 return this._parseHpEffect(effectConfig, atker);
             case 'prop':
                 return this._parsePropEffect(effectConfig, atker);
+            case 'propDirty':
+                return new PropDirtyEffect(effectConfig.proId, effectConfig.prosInfo, atker);
             case 'propScale':
                 return new PropScaleEffect(effectConfig.proId, effectConfig.scale, atker);
             case 'resurrect':
@@ -37,11 +40,6 @@ class EffectParser {
     }
 
     _parsePropEffect(config, atker) {
-        // config = {
-        //     type: 'resurrect',
-        //     value: 1, //属性ID
-        //     prosInfo: [{ targetType: 0, proId: 1, scale: 1.5 }],
-        // }
         return new PropEffect(config.proId, config.prosInfo, atker);
     }
 

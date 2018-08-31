@@ -5,6 +5,7 @@ class RoleEntity extends BaseEntity{
 
     constructor(context, camp){
         super();
+        context.id = this.id;
         this._contextStack = [context];
         this.setCamp(camp);
     }
@@ -62,12 +63,17 @@ class RoleEntity extends BaseEntity{
         return this.getContext().getExtraProp(proId);
     }
 
+    setExtraInfo(proId, value){
+        this.getContext().setExtraInfo(proId, value);
+    }
+
     replaceContext(context){
         this._contextStack[this._contextStack.length - 1] = context;
         this.onContextChanged();
     }
 
     pushContext(context){
+        context.id = this.id;
         this._contextStack.push(context);
         this.onContextChanged();
     }
