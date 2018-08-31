@@ -117,6 +117,10 @@ class ViewEntity{
         this.moveComp.moveInRadius(target, radius, alignY);
     }
 
+    moveForSkill(target, skill){
+        this.moveComp.moveForSkill(target, skill);
+    }
+
     handleEvent(event){
         for(const buff of this._buffs){
             // buff可以阻止事件的传递

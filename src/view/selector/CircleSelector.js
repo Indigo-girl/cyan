@@ -27,6 +27,25 @@ class CircleSelector extends BaseSelector {
         return dist <= this.radius;
     }
 
+    /**
+     * 获取攻击位置
+     * @param {ViewEntity} atker
+     * @param {ViewEntity} target
+     * @param {number} radiusRatio -[0-1] 1表示目标处于区域最边缘
+     * @memberof CircleSelector
+     */
+    getAtkPos(atker, target, radiusRatio) {
+        const tpos = target.getPosition();
+        const apos = atker.getPosition();
+        const dist = tpos.sub(apos);
+        const length = dist.mag();
+        let targetRadius = this.radius * radiusRatio
+        if(length <= targetRadius){
+            return apos;
+        }
+        return tpos.sub(dist.mul(targetRadius / length));
+    }
+
 }
 
 export default CircleSelector;

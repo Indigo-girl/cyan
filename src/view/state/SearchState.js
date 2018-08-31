@@ -16,11 +16,10 @@ class SearchState extends BaseState{
         if(firstTarget){
             Log.log(sm.viewEntity.id, 'search target is:', firstTarget.id, firstTarget.logicEntity.getHp());
             sm.viewEntity.handleEvent({
-                type: 'moveInRadius',
+                type: 'moveForSkill',
                 detail: {
-                    radius: skill.radius,
                     target: firstTarget,
-                    alignY: skill.alignY
+                    skill: skill
                 }
             });
         }else{

@@ -40,6 +40,8 @@ export default {
         atkAnim: 'attack01',
         prepareEffect: '',
         alignY: true,
+        ratio1: 0.7,
+        ratio2: 0.3
     },
 
     '100102': {
@@ -108,6 +110,7 @@ export default {
         atkAnim: 'attack02',
         prepareEffect: '',
         alignY: false,
+        ratio1: 1
     },
 
     '100203': {
@@ -200,6 +203,8 @@ export default {
         atkAnim: 'attack02',
         prepareEffect: '',
         alignY: true,
+        ratio1: 0.6,
+        ratio2: 0.2
     },
 
     '100303': {
@@ -270,6 +275,8 @@ export default {
         atkAnim: 'attack02',
         prepareEffect: '',
         alignY: true,
+        ratio1: 0.6,
+        ratio2: 0.1
     },
 
     '100403': {

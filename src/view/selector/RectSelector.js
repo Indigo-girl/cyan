@@ -38,6 +38,35 @@ class RectSelector extends BaseSelector {
         return pos.x >= minX && pos.x <=maxX && pos.y >= minY && pos.y <= maxY;
     }
 
+    /**
+     * 获取攻击位置
+     * @param {ViewEntity} atker
+     * @param {ViewEntity} target
+     * @param {number} widthRatio -[0-1] 1表示目标处于区域最边缘
+     * @param {number} heightRatio -[0-1] 1表示目标处于区域最上方或者最下方
+     * @memberof RectSelector
+     */
+    getAtkPos(atker, target, widthRatio, heightRatio) {
+        const tpos = target.getPosition();
+        const apos = atker.getPosition();
+        const dist = tpos.sub(apos);
+        let targetX = this.width * widthRatio;
+        let targetY = this.height / 2 * heightRatio;
+        if(Math.abs(dist.x) < targetX && Math.abs(dist.y) < targetY){
+            return apos;
+        }
+        if(Math.abs(dist.x) < targetX){
+            targetX = Math.abs(dist.x);
+        }
+        if(Math.abs(dist.y) < targetY){
+            targetY = Math.abs(dist.y);
+        }
+        const xScale = dist.x >= 0 ? 1 : -1;
+        const yScale = dist.y >=0 ? 1 : -1;
+        const delta = cc.v2(targetX * xScale, targetY * yScale);
+        return tpos.sub(delta);
+    }
+
 }
 
 export default RectSelector;

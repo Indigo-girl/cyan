@@ -43,6 +43,41 @@ class SectorSelector extends BaseSelector{
         return degree >= -this.degree/2 && degree <= this.degree/2;
     }
 
+    /**
+     * 获取攻击位置
+     * @param {ViewEntity} atker
+     * @param {ViewEntity} target
+     * @param {number} radiusRatio -[0-1] 1表示目标处于区域最边缘
+     * @param {number} degreeRatio -[0-1] 1表示目标处于区域最上方或者最下方
+     * @memberof SectorSelector
+     */
+    getAtkPos(atker, target, radiusRatio, degreeRatio){
+        const tpos = target.getPosition();
+        const apos = atker.getPosition();
+        const dist = tpos.sub(apos);
+        const length = dist.mag();
+
+        const targetDegree = this.degree / 2 * degreeRatio;
+        let targetRad = Math.PI * targetDegree / 180;
+        let targetRadius = this.radius * radiusRatio;
+
+        const rad = Math.abs(Math.atan(dist.y / dist.x));
+        if(rad <= targetRad && length <= targetRadius){
+            return apos;
+        } 
+        if(rad < targetRad){
+            targetRad = rad;
+        }
+        if(length < targetRadius){
+            targetRadius = length;
+        }
+        const xScale = dist.x > 0 ? 1 : -1;
+        const yScale = dist.y > 0 ? 1 : -1;
+        const delta = cc.v2(xScale * targetRadius * Math.cos(targetRad), yScale * targetRadius * Math.sin(targetRad));
+        const targetPos = tpos.sub(delta);
+        return targetPos;
+    }
+
 }
 
 export default SectorSelector;

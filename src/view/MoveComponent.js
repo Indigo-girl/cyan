@@ -29,7 +29,15 @@ class MoveComponent{
             target: target,
             radius: radius,
             alignY: alignY,
-            type: 'dynamic'
+            type: 'radius'
+        }
+    }
+
+    moveForSkill(target, skill){
+        this.targetInfo = {
+            target: target,
+            skill: skill,
+            type: 'skill'
         }
     }
 
@@ -56,29 +64,26 @@ class MoveComponent{
         let destV = this.viewEntity.getHead().mul(SPEED);
         if(this.targetInfo){
             const selfPos = this.getPosition();
-            let targetPos
-            if(this.targetInfo.tyep === 'static'){
-                targetPos = this.targetInfo.pos
-            }else if(this.targetInfo.type === 'dynamic'){
+            if (this.targetInfo.target) {
                 const skill = this.viewEntity.getCurSkill();
-                if (!skill.checkTarget(this.targetInfo.target)){
+                if (!skill.checkTarget(this.targetInfo.target)) {
                     this.viewEntity.handleEvent({
                         // 目标不符合条件
                         type: 'targetUnfit'
                     });
                     return;
                 }
-                targetPos = ViewUtils.getAtkPos(this.viewEntity, this.targetInfo.target, this.targetInfo.radius, this.targetInfo.alignY);
             }
+            let targetPos = this.getTargetPos();
             let dist = targetPos.sub(selfPos);
             const force = this.seek(targetPos);
             destV = destV.add(force);
-            if (dist.x !== 0) {
-                this.viewEntity.setHead(dist);
-            } else if (this.targetInfo.type === 'dynamic') {
+            if(this.targetInfo.target) {
                 this.viewEntity.setHead(this.targetInfo.target.getPosition().sub(selfPos));
+            } else{
+                this.viewEntity.setHead(dist);
             }
-            if(dist.mag() <= SPEED){
+            if (dist.mag() <= SPEED) {
                 this.setPosition(targetPos);
                 // 抛出到达事件
                 this.viewEntity.handleEvent({ type: 'reachPos' });
@@ -87,6 +92,24 @@ class MoveComponent{
             }
         }
         this.setPosition(this.getPosition().add(destV));
+
+    }
+
+    getTargetPos(){
+        switch (this.targetInfo.type) {
+            case 'static':
+                return this.targetInfo.pos;
+            case 'radius':
+                return ViewUtils.getAtkPos(this.viewEntity, this.targetInfo.target, this.targetInfo.radius, this.targetInfo.alignY);
+            case 'skill':
+                const skill = this.targetInfo.skill;
+                let targetPos = skill.getAtkPos(this.targetInfo.target, skill.ratio1, skill.ratio2);
+                if(!targetPos){
+                    targetPos = ViewUtils.getAtkPos(this.viewEntity, this.targetInfo.target, skill.radius, skill.alignY);
+                }
+                return targetPos;
+        }
+        return this.getPosition();
     }
 
 }

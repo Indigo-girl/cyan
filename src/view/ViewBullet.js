@@ -148,6 +148,10 @@ class ViewBullet{
         }
     }
 
+    getAtkPos(atker, target, ratio1, ratio2) {
+        return this.selector.getAtkPos(atker, target, ratio1, ratio2);
+    }
+
     getFirstTarget(){
         // 需要排除范围选择器
         return this.selector.getTargets(this.atker, this, pubfunc.getWorld(), true)[0];
