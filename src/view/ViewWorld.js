@@ -30,7 +30,7 @@ cc.Class({
     },
 
     addHero(){
-        let entity = this.addConfigEnetity('1005', ContextConst.CAMP.PLAYER);
+        let entity = this.addConfigEnetity('1002', ContextConst.CAMP.PLAYER);
         entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50),
             this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
         return entity;

@@ -17,7 +17,7 @@ function  getAtkPosAlignY(atk, def, radius){
 function checkCollision(atk, def, pos){
     let entities = pubfunc.getWorld().getAllStayEntity();
     for(const entity of entities){
-        if(entity !== atk && entities !== def){
+        if(entity !== atk && entity !== def){
             if (entity.getPosition().sub(pos).mag() < edgeLen){
                 return true;
             }
