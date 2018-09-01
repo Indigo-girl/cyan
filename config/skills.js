@@ -152,7 +152,7 @@ export default {
                 selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'truncate', value: 1 }],
                 trigger: { type: 'event', value: 'traceReach' },
                 trace: { type: 'follow', initHead: { x: 1, y: 2 }, speed: 20 },
-                explodeSelectors: [{ type: 'circle', radius: 500 }],
+                explodeSelectors: [{ type: 'circle', radius: 500 }, { type: 'alive', bValue: true }, { type: 'camp', value: 4 }],
                 explodeEffects: [{type: 'hurt', value: 0, prosInfo: [{ targetType: 0, proId: 5, scale: 0.5 }]}]
             }
         ],
@@ -246,7 +246,7 @@ export default {
                 selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'truncate', value: 1 }],
                 trigger: { type: 'event', value: 'traceReach' },
                 trace: { type: 'follow', initHead: { x: 1, y: 2 }, speed: 20 },
-                explodeSelectors: [{ type: 'circle', radius: 500 }],
+                explodeSelectors: [{ type: 'circle', radius: 500 }, { type: 'alive', bValue: true }, { type: 'camp', value: 4 }],
                 explodeEffects: [{ type: 'hurt', value: 0, prosInfo: [{ targetType: 0, proId: 5, scale: 0.5 }] }]
             }
         ],
