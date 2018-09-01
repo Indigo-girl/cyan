@@ -264,21 +264,21 @@ export default {
             {
                 spinePath: '',
                 hitEffect: '',
+                explodeEffectPath: 'bullet/SSX/hit_jjnp01',
+                groundEffectPath: 'bullet/SSX/hit_jjnp02',
                 offset: { x: 0, y: 0 },
                 effects: [{ type: 'hurt', value: 500 }],
                 buffs: [],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, {type: 'rect', width: 500, height: 200}],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }],
                 trigger: { type: 'event', value: 'traceReach'},
-                trace: { type: 'follow', initHead: { x: 1, y: 2 }, speed: 20 },
-                explodeSelectors: [{ type: 'circle', radius: 500 }],
+                trace: { type: 'blink', initHead: { x: 1, y: 2 }, speed: 20 },
+                explodeSelectors: [{ type: 'circle', radius: 500 }, { type: 'camp', value: 4 }, { type: 'alive', bValue: true } ],
                 explodeEffects: [{ type: 'hurt', value: 500}]
             }
         ],
         atkAnim: 'attack02',
         prepareEffect: '',
-        alignY: true,
-        ratio1: 0.6,
-        ratio2: 0.1
+        alignY: false,
     },
 
     '100403': {

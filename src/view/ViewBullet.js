@@ -223,6 +223,7 @@ class ViewBullet{
         node.parent = this.view.parent;
         node.zIndex = zIndex;
         node.position = pos;
+        node.scaleX = -this.getDirect();
         cc.loader.loadRes(effectPath, sp.SkeletonData, (err, res) => {
             if (err) {
                 Log.warn(effectPath, err);

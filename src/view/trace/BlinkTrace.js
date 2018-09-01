@@ -8,7 +8,7 @@ class BlinkTrace extends BaseTrace{
     }
 
     update(){
-        bullet.setPosition(this.pos);
+        this.owner.setPosition(this.pos);
         super.update();
     }
 
