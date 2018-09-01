@@ -162,14 +162,14 @@ class ViewEntity{
         this._curSkill.fireBullets();
         Log.log(`${this.id}释放技能${this._curSkill.configId}`);
         // 释放链式技能时，获得100点基础怒气
-        if(this._curSkill.type === 0){
+        if (this.skillComp.isSkillType(this._curSkill.configId, ContextConst.SKILL_TYPE.NORMAL)){
+            this.handleEvent({type: 'castNormalSkill'});
             this.logicEntity.setEnergy(this.logicEntity.getEnergy() + 100);
             Log.log(`${this.id}释放链式技能，怒气加100，当前为:${this.logicEntity.getEnergy()}`);
         }
     }
 
     applyPassiveSkills(){
-        Log.log(`${this.id}使用被动技能========`);
         this.skillComp.applyPassiveSkills();
     }
 

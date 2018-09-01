@@ -1,5 +1,6 @@
 import BaseEffect from './BaseEffect';
 import ContextConst from '../../logic/const/ContextConst';
+import Log from '../../lib/Log';
 
 class ExtraHpEffect extends BaseEffect{
 
@@ -12,7 +13,9 @@ class ExtraHpEffect extends BaseEffect{
 
     doEffect(target){
         this.hpDelta = ContextConst.getEffectValue(this.prosInfo, target, this.owner);
+        const oldValue = target.logicEntity.getHp();
         target.logicEntity.changeHp(this.hpDelta);
+        Log.log(`ExtraHpEffect生效，hp:${oldValue}=>${target.logicEntity.getHp()}`);
     }
 
     undoEffect(){

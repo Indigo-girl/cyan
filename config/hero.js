@@ -5,8 +5,8 @@ export default {
         skin: 'JK04',
         scale: 0.4,
         props: {
-            HP: 20000000,
-            MAX_HP: 20000000,
+            HP: 2000,
+            MAX_HP: 2000,
             ENERGY: 0,
             MAX_ENERGY: 1000,
             MAX_SPEED: 2,
@@ -126,6 +126,32 @@ export default {
         skills: ['100402'],
         energySkill: '100402',
         passiveSkills: ['100403'],
+        stateTrans: 'default',
+        hitPoint: { x: -50, y: 150 }
+    },
+
+    '1005': {
+        spinePath: 'role/LB/LB',
+        skin: 'LB04',
+        scale: 0.4,
+        props: {
+            HP: 10000,
+            MAX_HP: 20000,
+            ENERGY: 0,
+            MAX_ENERGY: 1000,
+            MAX_SPEED: 2,
+            ATK: 100,
+            DEF: 100,
+            CRIT_SCALE: 1.5,
+            CRIT: 150,
+            ACCURACY: 0,
+            DODGE: 100,
+            TOUGH: 0,
+            ATK_SPEED: 1,
+        },
+        skills: ['100502'],
+        energySkill: '100502',
+        passiveSkills: ['100503'],
         stateTrans: 'default',
         hitPoint: { x: -50, y: 150 }
     },

@@ -300,4 +300,50 @@ export default {
         atkAnim: '',
         prepareEffect: '',
     },
+
+    '100502': {
+        id: '100502',
+        type: 0,
+        radius: 500,
+        bullets: [
+            {
+                spinePath: '',
+                hitEffect: '',
+                explodeEffectPath: 'bullet/LB/hit_mstj02',
+                groundEffectPath: 'bullet/LB/hit_mstj01',
+                offset: { x: 0, y: 0 },
+                effects: [{ type: 'hurt', value: 500 }],
+                buffs: ['10050201'],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }],
+                trigger: { type: 'event', value: 'traceReach' },
+                trace: { type: 'blink', initHead: { x: 1, y: 2 }, speed: 20 },
+                explodeSelectors: [{ type: 'circle', radius: 500 }, { type: 'camp', value: 4 }, { type: 'alive', bValue: true }],
+                explodeEffects: [{ type: 'hurt', value: 500 }],
+                mustHit: true,
+            }
+        ],
+        atkAnim: 'attack02',
+        prepareEffect: '',
+        alignY: false,
+    },
+
+    '100503': {
+        id: '100503',
+        type: 2,
+        radius: 0,
+        bullets: [
+            {
+                spinePath: '',
+                hitEffect: '',
+                offset: { x: 0, y: 0 },
+                effects: [],
+                buffs: ['10050301'],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 5 }],
+                trigger: { type: 'instant' },
+                mustHit: true,
+            }
+        ],
+        atkAnim: '',
+        prepareEffect: '',
+    },
 }

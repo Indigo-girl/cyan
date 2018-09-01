@@ -10,11 +10,11 @@ class DurationBuff extends BaseBuff{
 
     update(){
         this._elapse++;
-        if(this._elapse >= this.duration){
-            this.onExit();
-            return;
-        }   
         super.update();
+    }
+
+    checkRm(){
+        return this._elapse >= this.duration
     }
 }
 

@@ -29,7 +29,9 @@ class PropScaleEffect extends BaseEffect {
 
     undoEffect(target) {
         const roleContext = target.logicEntity.getContext();
+        const oldValue = roleContext.getRealProp(this.proId);
         roleContext.rmCalculator(this.cal);
+        Log.log(`PropScaleEffect失效,属性${this.proId}:${oldValue}=>${roleContext.getRealProp(this.proId)}`);
     }
 
 }
