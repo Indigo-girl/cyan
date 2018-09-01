@@ -1,4 +1,4 @@
-import ContextConst from '../context/ContextConst';
+import ContextConst from '../const/ContextConst';
 
 const PRO_ID = ContextConst.PRO_ID;
 
