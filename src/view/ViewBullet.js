@@ -147,6 +147,8 @@ class ViewBullet{
                         role.setEnergy(role.getEnergy() + 300);
                         Log.log(`${role.id}造成目标死亡，怒气加300，当前为:${role.getEnergy()}`);
                     }
+                }else{
+                    this.showMsg(target, 'Miss', cc.color(0, 255, 0, 255));
                 }
             }
             // 每个子弹可以爆炸一次，爆炸后消失
@@ -237,6 +239,22 @@ class ViewBullet{
             skeleton.setCompleteListener(() => node.destroy());
             skeleton.setAnimation(0, 'effect', false);
         });
+    }
+
+    showMsg(target, msg, color) {
+        const node = new cc.Node();
+        const label = node.addComponent(cc.Label);
+        const outline = node.addComponent(cc.LabelOutline);
+        outline.color = color;
+        outline.width = 1;
+        label.fontSize = 50;
+        label.lineHeight = 70;
+        node.color = color;
+        label.string = msg;
+        node.parent = target.view.parent;
+        node.zIndex = 10000;
+        node.position = cc.v2(target.view.x, target.view.y + 120);
+        node.runAction(cc.sequence(cc.moveBy(1, cc.v2(0, 100)).easing(cc.easeExponentialIn(0.2)), cc.fadeOut(0.3), cc.removeSelf()));
     }
 
     destroy(){

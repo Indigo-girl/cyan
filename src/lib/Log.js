@@ -3,7 +3,7 @@ function log(...args){
 }
 
 function warn(...args){
-    console.warn(...args);
+    // console.warn(...args);
 }
 
 export default {
