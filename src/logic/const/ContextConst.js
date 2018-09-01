@@ -33,7 +33,7 @@ const CONTEXT_CONST = {
             case this.PRO_ID.ENERGY:
                 return this.PRO_ID.MAX_ENERGY;
         }
-        console.warn(`没有找到${proId}对应的maxProId`);
+        Log.warn(`没有找到${proId}对应的maxProId`);
     },
 
     isCostMaxPro(proId){

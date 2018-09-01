@@ -7,6 +7,7 @@ import SectorSelector from '../view/selector/SectorSelector';
 import CircleSelector from '../view/selector/CircleSelector';
 import RectSelector from '../view/selector/RectSelector';
 import ComplexSelector from '../view/selector/ComplexSelector';
+import Log from '../lib/Log';
 
 class SelectorParser{
 
@@ -29,7 +30,7 @@ class SelectorParser{
             case 'rect':
                 return new RectSelector(selectorConfig.width, selectorConfig.height);
             default:
-                console.warn('未知的selector类型：', selectorConfig);
+                Log.warn('未知的selector类型：', selectorConfig);
         }
     }
 

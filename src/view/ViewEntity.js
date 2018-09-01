@@ -33,7 +33,7 @@ class ViewEntity{
         this.spineNode = node;
         cc.loader.loadRes(modelInfo.spinePath, sp.SkeletonData, (err, res) => {
             if(err){
-                console.warn(err);
+                Log.warn(err);
                 return;
             }
             const skeleton = node.addComponent(sp.Skeleton);
@@ -266,7 +266,7 @@ class ViewEntity{
 
     showHitEffect(effectPath){
         if(!effectPath || effectPath === ''){
-            console.warn('非法的受击特效：', effectPath);
+            Log.warn('非法的受击特效：', effectPath);
             return;
         }
         //  受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
@@ -275,7 +275,7 @@ class ViewEntity{
         node.position = this.hitPoint;
         cc.loader.loadRes(effectPath, sp.SkeletonData, (err, res) => {
             if (err) {
-                console.warn(effectPath, err);
+                Log.warn(effectPath, err);
                 return;
             }
             const skeleton = node.addComponent(sp.Skeleton);

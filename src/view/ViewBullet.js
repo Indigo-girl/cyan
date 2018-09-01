@@ -2,6 +2,7 @@ import pubfunc from '../logic/utils/pubfunc';
 import FollowTrace from '../view/trace/FollowTrace';
 import AtkUtils from './AtkUtils';
 import Log from '../lib/Log';
+import BlinkTrace from './trace/BlinkTrace';
 
 let _id = 0;
 
@@ -19,6 +20,8 @@ class ViewBullet{
         this.traceConf = info.trace;
         this.spinePath = info.spinePath;
         this.hitEffect = info.hitEffect;
+        this.explodeEffectPath = info.explodeEffectPath;
+        this.groundEffectPath = info.groundEffectPath;
         this.explodeEffects = info.explodeEffects || [];
         this.explodeSelector = info.explodeSelector;
         // 必定命中
@@ -48,7 +51,7 @@ class ViewBullet{
         }else{
             cc.loader.loadRes(this.spinePath, sp.SkeletonData, (err, res) => {
                 if (err) {
-                    console.warn(this.spinePath, err);
+                    Log.warn(this.spinePath, err);
                     return;
                 }
                 if(!cc.isValid(this.view)){
@@ -64,12 +67,18 @@ class ViewBullet{
             });
         }
         // 创建trace
-        const traceConf = this.traceConf
-        if(traceConf){
+        const traceConf = this.traceConf;
+        const target = this.getFirstTarget();
+        if(traceConf && target){
             switch(traceConf.type){
                 case 'follow':
                     const head = traceConf.initHead;
-                    this.trace = new FollowTrace(this, this.getFirstTarget(), cc.v2(head.x, head.y), traceConf.speed);
+                    this.trace = new FollowTrace(this, target, cc.v2(head.x, head.y), traceConf.speed);
+                    break;
+                case 'blink':
+                    // 这里子弹前往的是人物的pos而不是hitPos
+                    this.trace = new BlinkTrace(this, target.getPosition());
+                    break;
             }
         }
     }
@@ -182,6 +191,8 @@ class ViewBullet{
     }
 
     explode(){
+        this.showEffect(this.explodeEffectPath, this.getPosition(), this.view.zIndex);
+        this.showEffect(this.groundEffectPath, this.getPosition(), 0);
         this.offset = cc.v2(0, 0);
         if(!this.explodeSelector){
             return;
@@ -200,6 +211,31 @@ class ViewBullet{
         for(const target of explodeTargets){
             target.doEffects(this.explodeEffects);
         }
+    }
+
+    showEffect(effectPath, pos, zIndex) {
+        if (!effectPath || effectPath === '') {
+            Log.warn('无效的子弹特效：', effectPath);
+            return;
+        }
+        //  受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
+        const node = new cc.Node('effect');
+        node.parent = this.view.parent;
+        node.zIndex = zIndex;
+        node.position = pos;
+        cc.loader.loadRes(effectPath, sp.SkeletonData, (err, res) => {
+            if (err) {
+                Log.warn(effectPath, err);
+                return;
+            }
+            const skeleton = node.addComponent(sp.Skeleton);
+            skeleton.skeletonData = res;
+            skeleton.loop = false;
+            skeleton.setToSetupPose();
+            skeleton.premultipliedAlpha = false;
+            skeleton.setCompleteListener(() => node.destroy());
+            skeleton.setAnimation(0, 'effect', false);
+        });
     }
 
     destroy(){

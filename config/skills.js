@@ -100,6 +100,8 @@ export default {
             {
                 spinePath: '',
                 hitEffect: '',
+                explodeEffectPath: '', 
+                groundEffectPath: 'bullet/CYJ/hit_blsf',
                 offset: { x: 0, y: 0 },
                 effects: [{ type: 'hurt', value: 300}],
                 buffs: ['10020201'],

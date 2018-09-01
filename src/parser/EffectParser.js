@@ -5,6 +5,7 @@ import ExtraHpEffect from '../view/effect/ExtraHpEffect';
 import HurtEffect from '../view/effect/HurtEffect';
 import PropScaleEffect from '../view/effect/PropScaleEffect';
 import PropDirtyEffect from '../view/effect/PropDirtyEffect';
+import Log from '../lib/Log';
 
 class EffectParser {
 
@@ -31,7 +32,7 @@ class EffectParser {
             case 'extraHp':
                 return this._parseExtraHpEffect(effectConfig, atker);
             default:
-                console.warn('未知的effect类型:', effectConfig);
+                Log.warn('未知的effect类型:', effectConfig);
         }
     }
 
