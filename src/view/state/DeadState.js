@@ -1,4 +1,5 @@
 import BaseState from './BaseState';
+import pubfunc from '../../logic/utils/pubfunc';
 
 class DeadState extends BaseState {
 
@@ -12,10 +13,12 @@ class DeadState extends BaseState {
         sm.viewEntity.view.runAction(cc.sequence(cc.fadeOut(2), cc.callFunc(()=>{
             sm.viewEntity.onDead();
         })));
+        pubfunc.getWorld().handleEvent({type: 'enterDead', detail: sm.viewEntity.id});
     }
 
     onExit(sm){
         sm.viewEntity.onResurrect();
+        pubfunc.getWorld().handleEvent({ type: 'exitDead', detail: sm.viewEntity.id });
     }
 
 }

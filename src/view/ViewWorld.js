@@ -11,6 +11,7 @@ cc.Class({
     properties: {},
 
     ctor(){
+        this._deadEntities = {};
         this._entities = {};
         this._entityList = [];
         this._bullets = [];
@@ -153,7 +154,17 @@ cc.Class({
     },
 
     _handleWorldEvent(event){
-        // TODO 通知世界
+        // 通知世界
+        switch(event.type){
+            case 'enterDead':
+                this._deadEntities[event.detail] = this._entities[event.detail];
+                this.removeEntity(event.detail);
+                break;
+            case 'exitDead':
+                this.addEntity(this._deadEntities[event.detail]);
+                delete this._deadEntities[event.detail];
+                break;
+        }
     }
 
 });

@@ -15,6 +15,7 @@ class ViewEntity{
         // 初始化状态机
         this._initState = stateConfig.initState || 'idle';
         this.sm = new StateMachine(this, stateConfig);
+        this.modelInfo = modelInfo;
         this._initView(modelInfo);
         this.moveComp = new MoveComponent(this);
         this.skillComp = new SkillComponent(this);
@@ -233,21 +234,13 @@ class ViewEntity{
 
     onDead(){
         this.view.active = false;
+        this.deadPos = this.view.position;
+        this.view.destroy();
     }
 
     onResurrect(){
-        this.view.active = true;
-        this.view.opacity = 255;
-        this.resumeAnim();
-    }
-
-    /**
-     * 从世界中移除，并且销毁显示节点
-     * @memberof ViewEntity
-     */
-    destroy(){
-        pubfunc.getWorld().removeEntity(this.id);
-        this.view.destroy();
+        this._initView(this.modelInfo);
+        this.view.position = this.deadPos;
     }
 
     getSize(){
