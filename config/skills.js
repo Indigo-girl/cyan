@@ -27,7 +27,7 @@ export default {
         radius: 1000,
         bullets: [
             {
-                spinePath: 'bullet/10002/10002',
+                spinePath: 'bullet/ZGL/bullet_dfpx',
                 hitEffect: 'bullet/ZGL/hit_yqd',
                 offset: { x: 0, y: 100 },
                 // effects: [{ type: 'hurt', value: 600, prosInfo: [{ targetType: 0, proId: 5, scale: 0.5 }], scaleInfo: [{ targetType: 1, proId: 10001, scale: 20 }] }],
@@ -107,6 +107,7 @@ export default {
                 buffs: ['10020201'],
                 selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false}, {type: 'circle', radius: 200}],
                 trigger: { type: 'instant'},
+                mustHit: true,
             }
         ],
         atkAnim: 'attack02',
@@ -173,8 +174,9 @@ export default {
                 offset: { x: 200, y: -10 },
                 effects: [{ type: 'hurt', value: 600, scaleInfo: [{ targetType: 1, proId: 10001, scale: 10 }]}],
                 buffs: [],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'rect', width: 780, height: 200}],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'rect', width: 1000, height: 500}],
                 trigger: { type: 'horizon', length: 1000, speed: 30, isBulletMove: false },
+                mustHit: true,
             }
         ],
         atkAnim: 'attack02',
