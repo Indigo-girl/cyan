@@ -19,31 +19,12 @@ cc.Class({
         this.randFunc = pubfunc.getRandomFunc(Date.now());
     },
 
-    onLoad(){
-        this._featureSkill();
-    },
-
-    _featureSkill(){
-        let hero = this.addHero();
-        hero.setPosition(cc.v2(-500, -300));
-        let entity1 = this.addEnemy();
-        entity1.setPosition(cc.v2(0, 0));
-    },
-
-    addHero(){
-        let entity = this.addConfigEnetity('1001', ContextConst.CAMP.PLAYER);
-        entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50),
-            this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
-        return entity;
-    },
-
-    addEnemy(){
-        let entity = this.addConfigEnetity('1000', ContextConst.CAMP.MONSTER);
-        entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50), 
-            this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
-        return entity;
-    },
-
+    /**
+     * 对外接口，用于向世界添加指定配置的的实体
+     * @param {string} configId
+     * @param {ContextConst.CAMP} camp
+     * @returns
+     */
     addConfigEnetity(configId, camp){
         const config = heros[configId];
         const entity = RoleParser.parse(config, {camp: camp, level: 5});
