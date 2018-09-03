@@ -11,6 +11,7 @@ cc.Class({
     properties: {},
 
     ctor(){
+        this.pause = true;
         this._deadEntities = {};
         this._entities = {};
         this._entityList = [];
@@ -33,6 +34,10 @@ cc.Class({
     },
 
     update(){
+        // 增加pause标识
+        if(this.pause){
+            return;
+        }
         for(const e of this._bullets){
             e.update();
         }
