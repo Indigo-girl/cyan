@@ -81,6 +81,13 @@ class ViewBullet{
                     break;
             }
         }
+        // TODO 目前所有的弹道都是跟随目标的，所以可以这样判定，
+        // 之后弹道需要拆分类型，仅追踪型需要此操作
+        if(traceConf && !target){
+            this.handleEvent({
+                type: 'targetNotFound'
+            });
+        }
     }
 
     handleEvent(event){
