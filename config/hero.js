@@ -48,7 +48,7 @@ export default {
         skills: ['100101', '100101', '100102'],
         energySkill: '100103',
         passiveSkills: [],
-        stateTrans: 'default',
+        stateTrans: 'demo',
         hitPoint: {x: 0, y: 70}
     },
 
@@ -74,7 +74,7 @@ export default {
         skills: ['100201'],
         energySkill: '100202',
         passiveSkills: ['100203'],
-        stateTrans: 'default',
+        stateTrans: 'demo',
         hitPoint: { x: -50, y: 70 }
     },
 
@@ -100,7 +100,7 @@ export default {
         skills: ['100301'],
         energySkill: '100302',
         passiveSkills: ['100303'],
-        stateTrans: 'default',
+        stateTrans: 'demo',
         hitPoint: { x: -50, y: 70 }
     },
 
@@ -126,7 +126,7 @@ export default {
         skills: ['100401'],
         energySkill: '100402',
         passiveSkills: ['100403'],
-        stateTrans: 'default',
+        stateTrans: 'demo',
         hitPoint: { x: -50, y: 70 }
     },
 
@@ -152,7 +152,7 @@ export default {
         skills: ['100501'],
         energySkill: '100502',
         passiveSkills: ['100503'],
-        stateTrans: 'default',
+        stateTrans: 'demo',
         hitPoint: { x: -50, y: 70 }
     },
 

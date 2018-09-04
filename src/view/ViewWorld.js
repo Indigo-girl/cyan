@@ -11,7 +11,6 @@ cc.Class({
     properties: {},
 
     ctor(){
-        this._pauseFlag = true;
         this._deadEntities = {};
         this._entities = {};
         this._entityList = [];
@@ -26,13 +25,10 @@ cc.Class({
      * @param {ContextConst.CAMP} camp
      * @returns
      */
-    addConfigEnetity(configId, camp, pause){
+    addConfigEnetity(configId, camp){
         const config = heros[configId];
         const entity = RoleParser.parse(config, {camp: camp, level: 5});
         this.addEntity(entity);
-        if(pause){
-            entity.pauseAnim();
-        }
         return entity;
     },
 
@@ -76,6 +72,9 @@ cc.Class({
         this._entities[entity.id] = entity;
         this._entityList.push(entity);
         entity.applyPassiveSkills();
+        if (this._pauseFlag) {
+            entity.pauseAnim();
+        }
     },
 
     getEntityById(id){
