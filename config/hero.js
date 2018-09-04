@@ -23,7 +23,7 @@ export default {
         energySkill: '100302',
         passiveSkills: ['100303'],
         stateTrans: 'target',
-        hitPoint: { x: -50, y: 150 }
+        hitPoint: { x: -50, y: 70 }
     },
 
     '1001': {
@@ -45,11 +45,11 @@ export default {
             TOUGH: 0,
             ATK_SPEED: 1,
         },
-        skills: ['100101', '100102'],
-        energySkill: '100102',
+        skills: ['100101', '100101', '100102'],
+        energySkill: '100103',
         passiveSkills: [],
         stateTrans: 'default',
-        hitPoint: {x: 0, y: 150}
+        hitPoint: {x: 0, y: 70}
     },
 
     '1002': {
@@ -71,11 +71,11 @@ export default {
             TOUGH: 0,
             ATK_SPEED: 1,
         },
-        skills: ['100202'],
+        skills: ['100201'],
         energySkill: '100202',
         passiveSkills: ['100203'],
         stateTrans: 'default',
-        hitPoint: { x: -50, y: 150 }
+        hitPoint: { x: -50, y: 70 }
     },
 
     '1003': {
@@ -97,11 +97,11 @@ export default {
             TOUGH: 0,
             ATK_SPEED: 1,
         },
-        skills: ['100302'],
+        skills: ['100301'],
         energySkill: '100302',
         passiveSkills: ['100303'],
         stateTrans: 'default',
-        hitPoint: { x: -50, y: 150 }
+        hitPoint: { x: -50, y: 70 }
     },
 
     '1004': {
@@ -123,11 +123,11 @@ export default {
             TOUGH: 0,
             ATK_SPEED: 1,
         },
-        skills: ['100402'],
+        skills: ['100401'],
         energySkill: '100402',
         passiveSkills: ['100403'],
         stateTrans: 'default',
-        hitPoint: { x: -50, y: 150 }
+        hitPoint: { x: -50, y: 70 }
     },
 
     '1005': {
@@ -149,11 +149,11 @@ export default {
             TOUGH: 0,
             ATK_SPEED: 1,
         },
-        skills: ['100502'],
+        skills: ['100501'],
         energySkill: '100502',
         passiveSkills: ['100503'],
         stateTrans: 'default',
-        hitPoint: { x: -50, y: 150 }
+        hitPoint: { x: -50, y: 70 }
     },
 
 };
