@@ -73,7 +73,7 @@ class ViewBullet{
             switch(traceConf.type){
                 case 'follow':
                     const head = traceConf.initHead;
-                    this.trace = new FollowTrace(this, target, cc.v2(head.x, head.y), traceConf.speed);
+                    this.trace = new FollowTrace(this, target, cc.v2(head.x, head.y), traceConf.speed, traceConf.useRolePos);
                     break;
                 case 'blink':
                     // 这里子弹前往的是人物的pos而不是hitPos

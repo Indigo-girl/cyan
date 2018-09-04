@@ -235,10 +235,11 @@ class ViewEntity{
     onDead(){
         this.view.active = false;
         this.deadPos = this.view.position;
-        this.view.destroy();
+        this.spineNode.destroy();
     }
 
     onResurrect(){
+        this.view.destroy();
         this._initView(this.modelInfo);
         this.view.position = this.deadPos;
     }
