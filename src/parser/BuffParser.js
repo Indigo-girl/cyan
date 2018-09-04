@@ -2,6 +2,7 @@ import BaseBuff from '../view/buff/BaseBuff';
 import DurationBuff from '../view/buff/DurationBuff';
 import EffectParser from './EffectParser';
 import TriggerParser from './TriggerParser';
+import Log from '../lib/Log';
 
 class BuffParser{
 
@@ -25,7 +26,7 @@ class BuffParser{
                 buff = new DurationBuff(owner, effects, trigger, info);
                 break;
             default:
-                console.warn(`未知的buff类型:${buffConfig.type}`);
+                Log.warn(`未知的buff类型:${buffConfig.type}`);
         }
         if(buff){
             buff.configId = buffConfig.id;

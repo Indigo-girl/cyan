@@ -1,6 +1,7 @@
 import SkillParser from '../parser/SkillParser';
 import skills from '../../config/skills';
-import ContextConst from '../logic/const/ContextConst';
+import Log from '../lib/Log';
+import CONTEXT_CONST from '../logic/const/ContextConst';
 
 /**
  * 技能组件
@@ -15,9 +16,12 @@ class SkillComponent{
      */
     constructor(owner){
         this.owner = owner;
+        this.passiveSkillIds = [];
+        this.normalSkillIds = [];
     }
 
     setNormalSkills(skillIds, index){
+        skillIds = skillIds || [];
         this.normalSkillIds = skillIds.slice();
         this.normalIndex = index || 0;
     }
@@ -55,9 +59,32 @@ class SkillComponent{
 
     applyPassiveSkills(){
         for(const id of this.passiveSkillIds){
+            Log.log(`${this.owner.id}使用被动技能${id}`);
             const skill = this.getSkillById(id);
             skill.fireBullets();
         }
+    }
+
+    isSkillType(id, type){
+        switch (type) {
+            case CONTEXT_CONST.SKILL_TYPE.NORMAL:
+                if (this.normalSkillIds.find((e) => e === id)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            case CONTEXT_CONST.SKILL_TYPE.ENERGY:
+                return id === this.energySkill;
+            case CONTEXT_CONST.SKILL_TYPE.PASSIVE:
+                if (this.passiveSkillIds.find((e) => e === id)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            default:
+                break;
+        }
+        return false;
     }
 
 }

@@ -10,11 +10,12 @@ class FollowTrace extends BaseTrace{
      * @param {number} speed
      * @memberof FollowTrace
      */
-    constructor(bullet, target, initHead, speed){
+    constructor(bullet, target, initHead, speed, useRolePos){
         super(bullet);
         this.target = target;
         this.speed = speed;
         this.setHead(initHead);
+        this.useRolePos = !!useRolePos;
     }
 
     setHead(head){
@@ -29,6 +30,9 @@ class FollowTrace extends BaseTrace{
     checkReach(){
         let pos = this.owner.getPosition();
         let targetPos = this.target.getHitPosition();
+        if (this.useRolePos) {
+            targetPos = this.target.getPosition();
+        }
         return targetPos.sub(pos).mag() < this.speed / 2;
     }
 
@@ -56,6 +60,9 @@ class FollowTrace extends BaseTrace{
         let destV = this.getHead().mul(this.speed);
         const selfPos = this.owner.getPosition();
         let targetPos = this.target.getHitPosition();
+        if(this.useRolePos){
+            targetPos = this.target.getPosition();
+        }
         let dist = targetPos.sub(selfPos);
         const force = this.seek(targetPos);
         destV = destV.add(force);

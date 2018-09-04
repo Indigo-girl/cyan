@@ -1,3 +1,5 @@
+import Log from "../../lib/Log";
+
 class BaseSkill{
 
     constructor(owner, bullets, radius, info){
@@ -22,7 +24,7 @@ class BaseSkill{
 
     showPrepareEffect(){
         if (!this.prepareEffect || this.prepareEffect === ''){
-            console.warn('非法的受击特效：', this.prepareEffect);
+            Log.warn('非法的受击特效：', this.prepareEffect);
             return;
         }
         // 受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
@@ -31,7 +33,7 @@ class BaseSkill{
         node.position = this.preparePoint || cc.v2(0, 0);
         cc.loader.loadRes(this.prepareEffect, sp.SkeletonData, (err, res) => {
             if (err) {
-                console.warn(effectPath, err);
+                Log.warn(effectPath, err);
                 return;
             }
             const skeleton = node.addComponent(sp.Skeleton);

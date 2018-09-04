@@ -39,7 +39,9 @@ class BulletParser{
             trace: bulletConfig.trace,
             mustHit: bulletConfig.mustHit,
             explodeSelector: explodeSelector,
-            explodeEffects: explodeEffects
+            explodeEffects: explodeEffects,
+            explodeEffectPath: bulletConfig.explodeEffectPath,
+            groundEffectPath: bulletConfig.groundEffectPath,
         });
         return bullet;
     }

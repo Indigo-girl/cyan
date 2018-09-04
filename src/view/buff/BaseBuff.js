@@ -32,26 +32,28 @@ class BaseBuff{
     onEnter(target){
         this.target = target;
         this.tryTrigger();
-        Log.log(`buff:${this.id}  onEnter`);
+        Log.log(`buff:${this.configId}-${this.id}  onEnter`);
     }
 
     onExit(){
         this.target.rmBuff(this);
         if(this.enableUndo){
-            this.target.undoEffects(this.effects);
+            for(let i = 0; i < this.triggerCount; i++){
+                this.target.undoEffects(this.effects);
+            }
         }
-        Log.log(`buff:${this.id}   onExit`);
+        Log.log(`buff:${this.configId}-${this.id}   onExit`);
     }
 
     tryTrigger(){
+        // 超过最大触发次数就移除此buff
+        if (this.triggerCount >= this.maxTriggerCount) {
+            return;
+        }
         if (this.trigger.trigger(this.caster, [this.target], pubfunc.getWorld())) {
             this.target.doEffects(this.effects);
             this.triggerCount++;
             this.trigger.clear();
-            // 超过最大触发次数就移除此buff
-            if (this.maxTriggerCount <= this.triggerCount) {
-                this.onExit();
-            }
         }
     }
 
@@ -59,6 +61,9 @@ class BaseBuff{
         // 计时器在这里生效，时间单位为帧
         this.trigger.update();
         this.tryTrigger();
+        if(this.checkRm()){
+            this.onExit();
+        }
     }
 
     /**
@@ -68,9 +73,19 @@ class BaseBuff{
      * @returns {bool} -是否允许event继续传递
      */
     handleEvent(event){
+        Log.log(`${this.configId}接收到事件${event.type}`);
         this.trigger.handleEvent(event);
         this.tryTrigger();
         return true;
+    }
+
+    /**
+     * 检查是否应该被移除
+     * @returns
+     * @memberof BaseBuff
+     */
+    checkRm(){
+        return this.triggerCount >= this.maxTriggerCount;
     }
 }
 

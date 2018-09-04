@@ -15,6 +15,7 @@ class ViewEntity{
         // 初始化状态机
         this._initState = stateConfig.initState || 'idle';
         this.sm = new StateMachine(this, stateConfig);
+        this.modelInfo = modelInfo;
         this._initView(modelInfo);
         this.moveComp = new MoveComponent(this);
         this.skillComp = new SkillComponent(this);
@@ -33,7 +34,7 @@ class ViewEntity{
         this.spineNode = node;
         cc.loader.loadRes(modelInfo.spinePath, sp.SkeletonData, (err, res) => {
             if(err){
-                console.warn(err);
+                Log.warn(err);
                 return;
             }
             const skeleton = node.addComponent(sp.Skeleton);
@@ -162,14 +163,14 @@ class ViewEntity{
         this._curSkill.fireBullets();
         Log.log(`${this.id}释放技能${this._curSkill.configId}`);
         // 释放链式技能时，获得100点基础怒气
-        if(this._curSkill.type === 0){
+        if (this.skillComp.isSkillType(this._curSkill.configId, ContextConst.SKILL_TYPE.NORMAL)){
+            this.handleEvent({type: 'castNormalSkill'});
             this.logicEntity.setEnergy(this.logicEntity.getEnergy() + 100);
             Log.log(`${this.id}释放链式技能，怒气加100，当前为:${this.logicEntity.getEnergy()}`);
         }
     }
 
     applyPassiveSkills(){
-        Log.log(`${this.id}使用被动技能========`);
         this.skillComp.applyPassiveSkills();
     }
 
@@ -233,21 +234,14 @@ class ViewEntity{
 
     onDead(){
         this.view.active = false;
+        this.deadPos = this.view.position;
+        this.spineNode.destroy();
     }
 
     onResurrect(){
-        this.view.active = true;
-        this.view.opacity = 255;
-        this.resumeAnim();
-    }
-
-    /**
-     * 从世界中移除，并且销毁显示节点
-     * @memberof ViewEntity
-     */
-    destroy(){
-        pubfunc.getWorld().removeEntity(this.id);
         this.view.destroy();
+        this._initView(this.modelInfo);
+        this.view.position = this.deadPos;
     }
 
     getSize(){
@@ -266,7 +260,7 @@ class ViewEntity{
 
     showHitEffect(effectPath){
         if(!effectPath || effectPath === ''){
-            console.warn('非法的受击特效：', effectPath);
+            Log.warn('非法的受击特效：', effectPath);
             return;
         }
         //  受击特效的位置应该在每个英雄的受击点，每个模型都需要配置受击点
@@ -275,7 +269,7 @@ class ViewEntity{
         node.position = this.hitPoint;
         cc.loader.loadRes(effectPath, sp.SkeletonData, (err, res) => {
             if (err) {
-                console.warn(effectPath, err);
+                Log.warn(effectPath, err);
                 return;
             }
             const skeleton = node.addComponent(sp.Skeleton);

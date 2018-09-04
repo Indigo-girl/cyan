@@ -11,6 +11,8 @@ cc.Class({
     properties: {},
 
     ctor(){
+        this.pause = true;
+        this._deadEntities = {};
         this._entities = {};
         this._entityList = [];
         this._bullets = [];
@@ -18,31 +20,12 @@ cc.Class({
         this.randFunc = pubfunc.getRandomFunc(Date.now());
     },
 
-    onLoad(){
-        this._featureSkill();
-    },
-
-    _featureSkill(){
-        let hero = this.addHero();
-        hero.setPosition(cc.v2(-500, -300));
-        let entity1 = this.addEnemy();
-        entity1.setPosition(cc.v2(0, 0));
-    },
-
-    addHero(){
-        let entity = this.addConfigEnetity('1001', ContextConst.CAMP.PLAYER);
-        entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50),
-            this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
-        return entity;
-    },
-
-    addEnemy(){
-        let entity = this.addConfigEnetity('1000', ContextConst.CAMP.MONSTER);
-        entity.setPosition(cc.v2(this.randFunc(-this.node.width / 2 + 50, this.node.width / 2 - 50), 
-            this.randFunc(-this.node.height / 2 + 50, this.node.height / 2 - 50)));
-        return entity;
-    },
-
+    /**
+     * 对外接口，用于向世界添加指定配置的的实体
+     * @param {string} configId
+     * @param {ContextConst.CAMP} camp
+     * @returns
+     */
     addConfigEnetity(configId, camp){
         const config = heros[configId];
         const entity = RoleParser.parse(config, {camp: camp, level: 5});
@@ -51,6 +34,10 @@ cc.Class({
     },
 
     update(){
+        // 增加pause标识
+        if(this.pause){
+            return;
+        }
         for(const e of this._bullets){
             e.update();
         }
@@ -81,7 +68,7 @@ cc.Class({
     getAllStayEntity(){
         let entities = this.getAllEntity();
         entities = entities.filter((e) => {
-            const name = e.sm.getCurState().name
+            const name = e.sm.getCurState() && e.sm.getCurState().name
             return name!=='dead' && name!=='walk';
         });
         return entities;
@@ -153,7 +140,17 @@ cc.Class({
     },
 
     _handleWorldEvent(event){
-        // TODO 通知世界
+        // 通知世界
+        switch(event.type){
+            case 'enterDead':
+                this._deadEntities[event.detail] = this._entities[event.detail];
+                this.removeEntity(event.detail);
+                break;
+            case 'exitDead':
+                this.addEntity(this._deadEntities[event.detail]);
+                delete this._deadEntities[event.detail];
+                break;
+        }
     }
 
 });
