@@ -48,6 +48,7 @@ class ViewEntity{
                 this.handleEvent({type: event.data.name});
             });
             skeleton.setSkin(modelInfo.skin);
+            skeleton.paused = !!this._paused;
             this.sm.changeState(this._initState);
         });
     }
@@ -69,11 +70,23 @@ class ViewEntity{
     }
     
     pauseAnim() {
-        this.spineNode.getComponent(sp.Skeleton).paused = true;
+        this._paused = true;
+        if(cc.isValid(this.spineNode)){
+            const skeleton = this.spineNode.getComponent(sp.Skeleton);
+            if(skeleton){
+                skeleton.paused = true;
+            }
+        }
     }
 
     resumeAnim() {
-        this.spineNode.getComponent(sp.Skeleton).paused = false;
+        this._paused = false;
+        if(cc.isValid(this.spineNode)){
+            const skeleton = this.spineNode.getComponent(sp.Skeleton);
+            if (skeleton) {
+                skeleton.paused = false;
+            }
+        }
     }
 
     // vec2.x>0为x轴方向

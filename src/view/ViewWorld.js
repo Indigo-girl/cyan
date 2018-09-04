@@ -11,7 +11,7 @@ cc.Class({
     properties: {},
 
     ctor(){
-        this.pause = true;
+        this._pauseFlag = true;
         this._deadEntities = {};
         this._entities = {};
         this._entityList = [];
@@ -26,16 +26,19 @@ cc.Class({
      * @param {ContextConst.CAMP} camp
      * @returns
      */
-    addConfigEnetity(configId, camp){
+    addConfigEnetity(configId, camp, pause){
         const config = heros[configId];
         const entity = RoleParser.parse(config, {camp: camp, level: 5});
         this.addEntity(entity);
+        if(pause){
+            entity.pauseAnim();
+        }
         return entity;
     },
 
     update(){
         // 增加pause标识
-        if(this.pause){
+        if(this._pauseFlag){
             return;
         }
         for(const e of this._bullets){
@@ -43,6 +46,28 @@ cc.Class({
         }
         for(const e of this._entityList){
             e.update();
+        }
+    },
+
+    pause(){
+        this._pauseFlag = true;
+        const entities = this.getAllEntity();
+        for(const entity of entities){
+            entity.pauseAnim();
+        }
+        for(const bullet of this._bullets){
+            bullet.pauseAnim();
+        }
+    },
+
+    resume(){
+        this._pauseFlag = false;
+        const entities = this.getAllEntity();
+        for (const entity of entities) {
+            entity.resumeAnim();
+        }
+        for (const bullet of this._bullets) {
+            bullet.resumeAnim();
         }
     },
 

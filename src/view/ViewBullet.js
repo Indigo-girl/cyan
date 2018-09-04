@@ -64,6 +64,7 @@ class ViewBullet{
                 skeleton.premultipliedAlpha = false;
                 skeleton.setCompleteListener(() => this.handleEvent({ type: 'animCompleted' }));
                 skeleton.setAnimation(0, 'effect', true);
+                skeleton.paused = !!this._paused;
             });
         }
         // 创建trace
@@ -122,6 +123,22 @@ class ViewBullet{
             if(this.trace){
                 this.trace.update();
             }
+        }
+    }
+
+    pauseAnim() {
+        this._paused = true;
+        const skeleton = this.view.getComponent(sp.Skeleton)
+        if (skeleton) {
+            skeleton.paused = true;
+        }
+    }
+
+    resumeAnim() {
+        this._paused = false;
+        const skeleton = this.view.getComponent(sp.Skeleton)
+        if (skeleton) {
+            skeleton.paused = false;
         }
     }
 
