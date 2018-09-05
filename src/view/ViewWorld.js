@@ -130,18 +130,17 @@ cc.Class({
     },
 
     handleEvent(event, targetId){
-        // TODO 处理事件，事件的来源可能是表现层实体或者逻辑层
         if(!targetId || targetId < 0){
             this._handleWorldEvent(event);
             return;
         }
-        const entities = this._getEntitiesById(targetId);
+        const entities = this.getEntitiesById(targetId);
         for(const e of entities){
             e.handleEvent(event);
         }
     },
 
-    _getEntitiesById(id){
+    getEntitiesById(id){
         let entities = [];
         switch(id){
         case CommonConst.ALL_ENTITY_CHANNEL:
