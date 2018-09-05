@@ -37,8 +37,11 @@ class StateMachine{
         this.getCurState().handleEvent(event, this);
         // 状态机关注状态的转换
         const config = this._stateConfig;
-        const targetStateName = config[this.getCurState().name][event.type];
-        console.log('sm handle event:', this.getCurState().name, event.type, targetStateName);
+        const curStateName = this.getCurState().name;
+        let targetStateName = config[curStateName] && config[curStateName][event.type];
+        if (!targetStateName && config['common']){
+            targetStateName = config['common'][event.type];
+        }
         if(targetStateName){
             if(targetStateName === 'last'){
                 this.changeState(this._lastState);

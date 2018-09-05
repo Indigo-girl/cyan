@@ -41,6 +41,9 @@ export default {
         'initState': 'idle'
     },
     demo: {
+        'common': {
+            'battleEnd': 'settle',
+        },
         'search': {
             'dead': 'dead',
             'moveToPos': 'walk',
