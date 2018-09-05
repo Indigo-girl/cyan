@@ -1,4 +1,4 @@
-import pubfunc from '../../logic/utils/pubfunc';
+import WorldUtils from '../../logic/utils/WorldUtils';
 import Log from '../../lib/Log';
 
 let _id = 0;
@@ -50,7 +50,7 @@ class BaseBuff{
         if (this.triggerCount >= this.maxTriggerCount) {
             return;
         }
-        if (this.trigger.trigger(this.caster, [this.target], pubfunc.getWorld())) {
+        if (this.trigger.trigger(this.caster, [this.target], WorldUtils.getWorld())) {
             this.target.doEffects(this.effects);
             this.triggerCount++;
             this.trigger.clear();

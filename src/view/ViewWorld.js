@@ -1,8 +1,8 @@
 import CommonConst from '../logic/const/CommonConst';
-import pubfunc from '../logic/utils/pubfunc';
 import ContextConst from '../logic/const/ContextConst';
 import RoleParser from '../parser/RoleParser';
 import heros from '../../config/hero';
+import WorldUtils from '../logic/utils/WorldUtils';
 
 // ViewWorld需要绑定在对应的战场节点上
 cc.Class({
@@ -15,8 +15,8 @@ cc.Class({
         this._entities = {};
         this._entityList = [];
         this._bullets = [];
-        pubfunc.setWorld(this);
-        this.randFunc = pubfunc.getRandomFunc(Date.now());
+        WorldUtils.setWorld(this);
+        this.randFunc = WorldUtils.getRandomFunc(Date.now());
     },
 
     /**

@@ -1,4 +1,4 @@
-import pubfunc from '../logic/utils/pubfunc';
+import WorldUtils from '../logic/utils/WorldUtils';
 
 const edgeLen = 50;
 
@@ -15,7 +15,7 @@ function  getAtkPosAlignY(atk, def, radius){
 }
 
 function checkCollision(atk, def, pos){
-    let entities = pubfunc.getWorld().getAllStayEntity();
+    let entities = WorldUtils.getWorld().getAllStayEntity();
     for(const entity of entities){
         if(entity !== atk && entity !== def){
             if (entity.getPosition().sub(pos).mag() < edgeLen){

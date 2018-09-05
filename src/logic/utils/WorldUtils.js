@@ -38,11 +38,9 @@ function getWorld() {
     return _world;
 }
 
-var pubfunc = {
+export default {
     shuffle: shuffle,
     getRandomFunc: getRandomFunc,
     setWorld: setWorld,
     getWorld: getWorld,
 };
-
-export default pubfunc;

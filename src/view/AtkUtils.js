@@ -1,5 +1,5 @@
 import ContextConst from '../logic/const/ContextConst';
-import pubfunc from '../logic/utils/pubfunc';
+import WorldUtils from '../logic/utils/WorldUtils';
 import Log from '../lib/Log';
 
 /**
@@ -53,7 +53,7 @@ function getHurtAvoidProb(atker, target){
  * @returns
  */
 function getHurt(skillHurt, atker, target){
-    const randFunc = pubfunc.getWorld().randFunc;
+    const randFunc = WorldUtils.getWorld().randFunc;
     const hurtAvoid = getHurtAvoidProb(atker, target);
     let value = skillHurt * (1 - hurtAvoid);
     let critProb = getCritProb(atker, target);

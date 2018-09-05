@@ -1,5 +1,5 @@
 import BaseState from './BaseState';
-import pubfunc from '../../logic/utils/pubfunc';
+import pubfunc from '../../logic/utils/WorldUtils';
 
 class DeadState extends BaseState {
 

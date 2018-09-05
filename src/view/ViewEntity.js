@@ -1,7 +1,6 @@
 import StateMachine from './state/StateMachine';
 import MoveComponent from './MoveComponent';
 import SkillComponent from './SkillComponent';
-import pubfunc from '../logic/utils/pubfunc';
 import AtkUtils from './AtkUtils';
 import ContextConst from '../logic/const/ContextConst';
 import Log from '../lib/Log';

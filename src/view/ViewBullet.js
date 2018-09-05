@@ -1,4 +1,4 @@
-import pubfunc from '../logic/utils/pubfunc';
+import WorldUtils from '../logic/utils/WorldUtils';
 import FollowTrace from '../view/trace/FollowTrace';
 import AtkUtils from './AtkUtils';
 import Log from '../lib/Log';
@@ -32,7 +32,7 @@ class ViewBullet{
         const node = new cc.Node(this.id);
         this.view = node;
         node.position = this.offset;
-        pubfunc.getWorld().addBullet(this);
+        WorldUtils.getWorld().addBullet(this);
     }
 
     fireDelay(frames){
@@ -44,7 +44,7 @@ class ViewBullet{
 
     fire() {
         this._fired = true;
-        pubfunc.getWorld().fireBullet(this);
+        WorldUtils.getWorld().fireBullet(this);
         this.direct = this.atker.getDirect();
         if(!this.spinePath || this.spinePath === ''){
             Log.log('bullet without spine effect');
@@ -144,7 +144,7 @@ class ViewBullet{
 
     tryTrigger(){
         const targets = this.getTargets();
-        if (this.trigger.trigger(this.atker, targets, pubfunc.getWorld(), this)) {
+        if (this.trigger.trigger(this.atker, targets, WorldUtils.getWorld(), this)) {
             const buffs = this.buffs;
             const effects = this.effects;
             const triggerTargets = this.trigger.getTriggeredTargets();
@@ -153,7 +153,7 @@ class ViewBullet{
                 let hit = this.mustHit;
                 if(!hit){
                     const accProb = AtkUtils.getAccProb(this.atker, target);
-                    const rvalue = pubfunc.getWorld().randFunc();
+                    const rvalue = WorldUtils.getWorld().randFunc();
                     hit = rvalue <= accProb;
                     Log.log(`${this.atker.id}=>${target.id}命中判定:${hit},accProb:${accProb},rvalue:${rvalue}`);
                 }else{
@@ -189,15 +189,15 @@ class ViewBullet{
 
     getFirstTarget(){
         // 需要排除范围选择器
-        return this.selector.getTargets(this.atker, this, pubfunc.getWorld(), true)[0];
+        return this.selector.getTargets(this.atker, this, WorldUtils.getWorld(), true)[0];
     }
 
     getTargets() {
-        return this.selector.getTargets(this.atker, this, pubfunc.getWorld());
+        return this.selector.getTargets(this.atker, this, WorldUtils.getWorld());
     }
 
     checkTarget(target){
-        return this.selector.checkTarget(target, this.atker, this, pubfunc.getWorld());
+        return this.selector.checkTarget(target, this.atker, this, WorldUtils.getWorld());
     }
 
     getPosition(){
@@ -224,7 +224,7 @@ class ViewBullet{
             return;
         }
         let targets = this.getTargets();
-        let explodeTargets = this.explodeSelector.getTargets(this.atker, this, pubfunc.getWorld());
+        let explodeTargets = this.explodeSelector.getTargets(this.atker, this, WorldUtils.getWorld());
         explodeTargets = explodeTargets.filter((e)=>{
             const target = targets.find((target)=>e===target);
             if(target){
@@ -284,7 +284,7 @@ class ViewBullet{
     destroy(){
         this._fired = false;
         this.view.destroy();
-        pubfunc.getWorld().removeBullet(this);
+        WorldUtils.getWorld().removeBullet(this);
     }
 
 }

@@ -28,19 +28,20 @@ class HurtEffect extends BaseEffect{
     }
 
     showEffect(target, hurtValue){
-        const node = new cc.Node();
-        const label = node.addComponent(cc.Label);
-        const outline = node.addComponent(cc.LabelOutline);
-        outline.color = cc.color(255, 0, 0, 255);
-        outline.width = 1;
-        label.fontSize = 50;
-        label.lineHeight = 70;
-        node.color = cc.color(255, 0, 0, 255);
-        label.string = -hurtValue;
-        node.parent = target.view.parent;
-        node.zIndex = 10000;
-        node.position = cc.v2(target.view.x, target.view.y + 120);
-        node.runAction(cc.sequence(cc.moveBy(1, cc.v2(0, 100)).easing(cc.easeExponentialIn(0.2)), cc.fadeOut(0.3), cc.removeSelf()));
+        cc.loader.loadRes('prefab/war/damage', (err, prefab) => {
+            if (err) {
+                Log.warn(err);
+                return;
+            }
+            const node = cc.instantiate(prefab);
+            const label = node.getComponent(cc.Label);
+            label.string = -hurtValue;
+            node.parent = target.view.parent;
+            node.zIndex = 10000;
+            node.position = cc.v2(target.view.x, target.view.y + 120);
+            node.runAction(cc.sequence(cc.moveBy(1, cc.v2(0, 100)).easing(cc.easeExponentialIn(0.2)), 
+                cc.fadeOut(0.3), cc.removeSelf()));
+        });
     }
 
 }
