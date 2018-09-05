@@ -31,8 +31,8 @@ export default {
         skin: 'ZGL04',
         scale: 0.7,
         props: {
-            HP: 40000,
-            MAX_HP: 40000,
+            HP: 20000,
+            MAX_HP: 20000,
             ENERGY: 0,
             MAX_ENERGY: 1000,
             MAX_SPEED: 2,
@@ -135,7 +135,7 @@ export default {
         skin: 'LB04',
         scale: 0.7,
         props: {
-            HP: 10000,
+            HP: 20000,
             MAX_HP: 20000,
             ENERGY: 0,
             MAX_ENERGY: 1000,

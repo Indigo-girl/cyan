@@ -55,7 +55,7 @@ export default {
                 offset: { x: 0, y: 350 },
                 effects: [{ type: 'hurt', value: 600}],
                 buffs: [],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }, { type: 'propSorter', bValue: false, proId: 0 }],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }, { type: 'distSorter', bValue: false}],
                 trigger: { type: 'event', value: 'traceReach' },
                 trace: {type: 'follow', initHead:{x: 1, y: 2}, speed: 20}
             }
@@ -69,7 +69,7 @@ export default {
     '100201': {
         id: '100201',
         type: 0,
-        radius: 200,
+        radius: 400,
         bullets: [
             {
                 spinePath: '',
@@ -90,7 +90,7 @@ export default {
     '100202': {
         id: '100202',
         type: 1,
-        radius: 300,
+        radius: 400,
         jump: true,
         jumpDist: 200,
         jumpDuration: 10,
@@ -103,7 +103,7 @@ export default {
                 offset: { x: 0, y: 0 },
                 effects: [{ type: 'hurt', value: 300}],
                 buffs: ['10020201'],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false}, {type: 'circle', radius: 200}],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false}, {type: 'circle', radius: 300}],
                 trigger: { type: 'instant'},
                 mustHit: true,
             }
@@ -298,7 +298,7 @@ export default {
     '100501': {
         id: '100501',
         type: 0,
-        radius: 200,
+        radius: 300,
         bullets: [
             {
                 spinePath: '',

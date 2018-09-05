@@ -151,6 +151,16 @@ cc.Class({
                 return e.isAlive();
             });
             break;
+        case CommonConst.ALL_ALIVE_HERO: 
+            entities = this._entityList.filter((e)=>{
+                return e.logicEntity.getCamp() === ContextConst.CAMP.PLAYER; 
+            });
+            break;
+        case CommonConst.ALL_ALIVE_ENEMY:
+            entities = this._entityList.filter((e)=>{
+                return e.logicEntity.getCamp() === ContextConst.CAMP.MONSTER; 
+            });
+            break;
         default:
             if (id >= CommonConst.ENTITY_MIN_ID) {
                 let entity = this.getEntityById(id);
