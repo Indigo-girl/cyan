@@ -17,6 +17,7 @@ class RoleParser{
         entity.setNormalSkillIds(config.skills);
         entity.setEnergySkillId(config.energySkill);
         entity.setPassiveSkillIds(config.passiveSkills);
+        entity.configId = config.id;
         return entity;
     }
 

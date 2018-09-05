@@ -1,6 +1,7 @@
 export default {
     // 靶子，不会移动
     '1000': {
+        id: '1000',
         spinePath: 'role/JK/JK',
         skin: 'JK04',
         scale: 0.7,
@@ -27,6 +28,7 @@ export default {
     },
 
     '1001': {
+        id: '1001',
         spinePath: 'role/ZGL/ZGL',
         skin: 'ZGL04',
         scale: 0.7,
@@ -53,6 +55,7 @@ export default {
     },
 
     '1002': {
+        id: '1002',
         spinePath: 'role/CYJ/CYJ',
         skin: 'CYJ04',
         scale: 0.7,
@@ -79,6 +82,7 @@ export default {
     },
 
     '1003': {
+        id: '1003',
         spinePath: 'role/JK/JK',
         skin: 'JK04',
         scale: 0.7,
@@ -105,6 +109,7 @@ export default {
     },
 
     '1004': {
+        id: '1004',
         spinePath: 'role/SSX/SSX',
         skin: 'SSX04',
         scale: 0.7,
@@ -131,6 +136,7 @@ export default {
     },
 
     '1005': {
+        id: '1005',
         spinePath: 'role/LB/LB',
         skin: 'LB04',
         scale: 0.7,
