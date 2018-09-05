@@ -14,7 +14,7 @@ class RoleEntity extends BaseEntity{
         this.camp = camp;
     }
 
-    getCamp(camp) {
+    getCamp() {
         return this.camp;
     }
 

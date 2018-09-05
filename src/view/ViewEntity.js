@@ -49,6 +49,7 @@ class ViewEntity{
             skeleton.setSkin(modelInfo.skin);
             skeleton.paused = !!this._paused;
             this.sm.changeState(this._initState);
+            this.addHpBar();
         });
     }
 
@@ -62,6 +63,7 @@ class ViewEntity{
         }
         this.sm.update();
         this.view.zIndex = this.view.parent.height - this.getPosition().y;
+        this.refreshHpBar();
     }
 
     playAnim(name, loop) {
@@ -102,6 +104,10 @@ class ViewEntity{
             this.view.scaleX = -Math.abs(this.view.scaleX);
         }
         this.head = dir;
+        if(cc.isValid(this.hpBarNode)){
+            const scale = this.getDirect() >= 0 ? -1 : 1;
+            this.hpBarNode.scaleX = scale * Math.abs(this.hpBarNode.scaleX);
+        }
     }
 
     getHead(){
@@ -298,6 +304,36 @@ class ViewEntity{
         let pos = this.view.convertToWorldSpaceAR(this.hitPoint);
         let wpos = this.view.parent.convertToNodeSpaceAR(pos);
         return wpos;
+    }
+
+    addHpBar(){
+        const path = this.logicEntity.getCamp() === ContextConst.CAMP.PLAYER ? 'blood1p' : 'blood2p';
+        this.hpBarNode = new cc.Node();
+        this.hpBarNode.position = cc.v2(0, 400);
+        this.hpBarNode.zIndex = 1;
+        this.hpBarNode.parent = this.view;
+        const scale = this.getDirect() >= 0 ? -1 : 1;
+        this.hpBarNode.scaleX = scale / this.modelInfo.scale;
+        this.hpBarNode.scaleY = 1 / this.modelInfo.scale;
+        cc.loader.loadRes('prefab/war/' + path, (err, prefab) => {
+            if (err) {
+                Log.warn(err);
+                return;
+            }
+            const node = cc.instantiate(prefab);
+            node.parent = this.hpBarNode;
+            const progressBar = node.getComponent(cc.ProgressBar);
+            this.hpProgressBar = progressBar;
+            const role = this.logicEntity;
+            progressBar.progress = role.getHp() / role.getMaxHp();
+        });
+    }
+
+    refreshHpBar(){
+        if(cc.isValid(this.hpBarNode) && this.hpProgressBar){
+            const role = this.logicEntity;
+            this.hpProgressBar.progress = role.getHp() / role.getMaxHp();
+        }
     }
 
 }
