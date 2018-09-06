@@ -1,9 +1,8 @@
-function shuffle(arr, seed) {
+function shuffle(arr, rand) {
     const length = arr.length;
     if (length < 2) {
         return arr;
     }
-    const rand = getRandomFunc(seed);
     for (let i = 0; i < length - 1; i++) {
         const j = Math.floor(rand(i, length));
         const tmp = arr[i];

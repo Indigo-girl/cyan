@@ -7,6 +7,7 @@ import SectorSelector from '../view/selector/SectorSelector';
 import CircleSelector from '../view/selector/CircleSelector';
 import RectSelector from '../view/selector/RectSelector';
 import ComplexSelector from '../view/selector/ComplexSelector';
+import RandomSorter from '../view/selector/RandomSorter';
 import Log from '../lib/Log';
 
 class SelectorParser{
@@ -23,6 +24,8 @@ class SelectorParser{
                 return this._parsePropSorter(selectorConfig, owner);
             case 'distSorter':
                 return new DistSorter(selectorConfig.bValue);
+            case 'randomSorter':
+                return new RandomSorter();
             case 'sector':
                 return this._parseSectorSelector(selectorConfig, owner);
             case 'circle':
