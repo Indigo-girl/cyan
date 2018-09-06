@@ -274,7 +274,7 @@ class ViewBullet{
             const node = cc.instantiate(prefab);
             node.parent = target.view.parent;
             node.zIndex = 10000;
-            node.position = cc.v2(target.view.x, target.view.y + 200);
+            node.position = cc.v2(target.view.x, target.view.y + target.hitPoint.y * Math.abs(target.view.scaleX) * 1.4);
             node.runAction(cc.sequence(cc.moveBy(1, cc.v2(0, 100)).easing(cc.easeExponentialIn(0.2)),
                 cc.fadeOut(0.3), cc.removeSelf()));
         });
