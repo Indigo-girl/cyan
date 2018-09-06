@@ -23,10 +23,15 @@ cc.Class({
      * 对外接口，用于向世界添加指定配置的的实体
      * @param {string} configId
      * @param {ContextConst.CAMP} camp
+     * @param {bool} test
      * @returns
      */
-    addConfigEnetity(configId, camp){
-        const config = heros[configId];
+    addConfigEnetity(configId, camp, test){
+        let config = heros[configId];
+        if(test){
+            config = Object.create(config);
+            config.stateTrans = 'test';
+        }
         const entity = RoleParser.parse(config, {camp: camp, level: 5});
         this.addEntity(entity);
         return entity;
