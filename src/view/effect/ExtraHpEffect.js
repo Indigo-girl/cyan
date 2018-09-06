@@ -14,9 +14,12 @@ class ExtraHpEffect extends BaseEffect{
     doEffect(target){
         this.hpDelta = ContextConst.getEffectValue(this.prosInfo, target, this.owner);
         const oldValue = target.logicEntity.getHp();
-        target.logicEntity.changeHp(this.hpDelta);
+        this.hpDelta = target.logicEntity.changeHp(this.hpDelta);
         Log.log(`ExtraHpEffect生效，hp:${oldValue}=>${target.logicEntity.getHp()}`);
-        this.showEffect(target, this.hpDelta);
+        const showValue = Math.floor(this.hpDelta);
+        if(showValue > 0){
+            this.showEffect(target, showValue);
+        }
     }
 
     undoEffect(){

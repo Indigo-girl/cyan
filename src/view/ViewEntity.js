@@ -231,7 +231,7 @@ class ViewEntity{
     onHurt(hurtValue, atker){
         // 已经死亡的不会受伤
         if(!this.isAlive()){
-            return
+            return 0
         }
         let role = this.logicEntity
         let hurt = AtkUtils.getHurt(hurtValue, atker, this);
@@ -248,6 +248,7 @@ class ViewEntity{
             value: -realHurt
         });
         this.checkDead();
+        return -realHurt;
     }
 
     onDead(){
