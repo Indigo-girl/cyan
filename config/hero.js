@@ -4,7 +4,7 @@ export default {
         id: '1000',
         spinePath: 'role/JK/JK',
         skin: 'JK04',
-        scale: 0.7,
+        scale: 0.35,
         props: {
             HP: 2000,
             MAX_HP: 2000,
@@ -31,7 +31,7 @@ export default {
         id: '1001',
         spinePath: 'role/ZGL/ZGL',
         skin: 'ZGL04',
-        scale: 0.7,
+        scale: 0.35,
         props: {
             HP: 20000,
             MAX_HP: 20000,
@@ -58,7 +58,7 @@ export default {
         id: '1002',
         spinePath: 'role/CYJ/CYJ',
         skin: 'CYJ04',
-        scale: 0.7,
+        scale: 0.35,
         props: {
             HP: 20000,
             MAX_HP: 20000,
@@ -85,7 +85,7 @@ export default {
         id: '1003',
         spinePath: 'role/JK/JK',
         skin: 'JK04',
-        scale: 0.7,
+        scale: 0.35,
         props: {
             HP: 20000,
             MAX_HP: 20000,
@@ -112,7 +112,7 @@ export default {
         id: '1004',
         spinePath: 'role/SSX/SSX',
         skin: 'SSX04',
-        scale: 0.7,
+        scale: 0.35,
         props: {
             HP: 20000,
             MAX_HP: 20000,
@@ -139,7 +139,7 @@ export default {
         id: '1005',
         spinePath: 'role/LB/LB',
         skin: 'LB04',
-        scale: 0.7,
+        scale: 0.35,
         props: {
             HP: 20000,
             MAX_HP: 20000,

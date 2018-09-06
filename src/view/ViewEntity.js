@@ -310,12 +310,11 @@ class ViewEntity{
     addHpBar(){
         const path = this.logicEntity.getCamp() === ContextConst.CAMP.PLAYER ? 'blood1p' : 'blood2p';
         this.hpBarNode = new cc.Node();
-        this.hpBarNode.position = cc.v2(0, 400);
+        this.hpBarNode.position = cc.v2(0, 200);
         this.hpBarNode.zIndex = 1;
         this.hpBarNode.parent = this.view;
         const scale = this.getDirect() >= 0 ? -1 : 1;
-        this.hpBarNode.scaleX = scale / this.modelInfo.scale;
-        this.hpBarNode.scaleY = 1 / this.modelInfo.scale;
+        this.hpBarNode.scaleX = scale;
         cc.loader.loadRes('prefab/war/' + path, (err, prefab) => {
             if (err) {
                 Log.warn(err);
