@@ -19,9 +19,12 @@ class HurtEffect extends BaseEffect{
         this.delta = Math.floor((this.base + proValue) * scaleValue / 1000);
         const realHurt = target.onHurt(this.delta, this.owner);
         Log.log(`${this.owner.id}对${target.id}造成base:${this.base},pro:${proValue},scale:${scaleValue / 1000}，最终伤害为：${this.delta}，扣血:${realHurt}`);
-        this.delta = Math.floor(realHurt);
-        // 伤害飘字
-        this.showEffect(target, this.delta);  
+        this.delta = realHurt;
+        const showValue = Math.floor(this.delta);
+        if(showValue > 0){
+            // 伤害飘字
+            this.showEffect(target, showValue);  
+        }
     }
 
     undoEffect(target){
