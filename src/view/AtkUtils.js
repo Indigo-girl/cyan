@@ -41,7 +41,7 @@ function getHurtAvoidProb(atker, target){
     const tlogic = target.logicEntity;
     const def = tlogic.getRealProp(ContextConst.PRO_ID.DEF);
     const level = tlogic.getLevel();
-    return Math.min(1, Math.max(0, def / (def + 100 * level * 30000)));
+    return Math.min(1, Math.max(0, def / (def + 100 * level + 2000)));
 }
 
 

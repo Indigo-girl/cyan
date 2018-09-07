@@ -2,7 +2,7 @@ export default {
     '100101': {
         id: '100101',
         type: 0,
-        radius: 1000,
+        radius: 800,
         bullets: [
             {
                 spinePath: 'bullet/ZGL/fire_fq',
@@ -40,8 +40,8 @@ export default {
         atkAnim: 'attack01',
         prepareEffect: '',
         alignY: true,
-        ratio1: 0.7,
-        ratio2: 0.5
+        ratio1: 0.9,
+        ratio2: 0.8
     },
 
     '100103': {
@@ -52,12 +52,13 @@ export default {
             {
                 spinePath: 'bullet/ZGL/bullet_yqd',
                 hitEffect: 'bullet/ZGL/hit_yqd',
-                offset: { x: 0, y: 350 },
-                effects: [{ type: 'hurt', value: 600}],
+                offset: { x: 0, y: 320 },
+                effects: [{ type: 'hurt', value: 700}],
                 buffs: [],
                 selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }, { type: 'distSorter', bValue: false}],
                 trigger: { type: 'event', value: 'traceReach' },
-                trace: {type: 'follow', initHead:{x: 1, y: 2}, speed: 20}
+                trace: {type: 'follow', initHead:{x: 1, y: 2}, speed: 20},
+                mustHit: true,
             }
         ],
         atkAnim: 'attack02',
@@ -69,7 +70,7 @@ export default {
     '100201': {
         id: '100201',
         type: 0,
-        radius: 400,
+        radius: 150,
         bullets: [
             {
                 spinePath: '',
@@ -84,7 +85,7 @@ export default {
         atkAnim: 'attack01',
         prepareEffect: '',
         preparePoint: { x: 0, y: 0 },
-        alignY: false,
+        alignY: true,
     },
     
     '100202': {
@@ -179,7 +180,7 @@ export default {
         atkAnim: 'attack01',
         prepareEffect: '',
         preparePoint: { x: 0, y: 0 },
-        alignY: false,
+        alignY: true,
     },
 
     '100302': {
@@ -193,8 +194,8 @@ export default {
                 offset: { x: 200, y: -10 },
                 effects: [{ type: 'hurt', value: 600, scaleInfo: [{ targetType: 1, proId: 10001, scale: 10 }]}],
                 buffs: [],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'rect', width: 1000, height: 500}],
-                trigger: { type: 'horizon', length: 1000, speed: 30, isBulletMove: false },
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'rect', width: 1000, height: 400}],
+                trigger: { type: 'horizon', length: 1200, speed: 40, isBulletMove: false },
                 mustHit: true,
             }
         ],
@@ -202,7 +203,7 @@ export default {
         prepareEffect: '',
         alignY: true,
         ratio1: 0.6,
-        ratio2: 0.2
+        ratio2: 0.3
     },
 
     '100303': {
@@ -235,7 +236,7 @@ export default {
             {
                 spinePath: 'bullet/SSX/fire_ptzd',
                 hitEffect: 'bullet/SSX/hit_jjnpbd',
-                offset: { x: -160, y: 50 },
+                offset: { x: -40, y: 35 },
                 effects: [{ type: 'hurt', value: 0, prosInfo: [{ targetType: 0, proId: 5, scale: 1 }] }],
                 buffs: [],
                 selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }, { type: 'distSorter', bValue: false }],
@@ -246,7 +247,7 @@ export default {
         atkAnim: 'attack01',
         prepareEffect: '',
         preparePoint: { x: 0, y: 0 },
-        alignY: true,
+        alignY: false,
     },
 
     '100402': {
@@ -259,10 +260,10 @@ export default {
                 hitEffect: 'bullet/SSX/hit_jjnpbd',
                 explodeEffectPath: 'bullet/SSX/hit_jjnp01',
                 groundEffectPath: 'bullet/SSX/hit_jjnp02',
-                offset: { x: -180, y: 60 },
+                offset: { x: -70, y: 40 },
                 effects: [{ type: 'hurt', value: 500 }],
                 buffs: [],
-                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'truncate', value: 1 }],
+                selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: true }, { type: 'truncate', value: 1 }],
                 trigger: { type: 'event', value: 'traceReach'},
                 trace: { type: 'follow', initHead: { x: 1, y: 2 }, speed: 40, useRolePos:true },
                 explodeSelectors: [{ type: 'circle', radius: 200 }, { type: 'camp', value: 4 }, { type: 'alive', bValue: true } ],
@@ -272,6 +273,7 @@ export default {
         ],
         atkAnim: 'attack02',
         prepareEffect: '',
+        preparePoint: { x: 0, y: 0 },
         alignY: false,
     },
 
@@ -298,7 +300,7 @@ export default {
     '100501': {
         id: '100501',
         type: 0,
-        radius: 300,
+        radius: 250,
         bullets: [
             {
                 spinePath: '',
@@ -313,7 +315,7 @@ export default {
         atkAnim: 'attack01',
         prepareEffect: '',
         preparePoint: { x: 0, y: 0 },
-        alignY: false,
+        alignY: true,
     },
 
     '100502': {
