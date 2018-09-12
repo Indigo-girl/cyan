@@ -28,7 +28,6 @@ class ViewBullet{
         this.mustHit = !!info.mustHit; 
         this.offset = info.offset || cc.v2(0, 0);
         this._fired = false;
-
         const node = new cc.Node(this.id);
         this.view = node;
         node.position = this.offset;
@@ -145,40 +144,44 @@ class ViewBullet{
     tryTrigger(){
         const targets = this.getTargets();
         if (this.trigger.trigger(this.atker, targets, WorldUtils.getWorld(), this)) {
-            const buffs = this.buffs;
-            const effects = this.effects;
-            const triggerTargets = this.trigger.getTriggeredTargets();
-            for (const target of triggerTargets) {
-                // 判定命中
-                let hit = this.mustHit;
-                if(!hit){
-                    const accProb = AtkUtils.getAccProb(this.atker, target);
-                    const rvalue = WorldUtils.getWorld().randFunc();
-                    hit = rvalue <= accProb;
-                    Log.log(`${this.atker.id}=>${target.id}命中判定:${hit},accProb:${accProb},rvalue:${rvalue}`);
-                }else{
-                    Log.log(`${this.atker.id}=>${target.id}命中判定:子弹必定命中`);
-                }
-                if (hit){
-                    target.doEffects(effects);
-                    target.addBuffs(buffs);
-                    if (this.hitEffect && this.hitEffect != '') {
-                        target.showHitEffect(this.hitEffect)
-                    }
-                    // 子弹造成目标死亡
-                    if (!target.isAlive()){
-                        const role = this.atker.logicEntity;
-                        role.setEnergy(role.getEnergy() + 300);
-                        Log.log(`${role.id}造成目标死亡，怒气加300，当前为:${role.getEnergy()}`);
-                    }
-                }else{
-                    this.showMiss(target);
-                }
-            }
+            this.onTrigger();
             // 每个子弹可以爆炸一次，爆炸后消失
             if (this.trigger.triggerDestroy()){
                 this.explode();
                 this.destroy();
+            }
+        }
+    }
+
+    onTrigger(){
+        const buffs = this.buffs;
+        const effects = this.effects;
+        const triggerTargets = this.trigger.getTriggeredTargets();
+        for (const target of triggerTargets) {
+            // 判定命中
+            let hit = this.mustHit;
+            if (!hit) {
+                const accProb = AtkUtils.getAccProb(this.atker, target);
+                const rvalue = WorldUtils.getWorld().randFunc();
+                hit = rvalue <= accProb;
+                Log.log(`${this.atker.id}=>${target.id}命中判定:${hit},accProb:${accProb},rvalue:${rvalue}`);
+            } else {
+                Log.log(`${this.atker.id}=>${target.id}命中判定:子弹必定命中`);
+            }
+            if (hit) {
+                target.doEffects(effects);
+                target.addBuffs(buffs);
+                if (this.hitEffect && this.hitEffect != '') {
+                    target.showHitEffect(this.hitEffect)
+                }
+                // 子弹造成目标死亡
+                if (!target.isAlive()) {
+                    const role = this.atker.logicEntity;
+                    role.setEnergy(role.getEnergy() + 300);
+                    Log.log(`${role.id}造成目标死亡，怒气加300，当前为:${role.getEnergy()}`);
+                }
+            } else {
+                this.showMiss(target);
             }
         }
     }

@@ -1,12 +1,13 @@
 import BaseSkill from '../view/skill/BaseSkill';
 import BulletParser from './BulletParser';
+import bullet from '../../config/bullet';
 
 class SkillParser{
 
     parse(skillConfig, owner){
         const bullets = [];
-        for(const config of skillConfig.bullets){
-            bullets.push(BulletParser.parse(config, owner));
+        for(const configId of skillConfig.bullets){
+            bullets.push(BulletParser.parse(bullet[configId], owner));
         }
         let preparePoint = skillConfig.preparePoint || {x: 0, y: 0};
         let skill = new BaseSkill(owner, bullets, skillConfig.radius, {
