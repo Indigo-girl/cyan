@@ -50,6 +50,7 @@ export default {
         jump: true,
         jumpDist: 200,
         jumpDuration: 10,
+        jumpHeight: 200,
         bullets: ['10020210'],
         atkAnim: 'attack02',
         prepareEffect: '',

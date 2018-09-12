@@ -23,7 +23,7 @@ class SkillParser{
             alignY: skillConfig.alignY,
         });
         if(skillConfig.jump){
-            skill.setJumpInfo(skillConfig.jumpDist, skillConfig.jumpDuration);
+            skill.setJumpInfo(skillConfig.jumpDist, skillConfig.jumpDuration, skillConfig.jumpHeight);
         }
         if(skillConfig.move){
             skill.setmoveInfo(skillConfig.moveDist, skillConfig.moveDuration);

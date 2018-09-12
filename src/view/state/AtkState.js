@@ -33,13 +33,15 @@ class AtkState extends BaseState {
             case 'fire':
                 sm.viewEntity.castSkill();
                 break;
-            case 'jump':
+            case 'up':
                 this.jump(sm);
                 break;
             case 'prepare':
                 skill.showPrepareEffect();
                 break;
         }
+        // 在攻击状态中传递角色事件给子弹
+        skill.handleEvent({type: `role-${event.type}`});
     }
 
     move(sm){
@@ -66,7 +68,7 @@ class AtkState extends BaseState {
             const pos = target.getPosition();
             const posTo = cc.v2(pos.x - sm.viewEntity.getDirect() * skill.jumpInfo.dist, pos.y);
             sm.viewEntity.view.stopAllActions();
-            sm.viewEntity.view.runAction(cc.moveTo(skill.jumpInfo.duration / 30, posTo));
+            sm.viewEntity.view.runAction(cc.jumpTo(skill.jumpInfo.duration / 30, posTo, skill.jumpInfo.height, 1));
         }
     }
     

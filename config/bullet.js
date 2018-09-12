@@ -76,7 +76,7 @@ export default {
         effects: [{ type: 'hurt', value: 300 }],
         buffs: ['10020201'],
         selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'circle', radius: 300 }],
-        trigger: { type: 'instant' },
+        trigger: { type: 'instant'},
         mustHit: true,
     },
 

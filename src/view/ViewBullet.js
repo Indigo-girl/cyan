@@ -142,6 +142,9 @@ class ViewBullet{
     }
 
     tryTrigger(){
+        if(!this._fired){
+            return;
+        }
         const targets = this.getTargets();
         if (this.trigger.trigger(this.atker, targets, WorldUtils.getWorld(), this)) {
             this.onTrigger();

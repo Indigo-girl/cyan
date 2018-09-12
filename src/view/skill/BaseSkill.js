@@ -22,6 +22,12 @@ class BaseSkill{
         this._fired = false;  
     }
 
+    handleEvent(event){
+        for(const bullet of this.bullets){
+            bullet.handleEvent(event);
+        }
+    }
+
     showPrepareEffect(){
         if (!this.prepareEffect || this.prepareEffect === ''){
             Log.warn('非法的受击特效：', this.prepareEffect);
@@ -90,10 +96,11 @@ class BaseSkill{
         return false;
     }
 
-    setJumpInfo(dist, duration){
+    setJumpInfo(dist, duration, height){
         this.jumpInfo = {
             dist: dist,
-            duration: duration
+            duration: duration,
+            height: height
         }
     }
 
