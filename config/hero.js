@@ -56,7 +56,7 @@ export default {
 
     '1002': {
         id: '1002',
-        spinePath: 'role/CYJ/CYJ',
+        spinePath: 'role/jumpcyj/CYJ',
         skin: 'CYJ04',
         scale: 0.32,
         props: {
