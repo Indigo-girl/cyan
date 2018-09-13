@@ -4,13 +4,15 @@ import EffectParser from './EffectParser';
 import TriggerParser from './TriggerParser';
 import Log from '../lib/Log';
 
-class BuffParser{
-
-    parse(buffConfig, owner){
+class BuffParser {
+    parse(buffConfig, owner) {
         const info = {
             maxTriggerCount: buffConfig.maxTriggerCount,
             enableUndo: buffConfig.enableUndo,
-            duration: buffConfig.duration
+            duration: buffConfig.duration,
+            configId: buffConfig.id,
+            overlapCount: buffConfig.overlapCount,
+            overlapType: buffConfig.overlapCount,
         };
         const effects = [];
         for (const config of buffConfig.effects) {
@@ -18,7 +20,7 @@ class BuffParser{
         }
         const trigger = TriggerParser.parse(buffConfig.trigger, owner);
         let buff;
-        switch(buffConfig.type){
+        switch (buffConfig.type) {
             case 'base':
                 buff = new BaseBuff(owner, effects, trigger, info);
                 break;
@@ -28,12 +30,8 @@ class BuffParser{
             default:
                 Log.warn(`未知的buff类型:${buffConfig.type}`);
         }
-        if(buff){
-            buff.configId = buffConfig.id;
-        }
         return buff;
     }
-
 }
 
 const parser = new BuffParser();

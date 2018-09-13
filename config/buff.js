@@ -26,7 +26,9 @@ export default {
         trigger: { type: 'instant' },
         maxTriggerCount: 1,
         enableUndo: true,
-        duration: 5
+        duration: 5,
+        overlapCount: 1,
+        overlapType: 1,
     },
 
     '10050301': {

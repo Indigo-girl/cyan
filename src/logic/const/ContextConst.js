@@ -85,6 +85,13 @@ const CONTEXT_CONST = {
         PASSIVE: 2
     },
 
+    OVERLAP_TYPE: {
+        //替换最早的buff 
+        REPLACE: 1,
+        //新buff将无法加到角色身上
+        REJECT: 2,
+    },
+
     isExtraId(proId){
         return proId >= 10000;
     },

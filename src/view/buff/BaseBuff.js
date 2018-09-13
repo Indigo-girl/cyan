@@ -1,5 +1,6 @@
 import WorldUtils from '../../logic/utils/WorldUtils';
 import Log from '../../lib/Log';
+import CONTEXT_CONST from '../../logic/const/ContextConst';
 
 let _id = 0;
 
@@ -23,10 +24,11 @@ class BaseBuff{
         this.maxTriggerCount = info.maxTriggerCount || 1;
         this.enableUndo = !!info.enableUndo;
         this.triggerCount = 0;
+        this.configId = info.configId;
         // 同configId可叠加最大层数
-        this.overlapCount = info.overlapCount;
+        this.overlapCount = info.overlapCount || 1;
         // 同configId叠加类型：移除旧buff、无法叠加
-        this.overlapType = info.overlapType;
+        this.overlapType = info.overlapType || CONTEXT_CONST.OVERLAP_TYPE.REPLACE;
     }
 
     /**
@@ -36,7 +38,6 @@ class BaseBuff{
     onEnter(target){
         this.target = target;
         this.tryTrigger();
-        Log.log(`buff:${this.configId}-${this.id}  onEnter`);
     }
 
     onExit(){
@@ -46,7 +47,6 @@ class BaseBuff{
                 this.target.undoEffects(this.effects);
             }
         }
-        Log.log(`buff:${this.configId}-${this.id}   onExit`);
     }
 
     tryTrigger(){
