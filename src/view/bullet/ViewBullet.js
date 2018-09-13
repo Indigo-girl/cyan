@@ -1,8 +1,8 @@
-import WorldUtils from '../logic/utils/WorldUtils';
-import FollowTrace from '../view/trace/FollowTrace';
-import AtkUtils from './AtkUtils';
-import Log from '../lib/Log';
-import BlinkTrace from './trace/BlinkTrace';
+import WorldUtils from '../../logic/utils/WorldUtils';
+import FollowTrace from '../../view/trace/FollowTrace';
+import AtkUtils from '../AtkUtils';
+import Log from '../../lib/Log';
+import BlinkTrace from '../trace/BlinkTrace';
 
 let _id = 0;
 

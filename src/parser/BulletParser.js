@@ -1,12 +1,12 @@
-import ViewBullet from '../view/ViewBullet';
-import SplitViewBullet from '../view/SplitViewBullet';
+import ViewBullet from '../view/bullet/ViewBullet';
+import SplitViewBullet from '../view/bullet/SplitViewBullet';
 import EffectParser from './EffectParser';
 import BuffParser from './BuffParser';
 import SelectorParser from './SelectorParser';
 import TriggerParser from './TriggerParser';
 import buffs from '../../config/buff';
 import bullets from '../../config/bullet';
-import SubBullet from '../view/SubBullet';
+import SubBullet from '../view/bullet/SubBullet';
 
 class BulletParser{
 
