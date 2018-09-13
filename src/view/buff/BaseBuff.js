@@ -23,6 +23,10 @@ class BaseBuff{
         this.maxTriggerCount = info.maxTriggerCount || 1;
         this.enableUndo = !!info.enableUndo;
         this.triggerCount = 0;
+        // 同configId可叠加最大层数
+        this.overlapCount = info.overlapCount;
+        // 同configId叠加类型：移除旧buff、无法叠加
+        this.overlapType = info.overlapType;
     }
 
     /**
