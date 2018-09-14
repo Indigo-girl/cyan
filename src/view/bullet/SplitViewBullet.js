@@ -1,5 +1,5 @@
 import ViewBullet from "./ViewBullet";
-import BulletParser from '../../../parser/BulletParser';
+import BulletParser from '../../parser/BulletParser';
 
 class SplitViewBullet extends ViewBullet{
 
