@@ -23,6 +23,7 @@ class ViewEntity{
         // 子弹需要在索敌的时候就准备
         this._bullets = [];
         this._direct = -1;
+        this._viewComponentsVisible = true;
     }
 
     _initView(modelInfo){
@@ -50,8 +51,41 @@ class ViewEntity{
             skeleton.setSkin(modelInfo.skin);
             skeleton.paused = !!this._paused;
             this.sm.changeState(this._initState);
-            this.addHpBar();
         });
+        this.addHpBar();
+        if(this._viewComponentsVisible){
+            this.spineNode.opacity = 255;
+        }else{
+            this.spineNode.opacity = 0;
+        }
+    }
+
+    showViewComponent(comp){
+        if (comp && cc.isValid(comp)) {
+            comp.opacity = 255;
+        }
+    }
+
+    hideViewComponent(comp){
+        if (comp && cc.isValid(comp)) {
+            comp.opacity = 0;
+        }
+    }
+
+    hideViewComponents(){
+        this._viewComponentsVisible = false;
+        const comps = [this.spineNode, this.hpBarNode];
+        for(const comp of comps){
+            this.hideViewComponent(comp);
+        }
+    }
+
+    showViewComponents(){
+        this._viewComponentsVisible = true;
+        const comps = [this.spineNode, this.hpBarNode];
+        for (const comp of comps) {
+            this.showViewComponent(comp);
+        }
     }
 
     onAnimCompleted(){
@@ -318,6 +352,11 @@ class ViewEntity{
             const role = this.logicEntity;
             progressBar.progress = role.getHp() / role.getMaxHp();
         });
+        if (this._viewComponentsVisible) {
+            this.hpBarNode.opacity = 255;
+        } else {
+            this.hpBarNode.opacity = 0;
+        }
     }
 
     refreshHpBar(){
