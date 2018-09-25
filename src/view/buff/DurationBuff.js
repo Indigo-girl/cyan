@@ -1,10 +1,11 @@
 import BaseBuff from "./BaseBuff";
+import GAME_CONST from "../../GameConst";
 
 class DurationBuff extends BaseBuff{
 
     constructor(caster, effects, trigger, info) {
         super(caster, effects, trigger, info);
-        this.duration = info.duration * 60;
+        this.duration = info.duration * GAME_CONST.FPS;
         this._elapse = 0;
     }
 
