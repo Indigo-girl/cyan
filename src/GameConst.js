@@ -1,4 +1,4 @@
-GAME_CONST = {
+const GAME_CONST = {
     FPS: 60
 };
 
