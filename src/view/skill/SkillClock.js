@@ -2,7 +2,7 @@ import GAME_CONST from "../../GameConst";
 
 const STATE = {
     READY: 0,
-    CAST: 1,
+    SPECIFIED: 1,
     SILENT: 2,
 }
 
@@ -24,8 +24,8 @@ class SkillClock{
         this.state = STATE.READY;
     }
 
-    onSkillCast(){
-        this.state = STATE.CAST;
+    onSkillSpecified(){
+        this.state = STATE.SPECIFIED;
     }
 
     afterSkillCast(){
@@ -41,7 +41,7 @@ class SkillClock{
             case STATE.READY:
                 this.elapseCd++;
                 break;
-            case STATE.CAST:
+            case STATE.SPECIFIED:
                 break;
             case STATE.SILENT:
                 this.elapseSilent++;

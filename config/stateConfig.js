@@ -119,4 +119,50 @@ export default {
         },
         'initState': 'ready'
     },
+    withCDSkill: {
+        'common': {
+            'battleEnd': 'settle',
+        },
+        'search': {
+            'dead': 'dead',
+            'moveToPos': 'walk',
+            'freeWalk': 'walk',
+            'moveInRadius': 'walk',
+            'moveForSkill': 'walk',
+            'targetNotFound': 'idle',
+        },
+        'research': {
+            'dead': 'dead',
+            'moveToPos': 'walk',
+            'freeWalk': 'walk',
+            'moveInRadius': 'walk',
+            'moveForSkill': 'walk',
+            'targetNotFound': 'idle',
+        },
+        'walk': {
+            'dead': 'dead',
+            'reachPos': 'atk',
+            'targetUnfit': 'research',
+            'skillSpecified': 'search',
+        },
+        'atk': {
+            'dead': 'dead',
+            'animCompleted': 'search',
+        },
+        'dead': {
+            'resurrect': 'search'
+        },
+        'idle': {
+            'dead': 'dead',
+            'animCompleted': 'search',
+            'skillSpecified': 'search',
+        },
+        'ready': {
+            'moveToPos': 'readyWalk'
+        },
+        'readyWalk': {
+            'reachPos': 'search'
+        },
+        'initState': 'ready'
+    },
 };

@@ -1,6 +1,8 @@
 import BaseSkill from '../view/skill/BaseSkill';
 import BulletParser from './BulletParser';
 import bullet from '../../config/bullet';
+import SkillClock from '../view/skill/SkillClock';
+import PermanentSkill from '../view/skill/PermanentSkill';
 
 class SkillParser{
 
@@ -28,6 +30,20 @@ class SkillParser{
         if(skillConfig.move){
             skill.setmoveInfo(skillConfig.moveDist, skillConfig.moveDuration);
         }
+        return skill;
+    }
+
+    /**
+     * 生成一个长生命周期技能对象，用于技能选择
+     * @param {*} skillConfig
+     * @memberof SkillParser
+     */
+    parsePermanentSkill(skillConfig){
+        const firstCd = skillConfig.firstCd || 1;
+        const cd = skillConfig.cd || 1;
+        const silentTime = skillConfig.silentTime || 1;
+        const clock = new SkillClock(firstCd, cd, silentTime);
+        const skill = new PermanentSkill(skillConfig.id, skillConfig.seq, clock);
         return skill;
     }
 
