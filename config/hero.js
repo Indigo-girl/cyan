@@ -162,4 +162,30 @@ export default {
         hitPoint: { x: -20, y: 100 }
     },
 
+    '1006': {
+        id: '1006',
+        spinePath: 'role/GY/GY',
+        skin: 'GY04',
+        scale: 0.35,
+        props: {
+            HP: 9600,
+            MAX_HP: 9600,
+            ENERGY: 0,
+            MAX_ENERGY: 1000,
+            MAX_SPEED: 2,
+            ATK: 700,
+            DEF: 600,
+            CRIT_SCALE: 1.5,
+            CRIT: 30,
+            ACCURACY: 20,
+            DODGE: 30,
+            TOUGH: 20,
+            ATK_SPEED: 1,
+        },
+        skills: ['100601'],
+        energySkill: '100602',
+        passiveSkills: [],
+        stateTrans: 'demo',
+        hitPoint: { x: -20, y: 100 }
+    },
 };

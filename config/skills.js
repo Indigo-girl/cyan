@@ -200,4 +200,27 @@ export default {
         atkAnim: '',
         prepareEffect: '',
     },
+
+    '100601': {
+        id: '100601',
+        type: 0,
+        radius: 200,
+        bullets: ['10060110'],
+        atkAnim: 'attack02',
+        prepareEffect: '',
+        preparePoint: { x: 0, y: 0 },
+        alignY: true,
+    },
+
+    '100602': {
+        id: '100602',
+        type: 1,
+        radius: 600,
+        bullets: ['10060210'],
+        atkAnim: 'attack01',
+        prepareEffect: '',
+        alignY: true,
+        ratio1: 0.6,
+        ratio2: 0.3
+    },
 }

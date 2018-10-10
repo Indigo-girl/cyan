@@ -198,6 +198,28 @@ export default {
         selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 5 }],
         trigger: { type: 'instant' },
         mustHit: true,
-    }
+    },
+
+    '10060110': {
+        spinePath: '',
+        hitEffect: 'bullet/GY/hit_qlyybd',
+        offset: { x: 0, y: 0 },
+        effects: [{ type: 'hurt', value: 0, prosInfo: [{ targetType: 0, proId: 5, scale: 1 }], }],
+        buffs: [],
+        selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'truncate', value: 1 }, { type: 'distSorter', bValue: false }],
+        trigger: { type: 'instant' },
+    },
+
+    '10060210': {
+        spinePath: 'bullet/GY/bullet_qlyy',
+        hitEffect: 'bullet/GY/hit_qlyybd',
+        offset: { x: 200, y: -10 },
+        effects: [{ type: 'hurt', value: 600, scaleInfo: [{ targetType: 1, proId: 10001, scale: 10 }] }],
+        buffs: [],
+        selectors: [{ type: 'alive', bValue: true }, { type: 'camp', value: 4 }, { type: 'distSorter', bValue: false }, { type: 'rect', width: 1000, height: 400 }],
+        trigger: { type: 'horizon', length: 1200, speed: 40, isBulletMove: false },
+        mustHit: true,
+    },
+
 
 }
