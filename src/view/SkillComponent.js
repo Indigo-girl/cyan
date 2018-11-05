@@ -2,6 +2,7 @@ import SkillParser from '../parser/SkillParser';
 import skills from '../../config/skills';
 import Log from '../lib/Log';
 import CONTEXT_CONST from '../logic/const/ContextConst';
+import GAME_CONST from '../GameConst';
 
 /**
  * 技能组件
@@ -18,12 +19,16 @@ class SkillComponent{
         this.owner = owner;
         this.passiveSkillIds = [];
         this.normalSkillIds = [];
+        this._skillCdInfo = {};
     }
 
     setNormalSkills(skillIds, index){
         skillIds = skillIds || [];
         this.normalSkillIds = skillIds.slice();
         this.normalIndex = index || 0;
+        skillIds.forEach(e => {
+            this._initSkillCdInfoById(e);
+        });
     }
 
     nextSkill(){
@@ -50,6 +55,7 @@ class SkillComponent{
 
     setEnergySkill(skillId){
         this.energySkill = skillId;
+        this._initSkillCdInfoById(skillId);
     }
 
     setPassiveSkillIds(skillIds){
@@ -85,6 +91,28 @@ class SkillComponent{
                 break;
         }
         return false;
+    }
+
+    update(){
+        this._refreshSkillCd();
+    }
+
+    _initSkillCdInfoById(skillId){
+        const skillConfig = skills[skillId];
+        this._skillCdInfo[skillId] = skillConfig.firstCd;
+    }
+
+    _resetSkillCdInfoById(skillId){
+        const skillConfig = skills[skillId];
+        this._skillCdInfo[skillId] = skillConfig.cd;
+    }
+
+    _refreshSkillCd(){
+        Object.keys(this._skillCdInfo).forEach(key=>this._skillCdInfo[key]-=1/GAME_CONST.FPS);
+    }
+
+    getValidSkillIds(){
+        return Object.keys(this._skillCdInfo).filter(e=>this._skillCdInfo[e]<=0);
     }
 
 }
