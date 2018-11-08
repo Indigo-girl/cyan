@@ -31,7 +31,7 @@ export default {
 // 程咬金 白 - 蓝 - 紫 - 橙
     '100101': {
         id: '100101',
-        spinePath: 'role/jumpcyj/CYJ',
+        spinePath: 'role/CYJ/CYJ',
         skin: 'CYJ01',               
         scale: 0.32,
         props: {
@@ -58,7 +58,7 @@ export default {
 
     '100102': {
         id: '100102',
-        spinePath: 'role/jumpcyj/CYJ',
+        spinePath: 'role/CYJ/CYJ',
         skin: 'CYJ02',               
         scale: 0.32,
         props: {
@@ -85,7 +85,7 @@ export default {
 
     '100103': {
         id: '100103',
-        spinePath: 'role/jumpcyj/CYJ',
+        spinePath: 'role/CYJ/CYJ',
         skin: 'CYJ03',               
         scale: 0.32,
         props: {
@@ -112,7 +112,7 @@ export default {
 
     '100104': {
         id: '100104',
-        spinePath: 'role/jumpcyj/CYJ',
+        spinePath: 'role/CYJ/CYJ',
         skin: 'CYJ04',
         scale: 0.32,
         props: {
