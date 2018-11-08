@@ -52,6 +52,7 @@ class ViewEntity{
             skeleton.paused = !!this._paused;
             this.sm.changeState(this._initState);
         });
+        this.addEnergyBar();
         this.addHpBar();
         if(this._viewComponentsVisible){
             this.spineNode.opacity = 255;
@@ -74,7 +75,7 @@ class ViewEntity{
 
     hideViewComponents(){
         this._viewComponentsVisible = false;
-        const comps = [this.spineNode, this.hpBarNode];
+        const comps = [this.spineNode, this.hpBarNode, this.energyBarNode];
         for(const comp of comps){
             this.hideViewComponent(comp);
         }
@@ -82,7 +83,7 @@ class ViewEntity{
 
     showViewComponents(){
         this._viewComponentsVisible = true;
-        const comps = [this.spineNode, this.hpBarNode];
+        const comps = [this.spineNode, this.hpBarNode, this.energyBarNode];
         for (const comp of comps) {
             this.showViewComponent(comp);
         }
@@ -97,6 +98,7 @@ class ViewEntity{
         this.sm.update();
         this.view.zIndex = this.view.parent.height - this.getPosition().y;
         this.refreshHpBar();
+        this.refreshEnergyBar();
     }
 
     playAnim(name, loop) {
@@ -137,9 +139,11 @@ class ViewEntity{
             this.view.scaleX = -Math.abs(this.view.scaleX);
         }
         this.head = dir;
-        if(cc.isValid(this.hpBarNode)){
-            const scale = this.getDirect() >= 0 ? -1 : 1;
-            this.hpBarNode.scaleX = scale * Math.abs(this.hpBarNode.scaleX);
+        for(const bar of [this.hpBarNode, this.energyBarNode]){
+            if (cc.isValid(bar)) {
+                const scale = this.getDirect() >= 0 ? -1 : 1;
+                bar.scaleX = scale * Math.abs(bar.scaleX);
+            }
         }
     }
 
@@ -359,10 +363,45 @@ class ViewEntity{
         }
     }
 
+    addEnergyBar() {
+        this.energyBarNode = new cc.Node();
+        this.energyBarNode.position = cc.v2(0, 190);
+        this.energyBarNode.zIndex = 1;
+        this.energyBarNode.parent = this.view;
+        const scale = this.getDirect() >= 0 ? -1 : 1;
+        this.energyBarNode.scaleX = scale;
+        cc.loader.loadRes('prefab/war/energyBar', (err, prefab) => {
+            if (err) {
+                Log.warn(err);
+                return;
+            }
+            const node = cc.instantiate(prefab);
+            node.parent = this.energyBarNode;
+            const progressBar = node.getComponent(cc.ProgressBar);
+            this.energyProgressBar = progressBar;
+            const role = this.logicEntity;
+            progressBar.progress = role.getRealProp(ContextConst.PRO_ID.ENERGY) /
+                role.getRealProp(ContextConst.PRO_ID.MAX_ENERGY);
+        });
+        if (this._viewComponentsVisible) {
+            this.energyBarNode.opacity = 255;
+        } else {
+            this.energyBarNode.opacity = 0;
+        }
+    }
+
     refreshHpBar(){
         if(cc.isValid(this.hpBarNode) && this.hpProgressBar){
             const role = this.logicEntity;
             this.hpProgressBar.progress = role.getHp() / role.getMaxHp();
+        }
+    }
+
+    refreshEnergyBar(){
+        if (cc.isValid(this.energyBarNode) && this.energyProgressBar) {
+            const role = this.logicEntity;
+            this.energyProgressBar.progress = role.getRealProp(ContextConst.PRO_ID.ENERGY) /
+                role.getRealProp(ContextConst.PRO_ID.MAX_ENERGY);
         }
     }
 
