@@ -32,7 +32,7 @@ export default {
     '100101': {
         id: '100101',
         spinePath: 'role/jumpcyj/CYJ',
-        skin: 'CYJ04',               // to be fixed
+        skin: 'CYJ01',               
         scale: 0.32,
         props: {
             HP: 16000,
@@ -59,7 +59,7 @@ export default {
     '100102': {
         id: '100102',
         spinePath: 'role/jumpcyj/CYJ',
-        skin: 'CYJ04',               // to be fixed
+        skin: 'CYJ02',               
         scale: 0.32,
         props: {
             HP: 16000,
@@ -86,7 +86,7 @@ export default {
     '100103': {
         id: '100103',
         spinePath: 'role/jumpcyj/CYJ',
-        skin: 'CYJ04',               // to be fixed
+        skin: 'CYJ03',               
         scale: 0.32,
         props: {
             HP: 16000,
@@ -142,7 +142,7 @@ export default {
     '100201': {
         id: '100201',
         spinePath: 'role/LB/LB',
-        skin: 'LB04',                // to be fixed
+        skin: 'LB01',               
         scale: 0.35,
         props: {
             HP: 12800,
@@ -169,7 +169,7 @@ export default {
     '100202': {
         id: '100202',
         spinePath: 'role/LB/LB',
-        skin: 'LB04',                // to be fixed
+        skin: 'LB02',             
         scale: 0.35,
         props: {
             HP: 12800,
@@ -196,7 +196,7 @@ export default {
     '100203': {
         id: '100203',
         spinePath: 'role/LB/LB',
-        skin: 'LB04',                // to be fixed
+        skin: 'LB03',                
         scale: 0.35,
         props: {
             HP: 12800,
@@ -251,7 +251,7 @@ export default {
     '100301': {
         id: '100301',
         spinePath: 'role/JK/JK',
-        skin: 'JK04',                // to be fixed
+        skin: 'JK01',              
         scale: 0.35,
         props: {
             HP: 9600,
@@ -278,7 +278,7 @@ export default {
     '100302': {
         id: '100302',
         spinePath: 'role/JK/JK',
-        skin: 'JK04',                // to be fixed
+        skin: 'JK02',       
         scale: 0.35,
         props: {
             HP: 9600,
@@ -305,7 +305,7 @@ export default {
     '100303': {
         id: '100303',
         spinePath: 'role/JK/JK',
-        skin: 'JK04',                // to be fixed
+        skin: 'JK03',         
         scale: 0.35,
         props: {
             HP: 9600,
@@ -361,7 +361,7 @@ export default {
     '100401': {
         id: '100401',
         spinePath: 'role/SSX/SSX',
-        skin: 'SSX04',              // to be fixed
+        skin: 'SSX01',        
         scale: 0.35,
         props: {
             HP: 8000,
@@ -388,7 +388,7 @@ export default {
     '100402': {
         id: '100402',
         spinePath: 'role/SSX/SSX',
-        skin: 'SSX04',              // to be fixed
+        skin: 'SSX02',        
         scale: 0.35,
         props: {
             HP: 8000,
@@ -415,7 +415,7 @@ export default {
     '100403': {
         id: '100403',                
         spinePath: 'role/SSX/SSX',
-        skin: 'SSX04',              // to be fixed
+        skin: 'SSX03',            
         scale: 0.35,
         props: {
             HP: 8000,
@@ -580,7 +580,7 @@ export default {
     '100901': {
         id: '100901',
         spinePath: 'role/DRJ/DRJ',
-        skin: 'DRJ04',              // to be fixed
+        skin: 'DRJ01',            
         scale: 0.35,
         props: {
             HP: 8000,
@@ -607,7 +607,7 @@ export default {
     '100902': {
         id: '100902',
         spinePath: 'role/DRJ/DRJ',
-        skin: 'DRJ04',              // to be fixed
+        skin: 'DRJ02',       
         scale: 0.35,
         props: {
             HP: 8000,
@@ -634,7 +634,7 @@ export default {
     '100903': {
         id: '100903',               
         spinePath: 'role/DRJ/DRJ',
-        skin: 'DRJ04',               // to be fixed
+        skin: 'DRJ03',          
         scale: 0.35,
         props: {
             HP: 8000,
@@ -799,7 +799,7 @@ export default {
     '101101': {
         id: '101101',
         spinePath: 'role/ZF/ZF',
-        skin: 'ZF04',               // to be fixed
+        skin: 'ZF01',               
         scale: 0.38,
         props: {
             HP: 16000,
@@ -826,7 +826,7 @@ export default {
     '101102': {
         id: '101102',
         spinePath: 'role/ZF/ZF',
-        skin: 'ZF04',               // to be fixed
+        skin: 'ZF02',         
         scale: 0.38,
         props: {
             HP: 16000,
@@ -853,7 +853,7 @@ export default {
     '101103': {
         id: '101103',
         spinePath: 'role/ZF/ZF',
-        skin: 'ZF04',               // to be fixed
+        skin: 'ZF03',              
         scale: 0.38,
         props: {
             HP: 16000,
@@ -1017,7 +1017,7 @@ export default {
     '101301': {
         id: '101301',
         spinePath: 'role/ZY/ZY',
-        skin: 'ZY04',                // to be fixed
+        skin: 'ZY01',       
         scale: 0.36,
         props: {
             HP: 9600,
@@ -1044,7 +1044,7 @@ export default {
     '101302': {
         id: '101302',
         spinePath: 'role/ZY/ZY',
-        skin: 'ZY04',                // to be fixed
+        skin: 'ZY02',        
         scale: 0.36,
         props: {
             HP: 9600,
@@ -1071,7 +1071,7 @@ export default {
     '101303': {
         id: '101303',
         spinePath: 'role/ZY/ZY',
-        skin: 'ZY04',                // to be fixed
+        skin: 'ZY03',             
         scale: 0.36,
         props: {
             HP: 9600,
