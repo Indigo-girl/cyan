@@ -5,18 +5,18 @@ import Log from '../../lib/Log';
 
 class RoleContext{
 
-    constructor(props, info){
+    constructor(props, info, importProps){
         this._calId = 0;
         this._cals = {};
         this._propDirty = {};
         this._realProp = {};
         this._extraInfo = {};
         this.level = info.level || 1;
-        this.init(props);
+        this.init(props, importProps);
     }
 
-    init(props){
-        const keys = Object.keys(props);
+    init(props, importProps){
+        let keys = Object.keys(props);
         for(const key of keys){
             const proId = ContextConst.PRO_ID[key];
             if(typeof proId === 'number'){
@@ -24,7 +24,18 @@ class RoleContext{
             }else{
                 Log.warn(`无法找到${key}对应proId`);
             }
-        } 
+        }
+        if(importProps){
+            let keys = Object.keys(importProps);
+            for (const key of keys) {
+                const proId = ContextConst.PRO_ID[key];
+                if (typeof proId === 'number') {
+                    this._setBaseProp(proId, props[key]);
+                } else {
+                    Log.warn(`无法找到${key}对应proId`);
+                }
+            }
+        }
     }
 
     getExtraProp(id){

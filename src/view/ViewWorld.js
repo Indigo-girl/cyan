@@ -26,7 +26,7 @@ cc.Class({
      * @param {bool} test
      * @returns
      */
-    addConfigEnetity(configId, camp, test) {
+    addConfigEnetity(configId, camp, test, battleInfo) {
         let config = heros[configId];
         if (test) {
             config = Object.create(config);
@@ -34,7 +34,8 @@ cc.Class({
                 config.stateTrans = 'test';
             }
         }
-        const entity = RoleParser.parse(config, { camp: camp, level: 5 });
+        const level = battleInfo && battleInfo.level || 5
+        const entity = RoleParser.parse(config, { camp: camp, level: level }, battleInfo);
         this.addEntity(entity);
         return entity;
     },

@@ -5,8 +5,9 @@ import stateConfig from '../../config/stateConfig';
 
 class RoleParser{
 
-    parse(config, info){
-        const context = new RoleContext(config.props, info.level);
+    parse(config, info, importInfo){
+        const importProps = importInfo && importInfo.props || {};
+        const context = new RoleContext(config.props, info.level, importProps);
         const logicEntity = new RoleEntity(context, info.camp);
         const entity = new ViewEntity(logicEntity, {
             spinePath: config.spinePath,
