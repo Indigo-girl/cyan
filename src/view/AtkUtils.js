@@ -31,12 +31,23 @@ function getCritProb(atker, target){
 }
 
 /**
- * 获取伤害豁免率
+ * 获取暴击伤害倍率
+ * @param {ViewEntity} atker
+ * @returns
+ */
+function getCritScale(atker){
+    const alogic = atker.logicEntity;
+    const critScale = alogic.getRealProp(ContextConst.PRO_ID.CRTI_HURT_SCALE) || 1.5;
+    return critScale;
+}
+
+/**
+ * 获取防御豁免率
  * @param {ViewEntity} atker
  * @param {ViewEntity} target
  * @returns
  */
-function getHurtAvoidProb(atker, target){
+function getDefAvoidProb(atker, target){
     const alogic = atker.logicEntity;
     const defBreak = (alogic.getRealProp(ContextConst.PRO_ID.DEF_BREAK)||0) / 1000;
     const tlogic = target.logicEntity;
@@ -44,6 +55,20 @@ function getHurtAvoidProb(atker, target){
     const level = tlogic.getLevel();
     const effectDef = def * (1 - defBreak);
     return Math.min(1, Math.max(0, effectDef / (effectDef + 10 * level + 5000)));
+}
+
+/**
+ * 获取伤害倍率
+ * @param {ViewEntity} atker
+ * @param {ViewEntity} target
+ * @returns
+ */
+function getHurtScale(atker, target){
+    const alogic = atker.logicEntity;
+    const hurtImproveScale = (alogic.getRealProp(ContextConst.PRO_ID.HURT_IMPROVE) || 0) / 1000;
+    const tlogic = target.logicEntity;
+    const hurtReduceScale = (tlogic.getRealProp(ContextConst.PRO_ID.HURT_REDUCE) || 0) / 1000;
+    return Math.max(0, 1+hurtImproveScale-hurtReduceScale);
 }
 
 
@@ -56,14 +81,15 @@ function getHurtAvoidProb(atker, target){
  */
 function getHurt(skillHurt, atker, target){
     const randFunc = WorldUtils.getWorld().randFunc;
-    const hurtAvoid = getHurtAvoidProb(atker, target);
-    let value = skillHurt * (1 - hurtAvoid);
+    const defAvoid = getDefAvoidProb(atker, target);
+    const hurtScale = getHurtScale(atker, target);
+    let value = skillHurt * (1 - defAvoid) * hurtScale;
     let critProb = getCritProb(atker, target);
     let rvalue = randFunc();
     if(rvalue <= critProb){
-        value = value * 1.5;
+        value = value * getCritScale(atker);
     }
-    Log.log(`skillHurt:${skillHurt},hurtAvoid:${hurtAvoid},critProb:${critProb},rvalue:${rvalue},final:${value}`);
+    Log.log(`skillHurt:${skillHurt},hurtAvoid:${defAvoid},critProb:${critProb},rvalue:${rvalue},final:${value}`);
     return value;
 }
 

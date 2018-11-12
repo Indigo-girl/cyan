@@ -23,7 +23,13 @@ const CONTEXT_CONST = {
         // 能量获取速率加成
         ENERGY_EXTRA_SCALE: 13,
         // 破甲率
-        DEF_BREAK: 14, 
+        DEF_BREAK: 14,
+        // 伤害加深
+        HURT_IMPROVE: 15,
+        // 伤害减免
+        HURT_REDUCE: 16, 
+        // 暴击伤害倍率
+        CRTI_HURT_SCALE: 17,
     },
 
     isCostPro(proId){
