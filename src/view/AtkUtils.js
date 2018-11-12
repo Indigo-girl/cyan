@@ -38,10 +38,12 @@ function getCritProb(atker, target){
  */
 function getHurtAvoidProb(atker, target){
     const alogic = atker.logicEntity;
+    const defBreak = (alogic.getRealProp(ContextConst.PRO_ID.DEF_BREAK)||0) / 1000;
     const tlogic = target.logicEntity;
     const def = tlogic.getRealProp(ContextConst.PRO_ID.DEF);
     const level = tlogic.getLevel();
-    return Math.min(1, Math.max(0, def / (def + 100 * level + 2000)));
+    const effectDef = def * (1 - defBreak);
+    return Math.min(1, Math.max(0, effectDef / (effectDef + 10 * level + 5000)));
 }
 
 

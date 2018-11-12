@@ -21,7 +21,9 @@ const CONTEXT_CONST = {
         // 攻速: 动画播放速率
         ATK_SPEED: 12,
         // 能量获取速率加成
-        ENERGY_EXTRA_SCALE: 13
+        ENERGY_EXTRA_SCALE: 13,
+        // 破甲率
+        DEF_BREAK: 14, 
     },
 
     isCostPro(proId){
