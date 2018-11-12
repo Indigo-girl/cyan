@@ -159,7 +159,7 @@ class RoleContext{
         if(this._propDirty[id]){
             return true;
         }
-        const queue = this._getCalculatorQueue(proId);
+        const queue = this._getCalculatorQueue(id);
         for (const cal of queue) {
             if(cal.dirty){
                 return true;

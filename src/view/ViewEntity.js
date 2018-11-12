@@ -218,7 +218,8 @@ class ViewEntity{
         // 释放链式技能时，获得100点基础怒气
         if (this.skillComp.isSkillType(this._curSkill.configId, ContextConst.SKILL_TYPE.NORMAL)){
             this.handleEvent({type: 'castNormalSkill'});
-            this.logicEntity.setEnergy(this.logicEntity.getEnergy() + 100);
+            const energyExtraScale = this.logicEntity.getRealProp(ContextConst.PRO_ID.ENERGY_EXTRA_SCALE) || 0;
+            this.logicEntity.setEnergy(this.logicEntity.getEnergy() + 100 * (1+energyExtraScale));
             Log.log(`${this.id}释放链式技能，怒气加100，当前为:${this.logicEntity.getEnergy()}`);
         }
     }
@@ -269,7 +270,8 @@ class ViewEntity{
         this.logicEntity.setExtraInfo(ContextConst.EXTRA_ID.LAST_HURT_VALUE, -realHurt);
         const hurtPercent = Math.floor(-realHurt / role.getMaxHp() * 100);
         this.logicEntity.setExtraInfo(ContextConst.EXTRA_ID.LAST_HURT_PERCENT, hurtPercent);
-        const energy = hurtPercent * 10;
+        const energyExtraScale = role.getRealProp(ContextConst.PRO_ID.ENERGY_EXTRA_SCALE) || 0;
+        const energy = hurtPercent * 10 * (1+energyExtraScale);
         role.setEnergy(role.getEnergy() + energy);
         Log.log(`${this.id}受到来自${atker.id}的${hurt}点伤害,怒气值增加${energy},当前为${role.getEnergy()}`);
         this.handleEvent({

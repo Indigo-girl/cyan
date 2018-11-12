@@ -3,6 +3,7 @@ import FollowTrace from '../../view/trace/FollowTrace';
 import AtkUtils from '../AtkUtils';
 import Log from '../../lib/Log';
 import BlinkTrace from '../trace/BlinkTrace';
+import CONTEXT_CONST from '../../logic/const/ContextConst';
 
 let _id = 0;
 
@@ -180,7 +181,8 @@ class ViewBullet{
                 // 子弹造成目标死亡
                 if (!target.isAlive()) {
                     const role = this.atker.logicEntity;
-                    role.setEnergy(role.getEnergy() + 300);
+                    const energyExtraScale = role.getRealProp(CONTEXT_CONST.PRO_ID.ENERGY_EXTRA_SCALE) || 0;
+                    role.setEnergy(role.getEnergy() + 300 * (1 + energyExtraScale));
                     Log.log(`${role.id}造成目标死亡，怒气加300，当前为:${role.getEnergy()}`);
                 }
             } else {

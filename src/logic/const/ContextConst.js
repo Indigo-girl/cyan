@@ -20,6 +20,8 @@ const CONTEXT_CONST = {
         TOUGH: 11,
         // 攻速: 动画播放速率
         ATK_SPEED: 12,
+        // 能量获取速率加成
+        ENERGY_EXTRA_SCALE: 13
     },
 
     isCostPro(proId){
