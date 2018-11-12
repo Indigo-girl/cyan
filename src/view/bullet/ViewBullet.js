@@ -182,7 +182,7 @@ class ViewBullet{
                 if (!target.isAlive()) {
                     const role = this.atker.logicEntity;
                     const energyExtraScale = role.getRealProp(CONTEXT_CONST.PRO_ID.ENERGY_EXTRA_SCALE) || 0;
-                    role.setEnergy(role.getEnergy() + 300 * (1 + energyExtraScale));
+                    role.setEnergy(role.getEnergy() + 300 * (1 + energyExtraScale / 1000));
                     Log.log(`${role.id}造成目标死亡，怒气加300，当前为:${role.getEnergy()}`);
                 }
             } else {
