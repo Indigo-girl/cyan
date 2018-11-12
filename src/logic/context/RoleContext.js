@@ -30,7 +30,7 @@ class RoleContext{
             for (const key of keys) {
                 const proId = ContextConst.PRO_ID[key];
                 if (typeof proId === 'number') {
-                    this._setBaseProp(proId, props[key]);
+                    this._setBaseProp(proId, importProps[key]);
                 } else {
                     Log.warn(`无法找到${key}对应proId`);
                 }
