@@ -44,6 +44,9 @@ class SkillComponent{
 
     getSkillById(skillId){
         const skillConfig = skills[skillId];
+        if(!skillConfig){
+            console.error(`找不到技能:${skillId}的配置`);
+        }
         let configSkill = SkillParser.parse(skillConfig, this.owner);
         return configSkill;
     }
