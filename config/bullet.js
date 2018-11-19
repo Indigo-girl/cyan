@@ -19550,7 +19550,14 @@ export default {
       "type": "event",
       "value": "traceReach"
     },
-    "trace": {},
+    "trace": {
+      "type": "follow",
+      "initHead": {
+        "x": 1,
+        "y": 2
+      },
+      "speed": 40
+    },
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false
