@@ -288,7 +288,6 @@ class ViewBullet{
         }
         Log.log('子弹爆炸波及人数:', explodeTargets.length);
         for(const target of explodeTargets){
-            console.warn(this.explodeEffects);
             target.doEffects(this.explodeEffects);
         }
     }
