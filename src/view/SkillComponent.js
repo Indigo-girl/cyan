@@ -71,15 +71,15 @@ class SkillComponent{
     isSkillType(id, type){
         switch (type) {
             case CONTEXT_CONST.SKILL_TYPE.NORMAL:
-                if (this.normalSkillIds.find((e) => e === id)) {
+                if (this.normalSkillIds.find((e) => e == id)) {
                     return true;
                 } else {
                     return false;
                 }
             case CONTEXT_CONST.SKILL_TYPE.ENERGY:
-                return id === this.energySkill;
+                return id == this.energySkill;
             case CONTEXT_CONST.SKILL_TYPE.PASSIVE:
-                if (this.passiveSkillIds.find((e) => e === id)) {
+                if (this.passiveSkillIds.find((e) => e == id)) {
                     return true;
                 } else {
                     return false;
