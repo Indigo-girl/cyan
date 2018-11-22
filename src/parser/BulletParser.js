@@ -10,7 +10,20 @@ import SubBullet from '../view/bullet/SubBullet';
 
 class BulletParser{
 
+    prepareProto(bulletConfig){
+        // 不支持嵌套
+        if(bulletConfig.proto && bullets[bulletConfig.proto]){
+            const config = Object.create(bullets[bulletConfig.proto])
+            for(const key of Object.keys(bulletConfig)){
+                config[key] = bulletConfig[key];
+            }
+            return config;
+        }
+        return bulletConfig;
+    }
+
     parse(bulletConfig, owner){
+        bulletConfig = this.prepareProto(bulletConfig);
         const effects = [];
         for(const config of bulletConfig.effects){
             effects.push(EffectParser.parse(config, owner));
@@ -40,11 +53,14 @@ class BulletParser{
             spinePath: bulletConfig.spinePath,
             hitEffect: bulletConfig.hitEffect,
             offset: cc.v2(bulletConfig.offset.x, bulletConfig.offset.y),
+            offsetType: bulletConfig.offsetType || 0,
             trigger: trigger,
             trace: bulletConfig.trace,
             mustHit: bulletConfig.mustHit,
             explodeSelector: explodeSelector,
             explodeEffects: explodeEffects,
+            explodeEvents: bulletConfig.explodeEvents,
+            explodeIncludeTargets: bulletConfig.explodeIncludeTargets,
             explodeEffectPath: bulletConfig.explodeEffectPath,
             groundEffectPath: bulletConfig.groundEffectPath,
             subBulletConf: subBulletConf,
@@ -53,6 +69,7 @@ class BulletParser{
     }
 
     parseSubBullet(bulletConfig, owner, target){
+        bulletConfig = this.prepareProto(bulletConfig);
         const effects = [];
         for (const config of bulletConfig.effects) {
             effects.push(EffectParser.parse(config, owner));
@@ -77,13 +94,16 @@ class BulletParser{
             spinePath: bulletConfig.spinePath,
             hitEffect: bulletConfig.hitEffect,
             offset: cc.v2(bulletConfig.offset.x, bulletConfig.offset.y),
+            offsetType: bulletConfig.offsetType || 0,
             trigger: trigger,
             trace: bulletConfig.trace,
             mustHit: bulletConfig.mustHit,
             explodeSelector: explodeSelector,
             explodeEffects: explodeEffects,
             explodeEffectPath: bulletConfig.explodeEffectPath,
+            explodeEvents: bulletConfig.explodeEvents,
             groundEffectPath: bulletConfig.groundEffectPath,
+            explodeIncludeTargets: bulletConfig.explodeIncludeTargets,
         }, target);
         return bullet;
     }

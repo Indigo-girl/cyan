@@ -23,6 +23,7 @@ class SkillParser{
             ratio2: skillConfig.ratio2,
             configId: skillConfig.id,
             alignY: skillConfig.alignY,
+            delays: skillConfig.delays,
         });
         if(skillConfig.jump){
             skill.setJumpInfo(skillConfig.jumpDist, skillConfig.jumpDuration, skillConfig.jumpHeight);

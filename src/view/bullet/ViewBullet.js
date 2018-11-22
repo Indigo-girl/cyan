@@ -25,9 +25,14 @@ class ViewBullet{
         this.groundEffectPath = info.groundEffectPath;
         this.explodeEffects = info.explodeEffects || [];
         this.explodeSelector = info.explodeSelector;
+        // 爆炸事件，如果没有设置，默认子弹销毁时触发
+        this.explodeEvents = info.explodeEvents || [];
+        // 爆炸是否波及子弹选定的目标
+        this.explodeIncludeTargets = info.explodeIncludeTargets;
         // 必定命中
         this.mustHit = !!info.mustHit; 
         this.offset = info.offset || cc.v2(0, 0);
+        this.offsetType = info.offsetType;
         this._fired = false;
         const node = new cc.Node(this.id);
         this.view = node;
@@ -63,6 +68,10 @@ class ViewBullet{
                 skeleton.setToSetupPose();
                 skeleton.premultipliedAlpha = false;
                 skeleton.setCompleteListener(() => this.handleEvent({ type: 'animCompleted' }));
+                skeleton.setEventListener((_, event) => {
+                    Log.log('子弹spine事件：', event.data);
+                    this.handleEvent({ type: event.data.name });
+                });
                 skeleton.setAnimation(0, 'effect', true);
                 skeleton.paused = !!this._paused;
             });
@@ -82,9 +91,8 @@ class ViewBullet{
                     break;
             }
         }
-        // TODO 目前所有的弹道都是跟随目标的，所以可以这样判定，
-        // 之后弹道需要拆分类型，仅追踪型需要此操作
-        if(traceConf && !target){
+        // 追踪型子弹在没有目标时自动销毁
+        if(traceConf && !target && this.offsetType !== 2){
             this.handleEvent({
                 type: 'targetNotFound'
             });
@@ -92,6 +100,9 @@ class ViewBullet{
     }
 
     handleEvent(event){
+        if(this.explodeEvents.find((e)=>e==event.type)){
+            this.explode();
+        }
         Log.log('子弹接收到事件:', event);
         if(event.type === 'targetNotFound'){
             // 当追踪目标消失时，直接销毁子弹
@@ -151,7 +162,9 @@ class ViewBullet{
             this.onTrigger();
             // 每个子弹可以爆炸一次，爆炸后消失
             if (this.trigger.triggerDestroy()){
-                this.explode();
+                if(this.explodeEvents.length < 1 || this.explodeEvents.find((e)=>e=="destroy")){
+                    this.explode();
+                }
                 this.destroy();
             }
         }
@@ -224,6 +237,35 @@ class ViewBullet{
         }
     }
 
+    getOffsetNode(){
+        // TOFIX
+        // 强制要求存在可以依托的节点
+        let node;
+        switch(this.offsetType){
+            case 0:
+                node = this.atker && this.atker.view;
+                break;
+            case 1:
+                node = this.getFirstTarget() && this.getFirstTarget().view;
+                break;
+            case 2:
+                node = WorldUtils.getWorld().node;
+                break;
+        }
+        return node;
+    }
+
+    getOffsetDirect(){
+        switch (this.offsetType) {
+            case 0:
+                return this.atker.getDirect();
+            case 1:
+                return this.getFirstTarget().getDirect();
+            default:
+                return this.atker.getDirect();
+        }
+    }
+
     explode(){
         this.showEffect(this.explodeEffectPath, this.getPosition(), this.view.zIndex);
         this.showEffect(this.groundEffectPath, this.getPosition(), 0);
@@ -231,18 +273,22 @@ class ViewBullet{
         if(!this.explodeSelector){
             return;
         }
-        let targets = this.getTargets();
         let explodeTargets = this.explodeSelector.getTargets(this.atker, this, WorldUtils.getWorld());
-        explodeTargets = explodeTargets.filter((e)=>{
-            const target = targets.find((target)=>e===target);
-            if(target){
-                return false
-            }else{
-                return true;
-            }
-        });
+        if (!this.explodeIncludeTargets){
+            Log.log('爆炸移除子弹所有目标')
+            let targets = this.getTargets();
+            explodeTargets = explodeTargets.filter((e) => {
+                const target = targets.find((target) => e === target);
+                if (target) {
+                    return false
+                } else {
+                    return true;
+                }
+            });
+        }
         Log.log('子弹爆炸波及人数:', explodeTargets.length);
         for(const target of explodeTargets){
+            console.warn(this.explodeEffects);
             target.doEffects(this.explodeEffects);
         }
     }

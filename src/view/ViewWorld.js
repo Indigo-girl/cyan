@@ -126,11 +126,16 @@ cc.Class({
      * @param {ViewBullet} bullet
      */
     fireBullet(bullet) {
-        const atker = bullet.atker;
-        const wpos = atker.view.convertToWorldSpaceAR(bullet.view.position);
-        const tpos = this.node.convertToNodeSpaceAR(wpos);
-        bullet.view.position = tpos;
-        bullet.view.scaleX = - atker.getDirect() * bullet.view.scaleX;
+        const offsetNode = bullet.getOffsetNode();
+        if(offsetNode){
+            const wpos = offsetNode.convertToWorldSpaceAR(bullet.view.position);
+            const tpos = this.node.convertToNodeSpaceAR(wpos);
+            bullet.view.position = tpos;
+            bullet.view.scaleX = - bullet.getOffsetDirect() * bullet.view.scaleX;
+        }else{
+            this.removeBullet(bullet);
+            bullet.view.destroy();
+        }
     },
 
     removeBullet(bullet) {

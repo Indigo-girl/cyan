@@ -8,7 +8,8 @@ class BaseSkill{
         if(!bullets || bullets.length<1){
             throw new Error('技能至少需要一个子弹');
         }
-        this.bullets = bullets;      
+        this.bullets = bullets;    
+        this.delays = info.delays || [];  
         this.atkAnim = info.atkAnim;
         this.prepareEffect = info.prepareEffect;
         this.preparePoint = info.preparePoint;
@@ -52,14 +53,15 @@ class BaseSkill{
         });
     }
 
-    fireBullets(delay){
-        delay = delay || 0;
+    fireBullets(){
         if(this._fired){
             throw new Error('已经发射过子弹了');
         }
         this._fired = true;
+        let i = 0;
         for(const bullet of this.bullets){
-            bullet.fireDelay(delay);
+            bullet.fireDelay(this.delays[i] || 0);
+            i++;
         }
     }
 
