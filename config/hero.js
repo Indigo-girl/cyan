@@ -755,12 +755,12 @@ export default {
       "y": 100
     }
   },
-  "100901": {
-    "id": "100901",
-    "spinePath": "role/DRJ/DRJ",
-    "skin": "DRJ01",
+  "100601": {
+    "id": "100601",
+    "spinePath": "role/LBO/LBO",
+    "skin": "LBO01",
     "skills": [
-      200900000
+      200600000
     ],
     "scale": 0.35,
     "props": {
@@ -776,6 +776,438 @@ export default {
       "ACCURACY": 0,
       "DODGE": 10,
       "TOUGH": 0,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100602": {
+    "id": "100602",
+    "spinePath": "role/LBO/LBO",
+    "skin": "LBO02",
+    "skills": [
+      200600000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 16000,
+      "MAX_HP": 16000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 400,
+      "DEF": 1000,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 0,
+      "DODGE": 10,
+      "TOUGH": 0,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100603": {
+    "id": "100603",
+    "spinePath": "role/LBO/LBO",
+    "skin": "LBO03",
+    "skills": [
+      200600000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 16000,
+      "MAX_HP": 16000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 400,
+      "DEF": 1000,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 0,
+      "DODGE": 10,
+      "TOUGH": 0,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100604": {
+    "id": "100604",
+    "spinePath": "role/LBO/LBO",
+    "skin": "LBO04",
+    "skills": [
+      200600000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 16000,
+      "MAX_HP": 16000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 400,
+      "DEF": 1000,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 0,
+      "DODGE": 10,
+      "TOUGH": 0,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100701": {
+    "id": "100701",
+    "spinePath": "role/HML/HML",
+    "skin": "HML01",
+    "skills": [
+      200700000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 12800,
+      "MAX_HP": 12800,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 600,
+      "DEF": 800,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 10,
+      "DODGE": 10,
+      "TOUGH": 10,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100702": {
+    "id": "100702",
+    "spinePath": "role/HML/HML",
+    "skin": "HML02",
+    "skills": [
+      200700000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 12800,
+      "MAX_HP": 12800,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 600,
+      "DEF": 800,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 10,
+      "DODGE": 10,
+      "TOUGH": 10,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100703": {
+    "id": "100703",
+    "spinePath": "role/HML/HML",
+    "skin": "HML03",
+    "skills": [
+      200700000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 12800,
+      "MAX_HP": 12800,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 600,
+      "DEF": 800,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 10,
+      "DODGE": 10,
+      "TOUGH": 10,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100704": {
+    "id": "100704",
+    "spinePath": "role/HML/HML",
+    "skin": "HML04",
+    "skills": [
+      200700000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 12800,
+      "MAX_HP": 12800,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 600,
+      "DEF": 800,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 10,
+      "DODGE": 10,
+      "TOUGH": 10,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100801": {
+    "id": "100801",
+    "spinePath": "role/LBAI/LBAI",
+    "skin": "LBAI01",
+    "skills": [
+      200800000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 9600,
+      "MAX_HP": 9600,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 700,
+      "DEF": 600,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 30,
+      "ACCURACY": 20,
+      "DODGE": 30,
+      "TOUGH": 20,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100802": {
+    "id": "100802",
+    "spinePath": "role/LBAI/LBAI",
+    "skin": "LBAI02",
+    "skills": [
+      200800000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 9600,
+      "MAX_HP": 9600,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 700,
+      "DEF": 600,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 30,
+      "ACCURACY": 20,
+      "DODGE": 30,
+      "TOUGH": 20,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100803": {
+    "id": "100803",
+    "spinePath": "role/LBAI/LBAI",
+    "skin": "LBAI03",
+    "skills": [
+      200800000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 9600,
+      "MAX_HP": 9600,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 700,
+      "DEF": 600,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 30,
+      "ACCURACY": 20,
+      "DODGE": 30,
+      "TOUGH": 20,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100804": {
+    "id": "100804",
+    "spinePath": "role/LBAI/LBAI",
+    "skin": "LBAI04",
+    "skills": [
+      200800000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 9600,
+      "MAX_HP": 9600,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 700,
+      "DEF": 600,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 30,
+      "ACCURACY": 20,
+      "DODGE": 30,
+      "TOUGH": 20,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "100901": {
+    "id": "100901",
+    "spinePath": "role/DRJ/DRJ",
+    "skin": "DRJ01",
+    "skills": [
+      200900000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 8000,
+      "MAX_HP": 8000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 1000,
+      "DEF": 400,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 20,
+      "ACCURACY": 30,
+      "DODGE": 20,
+      "TOUGH": 30,
       "ATK_SPEED": 1,
       "ENERGY_EXTRA_SCALE": 0,
       "DEF_BREAK": 0,
@@ -800,18 +1232,18 @@ export default {
     ],
     "scale": 0.35,
     "props": {
-      "HP": 16000,
-      "MAX_HP": 16000,
+      "HP": 8000,
+      "MAX_HP": 8000,
       "ENERGY": 0,
       "MAX_ENERGY": 1000,
       "MAX_SPEED": 2,
-      "ATK": 400,
-      "DEF": 1000,
+      "ATK": 1000,
+      "DEF": 400,
       "CRIT_SCALE": 1.5,
-      "CRIT": 10,
-      "ACCURACY": 0,
-      "DODGE": 10,
-      "TOUGH": 0,
+      "CRIT": 20,
+      "ACCURACY": 30,
+      "DODGE": 20,
+      "TOUGH": 30,
       "ATK_SPEED": 1,
       "ENERGY_EXTRA_SCALE": 0,
       "DEF_BREAK": 0,
@@ -836,18 +1268,18 @@ export default {
     ],
     "scale": 0.35,
     "props": {
-      "HP": 16000,
-      "MAX_HP": 16000,
+      "HP": 8000,
+      "MAX_HP": 8000,
       "ENERGY": 0,
       "MAX_ENERGY": 1000,
       "MAX_SPEED": 2,
-      "ATK": 400,
-      "DEF": 1000,
+      "ATK": 1000,
+      "DEF": 400,
       "CRIT_SCALE": 1.5,
-      "CRIT": 10,
-      "ACCURACY": 0,
-      "DODGE": 10,
-      "TOUGH": 0,
+      "CRIT": 20,
+      "ACCURACY": 30,
+      "DODGE": 20,
+      "TOUGH": 30,
       "ATK_SPEED": 1,
       "ENERGY_EXTRA_SCALE": 0,
       "DEF_BREAK": 0,
@@ -872,18 +1304,18 @@ export default {
     ],
     "scale": 0.35,
     "props": {
-      "HP": 16000,
-      "MAX_HP": 16000,
+      "HP": 8000,
+      "MAX_HP": 8000,
       "ENERGY": 0,
       "MAX_ENERGY": 1000,
       "MAX_SPEED": 2,
-      "ATK": 400,
-      "DEF": 1000,
+      "ATK": 1000,
+      "DEF": 400,
       "CRIT_SCALE": 1.5,
-      "CRIT": 10,
-      "ACCURACY": 0,
-      "DODGE": 10,
-      "TOUGH": 0,
+      "CRIT": 20,
+      "ACCURACY": 30,
+      "DODGE": 20,
+      "TOUGH": 30,
       "ATK_SPEED": 1,
       "ENERGY_EXTRA_SCALE": 0,
       "DEF_BREAK": 0,
@@ -908,16 +1340,16 @@ export default {
     ],
     "scale": 0.35,
     "props": {
-      "HP": 12800,
-      "MAX_HP": 12800,
+      "HP": 8000,
+      "MAX_HP": 8000,
       "ENERGY": 0,
       "MAX_ENERGY": 1000,
       "MAX_SPEED": 2,
-      "ATK": 600,
-      "DEF": 800,
+      "ATK": 700,
+      "DEF": 400,
       "CRIT_SCALE": 1.5,
       "CRIT": 10,
-      "ACCURACY": 10,
+      "ACCURACY": 0,
       "DODGE": 10,
       "TOUGH": 10,
       "ATK_SPEED": 1,
@@ -944,16 +1376,16 @@ export default {
     ],
     "scale": 0.35,
     "props": {
-      "HP": 12800,
-      "MAX_HP": 12800,
+      "HP": 8000,
+      "MAX_HP": 8000,
       "ENERGY": 0,
       "MAX_ENERGY": 1000,
       "MAX_SPEED": 2,
-      "ATK": 600,
-      "DEF": 800,
+      "ATK": 700,
+      "DEF": 400,
       "CRIT_SCALE": 1.5,
       "CRIT": 10,
-      "ACCURACY": 10,
+      "ACCURACY": 0,
       "DODGE": 10,
       "TOUGH": 10,
       "ATK_SPEED": 1,
@@ -980,16 +1412,16 @@ export default {
     ],
     "scale": 0.35,
     "props": {
-      "HP": 12800,
-      "MAX_HP": 12800,
+      "HP": 8000,
+      "MAX_HP": 8000,
       "ENERGY": 0,
       "MAX_ENERGY": 1000,
       "MAX_SPEED": 2,
-      "ATK": 600,
-      "DEF": 800,
+      "ATK": 700,
+      "DEF": 400,
       "CRIT_SCALE": 1.5,
       "CRIT": 10,
-      "ACCURACY": 10,
+      "ACCURACY": 0,
       "DODGE": 10,
       "TOUGH": 10,
       "ATK_SPEED": 1,
@@ -1016,6 +1448,186 @@ export default {
     ],
     "scale": 0.35,
     "props": {
+      "HP": 8000,
+      "MAX_HP": 8000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 700,
+      "DEF": 400,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 0,
+      "DODGE": 10,
+      "TOUGH": 10,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101101": {
+    "id": "101101",
+    "spinePath": "role/ZF/ZF",
+    "skin": "ZF01",
+    "skills": [
+      201100000
+    ],
+    "scale": 0.38,
+    "props": {
+      "HP": 16000,
+      "MAX_HP": 16000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 400,
+      "DEF": 1000,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 0,
+      "DODGE": 10,
+      "TOUGH": 0,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101102": {
+    "id": "101102",
+    "spinePath": "role/ZF/ZF",
+    "skin": "ZF02",
+    "skills": [
+      201100000
+    ],
+    "scale": 0.38,
+    "props": {
+      "HP": 16000,
+      "MAX_HP": 16000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 400,
+      "DEF": 1000,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 0,
+      "DODGE": 10,
+      "TOUGH": 0,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101103": {
+    "id": "101103",
+    "spinePath": "role/ZF/ZF",
+    "skin": "ZF03",
+    "skills": [
+      201100000
+    ],
+    "scale": 0.38,
+    "props": {
+      "HP": 16000,
+      "MAX_HP": 16000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 400,
+      "DEF": 1000,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 0,
+      "DODGE": 10,
+      "TOUGH": 0,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101104": {
+    "id": "101104",
+    "spinePath": "role/ZF/ZF",
+    "skin": "ZF04",
+    "skills": [
+      201100000
+    ],
+    "scale": 0.38,
+    "props": {
+      "HP": 16000,
+      "MAX_HP": 16000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 400,
+      "DEF": 1000,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 0,
+      "DODGE": 10,
+      "TOUGH": 0,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101201": {
+    "id": "101201",
+    "spinePath": "role/GY/GY",
+    "skin": "GY01",
+    "skills": [
+      201200000
+    ],
+    "scale": 0.37,
+    "props": {
       "HP": 12800,
       "MAX_HP": 12800,
       "ENERGY": 0,
@@ -1043,186 +1655,6 @@ export default {
       "y": 100
     }
   },
-  "101101": {
-    "id": "101101",
-    "spinePath": "role/ZF/ZF",
-    "skin": "ZF01",
-    "skills": [
-      201100000
-    ],
-    "scale": 0.38,
-    "props": {
-      "HP": 9600,
-      "MAX_HP": 9600,
-      "ENERGY": 0,
-      "MAX_ENERGY": 1000,
-      "MAX_SPEED": 2,
-      "ATK": 700,
-      "DEF": 600,
-      "CRIT_SCALE": 1.5,
-      "CRIT": 30,
-      "ACCURACY": 20,
-      "DODGE": 30,
-      "TOUGH": 20,
-      "ATK_SPEED": 1,
-      "ENERGY_EXTRA_SCALE": 0,
-      "DEF_BREAK": 0,
-      "HURT_IMPROVE": 0,
-      "HURT_REDUCE": 0,
-      "CRTI_HURT_SCALE": 1.5
-    },
-    "energySkill": [],
-    "passiveSkills": [],
-    "stateTrans": "demo",
-    "hitPoint": {
-      "x": -20,
-      "y": 100
-    }
-  },
-  "101102": {
-    "id": "101102",
-    "spinePath": "role/ZF/ZF",
-    "skin": "ZF02",
-    "skills": [
-      201100000
-    ],
-    "scale": 0.38,
-    "props": {
-      "HP": 9600,
-      "MAX_HP": 9600,
-      "ENERGY": 0,
-      "MAX_ENERGY": 1000,
-      "MAX_SPEED": 2,
-      "ATK": 700,
-      "DEF": 600,
-      "CRIT_SCALE": 1.5,
-      "CRIT": 30,
-      "ACCURACY": 20,
-      "DODGE": 30,
-      "TOUGH": 20,
-      "ATK_SPEED": 1,
-      "ENERGY_EXTRA_SCALE": 0,
-      "DEF_BREAK": 0,
-      "HURT_IMPROVE": 0,
-      "HURT_REDUCE": 0,
-      "CRTI_HURT_SCALE": 1.5
-    },
-    "energySkill": [],
-    "passiveSkills": [],
-    "stateTrans": "demo",
-    "hitPoint": {
-      "x": -20,
-      "y": 100
-    }
-  },
-  "101103": {
-    "id": "101103",
-    "spinePath": "role/ZF/ZF",
-    "skin": "ZF03",
-    "skills": [
-      201100000
-    ],
-    "scale": 0.38,
-    "props": {
-      "HP": 9600,
-      "MAX_HP": 9600,
-      "ENERGY": 0,
-      "MAX_ENERGY": 1000,
-      "MAX_SPEED": 2,
-      "ATK": 700,
-      "DEF": 600,
-      "CRIT_SCALE": 1.5,
-      "CRIT": 30,
-      "ACCURACY": 20,
-      "DODGE": 30,
-      "TOUGH": 20,
-      "ATK_SPEED": 1,
-      "ENERGY_EXTRA_SCALE": 0,
-      "DEF_BREAK": 0,
-      "HURT_IMPROVE": 0,
-      "HURT_REDUCE": 0,
-      "CRTI_HURT_SCALE": 1.5
-    },
-    "energySkill": [],
-    "passiveSkills": [],
-    "stateTrans": "demo",
-    "hitPoint": {
-      "x": -20,
-      "y": 100
-    }
-  },
-  "101104": {
-    "id": "101104",
-    "spinePath": "role/ZF/ZF",
-    "skin": "ZF04",
-    "skills": [
-      201100000
-    ],
-    "scale": 0.38,
-    "props": {
-      "HP": 9600,
-      "MAX_HP": 9600,
-      "ENERGY": 0,
-      "MAX_ENERGY": 1000,
-      "MAX_SPEED": 2,
-      "ATK": 700,
-      "DEF": 600,
-      "CRIT_SCALE": 1.5,
-      "CRIT": 30,
-      "ACCURACY": 20,
-      "DODGE": 30,
-      "TOUGH": 20,
-      "ATK_SPEED": 1,
-      "ENERGY_EXTRA_SCALE": 0,
-      "DEF_BREAK": 0,
-      "HURT_IMPROVE": 0,
-      "HURT_REDUCE": 0,
-      "CRTI_HURT_SCALE": 1.5
-    },
-    "energySkill": [],
-    "passiveSkills": [],
-    "stateTrans": "demo",
-    "hitPoint": {
-      "x": -20,
-      "y": 100
-    }
-  },
-  "101201": {
-    "id": "101201",
-    "spinePath": "role/GY/GY",
-    "skin": "GY01",
-    "skills": [
-      201200000
-    ],
-    "scale": 0.37,
-    "props": {
-      "HP": 8000,
-      "MAX_HP": 8000,
-      "ENERGY": 0,
-      "MAX_ENERGY": 1000,
-      "MAX_SPEED": 2,
-      "ATK": 1000,
-      "DEF": 400,
-      "CRIT_SCALE": 1.5,
-      "CRIT": 20,
-      "ACCURACY": 30,
-      "DODGE": 20,
-      "TOUGH": 30,
-      "ATK_SPEED": 1,
-      "ENERGY_EXTRA_SCALE": 0,
-      "DEF_BREAK": 0,
-      "HURT_IMPROVE": 0,
-      "HURT_REDUCE": 0,
-      "CRTI_HURT_SCALE": 1.5
-    },
-    "energySkill": [],
-    "passiveSkills": [],
-    "stateTrans": "demo",
-    "hitPoint": {
-      "x": -20,
-      "y": 100
-    }
-  },
   "101202": {
     "id": "101202",
     "spinePath": "role/GY/GY",
@@ -1232,18 +1664,18 @@ export default {
     ],
     "scale": 0.37,
     "props": {
-      "HP": 8000,
-      "MAX_HP": 8000,
+      "HP": 12800,
+      "MAX_HP": 12800,
       "ENERGY": 0,
       "MAX_ENERGY": 1000,
       "MAX_SPEED": 2,
-      "ATK": 1000,
-      "DEF": 400,
+      "ATK": 600,
+      "DEF": 800,
       "CRIT_SCALE": 1.5,
-      "CRIT": 20,
-      "ACCURACY": 30,
-      "DODGE": 20,
-      "TOUGH": 30,
+      "CRIT": 10,
+      "ACCURACY": 10,
+      "DODGE": 10,
+      "TOUGH": 10,
       "ATK_SPEED": 1,
       "ENERGY_EXTRA_SCALE": 0,
       "DEF_BREAK": 0,
@@ -1268,18 +1700,18 @@ export default {
     ],
     "scale": 0.37,
     "props": {
-      "HP": 8000,
-      "MAX_HP": 8000,
+      "HP": 12800,
+      "MAX_HP": 12800,
       "ENERGY": 0,
       "MAX_ENERGY": 1000,
       "MAX_SPEED": 2,
-      "ATK": 1000,
-      "DEF": 400,
+      "ATK": 600,
+      "DEF": 800,
       "CRIT_SCALE": 1.5,
-      "CRIT": 20,
-      "ACCURACY": 30,
-      "DODGE": 20,
-      "TOUGH": 30,
+      "CRIT": 10,
+      "ACCURACY": 10,
+      "DODGE": 10,
+      "TOUGH": 10,
       "ATK_SPEED": 1,
       "ENERGY_EXTRA_SCALE": 0,
       "DEF_BREAK": 0,
@@ -1304,6 +1736,186 @@ export default {
     ],
     "scale": 0.37,
     "props": {
+      "HP": 12800,
+      "MAX_HP": 12800,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 600,
+      "DEF": 800,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 10,
+      "ACCURACY": 10,
+      "DODGE": 10,
+      "TOUGH": 10,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101301": {
+    "id": "101301",
+    "spinePath": "role/ZY/ZY",
+    "skin": "ZY01",
+    "skills": [
+      201300000
+    ],
+    "scale": 0.36,
+    "props": {
+      "HP": 9600,
+      "MAX_HP": 9600,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 700,
+      "DEF": 600,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 30,
+      "ACCURACY": 20,
+      "DODGE": 30,
+      "TOUGH": 20,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101302": {
+    "id": "101302",
+    "spinePath": "role/ZY/ZY",
+    "skin": "ZY02",
+    "skills": [
+      201300000
+    ],
+    "scale": 0.36,
+    "props": {
+      "HP": 9600,
+      "MAX_HP": 9600,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 700,
+      "DEF": 600,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 30,
+      "ACCURACY": 20,
+      "DODGE": 30,
+      "TOUGH": 20,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101303": {
+    "id": "101303",
+    "spinePath": "role/ZY/ZY",
+    "skin": "ZY03",
+    "skills": [
+      201300000
+    ],
+    "scale": 0.36,
+    "props": {
+      "HP": 9600,
+      "MAX_HP": 9600,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 700,
+      "DEF": 600,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 30,
+      "ACCURACY": 20,
+      "DODGE": 30,
+      "TOUGH": 20,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101304": {
+    "id": "101304",
+    "spinePath": "role/ZY/ZY",
+    "skin": "ZY04",
+    "skills": [
+      201300000
+    ],
+    "scale": 0.36,
+    "props": {
+      "HP": 9600,
+      "MAX_HP": 9600,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 700,
+      "DEF": 600,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 30,
+      "ACCURACY": 20,
+      "DODGE": 30,
+      "TOUGH": 20,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101401": {
+    "id": "101401",
+    "spinePath": "role/LBAN/LBAN",
+    "skin": "LBAN01",
+    "skills": [
+      201400000
+    ],
+    "scale": 0.35,
+    "props": {
       "HP": 8000,
       "MAX_HP": 8000,
       "ENERGY": 0,
@@ -1331,14 +1943,122 @@ export default {
       "y": 100
     }
   },
-  "101301": {
-    "id": "101301",
-    "spinePath": "role/ZY/ZY",
-    "skin": "ZY01",
+  "101402": {
+    "id": "101402",
+    "spinePath": "role/LBAN/LBAN",
+    "skin": "LBAN02",
     "skills": [
-      201300000
+      201400000
     ],
-    "scale": 0.36,
+    "scale": 0.35,
+    "props": {
+      "HP": 8000,
+      "MAX_HP": 8000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 1000,
+      "DEF": 400,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 20,
+      "ACCURACY": 30,
+      "DODGE": 20,
+      "TOUGH": 30,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101403": {
+    "id": "101403",
+    "spinePath": "role/LBAN/LBAN",
+    "skin": "LBAN03",
+    "skills": [
+      201400000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 8000,
+      "MAX_HP": 8000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 1000,
+      "DEF": 400,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 20,
+      "ACCURACY": 30,
+      "DODGE": 20,
+      "TOUGH": 30,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101404": {
+    "id": "101404",
+    "spinePath": "role/LBAN/LBAN",
+    "skin": "LBAN04",
+    "skills": [
+      201400000
+    ],
+    "scale": 0.35,
+    "props": {
+      "HP": 8000,
+      "MAX_HP": 8000,
+      "ENERGY": 0,
+      "MAX_ENERGY": 1000,
+      "MAX_SPEED": 2,
+      "ATK": 1000,
+      "DEF": 400,
+      "CRIT_SCALE": 1.5,
+      "CRIT": 20,
+      "ACCURACY": 30,
+      "DODGE": 20,
+      "TOUGH": 30,
+      "ATK_SPEED": 1,
+      "ENERGY_EXTRA_SCALE": 0,
+      "DEF_BREAK": 0,
+      "HURT_IMPROVE": 0,
+      "HURT_REDUCE": 0,
+      "CRTI_HURT_SCALE": 1.5
+    },
+    "energySkill": [],
+    "passiveSkills": [],
+    "stateTrans": "demo",
+    "hitPoint": {
+      "x": -20,
+      "y": 100
+    }
+  },
+  "101501": {
+    "id": "101501",
+    "spinePath": "role/WZJ/WZJ",
+    "skin": "WZJ01",
+    "skills": [
+      201500000
+    ],
+    "scale": 0.35,
     "props": {
       "HP": 8000,
       "MAX_HP": 8000,
@@ -1367,14 +2087,14 @@ export default {
       "y": 100
     }
   },
-  "101302": {
-    "id": "101302",
-    "spinePath": "role/ZY/ZY",
-    "skin": "ZY02",
+  "101502": {
+    "id": "101502",
+    "spinePath": "role/WZJ/WZJ",
+    "skin": "WZJ02",
     "skills": [
-      201300000
+      201500000
     ],
-    "scale": 0.36,
+    "scale": 0.35,
     "props": {
       "HP": 8000,
       "MAX_HP": 8000,
@@ -1403,14 +2123,14 @@ export default {
       "y": 100
     }
   },
-  "101303": {
-    "id": "101303",
-    "spinePath": "role/ZY/ZY",
-    "skin": "ZY03",
+  "101503": {
+    "id": "101503",
+    "spinePath": "role/WZJ/WZJ",
+    "skin": "WZJ03",
     "skills": [
-      201300000
+      201500000
     ],
-    "scale": 0.36,
+    "scale": 0.35,
     "props": {
       "HP": 8000,
       "MAX_HP": 8000,
@@ -1439,14 +2159,14 @@ export default {
       "y": 100
     }
   },
-  "101304": {
-    "id": "101304",
-    "spinePath": "role/ZY/ZY",
-    "skin": "ZY04",
+  "101504": {
+    "id": "101504",
+    "spinePath": "role/WZJ/WZJ",
+    "skin": "WZJ04",
     "skills": [
-      201300000
+      201500000
     ],
-    "scale": 0.36,
+    "scale": 0.35,
     "props": {
       "HP": 8000,
       "MAX_HP": 8000,

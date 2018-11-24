@@ -4,8 +4,9 @@ export default {
     "type": 0,
     "radius": 1,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25,8 +26,9 @@ export default {
     "type": 0,
     "radius": 150,
     "bullets": [
-      300100000
+      30010000000
     ],
+    "delays": [],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -46,8 +48,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100101
+      30010010100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -67,8 +70,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100102
+      30010010200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -88,8 +92,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100103
+      30010010300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -109,8 +114,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100104
+      30010010400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -130,8 +136,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100105
+      30010010500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -151,8 +158,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100106
+      30010010600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -172,8 +180,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100107
+      30010010700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -193,8 +202,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100108
+      30010010800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -214,8 +224,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100109
+      30010010900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -235,8 +246,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100110
+      30010011000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -256,8 +268,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100111
+      30010011100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -277,8 +290,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100112
+      30010011200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -298,8 +312,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100113
+      30010011300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -319,8 +334,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100114
+      30010011400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -340,8 +356,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100115
+      30010011500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -361,8 +378,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100116
+      30010011600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -382,8 +400,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100117
+      30010011700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -403,8 +422,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100118
+      30010011800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -424,8 +444,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100119
+      30010011900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -445,8 +466,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100120
+      30010012000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -466,8 +488,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100121
+      30010012100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -487,8 +510,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100122
+      30010012200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -508,8 +532,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100123
+      30010012300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -529,8 +554,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100124
+      30010012400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -550,8 +576,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100125
+      30010012500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -571,8 +598,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100126
+      30010012600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -592,8 +620,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100127
+      30010012700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -613,8 +642,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100128
+      30010012800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -634,8 +664,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100129
+      30010012900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -655,8 +686,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100130
+      30010013000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -676,8 +708,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100131
+      30010013100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -697,8 +730,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100132
+      30010013200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -718,8 +752,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100133
+      30010013300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -739,8 +774,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100134
+      30010013400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -760,8 +796,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100135
+      30010013500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -781,8 +818,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100136
+      30010013600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -802,8 +840,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100137
+      30010013700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -823,8 +862,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100138
+      30010013800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -844,8 +884,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100139
+      30010013900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -865,8 +906,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100140
+      30010014000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -886,8 +928,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100141
+      30010014100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -907,8 +950,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100142
+      30010014200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -928,8 +972,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100143
+      30010014300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -949,8 +994,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100144
+      30010014400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -970,8 +1016,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100145
+      30010014500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -991,8 +1038,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100146
+      30010014600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1012,8 +1060,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100147
+      30010014700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1033,8 +1082,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100148
+      30010014800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1054,8 +1104,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100149
+      30010014900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1075,8 +1126,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100150
+      30010015000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1096,8 +1148,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100151
+      30010015100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1117,8 +1170,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100152
+      30010015200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1138,8 +1192,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100153
+      30010015300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1159,8 +1214,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100154
+      30010015400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1180,8 +1236,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100155
+      30010015500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1201,8 +1258,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100156
+      30010015600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1222,8 +1280,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100157
+      30010015700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1243,8 +1302,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100158
+      30010015800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1264,8 +1324,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100159
+      30010015900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1285,8 +1346,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100160
+      30010016000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1306,8 +1368,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100161
+      30010016100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1327,8 +1390,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100162
+      30010016200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1348,8 +1412,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100163
+      30010016300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1369,8 +1434,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100164
+      30010016400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1390,8 +1456,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100165
+      30010016500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1411,8 +1478,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100166
+      30010016600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1432,8 +1500,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100167
+      30010016700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1453,8 +1522,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100168
+      30010016800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1474,8 +1544,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100169
+      30010016900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1495,8 +1566,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100170
+      30010017000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1516,8 +1588,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100171
+      30010017100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1537,8 +1610,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100172
+      30010017200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1558,8 +1632,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100173
+      30010017300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1579,8 +1654,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100174
+      30010017400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1600,8 +1676,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100175
+      30010017500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1621,8 +1698,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100176
+      30010017600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1642,8 +1720,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100177
+      30010017700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1663,8 +1742,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100178
+      30010017800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1684,8 +1764,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100179
+      30010017900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1705,8 +1786,9 @@ export default {
     "type": 1,
     "radius": 400,
     "bullets": [
-      300100180
+      30010018000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1726,8 +1808,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100201
+      30010020100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1747,8 +1830,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100202
+      30010020200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1768,8 +1852,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100203
+      30010020300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1789,8 +1874,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100204
+      30010020400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1810,8 +1896,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100205
+      30010020500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1831,8 +1918,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100206
+      30010020600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1852,8 +1940,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100207
+      30010020700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1873,8 +1962,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100208
+      30010020800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1894,8 +1984,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100209
+      30010020900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1915,8 +2006,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100210
+      30010021000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1936,8 +2028,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100211
+      30010021100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1957,8 +2050,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100212
+      30010021200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1978,8 +2072,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100213
+      30010021300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -1999,8 +2094,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100214
+      30010021400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2020,8 +2116,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100215
+      30010021500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2041,8 +2138,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100216
+      30010021600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2062,8 +2160,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100217
+      30010021700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2083,8 +2182,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100218
+      30010021800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2104,8 +2204,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100219
+      30010021900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2125,8 +2226,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100220
+      30010022000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2146,8 +2248,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100221
+      30010022100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2167,8 +2270,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100222
+      30010022200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2188,8 +2292,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100223
+      30010022300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2209,8 +2314,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100224
+      30010022400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2230,8 +2336,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100225
+      30010022500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2251,8 +2358,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100226
+      30010022600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2272,8 +2380,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100227
+      30010022700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2293,8 +2402,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100228
+      30010022800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2314,8 +2424,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100229
+      30010022900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2335,8 +2446,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100230
+      30010023000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2356,8 +2468,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100231
+      30010023100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2377,8 +2490,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100232
+      30010023200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2398,8 +2512,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100233
+      30010023300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2419,8 +2534,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100234
+      30010023400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2440,8 +2556,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100235
+      30010023500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2461,8 +2578,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100236
+      30010023600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2482,8 +2600,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100237
+      30010023700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2503,8 +2622,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100238
+      30010023800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2524,8 +2644,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100239
+      30010023900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2545,8 +2666,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300100240
+      30010024000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2566,8 +2688,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2587,8 +2710,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2608,8 +2732,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2629,8 +2754,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2650,8 +2776,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2671,8 +2798,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2692,8 +2820,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2713,8 +2842,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2734,8 +2864,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2755,8 +2886,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2776,8 +2908,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2797,8 +2930,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2818,8 +2952,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2839,8 +2974,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2860,8 +2996,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2881,8 +3018,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2902,8 +3040,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2923,8 +3062,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2944,8 +3084,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2965,8 +3106,9 @@ export default {
     "type": 2,
     "radius": 10000,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -2986,8 +3128,9 @@ export default {
     "type": 0,
     "radius": 250,
     "bullets": [
-      300200000
+      30020000000
     ],
+    "delays": [],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -3007,8 +3150,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200101
+      30020010100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3028,8 +3172,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200102
+      30020010200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3049,8 +3194,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200103
+      30020010300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3070,8 +3216,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200104
+      30020010400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3091,8 +3238,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200105
+      30020010500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3112,8 +3260,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200106
+      30020010600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3133,8 +3282,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200107
+      30020010700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3154,8 +3304,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200108
+      30020010800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3175,8 +3326,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200109
+      30020010900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3196,8 +3348,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200110
+      30020011000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3217,8 +3370,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200111
+      30020011100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3238,8 +3392,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200112
+      30020011200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3259,8 +3414,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200113
+      30020011300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3280,8 +3436,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200114
+      30020011400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3301,8 +3458,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200115
+      30020011500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3322,8 +3480,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200116
+      30020011600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3343,8 +3502,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200117
+      30020011700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3364,8 +3524,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200118
+      30020011800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3385,8 +3546,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200119
+      30020011900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3406,8 +3568,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200120
+      30020012000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3427,8 +3590,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200121
+      30020012100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3448,8 +3612,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200122
+      30020012200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3469,8 +3634,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200123
+      30020012300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3490,8 +3656,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200124
+      30020012400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3511,8 +3678,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200125
+      30020012500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3532,8 +3700,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200126
+      30020012600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3553,8 +3722,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200127
+      30020012700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3574,8 +3744,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200128
+      30020012800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3595,8 +3766,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200129
+      30020012900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3616,8 +3788,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200130
+      30020013000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3637,8 +3810,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200131
+      30020013100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3658,8 +3832,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200132
+      30020013200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3679,8 +3854,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200133
+      30020013300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3700,8 +3876,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200134
+      30020013400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3721,8 +3898,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200135
+      30020013500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3742,8 +3920,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200136
+      30020013600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3763,8 +3942,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200137
+      30020013700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3784,8 +3964,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200138
+      30020013800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3805,8 +3986,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200139
+      30020013900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3826,8 +4008,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200140
+      30020014000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3847,8 +4030,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200141
+      30020014100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3868,8 +4052,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200142
+      30020014200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3889,8 +4074,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200143
+      30020014300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3910,8 +4096,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200144
+      30020014400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3931,8 +4118,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200145
+      30020014500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3952,8 +4140,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200146
+      30020014600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3973,8 +4162,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200147
+      30020014700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -3994,8 +4184,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200148
+      30020014800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4015,8 +4206,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200149
+      30020014900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4036,8 +4228,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200150
+      30020015000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4057,8 +4250,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200151
+      30020015100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4078,8 +4272,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200152
+      30020015200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4099,8 +4294,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200153
+      30020015300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4120,8 +4316,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200154
+      30020015400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4141,8 +4338,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200155
+      30020015500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4162,8 +4360,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200156
+      30020015600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4183,8 +4382,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200157
+      30020015700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4204,8 +4404,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200158
+      30020015800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4225,8 +4426,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200159
+      30020015900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4246,8 +4448,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200160
+      30020016000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4267,8 +4470,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200161
+      30020016100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4288,8 +4492,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200162
+      30020016200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4309,8 +4514,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200163
+      30020016300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4330,8 +4536,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200164
+      30020016400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4351,8 +4558,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200165
+      30020016500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4372,8 +4580,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200166
+      30020016600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4393,8 +4602,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200167
+      30020016700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4414,8 +4624,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200168
+      30020016800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4435,8 +4646,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200169
+      30020016900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4456,8 +4668,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200170
+      30020017000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4477,8 +4690,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200171
+      30020017100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4498,8 +4712,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200172
+      30020017200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4519,8 +4734,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200173
+      30020017300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4540,8 +4756,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200174
+      30020017400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4561,8 +4778,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200175
+      30020017500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4582,8 +4800,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200176
+      30020017600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4603,8 +4822,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200177
+      30020017700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4624,8 +4844,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200178
+      30020017800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4645,8 +4866,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200179
+      30020017900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4666,8 +4888,9 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      300200180
+      30020018000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -4687,8 +4910,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200201
+      30020020100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4708,8 +4932,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200202
+      30020020200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4729,8 +4954,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200203
+      30020020300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4750,8 +4976,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200204
+      30020020400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4771,8 +4998,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200205
+      30020020500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4792,8 +5020,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200206
+      30020020600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4813,8 +5042,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200207
+      30020020700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4834,8 +5064,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200208
+      30020020800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4855,8 +5086,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200209
+      30020020900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4876,8 +5108,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200210
+      30020021000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4897,8 +5130,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200211
+      30020021100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4918,8 +5152,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200212
+      30020021200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4939,8 +5174,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200213
+      30020021300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4960,8 +5196,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200214
+      30020021400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -4981,8 +5218,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200215
+      30020021500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5002,8 +5240,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200216
+      30020021600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5023,8 +5262,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200217
+      30020021700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5044,8 +5284,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200218
+      30020021800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5065,8 +5306,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200219
+      30020021900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5086,8 +5328,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200220
+      30020022000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5107,8 +5350,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200221
+      30020022100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5128,8 +5372,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200222
+      30020022200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5149,8 +5394,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200223
+      30020022300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5170,8 +5416,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200224
+      30020022400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5191,8 +5438,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200225
+      30020022500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5212,8 +5460,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200226
+      30020022600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5233,8 +5482,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200227
+      30020022700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5254,8 +5504,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200228
+      30020022800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5275,8 +5526,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200229
+      30020022900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5296,8 +5548,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200230
+      30020023000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5317,8 +5570,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200231
+      30020023100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5338,8 +5592,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200232
+      30020023200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5359,8 +5614,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200233
+      30020023300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5380,8 +5636,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200234
+      30020023400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5401,8 +5658,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200235
+      30020023500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5422,8 +5680,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200236
+      30020023600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5443,8 +5702,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200237
+      30020023700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5464,8 +5724,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200238
+      30020023800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5485,8 +5746,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200239
+      30020023900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5506,8 +5768,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300200240
+      30020024000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5527,8 +5790,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5548,8 +5812,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5569,8 +5834,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5590,8 +5856,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5611,8 +5878,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5632,8 +5900,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5653,8 +5922,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5674,8 +5944,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5695,8 +5966,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5716,8 +5988,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5737,8 +6010,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5758,8 +6032,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5779,8 +6054,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5800,8 +6076,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5821,8 +6098,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5842,8 +6120,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5863,8 +6142,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5884,8 +6164,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5905,8 +6186,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5926,8 +6208,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -5947,8 +6230,9 @@ export default {
     "type": 0,
     "radius": 200,
     "bullets": [
-      300300000
+      30030000000
     ],
+    "delays": [],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -5968,8 +6252,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300101
+      30030010100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -5989,8 +6274,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300102
+      30030010200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6010,8 +6296,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300103
+      30030010300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6031,8 +6318,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300104
+      30030010400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6052,8 +6340,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300105
+      30030010500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6073,8 +6362,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300106
+      30030010600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6094,8 +6384,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300107
+      30030010700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6115,8 +6406,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300108
+      30030010800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6136,8 +6428,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300109
+      30030010900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6157,8 +6450,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300110
+      30030011000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6178,8 +6472,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300111
+      30030011100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6199,8 +6494,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300112
+      30030011200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6220,8 +6516,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300113
+      30030011300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6241,8 +6538,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300114
+      30030011400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6262,8 +6560,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300115
+      30030011500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6283,8 +6582,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300116
+      30030011600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6304,8 +6604,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300117
+      30030011700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6325,8 +6626,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300118
+      30030011800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6346,8 +6648,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300119
+      30030011900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6367,8 +6670,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300120
+      30030012000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6388,8 +6692,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300121
+      30030012100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6409,8 +6714,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300122
+      30030012200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6430,8 +6736,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300123
+      30030012300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6451,8 +6758,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300124
+      30030012400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6472,8 +6780,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300125
+      30030012500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6493,8 +6802,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300126
+      30030012600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6514,8 +6824,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300127
+      30030012700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6535,8 +6846,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300128
+      30030012800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6556,8 +6868,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300129
+      30030012900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6577,8 +6890,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300130
+      30030013000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6598,8 +6912,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300131
+      30030013100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6619,8 +6934,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300132
+      30030013200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6640,8 +6956,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300133
+      30030013300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6661,8 +6978,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300134
+      30030013400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6682,8 +7000,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300135
+      30030013500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6703,8 +7022,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300136
+      30030013600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6724,8 +7044,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300137
+      30030013700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6745,8 +7066,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300138
+      30030013800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6766,8 +7088,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300139
+      30030013900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6787,8 +7110,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300140
+      30030014000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6808,8 +7132,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300141
+      30030014100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6829,8 +7154,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300142
+      30030014200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6850,8 +7176,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300143
+      30030014300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6871,8 +7198,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300144
+      30030014400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6892,8 +7220,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300145
+      30030014500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6913,8 +7242,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300146
+      30030014600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6934,8 +7264,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300147
+      30030014700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6955,8 +7286,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300148
+      30030014800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6976,8 +7308,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300149
+      30030014900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -6997,8 +7330,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300150
+      30030015000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7018,8 +7352,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300151
+      30030015100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7039,8 +7374,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300152
+      30030015200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7060,8 +7396,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300153
+      30030015300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7081,8 +7418,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300154
+      30030015400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7102,8 +7440,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300155
+      30030015500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7123,8 +7462,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300156
+      30030015600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7144,8 +7484,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300157
+      30030015700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7165,8 +7506,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300158
+      30030015800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7186,8 +7528,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300159
+      30030015900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7207,8 +7550,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300160
+      30030016000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7228,8 +7572,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300161
+      30030016100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7249,8 +7594,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300162
+      30030016200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7270,8 +7616,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300163
+      30030016300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7291,8 +7638,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300164
+      30030016400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7312,8 +7660,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300165
+      30030016500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7333,8 +7682,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300166
+      30030016600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7354,8 +7704,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300167
+      30030016700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7375,8 +7726,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300168
+      30030016800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7396,8 +7748,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300169
+      30030016900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7417,8 +7770,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300170
+      30030017000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7438,8 +7792,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300171
+      30030017100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7459,8 +7814,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300172
+      30030017200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7480,8 +7836,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300173
+      30030017300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7501,8 +7858,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300174
+      30030017400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7522,8 +7880,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300175
+      30030017500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7543,8 +7902,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300176
+      30030017600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7564,8 +7924,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300177
+      30030017700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7585,8 +7946,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300178
+      30030017800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7606,8 +7968,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300179
+      30030017900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7627,8 +7990,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      300300180
+      30030018000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -7648,8 +8012,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300201
+      30030020100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7669,8 +8034,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300202
+      30030020200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7690,8 +8056,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300203
+      30030020300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7711,8 +8078,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300204
+      30030020400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7732,8 +8100,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300205
+      30030020500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7753,8 +8122,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300206
+      30030020600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7774,8 +8144,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300207
+      30030020700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7795,8 +8166,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300208
+      30030020800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7816,8 +8188,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300209
+      30030020900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7837,8 +8210,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300210
+      30030021000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7858,8 +8232,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300211
+      30030021100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7879,8 +8254,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300212
+      30030021200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7900,8 +8276,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300213
+      30030021300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7921,8 +8298,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300214
+      30030021400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7942,8 +8320,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300215
+      30030021500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7963,8 +8342,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300216
+      30030021600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -7984,8 +8364,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300217
+      30030021700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8005,8 +8386,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300218
+      30030021800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8026,8 +8408,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300219
+      30030021900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8047,8 +8430,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300220
+      30030022000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8068,8 +8452,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300221
+      30030022100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8089,8 +8474,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300222
+      30030022200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8110,8 +8496,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300223
+      30030022300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8131,8 +8518,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300224
+      30030022400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8152,8 +8540,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300225
+      30030022500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8173,8 +8562,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300226
+      30030022600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8194,8 +8584,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300227
+      30030022700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8215,8 +8606,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300228
+      30030022800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8236,8 +8628,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300229
+      30030022900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8257,8 +8650,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300230
+      30030023000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8278,8 +8672,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300231
+      30030023100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8299,8 +8694,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300232
+      30030023200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8320,8 +8716,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300233
+      30030023300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8341,8 +8738,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300234
+      30030023400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8362,8 +8760,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300235
+      30030023500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8383,8 +8782,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300236
+      30030023600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8404,8 +8804,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300237
+      30030023700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8425,8 +8826,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300238
+      30030023800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8446,8 +8848,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300239
+      30030023900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8467,8 +8870,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300240
+      30030024000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8488,8 +8892,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300241
+      30030024100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8509,8 +8914,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300242
+      30030024200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8530,8 +8936,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300243
+      30030024300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8551,8 +8958,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300244
+      30030024400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8572,8 +8980,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300245
+      30030024500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8593,8 +9002,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300246
+      30030024600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8614,8 +9024,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300247
+      30030024700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8635,8 +9046,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300248
+      30030024800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8656,8 +9068,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300249
+      30030024900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8677,8 +9090,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300250
+      30030025000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8698,8 +9112,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300251
+      30030025100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8719,8 +9134,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300252
+      30030025200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8740,8 +9156,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300253
+      30030025300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8761,8 +9178,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300254
+      30030025400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8782,8 +9200,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300255
+      30030025500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8803,8 +9222,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300256
+      30030025600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8824,8 +9244,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300257
+      30030025700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8845,8 +9266,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300258
+      30030025800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8866,8 +9288,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300259
+      30030025900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8887,8 +9310,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300300260
+      30030026000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8908,8 +9332,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8929,8 +9354,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8950,8 +9376,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8971,8 +9398,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -8992,8 +9420,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9013,8 +9442,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9034,8 +9464,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9055,8 +9486,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9076,8 +9508,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9097,8 +9530,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9118,8 +9552,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9139,8 +9574,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9160,8 +9596,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9181,8 +9618,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9202,8 +9640,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9223,8 +9662,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9244,8 +9684,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9265,8 +9706,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9286,8 +9728,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9307,8 +9750,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -9328,8 +9772,9 @@ export default {
     "type": 0,
     "radius": 1000,
     "bullets": [
-      300400000
+      30040000000
     ],
+    "delays": [],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -9349,8 +9794,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400101
+      30040010100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9370,8 +9816,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400102
+      30040010200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9391,8 +9838,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400103
+      30040010300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9412,8 +9860,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400104
+      30040010400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9433,8 +9882,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400105
+      30040010500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9454,8 +9904,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400106
+      30040010600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9475,8 +9926,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400107
+      30040010700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9496,8 +9948,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400108
+      30040010800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9517,8 +9970,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400109
+      30040010900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9538,8 +9992,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400110
+      30040011000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9559,8 +10014,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400111
+      30040011100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9580,8 +10036,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400112
+      30040011200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9601,8 +10058,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400113
+      30040011300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9622,8 +10080,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400114
+      30040011400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9643,8 +10102,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400115
+      30040011500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9664,8 +10124,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400116
+      30040011600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9685,8 +10146,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400117
+      30040011700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9706,8 +10168,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400118
+      30040011800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9727,8 +10190,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400119
+      30040011900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9748,8 +10212,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400120
+      30040012000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9769,8 +10234,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400121
+      30040012100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9790,8 +10256,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400122
+      30040012200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9811,8 +10278,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400123
+      30040012300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9832,8 +10300,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400124
+      30040012400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9853,8 +10322,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400125
+      30040012500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9874,8 +10344,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400126
+      30040012600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9895,8 +10366,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400127
+      30040012700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9916,8 +10388,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400128
+      30040012800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9937,8 +10410,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400129
+      30040012900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9958,8 +10432,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400130
+      30040013000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -9979,8 +10454,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400131
+      30040013100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10000,8 +10476,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400132
+      30040013200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10021,8 +10498,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400133
+      30040013300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10042,8 +10520,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400134
+      30040013400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10063,8 +10542,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400135
+      30040013500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10084,8 +10564,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400136
+      30040013600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10105,8 +10586,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400137
+      30040013700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10126,8 +10608,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400138
+      30040013800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10147,8 +10630,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400139
+      30040013900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10168,8 +10652,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400140
+      30040014000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10189,8 +10674,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400141
+      30040014100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10210,8 +10696,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400142
+      30040014200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10231,8 +10718,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400143
+      30040014300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10252,8 +10740,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400144
+      30040014400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10273,8 +10762,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400145
+      30040014500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10294,8 +10784,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400146
+      30040014600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10315,8 +10806,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400147
+      30040014700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10336,8 +10828,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400148
+      30040014800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10357,8 +10850,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400149
+      30040014900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10378,8 +10872,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400150
+      30040015000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10399,8 +10894,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400151
+      30040015100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10420,8 +10916,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400152
+      30040015200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10441,8 +10938,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400153
+      30040015300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10462,8 +10960,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400154
+      30040015400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10483,8 +10982,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400155
+      30040015500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10504,8 +11004,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400156
+      30040015600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10525,8 +11026,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400157
+      30040015700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10546,8 +11048,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400158
+      30040015800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10567,8 +11070,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400159
+      30040015900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10588,8 +11092,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400160
+      30040016000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10609,8 +11114,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400161
+      30040016100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10630,8 +11136,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400162
+      30040016200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10651,8 +11158,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400163
+      30040016300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10672,8 +11180,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400164
+      30040016400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10693,8 +11202,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400165
+      30040016500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10714,8 +11224,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400166
+      30040016600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10735,8 +11246,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400167
+      30040016700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10756,8 +11268,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400168
+      30040016800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10777,8 +11290,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400169
+      30040016900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10798,8 +11312,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400170
+      30040017000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10819,8 +11334,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400171
+      30040017100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10840,8 +11356,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400172
+      30040017200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10861,8 +11378,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400173
+      30040017300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10882,8 +11400,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400174
+      30040017400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10903,8 +11422,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400175
+      30040017500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10924,8 +11444,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400176
+      30040017600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10945,8 +11466,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400177
+      30040017700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10966,8 +11488,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400178
+      30040017800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -10987,8 +11510,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400179
+      30040017900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -11008,8 +11532,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300400180
+      30040018000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -11029,8 +11554,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400201
+      30040020100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11050,8 +11576,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400202
+      30040020200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11071,8 +11598,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400203
+      30040020300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11092,8 +11620,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400204
+      30040020400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11113,8 +11642,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400205
+      30040020500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11134,8 +11664,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400206
+      30040020600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11155,8 +11686,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400207
+      30040020700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11176,8 +11708,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400208
+      30040020800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11197,8 +11730,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400209
+      30040020900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11218,8 +11752,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400210
+      30040021000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11239,8 +11774,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400211
+      30040021100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11260,8 +11796,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400212
+      30040021200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11281,8 +11818,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400213
+      30040021300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11302,8 +11840,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400214
+      30040021400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11323,8 +11862,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400215
+      30040021500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11344,8 +11884,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400216
+      30040021600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11365,8 +11906,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400217
+      30040021700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11386,8 +11928,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400218
+      30040021800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11407,8 +11950,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400219
+      30040021900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11428,8 +11972,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400220
+      30040022000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11449,8 +11994,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400221
+      30040022100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11470,8 +12016,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400222
+      30040022200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11491,8 +12038,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400223
+      30040022300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11512,8 +12060,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400224
+      30040022400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11533,8 +12082,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400225
+      30040022500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11554,8 +12104,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400226
+      30040022600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11575,8 +12126,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400227
+      30040022700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11596,8 +12148,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400228
+      30040022800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11617,8 +12170,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400229
+      30040022900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11638,8 +12192,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400230
+      30040023000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11659,8 +12214,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400231
+      30040023100
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11680,8 +12236,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400232
+      30040023200
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11701,8 +12258,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400233
+      30040023300
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11722,8 +12280,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400234
+      30040023400
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11743,8 +12302,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400235
+      30040023500
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11764,8 +12324,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400236
+      30040023600
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11785,8 +12346,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400237
+      30040023700
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11806,8 +12368,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400238
+      30040023800
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11827,8 +12390,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400239
+      30040023900
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11848,8 +12412,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300400240
+      30040024000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11869,8 +12434,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11890,8 +12456,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11911,8 +12478,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11932,8 +12500,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11953,8 +12522,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11974,8 +12544,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -11995,8 +12566,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12016,8 +12588,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12037,8 +12610,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12058,8 +12632,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12079,8 +12654,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12100,8 +12676,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12121,8 +12698,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12142,8 +12720,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12163,8 +12742,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12184,8 +12764,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12205,8 +12786,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12226,8 +12808,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12247,8 +12830,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12268,8 +12852,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -12289,8 +12874,9 @@ export default {
     "type": 0,
     "radius": 800,
     "bullets": [
-      300500000
+      30050000000
     ],
+    "delays": [],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -12310,8 +12896,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500101
+      30050010100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12331,8 +12918,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500102
+      30050010200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12352,8 +12940,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500103
+      30050010300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12373,8 +12962,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500104
+      30050010400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12394,8 +12984,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500105
+      30050010500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12415,8 +13006,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500106
+      30050010600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12436,8 +13028,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500107
+      30050010700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12457,8 +13050,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500108
+      30050010800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12478,8 +13072,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500109
+      30050010900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12499,8 +13094,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500110
+      30050011000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12520,8 +13116,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500111
+      30050011100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12541,8 +13138,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500112
+      30050011200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12562,8 +13160,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500113
+      30050011300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12583,8 +13182,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500114
+      30050011400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12604,8 +13204,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500115
+      30050011500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12625,8 +13226,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500116
+      30050011600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12646,8 +13248,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500117
+      30050011700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12667,8 +13270,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500118
+      30050011800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12688,8 +13292,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500119
+      30050011900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12709,8 +13314,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500120
+      30050012000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12730,8 +13336,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500121
+      30050012100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12751,8 +13358,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500122
+      30050012200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12772,8 +13380,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500123
+      30050012300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12793,8 +13402,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500124
+      30050012400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12814,8 +13424,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500125
+      30050012500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12835,8 +13446,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500126
+      30050012600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12856,8 +13468,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500127
+      30050012700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12877,8 +13490,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500128
+      30050012800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12898,8 +13512,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500129
+      30050012900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12919,8 +13534,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500130
+      30050013000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12940,8 +13556,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500131
+      30050013100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12961,8 +13578,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500132
+      30050013200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -12982,8 +13600,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500133
+      30050013300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13003,8 +13622,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500134
+      30050013400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13024,8 +13644,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500135
+      30050013500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13045,8 +13666,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500136
+      30050013600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13066,8 +13688,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500137
+      30050013700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13087,8 +13710,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500138
+      30050013800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13108,8 +13732,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500139
+      30050013900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13129,8 +13754,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500140
+      30050014000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13150,8 +13776,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500141
+      30050014100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13171,8 +13798,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500142
+      30050014200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13192,8 +13820,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500143
+      30050014300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13213,8 +13842,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500144
+      30050014400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13234,8 +13864,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500145
+      30050014500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13255,8 +13886,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500146
+      30050014600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13276,8 +13908,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500147
+      30050014700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13297,8 +13930,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500148
+      30050014800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13318,8 +13952,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500149
+      30050014900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13339,8 +13974,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500150
+      30050015000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13360,8 +13996,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500151
+      30050015100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13381,8 +14018,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500152
+      30050015200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13402,8 +14040,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500153
+      30050015300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13423,8 +14062,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500154
+      30050015400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13444,8 +14084,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500155
+      30050015500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13465,8 +14106,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500156
+      30050015600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13486,8 +14128,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500157
+      30050015700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13507,8 +14150,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500158
+      30050015800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13528,8 +14172,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500159
+      30050015900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13549,8 +14194,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500160
+      30050016000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13570,8 +14216,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500161
+      30050016100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13591,8 +14238,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500162
+      30050016200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13612,8 +14260,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500163
+      30050016300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13633,8 +14282,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500164
+      30050016400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13654,8 +14304,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500165
+      30050016500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13675,8 +14326,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500166
+      30050016600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13696,8 +14348,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500167
+      30050016700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13717,8 +14370,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500168
+      30050016800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13738,8 +14392,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500169
+      30050016900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13759,8 +14414,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500170
+      30050017000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13780,8 +14436,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500171
+      30050017100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13801,8 +14458,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500172
+      30050017200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13822,8 +14480,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500173
+      30050017300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13843,8 +14502,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500174
+      30050017400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13864,8 +14524,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500175
+      30050017500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13885,8 +14546,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500176
+      30050017600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13906,8 +14568,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500177
+      30050017700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13927,8 +14590,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500178
+      30050017800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13948,8 +14612,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500179
+      30050017900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13969,8 +14634,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300500180
+      30050018000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
@@ -13990,8 +14656,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14011,8 +14678,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14032,8 +14700,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14053,8 +14722,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14074,8 +14744,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14095,8 +14766,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14116,8 +14788,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14137,8 +14810,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14158,8 +14832,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14179,8 +14854,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14200,8 +14876,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14221,8 +14898,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14242,8 +14920,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14263,8 +14942,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14284,8 +14964,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14305,8 +14986,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14326,8 +15008,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14347,8 +15030,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14368,8 +15052,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14389,8 +15074,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14410,8 +15096,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14431,8 +15118,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14452,8 +15140,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14473,8 +15162,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14494,8 +15184,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14515,8 +15206,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14536,8 +15228,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14557,8 +15250,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14578,8 +15272,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14599,8 +15294,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14620,8 +15316,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14641,8 +15338,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14662,8 +15360,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14683,8 +15382,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14704,8 +15404,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14725,8 +15426,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14746,8 +15448,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14767,8 +15470,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14788,8 +15492,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14809,8 +15514,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14830,8 +15536,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14851,8 +15558,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14872,8 +15580,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14893,8 +15602,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14914,8 +15624,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14935,8 +15646,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14956,8 +15668,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14977,8 +15690,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -14998,8 +15712,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15019,8 +15734,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15040,8 +15756,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15061,8 +15778,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15082,8 +15800,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15103,8 +15822,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15124,8 +15844,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15145,8 +15866,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15166,8 +15888,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15187,8 +15910,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15208,8 +15932,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15229,8 +15954,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15250,8 +15976,9 @@ export default {
     "type": 0,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15271,8 +15998,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15292,8 +16020,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15313,8 +16042,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15334,8 +16064,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15355,8 +16086,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15376,8 +16108,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15397,8 +16130,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15418,8 +16152,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15439,8 +16174,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15460,8 +16196,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15481,8 +16218,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15502,8 +16240,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15523,8 +16262,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15544,8 +16284,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15565,8 +16306,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15586,8 +16328,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15607,8 +16350,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15628,8 +16372,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15649,8 +16394,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15670,8 +16416,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15691,8 +16438,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15712,8 +16460,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15733,8 +16482,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15754,8 +16504,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15775,8 +16526,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15796,8 +16548,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15817,8 +16570,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15838,8 +16592,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15859,8 +16614,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15880,8 +16636,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15901,8 +16658,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15922,8 +16680,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15943,8 +16702,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15964,8 +16724,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -15985,8 +16746,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16006,8 +16768,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16027,8 +16790,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16048,8 +16812,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16069,8 +16834,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16090,8 +16856,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16111,8 +16878,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16132,8 +16900,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16153,8 +16922,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16174,8 +16944,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16195,8 +16966,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16216,8 +16988,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16237,8 +17010,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16258,8 +17032,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16279,8 +17054,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16300,8 +17076,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16321,8 +17098,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16342,8 +17120,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16363,8 +17142,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16384,8 +17164,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16405,8 +17186,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16426,8 +17208,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16447,8 +17230,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16468,8 +17252,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16489,8 +17274,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16510,8 +17296,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16531,8 +17318,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16552,8 +17340,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16573,8 +17362,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16594,8 +17384,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16615,8 +17406,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16636,8 +17428,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16657,8 +17450,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16678,8 +17472,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16699,8 +17494,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16720,8 +17516,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16741,8 +17538,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16762,8 +17560,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16783,8 +17582,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16804,8 +17604,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16825,8 +17626,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16846,8 +17648,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16867,8 +17670,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16888,8 +17692,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16909,8 +17714,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16930,8 +17736,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16951,8 +17758,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16972,8 +17780,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -16993,8 +17802,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17014,8 +17824,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17035,8 +17846,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17056,8 +17868,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17077,8 +17890,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17098,8 +17912,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17119,8 +17934,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17140,8 +17956,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17161,8 +17978,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17182,8 +18000,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17203,8 +18022,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17224,8 +18044,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17245,8 +18066,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17266,8 +18088,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17287,8 +18110,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17308,8 +18132,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17329,8 +18154,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17350,8 +18176,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17371,8 +18198,9 @@ export default {
     "type": 0,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17392,8 +18220,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17413,8 +18242,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17434,8 +18264,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17455,8 +18286,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17476,8 +18308,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17497,8 +18330,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17518,8 +18352,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17539,8 +18374,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17560,8 +18396,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17581,8 +18418,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17602,8 +18440,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17623,8 +18462,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17644,8 +18484,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17665,8 +18506,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17686,8 +18528,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17707,8 +18550,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17728,8 +18572,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17749,8 +18594,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17770,8 +18616,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17791,8 +18638,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17812,8 +18660,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17833,8 +18682,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17854,8 +18704,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17875,8 +18726,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17896,8 +18748,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17917,8 +18770,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17938,8 +18792,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17959,8 +18814,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -17980,8 +18836,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18001,8 +18858,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18022,8 +18880,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18043,8 +18902,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18064,8 +18924,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18085,8 +18946,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18106,8 +18968,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18127,8 +18990,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18148,8 +19012,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18169,8 +19034,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18190,8 +19056,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18211,8 +19078,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18232,8 +19100,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18253,8 +19122,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18274,8 +19144,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18295,8 +19166,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18316,8 +19188,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18337,8 +19210,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18358,8 +19232,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18379,8 +19254,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18400,8 +19276,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18421,8 +19298,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18442,8 +19320,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18463,8 +19342,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18484,8 +19364,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18505,8 +19386,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18526,8 +19408,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18547,8 +19430,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18568,8 +19452,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18589,8 +19474,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18610,8 +19496,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18631,8 +19518,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18652,8 +19540,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18673,8 +19562,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18694,8 +19584,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18715,8 +19606,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18736,8 +19628,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18757,8 +19650,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18778,8 +19672,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18799,8 +19694,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18820,8 +19716,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18841,8 +19738,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18862,8 +19760,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18883,8 +19782,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18904,8 +19804,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18925,8 +19826,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18946,8 +19848,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18967,8 +19870,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -18988,8 +19892,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19009,8 +19914,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19030,8 +19936,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19051,8 +19958,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19072,8 +19980,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19093,8 +20002,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19114,8 +20024,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19135,8 +20046,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19156,8 +20068,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19177,8 +20090,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19198,8 +20112,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19219,8 +20134,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19240,8 +20156,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19261,8 +20178,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19282,8 +20200,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19303,8 +20222,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19324,8 +20244,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19345,8 +20266,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19366,8 +20288,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19387,8 +20310,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19408,8 +20332,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19429,8 +20354,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19450,8 +20376,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19471,8 +20398,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19492,8 +20420,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19513,8 +20442,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19534,8 +20464,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19555,8 +20486,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19576,8 +20508,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19597,8 +20530,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19618,8 +20552,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19639,8 +20574,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19660,8 +20596,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19681,8 +20618,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19702,8 +20640,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19723,8 +20662,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19744,8 +20684,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19765,8 +20706,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19786,8 +20728,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19807,8 +20750,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19828,8 +20772,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19849,8 +20794,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19870,8 +20816,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19891,8 +20838,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19912,8 +20860,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19933,8 +20882,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19954,8 +20904,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19975,8 +20926,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -19996,8 +20948,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20017,8 +20970,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20038,8 +20992,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20059,8 +21014,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20080,8 +21036,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20101,8 +21058,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20122,8 +21080,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20143,8 +21102,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20164,8 +21124,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20185,8 +21146,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20206,8 +21168,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20227,8 +21190,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20248,8 +21212,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20269,8 +21234,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20290,8 +21256,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20311,8 +21278,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20332,8 +21300,9 @@ export default {
     "type": 0,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20353,8 +21322,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20374,8 +21344,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20395,8 +21366,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20416,8 +21388,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20437,8 +21410,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20458,8 +21432,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20479,8 +21454,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20500,8 +21476,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20521,8 +21498,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20542,8 +21520,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20563,8 +21542,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20584,8 +21564,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20605,8 +21586,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20626,8 +21608,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20647,8 +21630,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20668,8 +21652,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20689,8 +21674,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20710,8 +21696,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20731,8 +21718,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20752,8 +21740,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20773,8 +21762,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20794,8 +21784,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20815,8 +21806,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20836,8 +21828,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20857,8 +21850,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20878,8 +21872,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20899,8 +21894,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20920,8 +21916,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20941,8 +21938,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20962,8 +21960,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -20983,8 +21982,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21004,8 +22004,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21025,8 +22026,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21046,8 +22048,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21067,8 +22070,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21088,8 +22092,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21109,8 +22114,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21130,8 +22136,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21151,8 +22158,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21172,8 +22180,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21193,8 +22202,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21214,8 +22224,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21235,8 +22246,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21256,8 +22268,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21277,8 +22290,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21298,8 +22312,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21319,8 +22334,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21340,8 +22356,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21361,8 +22378,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21382,8 +22400,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21403,8 +22422,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21424,8 +22444,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21445,8 +22466,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21466,8 +22488,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21487,8 +22510,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21508,8 +22532,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21529,8 +22554,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21550,8 +22576,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21571,8 +22598,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21592,8 +22620,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21613,8 +22642,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21634,8 +22664,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21655,8 +22686,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21676,8 +22708,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21697,8 +22730,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21718,8 +22752,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21739,8 +22774,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21760,8 +22796,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21781,8 +22818,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21802,8 +22840,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21823,8 +22862,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21844,8 +22884,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21865,8 +22906,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21886,8 +22928,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21907,8 +22950,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21928,8 +22972,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21949,8 +22994,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21970,8 +23016,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -21991,8 +23038,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22012,8 +23060,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22033,8 +23082,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22054,8 +23104,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22075,8 +23126,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22096,8 +23148,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22117,8 +23170,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22138,8 +23192,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22159,8 +23214,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22180,8 +23236,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22201,8 +23258,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22222,8 +23280,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22243,8 +23302,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22264,8 +23324,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22285,8 +23346,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22306,8 +23368,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22327,8 +23390,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22348,8 +23412,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22369,8 +23434,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22390,8 +23456,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22411,8 +23478,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22432,8 +23500,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22453,8 +23522,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22474,8 +23544,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22495,8 +23566,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22516,8 +23588,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22537,8 +23610,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22558,8 +23632,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22579,8 +23654,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22600,8 +23676,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22621,8 +23698,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22642,8 +23720,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22663,8 +23742,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22684,8 +23764,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22705,8 +23786,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22726,8 +23808,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22747,8 +23830,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22768,8 +23852,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22789,8 +23874,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22810,8 +23896,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22831,8 +23918,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22852,8 +23940,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22873,8 +23962,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22894,8 +23984,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22915,8 +24006,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22936,8 +24028,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22957,8 +24050,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22978,8 +24072,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -22999,8 +24094,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23020,8 +24116,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23041,8 +24138,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23062,8 +24160,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23083,8 +24182,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23104,8 +24204,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23125,8 +24226,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23146,8 +24248,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23167,8 +24270,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23188,8 +24292,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23209,8 +24314,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23230,8 +24336,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23251,8 +24358,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23272,8 +24380,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -23293,8 +24402,9 @@ export default {
     "type": 0,
     "radius": 800,
     "bullets": [
-      300900000
+      30090000000
     ],
+    "delays": [],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -23314,8 +24424,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900101
+      30090010100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23335,8 +24446,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900102
+      30090010200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23356,8 +24468,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900103
+      30090010300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23377,8 +24490,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900104
+      30090010400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23398,8 +24512,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900105
+      30090010500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23419,8 +24534,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900106
+      30090010600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23440,8 +24556,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900107
+      30090010700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23461,8 +24578,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900108
+      30090010800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23482,8 +24600,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900109
+      30090010900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23503,8 +24622,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900110
+      30090011000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23524,8 +24644,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900111
+      30090011100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23545,8 +24666,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900112
+      30090011200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23566,8 +24688,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900113
+      30090011300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23587,8 +24710,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900114
+      30090011400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23608,8 +24732,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900115
+      30090011500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23629,8 +24754,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900116
+      30090011600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23650,8 +24776,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900117
+      30090011700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23671,8 +24798,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900118
+      30090011800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23692,8 +24820,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900119
+      30090011900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23713,8 +24842,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900120
+      30090012000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23734,8 +24864,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900121
+      30090012100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23755,8 +24886,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900122
+      30090012200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23776,8 +24908,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900123
+      30090012300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23797,8 +24930,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900124
+      30090012400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23818,8 +24952,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900125
+      30090012500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23839,8 +24974,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900126
+      30090012600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23860,8 +24996,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900127
+      30090012700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23881,8 +25018,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900128
+      30090012800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23902,8 +25040,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900129
+      30090012900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23923,8 +25062,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900130
+      30090013000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23944,8 +25084,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900131
+      30090013100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23965,8 +25106,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900132
+      30090013200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -23986,8 +25128,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900133
+      30090013300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24007,8 +25150,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900134
+      30090013400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24028,8 +25172,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900135
+      30090013500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24049,8 +25194,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900136
+      30090013600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24070,8 +25216,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900137
+      30090013700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24091,8 +25238,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900138
+      30090013800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24112,8 +25260,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900139
+      30090013900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24133,8 +25282,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900140
+      30090014000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24154,8 +25304,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900141
+      30090014100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24175,8 +25326,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900142
+      30090014200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24196,8 +25348,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900143
+      30090014300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24217,8 +25370,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900144
+      30090014400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24238,8 +25392,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900145
+      30090014500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24259,8 +25414,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900146
+      30090014600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24280,8 +25436,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900147
+      30090014700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24301,8 +25458,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900148
+      30090014800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24322,8 +25480,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900149
+      30090014900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24343,8 +25502,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900150
+      30090015000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24364,8 +25524,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900151
+      30090015100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24385,8 +25546,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900152
+      30090015200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24406,8 +25568,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900153
+      30090015300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24427,8 +25590,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900154
+      30090015400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24448,8 +25612,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900155
+      30090015500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24469,8 +25634,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900156
+      30090015600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24490,8 +25656,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900157
+      30090015700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24511,8 +25678,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900158
+      30090015800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24532,8 +25700,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900159
+      30090015900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24553,8 +25722,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900160
+      30090016000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24574,8 +25744,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900161
+      30090016100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24595,8 +25766,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900162
+      30090016200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24616,8 +25788,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900163
+      30090016300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24637,8 +25810,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900164
+      30090016400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24658,8 +25832,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900165
+      30090016500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24679,8 +25854,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900166
+      30090016600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24700,8 +25876,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900167
+      30090016700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24721,8 +25898,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900168
+      30090016800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24742,8 +25920,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900169
+      30090016900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24763,8 +25942,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900170
+      30090017000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24784,8 +25964,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900171
+      30090017100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24805,8 +25986,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900172
+      30090017200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24826,8 +26008,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900173
+      30090017300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24847,8 +26030,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900174
+      30090017400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24868,8 +26052,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900175
+      30090017500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24889,8 +26074,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900176
+      30090017600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24910,8 +26096,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900177
+      30090017700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24931,8 +26118,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900178
+      30090017800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24952,8 +26140,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900179
+      30090017900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24973,8 +26162,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      300900180
+      30090018000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -24994,8 +26184,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25015,8 +26206,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25036,8 +26228,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25057,8 +26250,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25078,8 +26272,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25099,8 +26294,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25120,8 +26316,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25141,8 +26338,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25162,8 +26360,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25183,8 +26382,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25204,8 +26404,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25225,8 +26426,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25246,8 +26448,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25267,8 +26470,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25288,8 +26492,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25309,8 +26514,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25330,8 +26536,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25351,8 +26558,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25372,8 +26580,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25393,8 +26602,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25414,8 +26624,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25435,8 +26646,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25456,8 +26668,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25477,8 +26690,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25498,8 +26712,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25519,8 +26734,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25540,8 +26756,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25561,8 +26778,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25582,8 +26800,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25603,8 +26822,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25624,8 +26844,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25645,8 +26866,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25666,8 +26888,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25687,8 +26910,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25708,8 +26932,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25729,8 +26954,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25750,8 +26976,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25771,8 +26998,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25792,8 +27020,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25813,8 +27042,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25834,8 +27064,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25855,8 +27086,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25876,8 +27108,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25897,8 +27130,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25918,8 +27152,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25939,8 +27174,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25960,8 +27196,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -25981,8 +27218,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26002,8 +27240,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26023,8 +27262,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26044,8 +27284,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26065,8 +27306,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26086,8 +27328,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26107,8 +27350,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26128,8 +27372,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26149,8 +27394,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26170,8 +27416,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26191,8 +27438,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26212,8 +27460,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26233,8 +27482,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26254,8 +27504,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26275,8 +27526,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26296,8 +27548,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26317,8 +27570,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26338,8 +27592,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26359,8 +27614,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26380,8 +27636,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26401,8 +27658,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26422,8 +27680,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26443,8 +27702,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26464,8 +27724,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26485,8 +27746,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26506,8 +27768,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26527,8 +27790,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26548,8 +27812,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26569,8 +27834,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26590,8 +27856,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26611,8 +27878,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26632,8 +27900,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26653,8 +27922,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -26674,8 +27944,9 @@ export default {
     "type": 0,
     "radius": 800,
     "bullets": [
-      301000000
+      30100000000
     ],
+    "delays": [],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -26695,8 +27966,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000101
+      30100010100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26716,8 +27988,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000102
+      30100010200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26737,8 +28010,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000103
+      30100010300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26758,8 +28032,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000104
+      30100010400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26779,8 +28054,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000105
+      30100010500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26800,8 +28076,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000106
+      30100010600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26821,8 +28098,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000107
+      30100010700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26842,8 +28120,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000108
+      30100010800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26863,8 +28142,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000109
+      30100010900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26884,8 +28164,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000110
+      30100011000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26905,8 +28186,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000111
+      30100011100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26926,8 +28208,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000112
+      30100011200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26947,8 +28230,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000113
+      30100011300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26968,8 +28252,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000114
+      30100011400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -26989,8 +28274,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000115
+      30100011500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27010,8 +28296,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000116
+      30100011600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27031,8 +28318,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000117
+      30100011700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27052,8 +28340,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000118
+      30100011800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27073,8 +28362,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000119
+      30100011900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27094,8 +28384,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000120
+      30100012000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27115,8 +28406,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000121
+      30100012100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27136,8 +28428,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000122
+      30100012200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27157,8 +28450,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000123
+      30100012300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27178,8 +28472,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000124
+      30100012400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27199,8 +28494,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000125
+      30100012500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27220,8 +28516,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000126
+      30100012600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27241,8 +28538,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000127
+      30100012700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27262,8 +28560,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000128
+      30100012800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27283,8 +28582,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000129
+      30100012900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27304,8 +28604,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000130
+      30100013000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27325,8 +28626,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000131
+      30100013100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27346,8 +28648,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000132
+      30100013200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27367,8 +28670,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000133
+      30100013300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27388,8 +28692,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000134
+      30100013400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27409,8 +28714,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000135
+      30100013500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27430,8 +28736,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000136
+      30100013600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27451,8 +28758,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000137
+      30100013700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27472,8 +28780,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000138
+      30100013800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27493,8 +28802,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000139
+      30100013900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27514,8 +28824,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000140
+      30100014000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27535,8 +28846,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000141
+      30100014100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27556,8 +28868,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000142
+      30100014200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27577,8 +28890,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000143
+      30100014300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27598,8 +28912,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000144
+      30100014400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27619,8 +28934,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000145
+      30100014500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27640,8 +28956,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000146
+      30100014600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27661,8 +28978,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000147
+      30100014700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27682,8 +29000,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000148
+      30100014800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27703,8 +29022,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000149
+      30100014900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27724,8 +29044,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000150
+      30100015000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27745,8 +29066,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000151
+      30100015100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27766,8 +29088,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000152
+      30100015200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27787,8 +29110,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000153
+      30100015300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27808,8 +29132,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000154
+      30100015400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27829,8 +29154,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000155
+      30100015500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27850,8 +29176,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000156
+      30100015600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27871,8 +29198,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000157
+      30100015700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27892,8 +29220,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000158
+      30100015800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27913,8 +29242,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000159
+      30100015900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27934,8 +29264,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000160
+      30100016000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27955,8 +29286,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000161
+      30100016100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27976,8 +29308,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000162
+      30100016200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -27997,8 +29330,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000163
+      30100016300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28018,8 +29352,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000164
+      30100016400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28039,8 +29374,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000165
+      30100016500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28060,8 +29396,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000166
+      30100016600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28081,8 +29418,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000167
+      30100016700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28102,8 +29440,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000168
+      30100016800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28123,8 +29462,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000169
+      30100016900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28144,8 +29484,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000170
+      30100017000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28165,8 +29506,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000171
+      30100017100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28186,8 +29528,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000172
+      30100017200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28207,8 +29550,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000173
+      30100017300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28228,8 +29572,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000174
+      30100017400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28249,8 +29594,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000175
+      30100017500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28270,8 +29616,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000176
+      30100017600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28291,8 +29638,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000177
+      30100017700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28312,8 +29660,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000178
+      30100017800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28333,8 +29682,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000179
+      30100017900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28354,8 +29704,9 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      301000180
+      30100018000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -28375,8 +29726,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28396,8 +29748,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28417,8 +29770,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28438,8 +29792,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28459,8 +29814,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28480,8 +29836,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28501,8 +29858,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28522,8 +29880,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28543,8 +29902,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28564,8 +29924,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28585,8 +29946,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28606,8 +29968,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28627,8 +29990,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28648,8 +30012,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28669,8 +30034,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28690,8 +30056,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28711,8 +30078,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28732,8 +30100,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28753,8 +30122,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28774,8 +30144,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28795,8 +30166,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28816,8 +30188,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28837,8 +30210,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28858,8 +30232,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28879,8 +30254,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28900,8 +30276,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28921,8 +30298,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28942,8 +30320,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28963,8 +30342,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -28984,8 +30364,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29005,8 +30386,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29026,8 +30408,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29047,8 +30430,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29068,8 +30452,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29089,8 +30474,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29110,8 +30496,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29131,8 +30518,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29152,8 +30540,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29173,8 +30562,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29194,8 +30584,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29215,8 +30606,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29236,8 +30628,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29257,8 +30650,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29278,8 +30672,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29299,8 +30694,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29320,8 +30716,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29341,8 +30738,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29362,8 +30760,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29383,8 +30782,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29404,8 +30804,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29425,8 +30826,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29446,8 +30848,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29467,8 +30870,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29488,8 +30892,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29509,8 +30914,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29530,8 +30936,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29551,8 +30958,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29572,8 +30980,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29593,8 +31002,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29614,8 +31024,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -29635,8 +31046,9 @@ export default {
     "type": 0,
     "radius": 300,
     "bullets": [
-      301100000
+      30110000000
     ],
+    "delays": [],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -29656,8 +31068,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100101
+      30110010100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29677,8 +31090,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100102
+      30110010200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29698,8 +31112,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100103
+      30110010300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29719,8 +31134,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100104
+      30110010400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29740,8 +31156,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100105
+      30110010500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29761,8 +31178,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100106
+      30110010600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29782,8 +31200,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100107
+      30110010700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29803,8 +31222,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100108
+      30110010800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29824,8 +31244,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100109
+      30110010900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29845,8 +31266,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100110
+      30110011000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29866,8 +31288,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100111
+      30110011100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29887,8 +31310,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100112
+      30110011200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29908,8 +31332,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100113
+      30110011300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29929,8 +31354,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100114
+      30110011400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29950,8 +31376,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100115
+      30110011500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29971,8 +31398,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100116
+      30110011600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -29992,8 +31420,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100117
+      30110011700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30013,8 +31442,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100118
+      30110011800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30034,8 +31464,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100119
+      30110011900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30055,8 +31486,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100120
+      30110012000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30076,8 +31508,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100121
+      30110012100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30097,8 +31530,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100122
+      30110012200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30118,8 +31552,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100123
+      30110012300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30139,8 +31574,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100124
+      30110012400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30160,8 +31596,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100125
+      30110012500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30181,8 +31618,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100126
+      30110012600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30202,8 +31640,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100127
+      30110012700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30223,8 +31662,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100128
+      30110012800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30244,8 +31684,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100129
+      30110012900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30265,8 +31706,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100130
+      30110013000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30286,8 +31728,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100131
+      30110013100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30307,8 +31750,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100132
+      30110013200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30328,8 +31772,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100133
+      30110013300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30349,8 +31794,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100134
+      30110013400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30370,8 +31816,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100135
+      30110013500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30391,8 +31838,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100136
+      30110013600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30412,8 +31860,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100137
+      30110013700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30433,8 +31882,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100138
+      30110013800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30454,8 +31904,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100139
+      30110013900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30475,8 +31926,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100140
+      30110014000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30496,8 +31948,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100141
+      30110014100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30517,8 +31970,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100142
+      30110014200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30538,8 +31992,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100143
+      30110014300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30559,8 +32014,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100144
+      30110014400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30580,8 +32036,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100145
+      30110014500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30601,8 +32058,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100146
+      30110014600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30622,8 +32080,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100147
+      30110014700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30643,8 +32102,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100148
+      30110014800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30664,8 +32124,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100149
+      30110014900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30685,8 +32146,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100150
+      30110015000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30706,8 +32168,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100151
+      30110015100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30727,8 +32190,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100152
+      30110015200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30748,8 +32212,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100153
+      30110015300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30769,8 +32234,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100154
+      30110015400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30790,8 +32256,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100155
+      30110015500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30811,8 +32278,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100156
+      30110015600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30832,8 +32300,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100157
+      30110015700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30853,8 +32322,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100158
+      30110015800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30874,8 +32344,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100159
+      30110015900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30895,8 +32366,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100160
+      30110016000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30916,8 +32388,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100161
+      30110016100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30937,8 +32410,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100162
+      30110016200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30958,8 +32432,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100163
+      30110016300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -30979,8 +32454,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100164
+      30110016400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31000,8 +32476,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100165
+      30110016500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31021,8 +32498,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100166
+      30110016600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31042,8 +32520,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100167
+      30110016700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31063,8 +32542,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100168
+      30110016800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31084,8 +32564,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100169
+      30110016900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31105,8 +32586,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100170
+      30110017000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31126,8 +32608,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100171
+      30110017100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31147,8 +32630,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100172
+      30110017200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31168,8 +32652,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100173
+      30110017300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31189,8 +32674,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100174
+      30110017400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31210,8 +32696,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100175
+      30110017500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31231,8 +32718,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100176
+      30110017600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31252,8 +32740,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100177
+      30110017700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31273,8 +32762,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100178
+      30110017800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31294,8 +32784,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100179
+      30110017900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31315,8 +32806,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301100180
+      30110018000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
@@ -31336,8 +32828,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31357,8 +32850,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31378,8 +32872,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31399,8 +32894,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31420,8 +32916,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31441,8 +32938,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31462,8 +32960,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31483,8 +32982,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31504,8 +33004,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31525,8 +33026,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31546,8 +33048,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31567,8 +33070,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31588,8 +33092,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31609,8 +33114,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31630,8 +33136,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31651,8 +33158,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31672,8 +33180,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31693,8 +33202,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31714,8 +33224,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31735,8 +33246,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31756,8 +33268,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31777,8 +33290,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31798,8 +33312,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31819,8 +33334,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31840,8 +33356,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31861,8 +33378,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31882,8 +33400,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31903,8 +33422,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31924,8 +33444,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31945,8 +33466,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31966,8 +33488,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -31987,8 +33510,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32008,8 +33532,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32029,8 +33554,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32050,8 +33576,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32071,8 +33598,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32092,8 +33620,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32113,8 +33642,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32134,8 +33664,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32155,8 +33686,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32176,8 +33708,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32197,8 +33730,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32218,8 +33752,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32239,8 +33774,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32260,8 +33796,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32281,8 +33818,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32302,8 +33840,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32323,8 +33862,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32344,8 +33884,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32365,8 +33906,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32386,8 +33928,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32407,8 +33950,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32428,8 +33972,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32449,8 +33994,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32470,8 +34016,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32491,8 +34038,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32512,8 +34060,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32533,8 +34082,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32554,8 +34104,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32575,8 +34126,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -32596,8 +34148,9 @@ export default {
     "type": 0,
     "radius": 200,
     "bullets": [
-      301200000
+      30120000000
     ],
+    "delays": [],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -32617,8 +34170,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200101
+      30120010100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32638,8 +34192,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200102
+      30120010200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32659,8 +34214,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200103
+      30120010300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32680,8 +34236,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200104
+      30120010400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32701,8 +34258,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200105
+      30120010500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32722,8 +34280,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200106
+      30120010600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32743,8 +34302,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200107
+      30120010700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32764,8 +34324,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200108
+      30120010800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32785,8 +34346,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200109
+      30120010900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32806,8 +34368,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200110
+      30120011000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32827,8 +34390,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200111
+      30120011100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32848,8 +34412,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200112
+      30120011200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32869,8 +34434,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200113
+      30120011300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32890,8 +34456,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200114
+      30120011400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32911,8 +34478,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200115
+      30120011500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32932,8 +34500,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200116
+      30120011600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32953,8 +34522,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200117
+      30120011700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32974,8 +34544,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200118
+      30120011800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -32995,8 +34566,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200119
+      30120011900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33016,8 +34588,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200120
+      30120012000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33037,8 +34610,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200121
+      30120012100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33058,8 +34632,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200122
+      30120012200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33079,8 +34654,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200123
+      30120012300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33100,8 +34676,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200124
+      30120012400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33121,8 +34698,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200125
+      30120012500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33142,8 +34720,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200126
+      30120012600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33163,8 +34742,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200127
+      30120012700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33184,8 +34764,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200128
+      30120012800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33205,8 +34786,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200129
+      30120012900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33226,8 +34808,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200130
+      30120013000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33247,8 +34830,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200131
+      30120013100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33268,8 +34852,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200132
+      30120013200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33289,8 +34874,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200133
+      30120013300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33310,8 +34896,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200134
+      30120013400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33331,8 +34918,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200135
+      30120013500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33352,8 +34940,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200136
+      30120013600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33373,8 +34962,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200137
+      30120013700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33394,8 +34984,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200138
+      30120013800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33415,8 +35006,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200139
+      30120013900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33436,8 +35028,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200140
+      30120014000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33457,8 +35050,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200141
+      30120014100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33478,8 +35072,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200142
+      30120014200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33499,8 +35094,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200143
+      30120014300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33520,8 +35116,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200144
+      30120014400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33541,8 +35138,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200145
+      30120014500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33562,8 +35160,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200146
+      30120014600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33583,8 +35182,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200147
+      30120014700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33604,8 +35204,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200148
+      30120014800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33625,8 +35226,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200149
+      30120014900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33646,8 +35248,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200150
+      30120015000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33667,8 +35270,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200151
+      30120015100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33688,8 +35292,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200152
+      30120015200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33709,8 +35314,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200153
+      30120015300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33730,8 +35336,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200154
+      30120015400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33751,8 +35358,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200155
+      30120015500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33772,8 +35380,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200156
+      30120015600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33793,8 +35402,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200157
+      30120015700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33814,8 +35424,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200158
+      30120015800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33835,8 +35446,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200159
+      30120015900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33856,8 +35468,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200160
+      30120016000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33877,8 +35490,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200161
+      30120016100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33898,8 +35512,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200162
+      30120016200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33919,8 +35534,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200163
+      30120016300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33940,8 +35556,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200164
+      30120016400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33961,8 +35578,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200165
+      30120016500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -33982,8 +35600,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200166
+      30120016600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34003,8 +35622,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200167
+      30120016700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34024,8 +35644,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200168
+      30120016800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34045,8 +35666,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200169
+      30120016900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34066,8 +35688,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200170
+      30120017000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34087,8 +35710,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200171
+      30120017100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34108,8 +35732,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200172
+      30120017200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34129,8 +35754,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200173
+      30120017300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34150,8 +35776,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200174
+      30120017400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34171,8 +35798,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200175
+      30120017500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34192,8 +35820,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200176
+      30120017600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34213,8 +35842,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200177
+      30120017700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34234,8 +35864,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200178
+      30120017800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34255,8 +35886,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200179
+      30120017900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34276,8 +35908,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301200180
+      30120018000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -34297,8 +35930,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34318,8 +35952,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34339,8 +35974,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34360,8 +35996,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34381,8 +36018,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34402,8 +36040,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34423,8 +36062,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34444,8 +36084,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34465,8 +36106,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34486,8 +36128,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34507,8 +36150,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34528,8 +36172,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34549,8 +36194,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34570,8 +36216,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34591,8 +36238,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34612,8 +36260,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34633,8 +36282,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34654,8 +36304,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34675,8 +36326,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34696,8 +36348,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34717,8 +36370,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34738,8 +36392,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34759,8 +36414,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34780,8 +36436,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34801,8 +36458,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34822,8 +36480,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34843,8 +36502,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34864,8 +36524,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34885,8 +36546,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34906,8 +36568,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34927,8 +36590,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34948,8 +36612,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34969,8 +36634,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -34990,8 +36656,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35011,8 +36678,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35032,8 +36700,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35053,8 +36722,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35074,8 +36744,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35095,8 +36766,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35116,8 +36788,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35137,8 +36810,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35158,8 +36832,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35179,8 +36854,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35200,8 +36876,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35221,8 +36898,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35242,8 +36920,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35263,8 +36942,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35284,8 +36964,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35305,8 +36986,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35326,8 +37008,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35347,8 +37030,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35368,8 +37052,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35389,8 +37074,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35410,8 +37096,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35431,8 +37118,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35452,8 +37140,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35473,8 +37162,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35494,8 +37184,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35515,8 +37206,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35536,8 +37228,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -35557,8 +37250,9 @@ export default {
     "type": 0,
     "radius": 200,
     "bullets": [
-      301300000
+      30130000000
     ],
+    "delays": [],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -35578,8 +37272,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300101
+      30130010100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35599,8 +37294,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300102
+      30130010200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35620,8 +37316,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300103
+      30130010300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35641,8 +37338,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300104
+      30130010400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35662,8 +37360,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300105
+      30130010500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35683,8 +37382,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300106
+      30130010600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35704,8 +37404,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300107
+      30130010700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35725,8 +37426,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300108
+      30130010800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35746,8 +37448,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300109
+      30130010900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35767,8 +37470,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300110
+      30130011000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35788,8 +37492,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300111
+      30130011100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35809,8 +37514,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300112
+      30130011200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35830,8 +37536,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300113
+      30130011300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35851,8 +37558,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300114
+      30130011400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35872,8 +37580,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300115
+      30130011500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35893,8 +37602,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300116
+      30130011600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35914,8 +37624,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300117
+      30130011700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35935,8 +37646,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300118
+      30130011800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35956,8 +37668,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300119
+      30130011900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35977,8 +37690,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300120
+      30130012000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -35998,8 +37712,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300121
+      30130012100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36019,8 +37734,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300122
+      30130012200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36040,8 +37756,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300123
+      30130012300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36061,8 +37778,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300124
+      30130012400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36082,8 +37800,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300125
+      30130012500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36103,8 +37822,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300126
+      30130012600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36124,8 +37844,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300127
+      30130012700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36145,8 +37866,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300128
+      30130012800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36166,8 +37888,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300129
+      30130012900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36187,8 +37910,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300130
+      30130013000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36208,8 +37932,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300131
+      30130013100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36229,8 +37954,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300132
+      30130013200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36250,8 +37976,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300133
+      30130013300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36271,8 +37998,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300134
+      30130013400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36292,8 +38020,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300135
+      30130013500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36313,8 +38042,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300136
+      30130013600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36334,8 +38064,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300137
+      30130013700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36355,8 +38086,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300138
+      30130013800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36376,8 +38108,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300139
+      30130013900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36397,8 +38130,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300140
+      30130014000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36418,8 +38152,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300141
+      30130014100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36439,8 +38174,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300142
+      30130014200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36460,8 +38196,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300143
+      30130014300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36481,8 +38218,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300144
+      30130014400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36502,8 +38240,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300145
+      30130014500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36523,8 +38262,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300146
+      30130014600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36544,8 +38284,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300147
+      30130014700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36565,8 +38306,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300148
+      30130014800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36586,8 +38328,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300149
+      30130014900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36607,8 +38350,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300150
+      30130015000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36628,8 +38372,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300151
+      30130015100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36649,8 +38394,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300152
+      30130015200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36670,8 +38416,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300153
+      30130015300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36691,8 +38438,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300154
+      30130015400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36712,8 +38460,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300155
+      30130015500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36733,8 +38482,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300156
+      30130015600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36754,8 +38504,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300157
+      30130015700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36775,8 +38526,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300158
+      30130015800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36796,8 +38548,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300159
+      30130015900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36817,8 +38570,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300160
+      30130016000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36838,8 +38592,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300161
+      30130016100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36859,8 +38614,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300162
+      30130016200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36880,8 +38636,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300163
+      30130016300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36901,8 +38658,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300164
+      30130016400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36922,8 +38680,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300165
+      30130016500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36943,8 +38702,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300166
+      30130016600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36964,8 +38724,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300167
+      30130016700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -36985,8 +38746,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300168
+      30130016800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37006,8 +38768,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300169
+      30130016900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37027,8 +38790,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300170
+      30130017000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37048,8 +38812,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300171
+      30130017100
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37069,8 +38834,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300172
+      30130017200
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37090,8 +38856,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300173
+      30130017300
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37111,8 +38878,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300174
+      30130017400
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37132,8 +38900,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300175
+      30130017500
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37153,8 +38922,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300176
+      30130017600
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37174,8 +38944,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300177
+      30130017700
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37195,8 +38966,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300178
+      30130017800
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37216,8 +38988,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300179
+      30130017900
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37237,8 +39010,9 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      301300180
+      30130018000
     ],
+    "delays": [],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -37258,8 +39032,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37279,8 +39054,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37300,8 +39076,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37321,8 +39098,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37342,8 +39120,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37363,8 +39142,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37384,8 +39164,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37405,8 +39186,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37426,8 +39208,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37447,8 +39230,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37468,8 +39252,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37489,8 +39274,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37510,8 +39296,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37531,8 +39318,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37552,8 +39340,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37573,8 +39362,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37594,8 +39384,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37615,8 +39406,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37636,8 +39428,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37657,8 +39450,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37678,8 +39472,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37699,8 +39494,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37720,8 +39516,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37741,8 +39538,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37762,8 +39560,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37783,8 +39582,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37804,8 +39604,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37825,8 +39626,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37846,8 +39648,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37867,8 +39670,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37888,8 +39692,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37909,8 +39714,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37930,8 +39736,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37951,8 +39758,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37972,8 +39780,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -37993,8 +39802,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38014,8 +39824,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38035,8 +39846,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38056,8 +39868,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38077,8 +39890,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38098,8 +39912,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38119,8 +39934,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38140,8 +39956,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38161,8 +39978,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38182,8 +40000,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38203,8 +40022,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38224,8 +40044,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38245,8 +40066,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38266,8 +40088,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38287,8 +40110,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38308,8 +40132,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38329,8 +40154,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38350,8 +40176,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38371,8 +40198,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38392,8 +40220,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38413,8 +40242,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38434,8 +40264,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38455,8 +40286,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38476,8 +40308,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38497,8 +40330,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38518,8 +40352,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38539,8 +40374,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38560,8 +40396,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38581,8 +40418,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38602,8 +40440,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38623,8 +40462,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38644,8 +40484,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38665,8 +40506,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38686,8 +40528,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38707,8 +40550,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38728,8 +40572,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38749,8 +40594,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38770,8 +40616,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38791,8 +40638,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38812,8 +40660,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38833,8 +40682,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38854,8 +40704,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38875,8 +40726,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38896,8 +40748,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38917,8 +40770,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38938,8 +40792,9 @@ export default {
     "type": 0,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38959,8 +40814,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -38980,8 +40836,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39001,8 +40858,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39022,8 +40880,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39043,8 +40902,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39064,8 +40924,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39085,8 +40946,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39106,8 +40968,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39127,8 +40990,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39148,8 +41012,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39169,8 +41034,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39190,8 +41056,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39211,8 +41078,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39232,8 +41100,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39253,8 +41122,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39274,8 +41144,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39295,8 +41166,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39316,8 +41188,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39337,8 +41210,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39358,8 +41232,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39379,8 +41254,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39400,8 +41276,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39421,8 +41298,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39442,8 +41320,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39463,8 +41342,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39484,8 +41364,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39505,8 +41386,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39526,8 +41408,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39547,8 +41430,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39568,8 +41452,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39589,8 +41474,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39610,8 +41496,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39631,8 +41518,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39652,8 +41540,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39673,8 +41562,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39694,8 +41584,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39715,8 +41606,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39736,8 +41628,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39757,8 +41650,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39778,8 +41672,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39799,8 +41694,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39820,8 +41716,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39841,8 +41738,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39862,8 +41760,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39883,8 +41782,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39904,8 +41804,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39925,8 +41826,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39946,8 +41848,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39967,8 +41870,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -39988,8 +41892,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40009,8 +41914,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40030,8 +41936,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40051,8 +41958,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40072,8 +41980,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40093,8 +42002,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40114,8 +42024,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40135,8 +42046,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40156,8 +42068,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40177,8 +42090,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40198,8 +42112,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40219,8 +42134,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40240,8 +42156,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40261,8 +42178,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40282,8 +42200,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40303,8 +42222,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40324,8 +42244,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40345,8 +42266,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40366,8 +42288,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40387,8 +42310,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40408,8 +42332,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40429,8 +42354,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40450,8 +42376,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40471,8 +42398,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40492,8 +42420,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40513,8 +42442,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40534,8 +42464,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40555,8 +42486,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40576,8 +42508,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40597,8 +42530,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40618,8 +42552,9 @@ export default {
     "type": 1,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40639,8 +42574,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40660,8 +42596,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40681,8 +42618,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40702,8 +42640,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40723,8 +42662,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40744,8 +42684,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40765,8 +42706,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40786,8 +42728,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40807,8 +42750,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40828,8 +42772,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40849,8 +42794,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40870,8 +42816,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40891,8 +42838,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40912,8 +42860,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40933,8 +42882,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40954,8 +42904,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40975,8 +42926,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -40996,8 +42948,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41017,8 +42970,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41038,8 +42992,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41059,8 +43014,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41080,8 +43036,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41101,8 +43058,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41122,8 +43080,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41143,8 +43102,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41164,8 +43124,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41185,8 +43146,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41206,8 +43168,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41227,8 +43190,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41248,8 +43212,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41269,8 +43234,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41290,8 +43256,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41311,8 +43278,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41332,8 +43300,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41353,8 +43322,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41374,8 +43344,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41395,8 +43366,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41416,8 +43388,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41437,8 +43410,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41458,8 +43432,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41479,8 +43454,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41500,8 +43476,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41521,8 +43498,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41542,8 +43520,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41563,8 +43542,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41584,8 +43564,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41605,8 +43586,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41626,8 +43608,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41647,8 +43630,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41668,8 +43652,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41689,8 +43674,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41710,8 +43696,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41731,8 +43718,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41752,8 +43740,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41773,8 +43762,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41794,8 +43784,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41815,8 +43806,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41836,8 +43828,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41857,8 +43850,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41878,8 +43872,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -41897,11 +43892,12 @@ export default {
   "201500000": {
     "id": "201500000",
     "type": 0,
-    "radius": 0,
+    "radius": 800,
     "bullets": [
-      300000000
+      30150000000
     ],
-    "atkAnim": "",
+    "delays": [],
+    "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -41918,11 +43914,22 @@ export default {
   "201500101": {
     "id": "201500101",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150010100,
+      30150010101,
+      30150010102,
+      30150010103,
+      30150010104
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -41939,11 +43946,22 @@ export default {
   "201500102": {
     "id": "201500102",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150010200,
+      30150010201,
+      30150010202,
+      30150010203,
+      30150010204
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -41960,11 +43978,22 @@ export default {
   "201500103": {
     "id": "201500103",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150010300,
+      30150010301,
+      30150010302,
+      30150010303,
+      30150010304
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -41981,11 +44010,22 @@ export default {
   "201500104": {
     "id": "201500104",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150010400,
+      30150010401,
+      30150010402,
+      30150010403,
+      30150010404
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42002,11 +44042,22 @@ export default {
   "201500105": {
     "id": "201500105",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150010500,
+      30150010501,
+      30150010502,
+      30150010503,
+      30150010504
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42023,11 +44074,22 @@ export default {
   "201500106": {
     "id": "201500106",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150010600,
+      30150010601,
+      30150010602,
+      30150010603,
+      30150010604
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42044,11 +44106,22 @@ export default {
   "201500107": {
     "id": "201500107",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150010700,
+      30150010701,
+      30150010702,
+      30150010703,
+      30150010704
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42065,11 +44138,22 @@ export default {
   "201500108": {
     "id": "201500108",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150010800,
+      30150010801,
+      30150010802,
+      30150010803,
+      30150010804
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42086,11 +44170,22 @@ export default {
   "201500109": {
     "id": "201500109",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150010900,
+      30150010901,
+      30150010902,
+      30150010903,
+      30150010904
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42107,11 +44202,22 @@ export default {
   "201500110": {
     "id": "201500110",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150011000,
+      30150011001,
+      30150011002,
+      30150011003,
+      30150011004
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42128,11 +44234,22 @@ export default {
   "201500111": {
     "id": "201500111",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150011100,
+      30150011101,
+      30150011102,
+      30150011103,
+      30150011104
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42149,11 +44266,22 @@ export default {
   "201500112": {
     "id": "201500112",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150011200,
+      30150011201,
+      30150011202,
+      30150011203,
+      30150011204
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42170,11 +44298,22 @@ export default {
   "201500113": {
     "id": "201500113",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150011300,
+      30150011301,
+      30150011302,
+      30150011303,
+      30150011304
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42191,11 +44330,22 @@ export default {
   "201500114": {
     "id": "201500114",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150011400,
+      30150011401,
+      30150011402,
+      30150011403,
+      30150011404
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42212,11 +44362,22 @@ export default {
   "201500115": {
     "id": "201500115",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150011500,
+      30150011501,
+      30150011502,
+      30150011503,
+      30150011504
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42233,11 +44394,22 @@ export default {
   "201500116": {
     "id": "201500116",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150011600,
+      30150011601,
+      30150011602,
+      30150011603,
+      30150011604
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42254,11 +44426,22 @@ export default {
   "201500117": {
     "id": "201500117",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150011700,
+      30150011701,
+      30150011702,
+      30150011703,
+      30150011704
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42275,11 +44458,22 @@ export default {
   "201500118": {
     "id": "201500118",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150011800,
+      30150011801,
+      30150011802,
+      30150011803,
+      30150011804
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42296,11 +44490,22 @@ export default {
   "201500119": {
     "id": "201500119",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150011900,
+      30150011901,
+      30150011902,
+      30150011903,
+      30150011904
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42317,11 +44522,22 @@ export default {
   "201500120": {
     "id": "201500120",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150012000,
+      30150012001,
+      30150012002,
+      30150012003,
+      30150012004
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42338,11 +44554,22 @@ export default {
   "201500121": {
     "id": "201500121",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150012100,
+      30150012101,
+      30150012102,
+      30150012103,
+      30150012104
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42359,11 +44586,22 @@ export default {
   "201500122": {
     "id": "201500122",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150012200,
+      30150012201,
+      30150012202,
+      30150012203,
+      30150012204
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42380,11 +44618,22 @@ export default {
   "201500123": {
     "id": "201500123",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150012300,
+      30150012301,
+      30150012302,
+      30150012303,
+      30150012304
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42401,11 +44650,22 @@ export default {
   "201500124": {
     "id": "201500124",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150012400,
+      30150012401,
+      30150012402,
+      30150012403,
+      30150012404
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42422,11 +44682,22 @@ export default {
   "201500125": {
     "id": "201500125",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150012500,
+      30150012501,
+      30150012502,
+      30150012503,
+      30150012504
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42443,11 +44714,22 @@ export default {
   "201500126": {
     "id": "201500126",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150012600,
+      30150012601,
+      30150012602,
+      30150012603,
+      30150012604
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42464,11 +44746,22 @@ export default {
   "201500127": {
     "id": "201500127",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150012700,
+      30150012701,
+      30150012702,
+      30150012703,
+      30150012704
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42485,11 +44778,22 @@ export default {
   "201500128": {
     "id": "201500128",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150012800,
+      30150012801,
+      30150012802,
+      30150012803,
+      30150012804
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42506,11 +44810,22 @@ export default {
   "201500129": {
     "id": "201500129",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150012900,
+      30150012901,
+      30150012902,
+      30150012903,
+      30150012904
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42527,11 +44842,22 @@ export default {
   "201500130": {
     "id": "201500130",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150013000,
+      30150013001,
+      30150013002,
+      30150013003,
+      30150013004
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42548,11 +44874,22 @@ export default {
   "201500131": {
     "id": "201500131",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150013100,
+      30150013101,
+      30150013102,
+      30150013103,
+      30150013104
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42569,11 +44906,22 @@ export default {
   "201500132": {
     "id": "201500132",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150013200,
+      30150013201,
+      30150013202,
+      30150013203,
+      30150013204
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42590,11 +44938,22 @@ export default {
   "201500133": {
     "id": "201500133",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150013300,
+      30150013301,
+      30150013302,
+      30150013303,
+      30150013304
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42611,11 +44970,22 @@ export default {
   "201500134": {
     "id": "201500134",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150013400,
+      30150013401,
+      30150013402,
+      30150013403,
+      30150013404
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42632,11 +45002,22 @@ export default {
   "201500135": {
     "id": "201500135",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150013500,
+      30150013501,
+      30150013502,
+      30150013503,
+      30150013504
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42653,11 +45034,22 @@ export default {
   "201500136": {
     "id": "201500136",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150013600,
+      30150013601,
+      30150013602,
+      30150013603,
+      30150013604
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42674,11 +45066,22 @@ export default {
   "201500137": {
     "id": "201500137",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150013700,
+      30150013701,
+      30150013702,
+      30150013703,
+      30150013704
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42695,11 +45098,22 @@ export default {
   "201500138": {
     "id": "201500138",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150013800,
+      30150013801,
+      30150013802,
+      30150013803,
+      30150013804
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42716,11 +45130,22 @@ export default {
   "201500139": {
     "id": "201500139",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150013900,
+      30150013901,
+      30150013902,
+      30150013903,
+      30150013904
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42737,11 +45162,22 @@ export default {
   "201500140": {
     "id": "201500140",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150014000,
+      30150014001,
+      30150014002,
+      30150014003,
+      30150014004
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42758,11 +45194,22 @@ export default {
   "201500141": {
     "id": "201500141",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150014100,
+      30150014101,
+      30150014102,
+      30150014103,
+      30150014104
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42779,11 +45226,22 @@ export default {
   "201500142": {
     "id": "201500142",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150014200,
+      30150014201,
+      30150014202,
+      30150014203,
+      30150014204
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42800,11 +45258,22 @@ export default {
   "201500143": {
     "id": "201500143",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150014300,
+      30150014301,
+      30150014302,
+      30150014303,
+      30150014304
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42821,11 +45290,22 @@ export default {
   "201500144": {
     "id": "201500144",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150014400,
+      30150014401,
+      30150014402,
+      30150014403,
+      30150014404
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42842,11 +45322,22 @@ export default {
   "201500145": {
     "id": "201500145",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150014500,
+      30150014501,
+      30150014502,
+      30150014503,
+      30150014504
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42863,11 +45354,22 @@ export default {
   "201500146": {
     "id": "201500146",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150014600,
+      30150014601,
+      30150014602,
+      30150014603,
+      30150014604
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42884,11 +45386,22 @@ export default {
   "201500147": {
     "id": "201500147",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150014700,
+      30150014701,
+      30150014702,
+      30150014703,
+      30150014704
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42905,11 +45418,22 @@ export default {
   "201500148": {
     "id": "201500148",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150014800,
+      30150014801,
+      30150014802,
+      30150014803,
+      30150014804
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42926,11 +45450,22 @@ export default {
   "201500149": {
     "id": "201500149",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150014900,
+      30150014901,
+      30150014902,
+      30150014903,
+      30150014904
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42947,11 +45482,22 @@ export default {
   "201500150": {
     "id": "201500150",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150015000,
+      30150015001,
+      30150015002,
+      30150015003,
+      30150015004
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42968,11 +45514,22 @@ export default {
   "201500151": {
     "id": "201500151",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150015100,
+      30150015101,
+      30150015102,
+      30150015103,
+      30150015104
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -42989,11 +45546,22 @@ export default {
   "201500152": {
     "id": "201500152",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150015200,
+      30150015201,
+      30150015202,
+      30150015203,
+      30150015204
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43010,11 +45578,22 @@ export default {
   "201500153": {
     "id": "201500153",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150015300,
+      30150015301,
+      30150015302,
+      30150015303,
+      30150015304
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43031,11 +45610,22 @@ export default {
   "201500154": {
     "id": "201500154",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150015400,
+      30150015401,
+      30150015402,
+      30150015403,
+      30150015404
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43052,11 +45642,22 @@ export default {
   "201500155": {
     "id": "201500155",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150015500,
+      30150015501,
+      30150015502,
+      30150015503,
+      30150015504
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43073,11 +45674,22 @@ export default {
   "201500156": {
     "id": "201500156",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150015600,
+      30150015601,
+      30150015602,
+      30150015603,
+      30150015604
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43094,11 +45706,22 @@ export default {
   "201500157": {
     "id": "201500157",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150015700,
+      30150015701,
+      30150015702,
+      30150015703,
+      30150015704
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43115,11 +45738,22 @@ export default {
   "201500158": {
     "id": "201500158",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150015800,
+      30150015801,
+      30150015802,
+      30150015803,
+      30150015804
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43136,11 +45770,22 @@ export default {
   "201500159": {
     "id": "201500159",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150015900,
+      30150015901,
+      30150015902,
+      30150015903,
+      30150015904
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43157,11 +45802,22 @@ export default {
   "201500160": {
     "id": "201500160",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150016000,
+      30150016001,
+      30150016002,
+      30150016003,
+      30150016004
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43178,11 +45834,22 @@ export default {
   "201500161": {
     "id": "201500161",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150016100,
+      30150016101,
+      30150016102,
+      30150016103,
+      30150016104
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43199,11 +45866,22 @@ export default {
   "201500162": {
     "id": "201500162",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150016200,
+      30150016201,
+      30150016202,
+      30150016203,
+      30150016204
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43220,11 +45898,22 @@ export default {
   "201500163": {
     "id": "201500163",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150016300,
+      30150016301,
+      30150016302,
+      30150016303,
+      30150016304
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43241,11 +45930,22 @@ export default {
   "201500164": {
     "id": "201500164",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150016400,
+      30150016401,
+      30150016402,
+      30150016403,
+      30150016404
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43262,11 +45962,22 @@ export default {
   "201500165": {
     "id": "201500165",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150016500,
+      30150016501,
+      30150016502,
+      30150016503,
+      30150016504
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43283,11 +45994,22 @@ export default {
   "201500166": {
     "id": "201500166",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150016600,
+      30150016601,
+      30150016602,
+      30150016603,
+      30150016604
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43304,11 +46026,22 @@ export default {
   "201500167": {
     "id": "201500167",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150016700,
+      30150016701,
+      30150016702,
+      30150016703,
+      30150016704
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43325,11 +46058,22 @@ export default {
   "201500168": {
     "id": "201500168",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150016800,
+      30150016801,
+      30150016802,
+      30150016803,
+      30150016804
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43346,11 +46090,22 @@ export default {
   "201500169": {
     "id": "201500169",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150016900,
+      30150016901,
+      30150016902,
+      30150016903,
+      30150016904
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43367,11 +46122,22 @@ export default {
   "201500170": {
     "id": "201500170",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150017000,
+      30150017001,
+      30150017002,
+      30150017003,
+      30150017004
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43388,11 +46154,22 @@ export default {
   "201500171": {
     "id": "201500171",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150017100,
+      30150017101,
+      30150017102,
+      30150017103,
+      30150017104
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43409,11 +46186,22 @@ export default {
   "201500172": {
     "id": "201500172",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150017200,
+      30150017201,
+      30150017202,
+      30150017203,
+      30150017204
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43430,11 +46218,22 @@ export default {
   "201500173": {
     "id": "201500173",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150017300,
+      30150017301,
+      30150017302,
+      30150017303,
+      30150017304
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43451,11 +46250,22 @@ export default {
   "201500174": {
     "id": "201500174",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150017400,
+      30150017401,
+      30150017402,
+      30150017403,
+      30150017404
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43472,11 +46282,22 @@ export default {
   "201500175": {
     "id": "201500175",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150017500,
+      30150017501,
+      30150017502,
+      30150017503,
+      30150017504
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43493,11 +46314,22 @@ export default {
   "201500176": {
     "id": "201500176",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150017600,
+      30150017601,
+      30150017602,
+      30150017603,
+      30150017604
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43514,11 +46346,22 @@ export default {
   "201500177": {
     "id": "201500177",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150017700,
+      30150017701,
+      30150017702,
+      30150017703,
+      30150017704
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43535,11 +46378,22 @@ export default {
   "201500178": {
     "id": "201500178",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150017800,
+      30150017801,
+      30150017802,
+      30150017803,
+      30150017804
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43556,11 +46410,22 @@ export default {
   "201500179": {
     "id": "201500179",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150017900,
+      30150017901,
+      30150017902,
+      30150017903,
+      30150017904
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43577,11 +46442,22 @@ export default {
   "201500180": {
     "id": "201500180",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      300000000
+      30150018000,
+      30150018001,
+      30150018002,
+      30150018003,
+      30150018004
     ],
-    "atkAnim": "",
+    "delays": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -43600,8 +46476,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43621,8 +46498,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43642,8 +46520,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43663,8 +46542,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43684,8 +46564,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43705,8 +46586,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43726,8 +46608,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43747,8 +46630,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43768,8 +46652,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43789,8 +46674,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43810,8 +46696,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43831,8 +46718,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43852,8 +46740,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43873,8 +46762,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43894,8 +46784,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43915,8 +46806,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43936,8 +46828,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43957,8 +46850,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43978,8 +46872,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -43999,8 +46894,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44020,8 +46916,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44041,8 +46938,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44062,8 +46960,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44083,8 +46982,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44104,8 +47004,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44125,8 +47026,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44146,8 +47048,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44167,8 +47070,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44188,8 +47092,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44209,8 +47114,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44230,8 +47136,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44251,8 +47158,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44272,8 +47180,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44293,8 +47202,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44314,8 +47224,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44335,8 +47246,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44356,8 +47268,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44377,8 +47290,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44398,8 +47312,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44419,8 +47334,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44440,8 +47356,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44461,8 +47378,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44482,8 +47400,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44503,8 +47422,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44524,8 +47444,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44545,8 +47466,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44566,8 +47488,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44587,8 +47510,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44608,8 +47532,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44629,8 +47554,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44650,8 +47576,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44671,8 +47598,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44692,8 +47620,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44713,8 +47642,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44734,8 +47664,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44755,8 +47686,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44776,8 +47708,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44797,8 +47730,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44818,8 +47752,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
@@ -44839,8 +47774,9 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      300000000
+      30000000000
     ],
+    "delays": [],
     "atkAnim": "",
     "prepareEffect": "",
     "preparePoint": {
