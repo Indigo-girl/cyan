@@ -6,14 +6,15 @@ import SelectorParser from './SelectorParser';
 import TriggerParser from './TriggerParser';
 import buffs from '../../config/buff';
 import bullets from '../../config/bullet';
+import bullet_proto from '../../config/bullet_proto'
 import SubBullet from '../view/bullet/SubBullet';
 
 class BulletParser{
 
     prepareProto(bulletConfig){
         // 不支持嵌套
-        if(bulletConfig.proto && bullets[bulletConfig.proto]){
-            const config = Object.create(bullets[bulletConfig.proto])
+        if(bulletConfig.proto && bullet_proto[bulletConfig.proto]){
+            const config = Object.create(bullet_proto[bulletConfig.proto])
             for(const key of Object.keys(bulletConfig)){
                 config[key] = bulletConfig[key];
             }
