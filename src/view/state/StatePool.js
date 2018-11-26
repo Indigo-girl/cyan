@@ -7,6 +7,7 @@ import ResearchState from './ResearchState';
 import ReadyState from './ReadyState';
 import ReadyWalkState from './ReadyWalkState';
 import SettleState from './SettleState';
+import CollisionState from './CollisionState';
 
 const StateMap = {
     'idle': IdleState,
@@ -18,6 +19,7 @@ const StateMap = {
     'ready': ReadyState,
     'readyWalk': ReadyWalkState,
     'settle': SettleState,
+    'collision': CollisionState,
 }
 
 class StatePool{

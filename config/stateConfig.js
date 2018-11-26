@@ -78,6 +78,7 @@ export default {
     demo: {
         'common': {
             'battleEnd': 'settle',
+            // 'nocollision': 'last',
         },
         'search': {
             'dead': 'dead',
@@ -99,6 +100,7 @@ export default {
             'dead': 'dead',
             'reachPos': 'atk',
             'targetUnfit': 'research',
+            // 'collision': 'collision',
         },
         'atk': {
             'dead': 'dead',

@@ -12,6 +12,12 @@ class WalkState extends BaseState {
     }
 
     update(sm) {
+        if (sm.viewEntity.checkCollision()){
+            sm.viewEntity.handleEvent({
+                type: 'collision'
+            });
+            return;
+        }
         // update移动组件
         sm.viewEntity.moveComp.update();
     } 

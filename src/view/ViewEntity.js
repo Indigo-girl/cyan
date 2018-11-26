@@ -5,6 +5,8 @@ import BuffComponent from './BuffComponent';
 import AtkUtils from './AtkUtils';
 import ContextConst from '../logic/const/ContextConst';
 import Log from '../lib/Log';
+import WorldUtil from '../logic/utils/WorldUtils'
+import CommonConst from '../logic/const/CommonConst';
 
 class ViewEntity{
 
@@ -405,6 +407,31 @@ class ViewEntity{
             this.energyProgressBar.progress = role.getRealProp(ContextConst.PRO_ID.ENERGY) /
                 role.getRealProp(ContextConst.PRO_ID.MAX_ENERGY);
         }
+    }
+
+    getCollisionVelocity(){
+        // TODO 检测和其他角色的碰撞，根据嵌入深度获取速度，所有速度矢量和为最终速度
+        const SAFE_MAG = 50;
+        const entities = WorldUtil.getWorld().getEntitiesById(CommonConst.ALL_ALIVE_ENTITY_CHANNEL);
+        const velocity = cc.v2(0, 0);
+        entities.forEach((e)=>{
+            if(e.id !== this.id){
+                const dist = this.getPosition().sub(e.getPosition());
+                const mag = dist.mag();
+                if(mag < SAFE_MAG){
+                    velocity.addSelf(dist.mul(SAFE_MAG - mag));
+                }
+            }
+        });
+        if(velocity.x!=0 || velocity.y!=0){
+            velocity.normalizeSelf().mul(2)
+        }
+        return velocity
+    }
+
+    checkCollision(){
+        const velocity = this.getCollisionVelocity();
+        return velocity.x != 0 || velocity.y != 0
     }
 
 }
