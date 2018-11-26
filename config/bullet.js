@@ -11452,6 +11452,27 @@ export default {
       }
     ]
   },
+  "30050000000": {
+    "id": "30050000000",
+    "proto": "3005000",
+    "offset": {
+      "x": 0,
+      "y": 80
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1
+          }
+        ]
+      }
+    ]
+  },
   "30050010100": {
     "id": "30050010100",
     "proto": "3005001",
@@ -14828,6 +14849,27 @@ export default {
             "targetType": 0,
             "proId": 5,
             "scale": 3.08
+          }
+        ]
+      }
+    ]
+  },
+  "30100000000": {
+    "id": "30100000000",
+    "proto": "3010000",
+    "offset": {
+      "x": -30,
+      "y": 70
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1
           }
         ]
       }
