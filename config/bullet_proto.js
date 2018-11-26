@@ -28,8 +28,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3001000": {
@@ -81,8 +83,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3001001": {
@@ -136,8 +140,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3001002": {
@@ -194,8 +200,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3002000": {
@@ -247,8 +255,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3002001": {
@@ -300,8 +310,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3002002": {
@@ -335,8 +347,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3003000": {
@@ -388,8 +402,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3003001": {
@@ -441,8 +457,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3003002": {
@@ -499,8 +517,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3004000": {
@@ -560,8 +580,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3004001": {
@@ -640,8 +662,10 @@ export default {
       }
     ],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3004002": {
@@ -686,8 +710,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3005000": {
@@ -747,8 +773,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3005001": {
@@ -808,8 +836,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3009000": {
@@ -869,8 +899,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3009001": {
@@ -925,8 +957,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3010000": {
@@ -986,8 +1020,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3010001": {
@@ -1042,8 +1078,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3011000": {
@@ -1095,8 +1133,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3011001": {
@@ -1152,8 +1192,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3012000": {
@@ -1205,8 +1247,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3012001": {
@@ -1262,8 +1306,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3013000": {
@@ -1315,8 +1361,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3013001": {
@@ -1368,8 +1416,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3015000": {
@@ -1421,8 +1471,10 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
     "offsetType": 0
   },
   "3015001": {
@@ -1477,8 +1529,12 @@ export default {
       }
     ],
     "mustHit": true,
-    "explodeIncludeTargets": false,
-    "explodeEvents": "boom",
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [
+      "boom"
+    ],
     "offsetType": 1
   }
 }
