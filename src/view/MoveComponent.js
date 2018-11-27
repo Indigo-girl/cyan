@@ -88,7 +88,14 @@ class MoveComponent{
             }
         }
         this.setPosition(this.getPosition().add(destV));
+    }
 
+    moveBy(velocity){
+        // 不会影响内部状态
+        const selfPos = this.getPosition();
+        const dist = selfPos.add(velocity);
+        this.viewEntity.setHead(velocity);
+        this.setPosition(dist);
     }
 
     getTargetPos(){
