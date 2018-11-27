@@ -339,11 +339,37 @@ export default {
       }
     ],
     "trigger": {
-      "type": "instant"
+      "type": "event",
+      "value": "traceReach"
     },
-    "trace": {},
-    "explodeSelectors": [],
-    "explodeEffects": [],
+    "trace": {
+      "type": "blink",
+      "initHead": {
+        "x": 1,
+        "y": 2
+      },
+      "speed": 20
+    },
+    "explodeSelectors": [
+      {
+        "type": "circle",
+        "radius": 200
+      },
+      {
+        "type": "camp",
+        "value": 4
+      },
+      {
+        "type": "alive",
+        "bValue": true
+      }
+    ],
+    "explodeEffects": [
+      {
+        "type": "hurt",
+        "value": 500
+      }
+    ],
     "mustHit": false,
     "explodeIncludeTargets": [
       false
