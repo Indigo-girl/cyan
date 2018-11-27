@@ -3,9 +3,21 @@ import DurationBuff from '../view/buff/DurationBuff';
 import EffectParser from './EffectParser';
 import TriggerParser from './TriggerParser';
 import Log from '../lib/Log';
+import { parseProto } from './ParseUtil';
+import buff_proto from '../../config/buff_proto';
 
 class BuffParser {
+
+    prepareProto(config){
+        const protoConfig = buff_proto[config.proto];
+        if(protoConfig){
+            return parseProto(config, protoConfig);
+        }
+        return config;
+    }
+
     parse(buffConfig, owner) {
+        buffConfig = this.prepareProto(buffConfig);
         const info = {
             maxTriggerCount: buffConfig.maxTriggerCount,
             enableUndo: buffConfig.enableUndo,

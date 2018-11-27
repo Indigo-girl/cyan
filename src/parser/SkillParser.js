@@ -3,10 +3,21 @@ import BulletParser from './BulletParser';
 import bullet from '../../config/bullet';
 import SkillClock from '../view/skill/SkillClock';
 import PermanentSkill from '../view/skill/PermanentSkill';
+import { parseProto } from './ParseUtil';
+import skills_proto from '../../config/skills_proto';
 
 class SkillParser{
 
+    prepareProto(skillConfig){
+        const protoConfig = skills_proto[skillConfig.proto];
+        if(protoConfig){
+            return parseProto(skillConfig, protoConfig);
+        }
+        return skillConfig;
+    }
+
     parse(skillConfig, owner){
+        skillConfig = this.prepareProto(skillConfig);
         const bullets = [];
         for(const configId of skillConfig.bullets){
             bullets.push(BulletParser.parse(bullet[configId], owner));
@@ -40,6 +51,7 @@ class SkillParser{
      * @memberof SkillParser
      */
     parsePermanentSkill(skillConfig){
+        skillConfig = this.prepareProto(skillConfig);
         const firstCd = skillConfig.firstCd || 1;
         const cd = skillConfig.cd || 1;
         const silentTime = skillConfig.silentTime || 1;
