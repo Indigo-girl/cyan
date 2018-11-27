@@ -1,42 +1,94 @@
 export default {
-    '4001000': {
-        id: '4001000',
-        type: 'duration',
-        effects: [{type: 'propScale', scale: 0.8, proId: 5}],
-        trigger: {type: 'instant'},
-        maxTriggerCount: 1,
-        enableUndo: true,
-        duration: 8
-    },
-
-    '4004000': {
-        id: '4004000',
-        type: 'base',
-        effects: [{ type: 'propDirty', proId: 6, prosInfo: [{ targetType: 1, proId: 10001, scale: 10, step: 3 }] }, 
-            { type: 'propDirty', proId: 11, prosInfo: [{ targetType: 1, proId: 10001, scale: 10, step: 3 }] }],
-        trigger: {type: 'event', value: 'onHurt'},
-        maxTriggerCount: 1,
-        enableUndo: false,
-    },
-
-    '4002000': {
-        id: '4002000',
-        type: 'duration',
-        effects: [{ type: 'propScale', scale: 0.85, proId: 6 }],
-        trigger: { type: 'instant' },
-        maxTriggerCount: 1,
-        enableUndo: true,
-        duration: 5,
-        overlapCount: 1,
-        overlapType: 1,
-    },
-
-    '4002001': {
-        id: '4002001',
-        type: 'base',
-        effects: [{ type: 'extraHp', proId: 0, prosInfo: [{ targetType: 1, proId: 1, scale: 0.02}] }],
-        trigger: { type: 'event', value: 'castNormalSkill' },
-        maxTriggerCount: 10000,
-        enableUndo: false,
-    },
+  "400000100": {
+    "buff": "400000100",
+    "proto": "4000001",
+    "effects": [
+      {
+        "proId": 6,
+        "type": "propScale",
+        "scale": 1.2
+      }
+    ],
+    "duration": 8
+  },
+  "400100000": {
+    "buff": "400100000",
+    "proto": "4001000",
+    "effects": [
+      {
+        "proId": 5,
+        "type": "propScale",
+        "scale": 0.8
+      }
+    ],
+    "duration": 8
+  },
+  "400200000": {
+    "buff": "400200000",
+    "proto": "4002000",
+    "effects": [
+      {
+        "proId": 6,
+        "type": "propScale",
+        "scale": 0.85
+      }
+    ],
+    "duration": 5
+  },
+  "400200100": {
+    "buff": "400200100",
+    "proto": "4002001",
+    "effects": [
+      {
+        "proId": 0,
+        "type": "extraHp",
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 1,
+            "scale": 0.02,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "duration": 0
+  },
+  "400400000": {
+    "buff": "400400000",
+    "proto": "4004000",
+    "effects": [
+      {
+        "proId": 6,
+        "type": "propDirty",
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 10001,
+            "scale": 10,
+            "step": 3
+          }
+        ]
+      },
+      {
+        "proId": 11,
+        "type": "propDirty",
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 10001,
+            "scale": 10,
+            "step": 3
+          }
+        ]
+      }
+    ],
+    "duration": 0
+  },
+  "null": {
+    "buff": null,
+    "proto": null,
+    "effects": null,
+    "duration": null
+  }
 }

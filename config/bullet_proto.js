@@ -34,6 +34,43 @@ export default {
     "explodeEvents": [],
     "offsetType": 0
   },
+  "3000001": {
+    "id": "3000001",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4000001
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
   "3001000": {
     "id": "3001000",
     "spinePath": "",
@@ -102,19 +139,17 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 2
           }
         ]
       }
     ],
-    "buffs": [
-      4001000
-    ],
+    "buffs": [],
     "selectors": [
       {
         "type": "alive",
@@ -165,7 +200,7 @@ export default {
             "targetType": 1,
             "proId": 10001,
             "scale": 10,
-            "step": 3
+            "step": 4
           }
         ]
       },
@@ -274,7 +309,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -421,7 +456,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "scaleInfo": [
           {
             "targetType": 1,
@@ -599,7 +634,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -792,7 +827,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -918,7 +953,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1039,7 +1074,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1152,7 +1187,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1266,7 +1301,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1380,7 +1415,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1465,9 +1500,17 @@ export default {
       }
     ],
     "trigger": {
-      "type": "instant"
+      "type": "event",
+      "value": "traceReach"
     },
-    "trace": {},
+    "trace": {
+      "type": "follow",
+      "initHead": {
+        "x": 1,
+        "y": 2
+      },
+      "speed": 40
+    },
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
@@ -1490,7 +1533,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
