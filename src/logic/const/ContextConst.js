@@ -30,6 +30,16 @@ const CONTEXT_CONST = {
         HURT_REDUCE: 16, 
         // 暴击伤害倍率
         CRTI_HURT_SCALE: 17,
+
+        // 自定义属性
+        EFFECT_PARAM_1: 100,
+        EFFECT_PARAM_2: 101,
+        EFFECT_PARAM_3: 102,
+    },
+
+    getCustomPros(){
+        const PROS = this.PRO_ID
+        return [PROS.EFFECT_PARAM_1, PROS.EFFECT_PARAM_2, PROS.EFFECT_PARAM_3];
     },
 
     isCostPro(proId){

@@ -36,6 +36,10 @@ class RoleContext{
                 }
             }
         }
+        // 初始化自定义属性
+        for(const proId of ContextConst.getCustomPros()){
+            this._setBaseProp(proId, 0)
+        }
     }
 
     getExtraProp(id){
