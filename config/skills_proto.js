@@ -49,7 +49,7 @@ export default {
     "radius": 400,
     "bullets": [
       30010010100,
-      30000010101
+      30010020001
     ],
     "delays": [
       0,
@@ -71,10 +71,10 @@ export default {
   },
   "2001002": {
     "id": "2001002",
-    "type": 2,
-    "radius": 10000,
+    "type": 0,
+    "radius": 0,
     "bullets": [
-      30010020100
+      30000000000
     ],
     "delays": [],
     "atkAnim": "",
@@ -93,10 +93,32 @@ export default {
   },
   "2001003": {
     "id": "2001003",
-    "type": 2,
-    "radius": 10000,
+    "type": 0,
+    "radius": 0,
     "bullets": [
       30000000000
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2001004": {
+    "id": "2001004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30010040100
     ],
     "delays": [],
     "atkAnim": "",
@@ -140,9 +162,13 @@ export default {
     "type": 1,
     "radius": 500,
     "bullets": [
-      30020010100
+      30020010100,
+      30020020001
     ],
-    "delays": [],
+    "delays": [
+      0,
+      0
+    ],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -159,10 +185,10 @@ export default {
   },
   "2002002": {
     "id": "2002002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
-      30020020100
+      30000000000
     ],
     "delays": [],
     "atkAnim": "",
@@ -181,10 +207,32 @@ export default {
   },
   "2002003": {
     "id": "2002003",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2002004": {
+    "id": "2002004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30020040100
     ],
     "delays": [],
     "atkAnim": "",
@@ -230,7 +278,10 @@ export default {
     "bullets": [
       30030010100
     ],
-    "delays": [],
+    "delays": [
+      0,
+      0
+    ],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -247,10 +298,10 @@ export default {
   },
   "2003002": {
     "id": "2003002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
-      30030020100
+      30000000000
     ],
     "delays": [],
     "atkAnim": "",
@@ -270,6 +321,28 @@ export default {
   "2003003": {
     "id": "2003003",
     "type": 2,
+    "radius": 0,
+    "bullets": [
+      30030030100
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2003004": {
+    "id": "2003004",
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -335,10 +408,10 @@ export default {
   },
   "2004002": {
     "id": "2004002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
-      30040020100
+      30000000000
     ],
     "delays": [],
     "atkAnim": "",
@@ -357,10 +430,32 @@ export default {
   },
   "2004003": {
     "id": "2004003",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2004004": {
+    "id": "2004004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30040040100
     ],
     "delays": [],
     "atkAnim": "",
@@ -423,7 +518,7 @@ export default {
   },
   "2005002": {
     "id": "2005002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -448,7 +543,29 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      30000000000
+      30050030100
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2005004": {
+    "id": "2005004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30050040100
     ],
     "delays": [],
     "atkAnim": "",
@@ -468,12 +585,12 @@ export default {
   "2006000": {
     "id": "2006000",
     "type": 0,
-    "radius": 0,
+    "radius": 150,
     "bullets": [
-      30000000000
+      30060000100
     ],
     "delays": [],
-    "atkAnim": "",
+    "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -490,12 +607,12 @@ export default {
   "2006001": {
     "id": "2006001",
     "type": 1,
-    "radius": 0,
+    "radius": 300,
     "bullets": [
-      30000000000
+      30060010100
     ],
     "delays": [],
-    "atkAnim": "",
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -511,28 +628,6 @@ export default {
   },
   "2006002": {
     "id": "2006002",
-    "type": 2,
-    "radius": 0,
-    "bullets": [
-      30000000000
-    ],
-    "delays": [],
-    "atkAnim": "",
-    "prepareEffect": "",
-    "preparePoint": {
-      "x": 0,
-      "y": 0
-    },
-    "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
-    "jump": false,
-    "jumpDist": 0,
-    "jumpDuration": 0,
-    "jumpHeight": 0
-  },
-  "2007000": {
-    "id": "2007000",
     "type": 0,
     "radius": 0,
     "bullets": [
@@ -553,9 +648,9 @@ export default {
     "jumpDuration": 0,
     "jumpHeight": 0
   },
-  "2007001": {
-    "id": "2007001",
-    "type": 1,
+  "2006003": {
+    "id": "2006003",
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -575,9 +670,79 @@ export default {
     "jumpDuration": 0,
     "jumpHeight": 0
   },
+  "2006004": {
+    "id": "2006004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30060040100
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2007000": {
+    "id": "2007000",
+    "type": 0,
+    "radius": 200,
+    "bullets": [
+      30070000100
+    ],
+    "delays": [],
+    "atkAnim": "attack01",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2007001": {
+    "id": "2007001",
+    "type": 1,
+    "radius": 400,
+    "bullets": [
+      30070010100,
+      30070020001
+    ],
+    "delays": [
+      0,
+      0
+    ],
+    "atkAnim": "attack02",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
   "2007002": {
     "id": "2007002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -602,7 +767,29 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      30000000000
+      30070030100
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2007004": {
+    "id": "2007004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30070040100
     ],
     "delays": [],
     "atkAnim": "",
@@ -622,12 +809,12 @@ export default {
   "2008000": {
     "id": "2008000",
     "type": 0,
-    "radius": 0,
+    "radius": 200,
     "bullets": [
-      30000000000
+      30080000100
     ],
     "delays": [],
-    "atkAnim": "",
+    "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -644,12 +831,12 @@ export default {
   "2008001": {
     "id": "2008001",
     "type": 1,
-    "radius": 0,
+    "radius": 600,
     "bullets": [
-      30000000000
+      30080010100
     ],
     "delays": [],
-    "atkAnim": "",
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -665,7 +852,7 @@ export default {
   },
   "2008002": {
     "id": "2008002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -706,6 +893,50 @@ export default {
     "jumpDist": 0,
     "jumpDuration": 0,
     "jumpHeight": 0
+  },
+  "2008004": {
+    "id": "2008004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30080040100
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2008099": {
+    "id": "2008099",
+    "type": null,
+    "radius": null,
+    "bullets": [
+      30080990100
+    ],
+    "delays": [],
+    "atkAnim": "attack01",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": null,
+    "ratio1": null,
+    "ratio2": null,
+    "jump": false,
+    "jumpDist": null,
+    "jumpDuration": null,
+    "jumpHeight": null
   },
   "2009000": {
     "id": "2009000",
@@ -753,7 +984,7 @@ export default {
   },
   "2009002": {
     "id": "2009002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -775,7 +1006,7 @@ export default {
   },
   "2009003": {
     "id": "2009003",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -794,6 +1025,45 @@ export default {
     "jumpDist": 0,
     "jumpDuration": 0,
     "jumpHeight": 0
+  },
+  "2009004": {
+    "id": "2009004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30090040100
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2009099": {
+    "id": "2009099",
+    "type": null,
+    "radius": null,
+    "bullets": null,
+    "delays": null,
+    "atkAnim": null,
+    "prepareEffect": null,
+    "preparePoint": null,
+    "alignY": null,
+    "ratio1": null,
+    "ratio2": null,
+    "jump": null,
+    "jumpDist": null,
+    "jumpDuration": null,
+    "jumpHeight": null
   },
   "2010000": {
     "id": "2010000",
@@ -822,9 +1092,13 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      30100010100
+      30100010100,
+      30100020101
     ],
-    "delays": [],
+    "delays": [
+      0,
+      0
+    ],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -841,7 +1115,7 @@ export default {
   },
   "2010002": {
     "id": "2010002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -866,7 +1140,29 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      30000000000
+      30100030100
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2010004": {
+    "id": "2010004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30100040100
     ],
     "delays": [],
     "atkAnim": "",
@@ -929,7 +1225,7 @@ export default {
   },
   "2011002": {
     "id": "2011002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -951,10 +1247,32 @@ export default {
   },
   "2011003": {
     "id": "2011003",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2011004": {
+    "id": "2011004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30110040100
     ],
     "delays": [],
     "atkAnim": "",
@@ -998,9 +1316,13 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      30120010100
+      30120010100,
+      30120020001
     ],
-    "delays": [],
+    "delays": [
+      0,
+      0
+    ],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1017,7 +1339,7 @@ export default {
   },
   "2012002": {
     "id": "2012002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -1039,10 +1361,32 @@ export default {
   },
   "2012003": {
     "id": "2012003",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2012004": {
+    "id": "2012004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30120040100
     ],
     "delays": [],
     "atkAnim": "",
@@ -1086,9 +1430,18 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      30130010100
+      30130010100,
+      30130010101,
+      30130010102,
+      30130010103,
+      104
     ],
-    "delays": [],
+    "delays": [
+      0,
+      15,
+      30,
+      40
+    ],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -1105,7 +1458,7 @@ export default {
   },
   "2013002": {
     "id": "2013002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -1130,7 +1483,29 @@ export default {
     "type": 2,
     "radius": 0,
     "bullets": [
-      30000000000
+      30130030100
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2013004": {
+    "id": "2013004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30130040100
     ],
     "delays": [],
     "atkAnim": "",
@@ -1150,12 +1525,12 @@ export default {
   "2014000": {
     "id": "2014000",
     "type": 0,
-    "radius": 0,
+    "radius": 800,
     "bullets": [
-      30000000000
+      30140000100
     ],
     "delays": [],
-    "atkAnim": "",
+    "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -1172,12 +1547,12 @@ export default {
   "2014001": {
     "id": "2014001",
     "type": 1,
-    "radius": 0,
+    "radius": 1000,
     "bullets": [
-      30000000000
+      30140010100
     ],
     "delays": [],
-    "atkAnim": "",
+    "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
       "x": 0,
@@ -1193,7 +1568,7 @@ export default {
   },
   "2014002": {
     "id": "2014002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -1215,10 +1590,32 @@ export default {
   },
   "2014003": {
     "id": "2014003",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2014004": {
+    "id": "2014004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30140040100
     ],
     "delays": [],
     "atkAnim": "",
@@ -1270,10 +1667,10 @@ export default {
     ],
     "delays": [
       0,
-      5,
       10,
-      15,
-      20
+      20,
+      25,
+      30
     ],
     "atkAnim": "attack02",
     "prepareEffect": "",
@@ -1291,7 +1688,7 @@ export default {
   },
   "2015002": {
     "id": "2015002",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -1313,7 +1710,7 @@ export default {
   },
   "2015003": {
     "id": "2015003",
-    "type": 2,
+    "type": 0,
     "radius": 0,
     "bullets": [
       30000000000
@@ -1332,5 +1729,61 @@ export default {
     "jumpDist": 0,
     "jumpDuration": 0,
     "jumpHeight": 0
+  },
+  "2015004": {
+    "id": "2015004",
+    "type": 2,
+    "radius": 0,
+    "bullets": [
+      30150040100
+    ],
+    "delays": [],
+    "atkAnim": "",
+    "prepareEffect": "",
+    "preparePoint": {
+      "x": 0,
+      "y": 0
+    },
+    "alignY": false,
+    "ratio1": 0,
+    "ratio2": 0,
+    "jump": false,
+    "jumpDist": 0,
+    "jumpDuration": 0,
+    "jumpHeight": 0
+  },
+  "2015099": {
+    "id": "2015099",
+    "type": null,
+    "radius": null,
+    "bullets": null,
+    "delays": null,
+    "atkAnim": null,
+    "prepareEffect": null,
+    "preparePoint": null,
+    "alignY": null,
+    "ratio1": null,
+    "ratio2": null,
+    "jump": null,
+    "jumpDist": null,
+    "jumpDuration": null,
+    "jumpHeight": null
+  },
+  "null": {
+    "id": null,
+    "type": null,
+    "radius": null,
+    "bullets": null,
+    "delays": null,
+    "atkAnim": null,
+    "prepareEffect": null,
+    "preparePoint": null,
+    "alignY": null,
+    "ratio1": null,
+    "ratio2": null,
+    "jump": null,
+    "jumpDist": null,
+    "jumpDuration": null,
+    "jumpHeight": null
   }
 }

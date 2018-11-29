@@ -34,43 +34,6 @@ export default {
     "explodeEvents": [],
     "offsetType": 0
   },
-  "3000001": {
-    "id": "3000001",
-    "spinePath": "",
-    "hitEffect": "",
-    "explodeEffectPath": "",
-    "groundEffectPath": "",
-    "offset": {
-      "x": 0,
-      "y": 0
-    },
-    "effects": [],
-    "buffs": [
-      4000001
-    ],
-    "selectors": [
-      {
-        "type": "alive",
-        "bValue": true
-      },
-      {
-        "type": "camp",
-        "value": 5
-      }
-    ],
-    "trigger": {
-      "type": "instant"
-    },
-    "trace": {},
-    "explodeSelectors": [],
-    "explodeEffects": [],
-    "mustHit": false,
-    "explodeIncludeTargets": [
-      false
-    ],
-    "explodeEvents": [],
-    "offsetType": 0
-  },
   "3001000": {
     "id": "3001000",
     "spinePath": "",
@@ -139,7 +102,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
@@ -191,33 +154,10 @@ export default {
       "x": 0,
       "y": 0
     },
-    "effects": [
-      {
-        "type": "propDirty",
-        "proId": 6,
-        "prosInfo": [
-          {
-            "targetType": 1,
-            "proId": 10001,
-            "scale": 10,
-            "step": 4
-          }
-        ]
-      },
-      {
-        "type": "propDirty",
-        "proId": 11,
-        "prosInfo": [
-          {
-            "targetType": 1,
-            "proId": 10001,
-            "scale": 3,
-            "step": 3
-          }
-        ]
-      }
+    "effects": [],
+    "buffs": [
+      4001001
     ],
-    "buffs": [],
     "selectors": [
       {
         "type": "alive",
@@ -234,7 +174,44 @@ export default {
     "trace": {},
     "explodeSelectors": [],
     "explodeEffects": [],
-    "mustHit": true,
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3001004": {
+    "id": "3001004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4001004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
     "explodeIncludeTargets": [
       false
     ],
@@ -309,12 +286,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 2
           }
         ]
       }
@@ -367,7 +344,14 @@ export default {
     "explodeEffects": [
       {
         "type": "hurt",
-        "value": 500
+        "value": 1000,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2
+          }
+        ]
       }
     ],
     "mustHit": false,
@@ -389,7 +373,44 @@ export default {
     },
     "effects": [],
     "buffs": [
-      4002001
+      4002002
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3002004": {
+    "id": "3002004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4002004
     ],
     "selectors": [
       {
@@ -482,17 +503,19 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
-        "scaleInfo": [
+        "value": 1000,
+        "prosInfo": [
           {
-            "targetType": 1,
-            "proId": 10001,
-            "scale": 10
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2
           }
         ]
       }
     ],
-    "buffs": [],
+    "buffs": [
+      4003001
+    ],
     "selectors": [
       {
         "type": "alive",
@@ -524,43 +547,20 @@ export default {
     "explodeEvents": [],
     "offsetType": 0
   },
-  "3003002": {
-    "id": "3003002",
-    "spinePath": "",
-    "hitEffect": "",
+  "3003003": {
+    "id": "3003003",
+    "spinePath": "bullet/JK/bullet_hg",
+    "hitEffect": "bullet/JK/hit_hgbd",
     "explodeEffectPath": "",
     "groundEffectPath": "",
     "offset": {
       "x": 0,
       "y": 0
     },
-    "effects": [
-      {
-        "type": "propDirty",
-        "proId": 6,
-        "prosInfo": [
-          {
-            "targetType": 1,
-            "proId": 8,
-            "scale": 5,
-            "step": 1
-          }
-        ]
-      },
-      {
-        "type": "propDirty",
-        "proId": 11,
-        "prosInfo": [
-          {
-            "targetType": 1,
-            "proId": 8,
-            "scale": 5,
-            "step": 1
-          }
-        ]
-      }
+    "effects": [],
+    "buffs": [
+      4003003
     ],
-    "buffs": [],
     "selectors": [
       {
         "type": "alive",
@@ -660,12 +660,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 2
           }
         ]
       }
@@ -719,7 +719,14 @@ export default {
     "explodeEffects": [
       {
         "type": "hurt",
-        "value": 500
+        "value": 1000,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2
+          }
+        ]
       }
     ],
     "mustHit": true,
@@ -729,8 +736,8 @@ export default {
     "explodeEvents": [],
     "offsetType": 0
   },
-  "3004002": {
-    "id": "3004002",
+  "3004004": {
+    "id": "3004004",
     "spinePath": "",
     "hitEffect": "",
     "explodeEffectPath": "",
@@ -739,21 +746,10 @@ export default {
       "x": 0,
       "y": 0
     },
-    "effects": [
-      {
-        "type": "propDirty",
-        "proId": 5,
-        "prosInfo": [
-          {
-            "targetType": 1,
-            "proId": 9,
-            "scale": 1,
-            "step": 1
-          }
-        ]
-      }
+    "effects": [],
+    "buffs": [
+      4004004
     ],
-    "buffs": [],
     "selectors": [
       {
         "type": "alive",
@@ -770,7 +766,7 @@ export default {
     "trace": {},
     "explodeSelectors": [],
     "explodeEffects": [],
-    "mustHit": true,
+    "mustHit": false,
     "explodeIncludeTargets": [
       false
     ],
@@ -853,12 +849,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 2
           }
         ]
       }
@@ -897,6 +893,632 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3005003": {
+    "id": "3005003",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4005003
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3005004": {
+    "id": "3005004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4005004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 3
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3006000": {
+    "id": "3006000",
+    "spinePath": "",
+    "hitEffect": "bullet/CYJ/hit_blsfbd",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1
+          }
+        ]
+      }
+    ],
+    "buffs": [],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      },
+      {
+        "type": "truncate",
+        "value": 1
+      },
+      {
+        "type": "distSorter",
+        "bValue": false
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3006001": {
+    "id": "3006001",
+    "spinePath": "",
+    "hitEffect": "bullet/CYJ/hit_blsfbd",
+    "explodeEffectPath": "",
+    "groundEffectPath": "bullet/CYJ/hit_blsf",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 1000,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2
+          }
+        ]
+      }
+    ],
+    "buffs": [
+      4006001
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      },
+      {
+        "type": "distSorter",
+        "bValue": false
+      },
+      {
+        "type": "circle",
+        "radius": 200
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": true,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3006004": {
+    "id": "3006004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4006004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3007000": {
+    "id": "3007000",
+    "spinePath": "",
+    "hitEffect": "bullet/CYJ/hit_blsfbd",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1
+          }
+        ]
+      }
+    ],
+    "buffs": [],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      },
+      {
+        "type": "truncate",
+        "value": 1
+      },
+      {
+        "type": "distSorter",
+        "bValue": false
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3007001": {
+    "id": "3007001",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "bullet/LB/hit_mstj02",
+    "groundEffectPath": "bullet/LB/hit_mstj01",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 1000,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2
+          }
+        ]
+      }
+    ],
+    "buffs": [],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      },
+      {
+        "type": "truncate",
+        "value": 1
+      },
+      {
+        "type": "distSorter",
+        "bValue": false
+      }
+    ],
+    "trigger": {
+      "type": "event",
+      "value": "traceReach"
+    },
+    "trace": {
+      "type": "blink",
+      "initHead": {
+        "x": 1,
+        "y": 2
+      },
+      "speed": 20
+    },
+    "explodeSelectors": [
+      {
+        "type": "circle",
+        "radius": 200
+      },
+      {
+        "type": "camp",
+        "value": 4
+      },
+      {
+        "type": "alive",
+        "bValue": true
+      }
+    ],
+    "explodeEffects": [
+      {
+        "type": "hurt",
+        "value": 1000,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2
+          }
+        ]
+      }
+    ],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3007002": {
+    "id": "3007002",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4007001
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3007003": {
+    "id": "3007003",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4007003
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3007004": {
+    "id": "3007004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4007004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3008000": {
+    "id": "3008000",
+    "spinePath": "",
+    "hitEffect": "bullet/CYJ/hit_blsfbd",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1
+          }
+        ]
+      }
+    ],
+    "buffs": [],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      },
+      {
+        "type": "truncate",
+        "value": 1
+      },
+      {
+        "type": "distSorter",
+        "bValue": false
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3008001": {
+    "id": "3008001",
+    "spinePath": "bullet/JK/bullet_hg",
+    "hitEffect": "bullet/JK/hit_hgbd",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 200,
+      "y": -10
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 1000,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2
+          }
+        ]
+      }
+    ],
+    "buffs": [
+      4008001
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      },
+      {
+        "type": "truncate",
+        "value": 1
+      },
+      {
+        "type": "distSorter",
+        "bValue": false
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3008004": {
+    "id": "3008004",
+    "spinePath": "bullet/JK/bullet_hg",
+    "hitEffect": "bullet/JK/hit_hgbd",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4008004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
     "explodeIncludeTargets": [
       false
     ],
@@ -979,17 +1601,19 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 2
           }
         ]
       }
     ],
-    "buffs": [],
+    "buffs": [
+      4009001
+    ],
     "selectors": [
       {
         "type": "alive",
@@ -1018,6 +1642,43 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3009004": {
+    "id": "3009004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4009004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
     "explodeIncludeTargets": [
       false
     ],
@@ -1100,12 +1761,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 2
           }
         ]
       }
@@ -1139,6 +1800,123 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3010002": {
+    "id": "3010002",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hp",
+        "value": 1000
+      }
+    ],
+    "buffs": [],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 3
+      }
+    ],
+    "trigger": {
+      "type": "horizon",
+      "length": 650,
+      "speed": 10,
+      "isBulletMove": false
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": true,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3010003": {
+    "id": "3010003",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4010003
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3010004": {
+    "id": "3010004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4010004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
     "explodeIncludeTargets": [
       false
     ],
@@ -1213,17 +1991,19 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 2
           }
         ]
       }
     ],
-    "buffs": [],
+    "buffs": [
+      4011001
+    ],
     "selectors": [
       {
         "type": "alive",
@@ -1248,6 +2028,43 @@ export default {
       "length": 200,
       "speed": 5,
       "isBulletMove": false
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": true,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3011004": {
+    "id": "3011004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4011004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
     },
     "trace": {},
     "explodeSelectors": [],
@@ -1327,12 +2144,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 2
           }
         ]
       }
@@ -1367,6 +2184,80 @@ export default {
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3012002": {
+    "id": "3012002",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4012001
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3012004": {
+    "id": "3012004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4012004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
     "explodeIncludeTargets": [
       false
     ],
@@ -1441,12 +2332,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 2
           }
         ]
       }
@@ -1483,6 +2374,220 @@ export default {
     "explodeEvents": [],
     "offsetType": 0
   },
+  "3013003": {
+    "id": "3013003",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4013003
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3013004": {
+    "id": "3013004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4013004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3014000": {
+    "id": "3014000",
+    "spinePath": "",
+    "hitEffect": "bullet/ZY/hit_pyzl",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1
+          }
+        ]
+      }
+    ],
+    "buffs": [],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      },
+      {
+        "type": "truncate",
+        "value": 1
+      },
+      {
+        "type": "distSorter",
+        "bValue": false
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3014001": {
+    "id": "3014001",
+    "spinePath": "bullet/ZY/bullet_pyzl",
+    "hitEffect": "bullet/ZY/hit_pyzl",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 30,
+      "y": 20
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 1000,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2
+          }
+        ]
+      }
+    ],
+    "buffs": [],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      }
+    ],
+    "trigger": {
+      "type": "horizon",
+      "value": "traceReach"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": true,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3014004": {
+    "id": "3014004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4014004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 5
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
   "3015000": {
     "id": "3015000",
     "spinePath": "bullet/WZJ/fire_dlbj",
@@ -1506,7 +2611,9 @@ export default {
         ]
       }
     ],
-    "buffs": [],
+    "buffs": [
+      4015001
+    ],
     "selectors": [
       {
         "type": "alive",
@@ -1559,12 +2666,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 2
           }
         ]
       }
@@ -1594,7 +2701,14 @@ export default {
     "explodeEffects": [
       {
         "type": "hurt",
-        "value": 500
+        "value": 1000,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2
+          }
+        ]
       }
     ],
     "mustHit": true,
@@ -1605,5 +2719,42 @@ export default {
       "boom"
     ],
     "offsetType": 1
+  },
+  "3015004": {
+    "id": "3015004",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      4015004
+    ],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 3
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "trace": {},
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": false,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
   }
 }

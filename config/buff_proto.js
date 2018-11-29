@@ -10,14 +10,22 @@ export default {
     "overlapCount": 0,
     "overlapType": 0
   },
-  "4000001": {
-    "id": "4000001",
+  "4001001": {
+    "id": "4001001",
     "type": "duration",
     "effects": [
       {
         "proId": 6,
-        "type": "propScale",
-        "scale": 1.2
+        "type": "prop",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 6,
+            "scale": 0.2,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -25,18 +33,45 @@ export default {
     },
     "maxTriggerCount": 1,
     "enableUndo": true,
-    "duration": 8,
+    "duration": 10,
     "overlapCount": 0,
     "overlapType": 0
   },
-  "4001000": {
-    "id": "4001000",
+  "4001004": {
+    "id": "4001004",
+    "type": "duration",
+    "effects": [
+      {
+        "proId": 16,
+        "type": "prop",
+        "value": 60
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 10,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4002002": {
+    "id": "4002002",
     "type": "duration",
     "effects": [
       {
         "proId": 5,
-        "type": "propScale",
-        "scale": 0.8
+        "type": "prop",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.2,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -44,41 +79,23 @@ export default {
     },
     "maxTriggerCount": 1,
     "enableUndo": true,
-    "duration": 8,
+    "duration": 10,
     "overlapCount": 0,
     "overlapType": 0
   },
-  "4002000": {
-    "id": "4002000",
-    "type": "duration",
-    "effects": [
-      {
-        "proId": 6,
-        "type": "propScale",
-        "scale": 0.85
-      }
-    ],
-    "trigger": {
-      "type": "instant"
-    },
-    "maxTriggerCount": 1,
-    "enableUndo": true,
-    "duration": 5,
-    "overlapCount": 1,
-    "overlapType": 1
-  },
-  "4002001": {
-    "id": "4002001",
+  "4002004": {
+    "id": "4002004",
     "type": "base",
     "effects": [
       {
         "proId": 0,
         "type": "extraHp",
+        "value": 0,
         "prosInfo": [
           {
-            "targetType": 1,
-            "proId": 1,
-            "scale": 0.02,
+            "targetType": 0,
+            "proId": 10001,
+            "scale": 0.05,
             "step": 0
           }
         ]
@@ -94,38 +111,691 @@ export default {
     "overlapCount": 0,
     "overlapType": 0
   },
-  "4004000": {
-    "id": "4004000",
-    "type": "base",
+  "4003001": {
+    "id": "4003001",
+    "type": "duration",
     "effects": [
       {
         "proId": 6,
-        "type": "propDirty",
+        "type": "prop",
+        "value": 0,
         "prosInfo": [
           {
             "targetType": 1,
-            "proId": 10001,
-            "scale": 10,
-            "step": 3
-          }
-        ]
-      },
-      {
-        "proId": 11,
-        "type": "propDirty",
-        "prosInfo": [
-          {
-            "targetType": 1,
-            "proId": 10001,
-            "scale": 10,
-            "step": 3
+            "proId": 6,
+            "scale": -0.2,
+            "step": 0
           }
         ]
       }
     ],
     "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 6,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4003003": {
+    "id": "4003003",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 8,
+        "type": "prop",
+        "value": 32
+      },
+      {
+        "proId": 10,
+        "type": "prop",
+        "value": 32
+      }
+    ],
+    "trigger": {
       "type": "event",
-      "value": "onHurt"
+      "value": "castNormalSkill"
+    },
+    "maxTriggerCount": 5,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 5,
+    "overlapType": 2
+  },
+  "4004004": {
+    "id": "4004004",
+    "type": "duration",
+    "effects": [
+      {
+        "proId": 15,
+        "type": "prop",
+        "value": 85
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 10,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4005003": {
+    "id": "4005003",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 5,
+        "type": "prop",
+        "value": 360
+      },
+      {
+        "proId": 14,
+        "type": "prop",
+        "value": 18
+      }
+    ],
+    "trigger": {
+      "type": "event",
+      "value": "castNormalSkill"
+    },
+    "maxTriggerCount": 5,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 5,
+    "overlapType": 2
+  },
+  "4005004": {
+    "id": "4005004",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 15,
+        "type": "prop",
+        "value": 95
+      },
+      {
+        "proId": 14,
+        "type": "prop",
+        "value": 95
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4006001": {
+    "id": "4006001",
+    "type": "duration",
+    "effects": [
+      {
+        "proId": 9,
+        "type": "prop",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 9,
+            "scale": -0.2,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 6,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4006004": {
+    "id": "4006004",
+    "type": "duration",
+    "effects": [
+      {
+        "proId": 15,
+        "type": "prop",
+        "value": 63
+      },
+      {
+        "proId": 16,
+        "type": "prop",
+        "value": 63
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 10,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4007001": {
+    "id": "4007001",
+    "type": "duration",
+    "effects": [
+      {
+        "proId": 11,
+        "type": "prop",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 11,
+            "scale": 0.2,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 10,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4007003": {
+    "id": "4007003",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 5,
+        "type": "prop",
+        "value": 460
+      },
+      {
+        "proId": 11,
+        "type": "prop",
+        "value": 23
+      }
+    ],
+    "trigger": {
+      "type": "event",
+      "value": "castNormalSkill"
+    },
+    "maxTriggerCount": 5,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 5,
+    "overlapType": 2
+  },
+  "4007004": {
+    "id": "4007004",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 15,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 11,
+            "scale": 10,
+            "step": 50
+          }
+        ]
+      },
+      {
+        "proId": 16,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 11,
+            "scale": 10,
+            "step": 50
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4008001": {
+    "id": "4008001",
+    "type": "duration",
+    "effects": [
+      {
+        "proId": 11,
+        "type": "prop",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 11,
+            "scale": -0.2,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 10,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4008004": {
+    "id": "4008004",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 15,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 10,
+            "scale": 10,
+            "step": 50
+          }
+        ]
+      },
+      {
+        "proId": 16,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 10,
+            "scale": 10,
+            "step": 50
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4009001": {
+    "id": "4009001",
+    "type": "duration",
+    "effects": [
+      {
+        "proId": 10,
+        "type": "prop",
+        "value": 0
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 6,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4009004": {
+    "id": "4009004",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 10,
+        "type": "prop",
+        "value": 140
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4010003": {
+    "id": "4010003",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 5,
+        "type": "prop",
+        "value": 232
+      }
+    ],
+    "trigger": {
+      "type": "event",
+      "value": "castNormalSkill"
+    },
+    "maxTriggerCount": 5,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 5,
+    "overlapType": 2
+  },
+  "4010004": {
+    "id": "4010004",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 5,
+        "type": "prop",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 5,
+            "scale": -50,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4011001": {
+    "id": "4011001",
+    "type": "duration",
+    "effects": [
+      {
+        "proId": 5,
+        "type": "prop",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 5,
+            "scale": -0.2,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 6,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4011004": {
+    "id": "4011004",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 15,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 10001,
+            "scale": 30,
+            "step": 10
+          }
+        ]
+      },
+      {
+        "proId": 16,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 10001,
+            "proId": 30,
+            "scale": 3,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4012001": {
+    "id": "4012001",
+    "type": "duration",
+    "effects": [
+      {
+        "proId": 9,
+        "type": "prop",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 9,
+            "scale": 0.2,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 10,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4012004": {
+    "id": "4012004",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 15,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 10001,
+            "scale": 30,
+            "step": 10
+          }
+        ]
+      },
+      {
+        "proId": 9,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 10001,
+            "proId": 150,
+            "scale": 15,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4013003": {
+    "id": "4013003",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 5,
+        "type": "prop",
+        "value": 700
+      },
+      {
+        "proId": 10,
+        "type": "prop",
+        "value": 155
+      }
+    ],
+    "trigger": {
+      "type": "event",
+      "value": "castNormalSkill"
+    },
+    "maxTriggerCount": 5,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 5,
+    "overlapType": 2
+  },
+  "4013004": {
+    "id": "4013004",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 15,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 10001,
+            "scale": 30,
+            "step": 10
+          }
+        ]
+      },
+      {
+        "proId": 16,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 10001,
+            "proId": 30,
+            "scale": 3,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4014004": {
+    "id": "4014004",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 15,
+        "type": "propDirty",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 8,
+            "scale": 10,
+            "step": 50
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": false,
+    "duration": 0,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4015001": {
+    "id": "4015001",
+    "type": "duration",
+    "effects": [
+      {
+        "proId": 10,
+        "type": "prop",
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 10,
+            "scale": -0.2,
+            "step": 0
+          }
+        ]
+      }
+    ],
+    "trigger": {
+      "type": "instant"
+    },
+    "maxTriggerCount": 1,
+    "enableUndo": true,
+    "duration": 10,
+    "overlapCount": 0,
+    "overlapType": 0
+  },
+  "4015004": {
+    "id": "4015004",
+    "type": "base",
+    "effects": [
+      {
+        "proId": 16,
+        "type": "prop",
+        "value": 117
+      },
+      {
+        "proId": 17,
+        "type": "prop",
+        "value": 117
+      }
+    ],
+    "trigger": {
+      "type": "instant"
     },
     "maxTriggerCount": 1,
     "enableUndo": false,

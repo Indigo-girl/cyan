@@ -5,8 +5,8 @@ export default {
     "max_lv": 80,
     "res": "skill:10101",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "程咬金舍身冲撞敌人，对小范围内敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，并提升自身20%防御，持续8秒。",
+    "extra_power_per_lv": 15,
+    "desc": "程咬金舍身冲撞敌人，对小范围内敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，并提升自身20%防御，持续10秒。",
     "descParam": [
       {
         "base": 200,
@@ -351,17 +351,11 @@ export default {
     "res": "skill:10102",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "生命增加${descParam[0]}，韧性增加${descParam[1]}。",
+    "desc": "生命增加${descParam[0]}。",
     "descParam": [
       {
         "base": 5000,
         "grow": 450,
-        "circle": 1,
-        "isPCT": false
-      },
-      {
-        "base": 60,
-        "grow": 4,
         "circle": 1,
         "isPCT": false
       }
@@ -369,17 +363,252 @@ export default {
     "propEffect": [
       {
         "type": 1,
-        "value_base": 5000,
-        "value_grow_lvUp": 450,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
         "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
       },
       {
-        "type": 7,
-        "value_base": 60,
-        "value_grow_lvUp": 4,
-        "value_circle": 1,
-        "isPCT": false
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -388,10 +617,16 @@ export default {
     "name": "舍生忘死",
     "max_lv": 40,
     "res": "skill:10103",
-    "skillType": 2,
-    "extra_power_per_lv": 30,
-    "desc": "程咬金每损失4%最大生命，防御增加${descParam[0]}。",
+    "skillType": 3,
+    "extra_power_per_lv": 0,
+    "desc": "防御增加${descParam[0]}，韧性增加${descParam[1]}。",
     "descParam": [
+      {
+        "base": 60,
+        "grow": 4,
+        "circle": 1,
+        "isPCT": false
+      },
       {
         "base": 15,
         "grow": 1,
@@ -399,166 +634,182 @@ export default {
         "isPCT": false
       }
     ],
+    "propEffect": [
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      },
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      }
+    ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200100201"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200100202"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200100203"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200100204"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200100205"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200100206"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200100207"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200100208"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200100209"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200100210"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200100211"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200100212"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200100213"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200100214"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200100215"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200100216"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200100217"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200100218"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200100219"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200100220"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "200100221"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "200100222"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "200100223"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "200100224"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "200100225"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "200100226"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "200100227"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "200100228"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "200100229"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "200100230"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "200100231"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "200100232"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "200100233"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "200100234"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "200100235"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "200100236"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "200100237"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "200100238"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "200100239"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "200100240"
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -568,7 +819,7 @@ export default {
     "max_lv": 20,
     "res": "skill:10104",
     "skillType": 2,
-    "extra_power_per_lv": 40,
+    "extra_power_per_lv": 50,
     "desc": "伤害减免${descParam[0]}，进入战场时额外伤害减免${descParam[1]}，持续10秒。",
     "descParam": [
       {
@@ -584,86 +835,95 @@ export default {
         "isPCT": true
       }
     ],
+    "propEffect": [
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": true
+      }
+    ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200100301"
+        "battleSkillId": "200100401"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200100302"
+        "battleSkillId": "200100402"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200100303"
+        "battleSkillId": "200100403"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200100304"
+        "battleSkillId": "200100404"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200100305"
+        "battleSkillId": "200100405"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200100306"
+        "battleSkillId": "200100406"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200100307"
+        "battleSkillId": "200100407"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200100308"
+        "battleSkillId": "200100408"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200100309"
+        "battleSkillId": "200100409"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200100310"
+        "battleSkillId": "200100410"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200100311"
+        "battleSkillId": "200100411"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200100312"
+        "battleSkillId": "200100412"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200100313"
+        "battleSkillId": "200100413"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200100314"
+        "battleSkillId": "200100414"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200100315"
+        "battleSkillId": "200100415"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200100316"
+        "battleSkillId": "200100416"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200100317"
+        "battleSkillId": "200100417"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200100318"
+        "battleSkillId": "200100418"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200100319"
+        "battleSkillId": "200100419"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200100320"
+        "battleSkillId": "200100420"
       }
     ]
   },
@@ -673,8 +933,8 @@ export default {
     "max_lv": 80,
     "res": "skill:10201",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "吕布向前方投射一柄巨大的方天画戟，对敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，并提升自身20%攻击，持续8秒。",
+    "extra_power_per_lv": 15,
+    "desc": "吕布向前方投射一柄巨大的方天画戟，对敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，并提升自身20%攻击，持续10秒。",
     "descParam": [
       {
         "base": 200,
@@ -1014,7 +1274,7 @@ export default {
   },
   "10202": {
     "id": "10202",
-    "name": "天人",
+    "name": "无双",
     "max_lv": 60,
     "res": "skill:10202",
     "skillType": 3,
@@ -1036,29 +1296,271 @@ export default {
     ],
     "propEffect": [
       {
-        "type": 2,
-        "value_base": 180,
-        "value_grow_lvUp": 25,
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
-        "isPCT": false
+        "isPCT": true
       },
       {
-        "type": 3,
-        "value_base": 50,
-        "value_grow_lvUp": 10,
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
-        "isPCT": false
+        "isPCT": true
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
   "10203": {
     "id": "10203",
-    "name": "饕餮",
+    "name": "天人",
     "max_lv": 40,
     "res": "skill:10203",
-    "skillType": 2,
-    "extra_power_per_lv": 30,
-    "desc": "普通攻击恢复2%已损生命+${descParam[0]}生命。",
+    "skillType": 3,
+    "extra_power_per_lv": 0,
+    "desc": "攻击增加${descParam[0]}，命中${descParam[1]}。",
     "descParam": [
       {
         "base": 200,
@@ -1067,180 +1569,202 @@ export default {
         "isPCT": false
       }
     ],
+    "propEffect": [
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": true
+      },
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      }
+    ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200200201"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200200202"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200200203"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200200204"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200200205"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200200206"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200200207"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200200208"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200200209"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200200210"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200200211"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200200212"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200200213"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200200214"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200200215"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200200216"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200200217"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200200218"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200200219"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200200220"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "200200221"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "200200222"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "200200223"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "200200224"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "200200225"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "200200226"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "200200227"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "200200228"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "200200229"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "200200230"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "200200231"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "200200232"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "200200233"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "200200234"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "200200235"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "200200236"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "200200237"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "200200238"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "200200239"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "200200240"
+        "battleSkillId": "200000000"
       }
     ]
   },
   "10204": {
     "id": "10204",
-    "name": "无双",
+    "name": "饕餮",
     "max_lv": 20,
     "res": "skill:10204",
     "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "伤害增加${descParam[0]}，伤害减免${descParam[1]}。",
+    "extra_power_per_lv": 30,
+    "desc": "伤害加深${descParam[0]}。普通攻击恢复${descParam[1]}已损生命+${descParam[2]}生命。",
     "descParam": [
       {
         "base": 10,
+        "grow": 0.5,
+        "circle": 1,
+        "isPCT": true
+      },
+      {
+        "base": 11,
         "grow": 0.5,
         "circle": 1,
         "isPCT": true
@@ -1254,100 +1778,93 @@ export default {
     ],
     "propEffect": [
       {
-        "type": 8,
-        "value_base": 10,
-        "value_grow_lvUp": 0.5,
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
-        "isPCT": true
-      },
-      {
-        "type": 9,
-        "value_base": 5,
-        "value_grow_lvUp": 0.5,
-        "value_circle": 1,
-        "isPCT": true
+        "isPCT": false
       }
     ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200200301"
+        "battleSkillId": "200200401"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200200302"
+        "battleSkillId": "200200402"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200200303"
+        "battleSkillId": "200200403"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200200304"
+        "battleSkillId": "200200404"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200200305"
+        "battleSkillId": "200200405"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200200306"
+        "battleSkillId": "200200406"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200200307"
+        "battleSkillId": "200200407"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200200308"
+        "battleSkillId": "200200408"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200200309"
+        "battleSkillId": "200200409"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200200310"
+        "battleSkillId": "200200410"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200200311"
+        "battleSkillId": "200200411"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200200312"
+        "battleSkillId": "200200412"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200200313"
+        "battleSkillId": "200200413"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200200314"
+        "battleSkillId": "200200414"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200200315"
+        "battleSkillId": "200200415"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200200316"
+        "battleSkillId": "200200416"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200200317"
+        "battleSkillId": "200200417"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200200318"
+        "battleSkillId": "200200418"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200200319"
+        "battleSkillId": "200200419"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200200320"
+        "battleSkillId": "200200420"
       }
     ]
   },
@@ -1357,8 +1874,8 @@ export default {
     "max_lv": 80,
     "res": "skill:10301",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "阿轲立即向前方挥舞双刺，造成${descParam[0]}自身攻击+${descParam[1]}伤害，并削弱其20%防御，持续8秒。",
+    "extra_power_per_lv": 15,
+    "desc": "阿轲立即向前方挥舞双刺，造成${descParam[0]}自身攻击+${descParam[1]}伤害，并削弱其20%防御，持续6秒。",
     "descParam": [
       {
         "base": 200,
@@ -1698,19 +2215,13 @@ export default {
   },
   "10302": {
     "id": "10302",
-    "name": "死吻",
+    "name": "瞬华",
     "max_lv": 60,
     "res": "skill:10302",
-    "skillType": 2,
-    "extra_power_per_lv": 25,
-    "desc": "战斗时，每拥有10点暴击，攻击增加${descParam[0]}。\n战斗时，每拥有10点命中，攻击增加${descParam[1]}。",
+    "skillType": 3,
+    "extra_power_per_lv": 0,
+    "desc": "暴击增加${descParam[0]}。",
     "descParam": [
-      {
-        "base": 7,
-        "grow": 0.5,
-        "circle": 1,
-        "isPCT": false
-      },
       {
         "base": 7,
         "grow": 0.5,
@@ -1718,246 +2229,255 @@ export default {
         "isPCT": false
       }
     ],
+    "propEffect": [
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      }
+    ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200300201"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200300202"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200300203"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200300204"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200300205"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200300206"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200300207"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200300208"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200300209"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200300210"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200300211"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200300212"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200300213"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200300214"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200300215"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200300216"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200300217"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200300218"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200300219"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200300220"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "200300221"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "200300222"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "200300223"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "200300224"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "200300225"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "200300226"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "200300227"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "200300228"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "200300229"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "200300230"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "200300231"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "200300232"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "200300233"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "200300234"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "200300235"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "200300236"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "200300237"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "200300238"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "200300239"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "200300240"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 41,
-        "battleSkillId": "200300241"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 42,
-        "battleSkillId": "200300242"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 43,
-        "battleSkillId": "200300243"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 44,
-        "battleSkillId": "200300244"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 45,
-        "battleSkillId": "200300245"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 46,
-        "battleSkillId": "200300246"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 47,
-        "battleSkillId": "200300247"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 48,
-        "battleSkillId": "200300248"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 49,
-        "battleSkillId": "200300249"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 50,
-        "battleSkillId": "200300250"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 51,
-        "battleSkillId": "200300251"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 52,
-        "battleSkillId": "200300252"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 53,
-        "battleSkillId": "200300253"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 54,
-        "battleSkillId": "200300254"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 55,
-        "battleSkillId": "200300255"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 56,
-        "battleSkillId": "200300256"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 57,
-        "battleSkillId": "200300257"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 58,
-        "battleSkillId": "200300258"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 59,
-        "battleSkillId": "200300259"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 60,
-        "battleSkillId": "200300260"
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -1966,16 +2486,10 @@ export default {
     "name": "幻舞",
     "max_lv": 40,
     "res": "skill:10303",
-    "skillType": 3,
-    "extra_power_per_lv": 0,
-    "desc": "命中增加${descParam[0]}，闪避增加${descParam[1]}，暴击增加${descParam[2]}。",
+    "skillType": 2,
+    "extra_power_per_lv": 35,
+    "desc": "阿轲每次攻击后，闪避增加${descParam[0]}、暴击增加${descParam[1]}。最高可叠加5次。",
     "descParam": [
-      {
-        "base": 20,
-        "grow": 3.5,
-        "circle": 1,
-        "isPCT": false
-      },
       {
         "base": 20,
         "grow": 3.5,
@@ -1985,46 +2499,6 @@ export default {
       {
         "base": 32,
         "grow": 3.5,
-        "circle": 1,
-        "isPCT": false
-      }
-    ],
-    "propEffect": [
-      {
-        "type": 4,
-        "value_base": 20,
-        "value_grow_lvUp": 3.5,
-        "value_circle": 1,
-        "isPCT": false
-      },
-      {
-        "type": 5,
-        "value_base": 20,
-        "value_grow_lvUp": 3.5,
-        "value_circle": 1,
-        "isPCT": false
-      },
-      {
-        "type": 6,
-        "value_base": 32,
-        "value_grow_lvUp": 3.5,
-        "value_circle": 1,
-        "isPCT": false
-      }
-    ]
-  },
-  "10304": {
-    "id": "10304",
-    "name": "瞬华",
-    "max_lv": 20,
-    "res": "skill:10304",
-    "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "当阿轲生命低于30%时，闪避增加${descParam[0]}，持续10秒。每隔20秒触发1次。",
-    "descParam": [
-      {
-        "base": 150,
-        "grow": 5,
         "circle": 1,
         "isPCT": false
       }
@@ -2109,6 +2583,194 @@ export default {
       {
         "skillLv": 20,
         "battleSkillId": "200300320"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200300321"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200300322"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200300323"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200300324"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200300325"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200300326"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200300327"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200300328"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200300329"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200300330"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200300331"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200300332"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200300333"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200300334"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200300335"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200300336"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200300337"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200300338"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200300339"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200300340"
+      }
+    ]
+  },
+  "10304": {
+    "id": "10304",
+    "name": "死吻",
+    "max_lv": 20,
+    "res": "skill:10304",
+    "skillType": 3,
+    "extra_power_per_lv": 0,
+    "desc": "阿轲暴击伤害增加${descParam[0]}。",
+    "descParam": [
+      {
+        "base": 150,
+        "grow": 5,
+        "circle": 1,
+        "isPCT": false
+      }
+    ],
+    "propEffect": [
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -2118,7 +2780,7 @@ export default {
     "max_lv": 80,
     "res": "skill:10401",
     "skillType": 1,
-    "extra_power_per_lv": 20,
+    "extra_power_per_lv": 15,
     "desc": "孙尚香蓄力向最近的敌人发射一枚弩炮，对爆破范围内的敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害。",
     "descParam": [
       {
@@ -2464,14 +3126,8 @@ export default {
     "res": "skill:10402",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "命中增加${descParam[0]}，暴击增加${descParam[1]}。",
+    "desc": "命中增加${descParam[0]}。",
     "descParam": [
-      {
-        "base": 32,
-        "grow": 3.5,
-        "circle": 1,
-        "isPCT": false
-      },
       {
         "base": 32,
         "grow": 3.5,
@@ -2482,17 +3138,252 @@ export default {
     "propEffect": [
       {
         "type": 4,
-        "value_base": 32,
-        "value_grow_lvUp": 3.5,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
-        "isPCT": false
+        "isPCT": true
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
       },
       {
-        "type": 6,
-        "value_base": 32,
-        "value_grow_lvUp": 3.5,
-        "value_circle": 1,
-        "isPCT": false
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -2501,9 +3392,9 @@ export default {
     "name": "活力迸发",
     "max_lv": 40,
     "res": "skill:10403",
-    "skillType": 2,
-    "extra_power_per_lv": 30,
-    "desc": "孙尚香每次炮击后，有${descParam[0]}概率连击，造成${descParam[1]}自身攻击+${descParam[2]}伤害。（优先攻击敌方后排）",
+    "skillType": 3,
+    "extra_power_per_lv": 0,
+    "desc": "攻击增加${descParam[0]}，生命增加${descParam[1]}。",
     "descParam": [
       {
         "base": 15,
@@ -2516,174 +3407,184 @@ export default {
         "grow": 1.5,
         "circle": 1,
         "isPCT": true
+      }
+    ],
+    "propEffect": [
+      {
+        "type": 6,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
       },
       {
-        "base": 100,
-        "grow": 10,
-        "circle": 1,
-        "isPCT": false
+        "type": 6,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": true
       }
     ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200400201"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200400202"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200400203"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200400204"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200400205"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200400206"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200400207"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200400208"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200400209"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200400210"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200400211"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200400212"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200400213"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200400214"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200400215"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200400216"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200400217"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200400218"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200400219"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200400220"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "200400221"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "200400222"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "200400223"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "200400224"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "200400225"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "200400226"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "200400227"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "200400228"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "200400229"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "200400230"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "200400231"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "200400232"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "200400233"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "200400234"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "200400235"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "200400236"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "200400237"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "200400238"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "200400239"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "200400240"
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -2693,9 +3594,15 @@ export default {
     "max_lv": 20,
     "res": "skill:10404",
     "skillType": 2,
-    "extra_power_per_lv": 20,
-    "desc": "伤害增加${descParam[0]}，对射手造成伤害时，伤害额外增加${descParam[1]}。",
+    "extra_power_per_lv": 30,
+    "desc": "伤害加深${descParam[0]}，进入战场额外伤害加深${descParam[1]}，命中增加${descParam[2]}，持续10秒。",
     "descParam": [
+      {
+        "base": 100,
+        "grow": 10,
+        "circle": 1,
+        "isPCT": false
+      },
       {
         "base": 15,
         "grow": 0.5,
@@ -2712,8 +3619,8 @@ export default {
     "propEffect": [
       {
         "type": 8,
-        "value_base": 15,
-        "value_grow_lvUp": 0.5,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
         "isPCT": true
       }
@@ -2721,83 +3628,83 @@ export default {
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200400301"
+        "battleSkillId": "200400401"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200400302"
+        "battleSkillId": "200400402"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200400303"
+        "battleSkillId": "200400403"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200400304"
+        "battleSkillId": "200400404"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200400305"
+        "battleSkillId": "200400405"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200400306"
+        "battleSkillId": "200400406"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200400307"
+        "battleSkillId": "200400407"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200400308"
+        "battleSkillId": "200400408"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200400309"
+        "battleSkillId": "200400409"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200400310"
+        "battleSkillId": "200400410"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200400311"
+        "battleSkillId": "200400411"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200400312"
+        "battleSkillId": "200400412"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200400313"
+        "battleSkillId": "200400413"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200400314"
+        "battleSkillId": "200400414"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200400315"
+        "battleSkillId": "200400415"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200400316"
+        "battleSkillId": "200400416"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200400317"
+        "battleSkillId": "200400417"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200400318"
+        "battleSkillId": "200400418"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200400319"
+        "battleSkillId": "200400419"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200400320"
+        "battleSkillId": "200400420"
       }
     ]
   },
@@ -2807,8 +3714,8 @@ export default {
     "max_lv": 80,
     "res": "skill:10501",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "诸葛亮短暂蓄力后，向敌方后排发出一击强力元气弹，造成${descParam[0]}自身攻击+${descParam[1]}伤害。",
+    "extra_power_per_lv": 15,
+    "desc": "诸葛亮短暂蓄力后，对所有敌人发射元气弹，造成${descParam[0]}自身攻击+${descParam[1]}伤害。",
     "descParam": [
       {
         "base": 200,
@@ -3153,235 +4060,279 @@ export default {
     "res": "skill:10502",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "攻击增加${descParam[0]}，伤害减免增加${descParam[1]}。",
+    "desc": "攻击增加${descParam[0]}。",
     "descParam": [
       {
         "base": 200,
         "grow": 30,
         "circle": 1,
         "isPCT": false
-      },
-      {
-        "base": 8,
-        "grow": 0.4,
-        "circle": 1,
-        "isPCT": true
       }
     ],
     "propEffect": [
       {
         "type": 2,
-        "value_base": 200,
-        "value_grow_lvUp": 30,
-        "value_circle": 1,
-        "isPCT": false
-      },
-      {
-        "type": 7,
-        "value_base": 8,
-        "value_grow_lvUp": 0.4,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
         "isPCT": true
-      }
-    ]
-  },
-  "10503": {
-    "id": "10503",
-    "name": "运筹帷幄",
-    "max_lv": 40,
-    "res": "skill:10503",
-    "skillType": 2,
-    "extra_power_per_lv": 30,
-    "desc": "诸葛亮指定方向发射三颗法球，对路径上的敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害。",
-    "descParam": [
-      {
-        "base": 70,
-        "grow": 1.2,
-        "circle": 1,
-        "isPCT": true
-      },
-      {
-        "base": 100,
-        "grow": 10,
-        "circle": 1,
-        "isPCT": false
       }
     ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200500201"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200500202"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200500203"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200500204"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200500205"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200500206"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200500207"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200500208"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200500209"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200500210"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200500211"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200500212"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200500213"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200500214"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200500215"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200500216"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200500217"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200500218"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200500219"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200500220"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "200500221"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "200500222"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "200500223"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "200500224"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "200500225"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "200500226"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "200500227"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "200500228"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "200500229"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "200500230"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "200500231"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "200500232"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "200500233"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "200500234"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "200500235"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "200500236"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "200500237"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "200500238"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "200500239"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "200500240"
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
-  "10504": {
-    "id": "10504",
+  "10503": {
+    "id": "10503",
     "name": "东风破袭",
-    "max_lv": 20,
-    "res": "skill:10504",
+    "max_lv": 40,
+    "res": "skill:10503",
     "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "诸葛亮每次释放元气弹时，同时对额外2个随机敌人释放元气弹，造成${descParam[0]}自身攻击+${descParam[1]}伤害。",
+    "extra_power_per_lv": 35,
+    "desc": "诸葛亮每次攻击后，攻击增加${descParam[0]}，破甲增加${descParam[1]}。最高可叠加5次。",
     "descParam": [
       {
-        "base": 150,
-        "grow": 1,
+        "base": 70,
+        "grow": 1.2,
         "circle": 1,
         "isPCT": true
       },
@@ -3472,6 +4423,191 @@ export default {
       {
         "skillLv": 20,
         "battleSkillId": "200500320"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200500321"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200500322"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200500323"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200500324"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200500325"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200500326"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200500327"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200500328"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200500329"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200500330"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200500331"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200500332"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200500333"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200500334"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200500335"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200500336"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200500337"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200500338"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200500339"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200500340"
+      }
+    ]
+  },
+  "10504": {
+    "id": "10504",
+    "name": "运筹帷幄",
+    "max_lv": 20,
+    "res": "skill:10504",
+    "skillType": 2,
+    "extra_power_per_lv": 50,
+    "desc": "永久光环，我方伤害增加${descParam[0]}，破甲增加${descParam[1]}。",
+    "descParam": [
+      {
+        "base": 150,
+        "grow": 1,
+        "circle": 1,
+        "isPCT": true
+      },
+      {
+        "base": 100,
+        "grow": 10,
+        "circle": 1,
+        "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200500401"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "200500402"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200500403"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200500404"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200500405"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200500406"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200500407"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200500408"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200500409"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200500410"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200500411"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200500412"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200500413"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200500414"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200500415"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200500416"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200500417"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200500418"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200500419"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200500420"
       }
     ]
   },
@@ -3481,8 +4617,8 @@ export default {
     "max_lv": 80,
     "res": "skill:10601",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "廉颇向地面锤击3次，产生凸起岩枪，对范围内敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，并降低目标20%的命中，持续8秒。",
+    "extra_power_per_lv": 15,
+    "desc": "廉颇向地面锤击3次，产生凸起岩枪，对范围内敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，并降低目标20%的命中，持续6秒。",
     "descParam": [
       {
         "base": 200,
@@ -3827,7 +4963,7 @@ export default {
     "res": "skill:10602",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "生命增加${descParam[0]}。",
+    "desc": "防御增加${descParam[0]}。",
     "descParam": [
       {
         "base": 400,
@@ -3839,10 +4975,252 @@ export default {
     "propEffect": [
       {
         "type": 1,
-        "value_base": 400,
-        "value_grow_lvUp": 40,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
         "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -3871,17 +5249,179 @@ export default {
     "propEffect": [
       {
         "type": 1,
-        "value_base": 300,
-        "value_grow_lvUp": 30,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
         "isPCT": false
       },
       {
-        "type": 2,
+        "type": 1,
         "value_base": 100,
-        "value_grow_lvUp": 10,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
         "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -3891,13 +5431,19 @@ export default {
     "max_lv": 20,
     "res": "skill:10604",
     "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "每次攻击后，有${descParam[0]}概率连击，每次造成${descParam[1]}自身攻击+${descParam[2]}伤害。",
+    "extra_power_per_lv": 30,
+    "desc": "伤害增加${descParam[0]}，伤害减免${descParam[1]}。进入战场时额外伤害增加${descParam[3]}，伤害减免${descParam[4]}，持续10秒。",
     "descParam": [
       {
         "base": 50,
         "grow": 5,
         "circle": 5,
+        "isPCT": true
+      },
+      {
+        "base": 40,
+        "grow": 2,
+        "circle": 1,
         "isPCT": true
       },
       {
@@ -3913,86 +5459,102 @@ export default {
         "isPCT": false
       }
     ],
+    "propEffect": [
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      },
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      }
+    ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200600201"
+        "battleSkillId": "200600401"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200600202"
+        "battleSkillId": "200600402"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200600203"
+        "battleSkillId": "200600403"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200600204"
+        "battleSkillId": "200600404"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200600205"
+        "battleSkillId": "200600405"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200600206"
+        "battleSkillId": "200600406"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200600207"
+        "battleSkillId": "200600407"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200600208"
+        "battleSkillId": "200600408"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200600209"
+        "battleSkillId": "200600409"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200600210"
+        "battleSkillId": "200600410"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200600211"
+        "battleSkillId": "200600411"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200600212"
+        "battleSkillId": "200600412"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200600213"
+        "battleSkillId": "200600413"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200600214"
+        "battleSkillId": "200600414"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200600215"
+        "battleSkillId": "200600415"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200600216"
+        "battleSkillId": "200600416"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200600217"
+        "battleSkillId": "200600417"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200600218"
+        "battleSkillId": "200600418"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200600219"
+        "battleSkillId": "200600419"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200600220"
+        "battleSkillId": "200600420"
       }
     ]
   },
@@ -4002,8 +5564,8 @@ export default {
     "max_lv": 80,
     "res": "skill:10701",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "花木兰向最近的敌人挥砍大剑，造成${descParam[0]}自身攻击+${descParam[1]}伤害，对肉盾和战士造成伤害时，伤害额外增加${descParam[2]}。",
+    "extra_power_per_lv": 15,
+    "desc": "花木兰向最近的敌人挥砍大剑，造成${descParam[0]}自身攻击+${descParam[1]}伤害，并提升自身20%韧性，持续10秒。",
     "descParam": [
       {
         "base": 200,
@@ -4016,12 +5578,6 @@ export default {
         "grow": 10,
         "circle": 1,
         "isPCT": false
-      },
-      {
-        "base": 40,
-        "grow": 2,
-        "circle": 1,
-        "isPCT": true
       }
     ],
     "battleSkillId": [
@@ -4354,7 +5910,7 @@ export default {
     "res": "skill:10702",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "命中增加${descParam[0]}，韧性增加${descParam[1]}。",
+    "desc": "生命增加${descParam[0]}，韧性增加${descParam[1]}。",
     "descParam": [
       {
         "base": 300,
@@ -4371,18 +5927,260 @@ export default {
     ],
     "propEffect": [
       {
-        "type": 4,
-        "value_base": 300,
-        "value_grow_lvUp": 30,
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
-        "isPCT": false
+        "isPCT": true
       },
       {
-        "type": 7,
-        "value_base": 50,
-        "value_grow_lvUp": 5,
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
-        "isPCT": false
+        "isPCT": true
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -4392,199 +6190,14 @@ export default {
     "max_lv": 40,
     "res": "skill:10703",
     "skillType": 2,
-    "extra_power_per_lv": 30,
-    "desc": "怒气获得速率增加${descParam[0]}，进入战斗后，立即获得${descParam[1]}怒气。",
+    "extra_power_per_lv": 35,
+    "desc": "花木兰每次攻击后，攻击增加${descParam[0]}，韧性增加${descParam[1]}。最高可叠加5次。",
     "descParam": [
       {
         "base": 10,
         "grow": 1,
         "circle": 1,
         "isPCT": true
-      },
-      {
-        "base": 100,
-        "grow": 10,
-        "circle": 1,
-        "isPCT": false
-      }
-    ],
-    "battleSkillId": [
-      {
-        "skillLv": 1,
-        "battleSkillId": "200700201"
-      },
-      {
-        "skillLv": 2,
-        "battleSkillId": "200700202"
-      },
-      {
-        "skillLv": 3,
-        "battleSkillId": "200700203"
-      },
-      {
-        "skillLv": 4,
-        "battleSkillId": "200700204"
-      },
-      {
-        "skillLv": 5,
-        "battleSkillId": "200700205"
-      },
-      {
-        "skillLv": 6,
-        "battleSkillId": "200700206"
-      },
-      {
-        "skillLv": 7,
-        "battleSkillId": "200700207"
-      },
-      {
-        "skillLv": 8,
-        "battleSkillId": "200700208"
-      },
-      {
-        "skillLv": 9,
-        "battleSkillId": "200700209"
-      },
-      {
-        "skillLv": 10,
-        "battleSkillId": "200700210"
-      },
-      {
-        "skillLv": 11,
-        "battleSkillId": "200700211"
-      },
-      {
-        "skillLv": 12,
-        "battleSkillId": "200700212"
-      },
-      {
-        "skillLv": 13,
-        "battleSkillId": "200700213"
-      },
-      {
-        "skillLv": 14,
-        "battleSkillId": "200700214"
-      },
-      {
-        "skillLv": 15,
-        "battleSkillId": "200700215"
-      },
-      {
-        "skillLv": 16,
-        "battleSkillId": "200700216"
-      },
-      {
-        "skillLv": 17,
-        "battleSkillId": "200700217"
-      },
-      {
-        "skillLv": 18,
-        "battleSkillId": "200700218"
-      },
-      {
-        "skillLv": 19,
-        "battleSkillId": "200700219"
-      },
-      {
-        "skillLv": 20,
-        "battleSkillId": "200700220"
-      },
-      {
-        "skillLv": 21,
-        "battleSkillId": "200700221"
-      },
-      {
-        "skillLv": 22,
-        "battleSkillId": "200700222"
-      },
-      {
-        "skillLv": 23,
-        "battleSkillId": "200700223"
-      },
-      {
-        "skillLv": 24,
-        "battleSkillId": "200700224"
-      },
-      {
-        "skillLv": 25,
-        "battleSkillId": "200700225"
-      },
-      {
-        "skillLv": 26,
-        "battleSkillId": "200700226"
-      },
-      {
-        "skillLv": 27,
-        "battleSkillId": "200700227"
-      },
-      {
-        "skillLv": 28,
-        "battleSkillId": "200700228"
-      },
-      {
-        "skillLv": 29,
-        "battleSkillId": "200700229"
-      },
-      {
-        "skillLv": 30,
-        "battleSkillId": "200700230"
-      },
-      {
-        "skillLv": 31,
-        "battleSkillId": "200700231"
-      },
-      {
-        "skillLv": 32,
-        "battleSkillId": "200700232"
-      },
-      {
-        "skillLv": 33,
-        "battleSkillId": "200700233"
-      },
-      {
-        "skillLv": 34,
-        "battleSkillId": "200700234"
-      },
-      {
-        "skillLv": 35,
-        "battleSkillId": "200700235"
-      },
-      {
-        "skillLv": 36,
-        "battleSkillId": "200700236"
-      },
-      {
-        "skillLv": 37,
-        "battleSkillId": "200700237"
-      },
-      {
-        "skillLv": 38,
-        "battleSkillId": "200700238"
-      },
-      {
-        "skillLv": 39,
-        "battleSkillId": "200700239"
-      },
-      {
-        "skillLv": 40,
-        "battleSkillId": "200700240"
-      }
-    ]
-  },
-  "10704": {
-    "id": "10704",
-    "name": "花之大剑",
-    "max_lv": 20,
-    "res": "skill:10704",
-    "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "花木兰每次攻击后，攻击增加${descParam[0]}。（最多叠加5次）\n花木兰每次受到攻击后，防御增加${descParam[1]}。（最多叠加5次）",
-    "descParam": [
-      {
-        "base": 200,
-        "grow": 20,
-        "circle": 1,
-        "isPCT": false
       },
       {
         "base": 100,
@@ -4673,6 +6286,191 @@ export default {
       {
         "skillLv": 20,
         "battleSkillId": "200700320"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200700321"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200700322"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200700323"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200700324"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200700325"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200700326"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200700327"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200700328"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200700329"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200700330"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200700331"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200700332"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200700333"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200700334"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200700335"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200700336"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200700337"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200700338"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200700339"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200700340"
+      }
+    ]
+  },
+  "10704": {
+    "id": "10704",
+    "name": "花之大剑",
+    "max_lv": 20,
+    "res": "skill:10704",
+    "skillType": 2,
+    "extra_power_per_lv": 50,
+    "desc": "战斗中，花木兰每拥有10点韧性，伤害增加${descParam[0]}，伤害减免${descParam[1]}。",
+    "descParam": [
+      {
+        "base": 200,
+        "grow": 20,
+        "circle": 1,
+        "isPCT": false
+      },
+      {
+        "base": 100,
+        "grow": 10,
+        "circle": 1,
+        "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200700401"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "200700402"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200700403"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200700404"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200700405"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200700406"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200700407"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200700408"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200700409"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200700410"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200700411"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200700412"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200700413"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200700414"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200700415"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200700416"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200700417"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200700418"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200700419"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200700420"
       }
     ]
   },
@@ -4682,8 +6480,8 @@ export default {
     "max_lv": 80,
     "res": "skill:10801",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "李白召唤5道巨大的剑气，随机打击敌人，每刀剑气造成${descParam[0]}自身攻击+${descParam[1]}伤害，并削弱其20%韧性，持续8秒。",
+    "extra_power_per_lv": 15,
+    "desc": "李白召唤5道巨大的剑气，随机打击敌人，每刀剑气造成${descParam[0]}自身攻击+${descParam[1]}伤害，并削弱其20%韧性，持续6秒。",
     "descParam": [
       {
         "base": 200,
@@ -5028,14 +6826,8 @@ export default {
     "res": "skill:10802",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "暴击增加${descParam[0]}，闪避增加${descParam[1]}。",
+    "desc": "闪避增加${descParam[0]}。",
     "descParam": [
-      {
-        "base": 50,
-        "grow": 5,
-        "circle": 1,
-        "isPCT": false
-      },
       {
         "base": 50,
         "grow": 5,
@@ -5045,18 +6837,253 @@ export default {
     ],
     "propEffect": [
       {
-        "type": 6,
-        "value_base": 50,
-        "value_grow_lvUp": 5,
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
         "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
       },
       {
-        "type": 5,
-        "value_base": 50,
-        "value_grow_lvUp": 5,
-        "value_circle": 1,
-        "isPCT": false
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -5066,8 +7093,8 @@ export default {
     "max_lv": 40,
     "res": "skill:10803",
     "skillType": 2,
-    "extra_power_per_lv": 30,
-    "desc": "普通攻击削弱敌人${descParam[0]}防御，${descParam[1]}韧性，持续8秒。",
+    "extra_power_per_lv": 35,
+    "desc": "普通攻击削弱敌人${descParam[0]}防御，${descParam[1]}韧性。最高可叠加5次。",
     "descParam": [
       {
         "base": 200,
@@ -5080,191 +7107,6 @@ export default {
         "grow": 5,
         "circle": 1,
         "isPCT": false
-      }
-    ],
-    "battleSkillId": [
-      {
-        "skillLv": 1,
-        "battleSkillId": "200800201"
-      },
-      {
-        "skillLv": 2,
-        "battleSkillId": "200800202"
-      },
-      {
-        "skillLv": 3,
-        "battleSkillId": "200800203"
-      },
-      {
-        "skillLv": 4,
-        "battleSkillId": "200800204"
-      },
-      {
-        "skillLv": 5,
-        "battleSkillId": "200800205"
-      },
-      {
-        "skillLv": 6,
-        "battleSkillId": "200800206"
-      },
-      {
-        "skillLv": 7,
-        "battleSkillId": "200800207"
-      },
-      {
-        "skillLv": 8,
-        "battleSkillId": "200800208"
-      },
-      {
-        "skillLv": 9,
-        "battleSkillId": "200800209"
-      },
-      {
-        "skillLv": 10,
-        "battleSkillId": "200800210"
-      },
-      {
-        "skillLv": 11,
-        "battleSkillId": "200800211"
-      },
-      {
-        "skillLv": 12,
-        "battleSkillId": "200800212"
-      },
-      {
-        "skillLv": 13,
-        "battleSkillId": "200800213"
-      },
-      {
-        "skillLv": 14,
-        "battleSkillId": "200800214"
-      },
-      {
-        "skillLv": 15,
-        "battleSkillId": "200800215"
-      },
-      {
-        "skillLv": 16,
-        "battleSkillId": "200800216"
-      },
-      {
-        "skillLv": 17,
-        "battleSkillId": "200800217"
-      },
-      {
-        "skillLv": 18,
-        "battleSkillId": "200800218"
-      },
-      {
-        "skillLv": 19,
-        "battleSkillId": "200800219"
-      },
-      {
-        "skillLv": 20,
-        "battleSkillId": "200800220"
-      },
-      {
-        "skillLv": 21,
-        "battleSkillId": "200800221"
-      },
-      {
-        "skillLv": 22,
-        "battleSkillId": "200800222"
-      },
-      {
-        "skillLv": 23,
-        "battleSkillId": "200800223"
-      },
-      {
-        "skillLv": 24,
-        "battleSkillId": "200800224"
-      },
-      {
-        "skillLv": 25,
-        "battleSkillId": "200800225"
-      },
-      {
-        "skillLv": 26,
-        "battleSkillId": "200800226"
-      },
-      {
-        "skillLv": 27,
-        "battleSkillId": "200800227"
-      },
-      {
-        "skillLv": 28,
-        "battleSkillId": "200800228"
-      },
-      {
-        "skillLv": 29,
-        "battleSkillId": "200800229"
-      },
-      {
-        "skillLv": 30,
-        "battleSkillId": "200800230"
-      },
-      {
-        "skillLv": 31,
-        "battleSkillId": "200800231"
-      },
-      {
-        "skillLv": 32,
-        "battleSkillId": "200800232"
-      },
-      {
-        "skillLv": 33,
-        "battleSkillId": "200800233"
-      },
-      {
-        "skillLv": 34,
-        "battleSkillId": "200800234"
-      },
-      {
-        "skillLv": 35,
-        "battleSkillId": "200800235"
-      },
-      {
-        "skillLv": 36,
-        "battleSkillId": "200800236"
-      },
-      {
-        "skillLv": 37,
-        "battleSkillId": "200800237"
-      },
-      {
-        "skillLv": 38,
-        "battleSkillId": "200800238"
-      },
-      {
-        "skillLv": 39,
-        "battleSkillId": "200800239"
-      },
-      {
-        "skillLv": 40,
-        "battleSkillId": "200800240"
-      }
-    ]
-  },
-  "10804": {
-    "id": "10804",
-    "name": "千古酒仙",
-    "max_lv": 20,
-    "res": "skill:10804",
-    "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "永久光环，所有友军暴击、闪避增加${descParam[0]}，所有敌军暴击、闪避降低${descParam[1]}。",
-    "descParam": [
-      {
-        "base": 10,
-        "grow": 1,
-        "circle": 1,
-        "isPCT": true
-      },
-      {
-        "base": 10,
-        "grow": 1,
-        "circle": 1,
-        "isPCT": true
       }
     ],
     "battleSkillId": [
@@ -5347,6 +7189,191 @@ export default {
       {
         "skillLv": 20,
         "battleSkillId": "200800320"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200800321"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200800322"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200800323"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200800324"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200800325"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200800326"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200800327"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200800328"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200800329"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200800330"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200800331"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200800332"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200800333"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200800334"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200800335"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200800336"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200800337"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200800338"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200800339"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200800340"
+      }
+    ]
+  },
+  "10804": {
+    "id": "10804",
+    "name": "千古酒仙",
+    "max_lv": 20,
+    "res": "skill:10804",
+    "skillType": 2,
+    "extra_power_per_lv": 50,
+    "desc": "战斗中，李白每拥有10点闪避，伤害增加${descParam[0]}，伤害减免${descParam[1]}。",
+    "descParam": [
+      {
+        "base": 10,
+        "grow": 1,
+        "circle": 1,
+        "isPCT": true
+      },
+      {
+        "base": 10,
+        "grow": 1,
+        "circle": 1,
+        "isPCT": true
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200800401"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "200800402"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200800403"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200800404"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200800405"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200800406"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200800407"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200800408"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200800409"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200800410"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200800411"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200800412"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200800413"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200800414"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200800415"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200800416"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200800417"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200800418"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200800419"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200800420"
       }
     ]
   },
@@ -5356,8 +7383,8 @@ export default {
     "max_lv": 80,
     "res": "skill:10901",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "狄仁杰召唤无数符咒，攻击敌方最高闪避的1名英雄，每枚符咒造成${descParam[0]}自身攻击+${descParam[1]}伤害，并削弱其20%闪避，持续8秒。",
+    "extra_power_per_lv": 15,
+    "desc": "狄仁杰召唤无数符咒，打击一定范围内的英雄，每次打击造成${descParam[0]}自身攻击+${descParam[1]}伤害，并削弱其30%闪避，持续6秒。",
     "descParam": [
       {
         "base": 200,
@@ -5697,277 +7724,280 @@ export default {
   },
   "10902": {
     "id": "10902",
-    "name": "判官",
+    "name": "铁面",
     "max_lv": 60,
     "res": "skill:10902",
-    "skillType": 2,
-    "extra_power_per_lv": 25,
-    "desc": "每有1个友军死亡，狄仁杰攻击增加${descParam[0]}，命中增加${descParam[1]}。",
+    "skillType": 3,
+    "extra_power_per_lv": 0,
+    "desc": "命中增加${descParam[0]}。",
     "descParam": [
       {
         "base": 60,
         "grow": 8,
         "circle": 1,
         "isPCT": false
-      },
+      }
+    ],
+    "propEffect": [
       {
-        "base": 20,
-        "grow": 3.5,
-        "circle": 1,
-        "isPCT": false
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": true
       }
     ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200900201"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200900202"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200900203"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200900204"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200900205"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200900206"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200900207"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200900208"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200900209"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200900210"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200900211"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200900212"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200900213"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200900214"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200900215"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200900216"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200900217"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200900218"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200900219"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200900220"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "200900221"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "200900222"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "200900223"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "200900224"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "200900225"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "200900226"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "200900227"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "200900228"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "200900229"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "200900230"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "200900231"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "200900232"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "200900233"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "200900234"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "200900235"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "200900236"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "200900237"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "200900238"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "200900239"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "200900240"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 41,
-        "battleSkillId": "200900241"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 42,
-        "battleSkillId": "200900242"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 43,
-        "battleSkillId": "200900243"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 44,
-        "battleSkillId": "200900244"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 45,
-        "battleSkillId": "200900245"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 46,
-        "battleSkillId": "200900246"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 47,
-        "battleSkillId": "200900247"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 48,
-        "battleSkillId": "200900248"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 49,
-        "battleSkillId": "200900249"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 50,
-        "battleSkillId": "200900250"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 51,
-        "battleSkillId": "200900251"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 52,
-        "battleSkillId": "200900252"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 53,
-        "battleSkillId": "200900253"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 54,
-        "battleSkillId": "200900254"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 55,
-        "battleSkillId": "200900255"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 56,
-        "battleSkillId": "200900256"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 57,
-        "battleSkillId": "200900257"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 58,
-        "battleSkillId": "200900258"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 59,
-        "battleSkillId": "200900259"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 60,
-        "battleSkillId": "200900260"
+        "battleSkillId": "200000000"
       }
     ]
   },
   "10903": {
     "id": "10903",
-    "name": "铁面",
+    "name": "判官",
     "max_lv": 40,
     "res": "skill:10903",
-    "skillType": 3,
-    "extra_power_per_lv": 0,
-    "desc": "生命增加${descParam[0]}，攻击增加${descParam[1]}。",
+    "skillType": 2,
+    "extra_power_per_lv": 35,
+    "desc": "普通攻击削弱敌人${descParam[0]}暴击，${descParam[1]}闪避。最高可叠加5次。",
     "descParam": [
       {
         "base": 3000,
@@ -5980,39 +8010,6 @@ export default {
         "grow": 25,
         "circle": 1,
         "isPCT": false
-      }
-    ],
-    "propEffect": [
-      {
-        "type": 1,
-        "value_base": 3000,
-        "value_grow_lvUp": 150,
-        "value_circle": 1,
-        "isPCT": false
-      },
-      {
-        "type": 2,
-        "value_base": 180,
-        "value_grow_lvUp": 25,
-        "value_circle": 1,
-        "isPCT": false
-      }
-    ]
-  },
-  "10904": {
-    "id": "10904",
-    "name": "天网",
-    "max_lv": 20,
-    "res": "skill:10904",
-    "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "永久光环，所有敌军闪避降低${descParam[0]}。",
-    "descParam": [
-      {
-        "base": 20,
-        "grow": 3.5,
-        "circle": 1,
-        "isPCT": true
       }
     ],
     "battleSkillId": [
@@ -6095,6 +8092,185 @@ export default {
       {
         "skillLv": 20,
         "battleSkillId": "200900320"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200900321"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200900322"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200900323"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200900324"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200900325"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200900326"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200900327"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200900328"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200900329"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200900330"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200900331"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200900332"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200900333"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200900334"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200900335"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200900336"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200900337"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200900338"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200900339"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200900340"
+      }
+    ]
+  },
+  "10904": {
+    "id": "10904",
+    "name": "天网",
+    "max_lv": 20,
+    "res": "skill:10904",
+    "skillType": 2,
+    "extra_power_per_lv": 50,
+    "desc": "永久光环，所有敌军闪避减少${descParam[0]}。",
+    "descParam": [
+      {
+        "base": 20,
+        "grow": 3.5,
+        "circle": 1,
+        "isPCT": true
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200900401"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "200900402"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200900403"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200900404"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200900405"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200900406"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200900407"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200900408"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200900409"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200900410"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200900411"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200900412"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200900413"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200900414"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200900415"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200900416"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200900417"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200900418"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200900419"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200900420"
       }
     ]
   },
@@ -6104,7 +8280,7 @@ export default {
     "max_lv": 80,
     "res": "skill:11001",
     "skillType": 1,
-    "extra_power_per_lv": 20,
+    "extra_power_per_lv": 15,
     "desc": "貂蝉向最远的1个敌人挥出1个花球，挥出和返回会对路径上的敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，为友军恢复${descParam[2]}生命。",
     "descParam": [
       {
@@ -6456,7 +8632,7 @@ export default {
     "res": "skill:11002",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "生命增加${descParam[0]}，闪避增加${descParam[1]}。",
+    "desc": "生命增加${descParam[0]}，攻击增加${descParam[1]}。",
     "descParam": [
       {
         "base": 2500,
@@ -6474,17 +8650,259 @@ export default {
     "propEffect": [
       {
         "type": 1,
-        "value_base": 2500,
-        "value_grow_lvUp": 160,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
-        "isPCT": false
+        "isPCT": true
       },
       {
-        "type": 5,
-        "value_base": 20,
-        "value_grow_lvUp": 3.5,
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
-        "isPCT": false
+        "isPCT": true
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -6494,188 +8912,176 @@ export default {
     "max_lv": 40,
     "res": "skill:11003",
     "skillType": 2,
-    "extra_power_per_lv": 30,
-    "desc": "貂蝉每次攻击时，有${descParam[0]}概率同时对随机敌人甩出一片花瓣，造成${descParam[1]}自身攻击+${descParam[2]}伤害。",
+    "extra_power_per_lv": 35,
+    "desc": "普通攻击偷取敌人${descParam[0]}攻击。最高可叠加5次。",
     "descParam": [
       {
         "base": 15,
         "grow": 0.5,
         "circle": 1,
         "isPCT": true
-      },
-      {
-        "base": 90,
-        "grow": 1.5,
-        "circle": 1,
-        "isPCT": true
-      },
-      {
-        "base": 100,
-        "grow": 10,
-        "circle": 1,
-        "isPCT": false
       }
     ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200000201"
+        "battleSkillId": "201000301"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200000202"
+        "battleSkillId": "201000302"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200000203"
+        "battleSkillId": "201000303"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200000204"
+        "battleSkillId": "201000304"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200000205"
+        "battleSkillId": "201000305"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200000206"
+        "battleSkillId": "201000306"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200000207"
+        "battleSkillId": "201000307"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200000208"
+        "battleSkillId": "201000308"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200000209"
+        "battleSkillId": "201000309"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200000210"
+        "battleSkillId": "201000310"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200000211"
+        "battleSkillId": "201000311"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200000212"
+        "battleSkillId": "201000312"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200000213"
+        "battleSkillId": "201000313"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200000214"
+        "battleSkillId": "201000314"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200000215"
+        "battleSkillId": "201000315"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200000216"
+        "battleSkillId": "201000316"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200000217"
+        "battleSkillId": "201000317"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200000218"
+        "battleSkillId": "201000318"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200000219"
+        "battleSkillId": "201000319"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200000220"
+        "battleSkillId": "201000320"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "200000221"
+        "battleSkillId": "201000321"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "200000222"
+        "battleSkillId": "201000322"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "200000223"
+        "battleSkillId": "201000323"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "200000224"
+        "battleSkillId": "201000324"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "200000225"
+        "battleSkillId": "201000325"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "200000226"
+        "battleSkillId": "201000326"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "200000227"
+        "battleSkillId": "201000327"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "200000228"
+        "battleSkillId": "201000328"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "200000229"
+        "battleSkillId": "201000329"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "200000230"
+        "battleSkillId": "201000330"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "200000231"
+        "battleSkillId": "201000331"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "200000232"
+        "battleSkillId": "201000332"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "200000233"
+        "battleSkillId": "201000333"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "200000234"
+        "battleSkillId": "201000334"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "200000235"
+        "battleSkillId": "201000335"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "200000236"
+        "battleSkillId": "201000336"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "200000237"
+        "battleSkillId": "201000337"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "200000238"
+        "battleSkillId": "201000338"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "200000239"
+        "battleSkillId": "201000339"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "200000240"
+        "battleSkillId": "201000340"
       }
     ]
   },
@@ -6685,15 +9091,9 @@ export default {
     "max_lv": 20,
     "res": "skill:11004",
     "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "永久光环，所有友军角色攻击、暴击增加${descParam[0]}，所有敌军角色攻击、暴击降低${descParam[1]}。",
+    "extra_power_per_lv": 50,
+    "desc": "永久光环，敌方攻击降低${descParam[0]}。",
     "descParam": [
-      {
-        "base": 10,
-        "grow": 0.5,
-        "circle": 1,
-        "isPCT": true
-      },
       {
         "base": 5,
         "grow": 0.25,
@@ -6704,83 +9104,83 @@ export default {
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "200000301"
+        "battleSkillId": "201000401"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "200000302"
+        "battleSkillId": "201000402"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "200000303"
+        "battleSkillId": "201000403"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "200000304"
+        "battleSkillId": "201000404"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "200000305"
+        "battleSkillId": "201000405"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "200000306"
+        "battleSkillId": "201000406"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "200000307"
+        "battleSkillId": "201000407"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "200000308"
+        "battleSkillId": "201000408"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "200000309"
+        "battleSkillId": "201000409"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "200000310"
+        "battleSkillId": "201000410"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "200000311"
+        "battleSkillId": "201000411"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "200000312"
+        "battleSkillId": "201000412"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "200000313"
+        "battleSkillId": "201000413"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "200000314"
+        "battleSkillId": "201000414"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "200000315"
+        "battleSkillId": "201000415"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "200000316"
+        "battleSkillId": "201000416"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "200000317"
+        "battleSkillId": "201000417"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "200000318"
+        "battleSkillId": "201000418"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "200000319"
+        "battleSkillId": "201000419"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "200000320"
+        "battleSkillId": "201000420"
       }
     ]
   },
@@ -6790,8 +9190,8 @@ export default {
     "max_lv": 80,
     "res": "skill:11101",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "张飞狂意达顶峰，向指定方向怒吼形成狂风通路，对敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，降低目标20%的攻击，持续8秒。",
+    "extra_power_per_lv": 15,
+    "desc": "张飞狂意达顶峰，向指定方向怒吼形成狂风通路，对敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，降低目标20%的攻击，持续6秒。",
     "descParam": [
       {
         "base": 200,
@@ -7136,17 +9536,11 @@ export default {
     "res": "skill:11102",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "生命增加${descParam[0]}，防御增加${descParam[1]}。",
+    "desc": "防御增加${descParam[0]}。",
     "descParam": [
       {
         "base": 3200,
         "grow": 400,
-        "circle": 1,
-        "isPCT": false
-      },
-      {
-        "base": 100,
-        "grow": 12,
         "circle": 1,
         "isPCT": false
       }
@@ -7154,17 +9548,252 @@ export default {
     "propEffect": [
       {
         "type": 1,
-        "value_base": 3200,
-        "value_grow_lvUp": 400,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
-        "isPCT": false
+        "isPCT": true
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
       },
       {
-        "type": 3,
-        "value_base": 100,
-        "value_grow_lvUp": 12,
-        "value_circle": 1,
-        "isPCT": false
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -7173,10 +9802,16 @@ export default {
     "name": "千古盟誓",
     "max_lv": 40,
     "res": "skill:11103",
-    "skillType": 2,
-    "extra_power_per_lv": 30,
-    "desc": "每当张飞生命低于50%，就会为自身和周围友军生成一个可抵挡${descParam[0]}伤害的护盾，持续10秒。每20秒触发1次。",
+    "skillType": 3,
+    "extra_power_per_lv": 0,
+    "desc": "生命增加${descParam[0]}，防御增加${descParam[1]}。",
     "descParam": [
+      {
+        "base": 3500,
+        "grow": 500,
+        "circle": 1,
+        "isPCT": false
+      },
       {
         "base": 3500,
         "grow": 500,
@@ -7184,166 +9819,182 @@ export default {
         "isPCT": false
       }
     ],
+    "propEffect": [
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": true
+      },
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": true
+      }
+    ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "201100201"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "201100202"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "201100203"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "201100204"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "201100205"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "201100206"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "201100207"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "201100208"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "201100209"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "201100210"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "201100211"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "201100212"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "201100213"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "201100214"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "201100215"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "201100216"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "201100217"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "201100218"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "201100219"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "201100220"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "201100221"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "201100222"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "201100223"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "201100224"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "201100225"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "201100226"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "201100227"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "201100228"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "201100229"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "201100230"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "201100231"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "201100232"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "201100233"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "201100234"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "201100235"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "201100236"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "201100237"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "201100238"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "201100239"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "201100240"
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -7353,8 +10004,8 @@ export default {
     "max_lv": 20,
     "res": "skill:11104",
     "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "永久光环，所有友军攻击增加${descParam[0]}；所有敌军攻击降低${descParam[1]}。",
+    "extra_power_per_lv": 50,
+    "desc": "张飞每损失10%最大生命，伤害减免${descParam[0]}，伤害加深${descParam[1]}。",
     "descParam": [
       {
         "base": 10,
@@ -7372,83 +10023,83 @@ export default {
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "201100301"
+        "battleSkillId": "201100401"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "201100302"
+        "battleSkillId": "201100402"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "201100303"
+        "battleSkillId": "201100403"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "201100304"
+        "battleSkillId": "201100404"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "201100305"
+        "battleSkillId": "201100405"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "201100306"
+        "battleSkillId": "201100406"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "201100307"
+        "battleSkillId": "201100407"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "201100308"
+        "battleSkillId": "201100408"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "201100309"
+        "battleSkillId": "201100409"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "201100310"
+        "battleSkillId": "201100410"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "201100311"
+        "battleSkillId": "201100411"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "201100312"
+        "battleSkillId": "201100412"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "201100313"
+        "battleSkillId": "201100413"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "201100314"
+        "battleSkillId": "201100414"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "201100315"
+        "battleSkillId": "201100415"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "201100316"
+        "battleSkillId": "201100416"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "201100317"
+        "battleSkillId": "201100417"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "201100318"
+        "battleSkillId": "201100418"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "201100319"
+        "battleSkillId": "201100419"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "201100320"
+        "battleSkillId": "201100420"
       }
     ]
   },
@@ -7458,7 +10109,7 @@ export default {
     "max_lv": 80,
     "res": "skill:11201",
     "skillType": 1,
-    "extra_power_per_lv": 20,
+    "extra_power_per_lv": 15,
     "desc": "关羽挥舞大刀对前方长条范围内的敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，并提升自身20%命中，持续10秒。",
     "descParam": [
       {
@@ -7804,35 +10455,264 @@ export default {
     "res": "skill:11202",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "攻击增加${descParam[0]}，命中增加${descParam[0]}。",
+    "desc": "攻击增加${descParam[0]}。",
     "descParam": [
       {
         "base": 120,
         "grow": 25,
         "circle": 1,
         "isPCT": false
-      },
-      {
-        "base": 30,
-        "grow": 3.5,
-        "circle": 1,
-        "isPCT": false
       }
     ],
     "propEffect": [
       {
-        "type": 2,
-        "value_base": 120,
-        "value_grow_lvUp": 25,
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
         "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
       },
       {
-        "type": 4,
-        "value_base": 30,
-        "value_grow_lvUp": 3.5,
-        "value_circle": 1,
-        "isPCT": false
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -7841,10 +10721,16 @@ export default {
     "name": "刮骨疗伤",
     "max_lv": 40,
     "res": "skill:11203",
-    "skillType": 2,
-    "extra_power_per_lv": 30,
-    "desc": "每当张飞生命低于50%，清除自身所有负面效果，并获得${descParam[0]}攻击，持续10秒。每20秒触发1次。",
+    "skillType": 3,
+    "extra_power_per_lv": 0,
+    "desc": "生命增加${descParam[0]}，命中增加${descParam[1]}。",
     "descParam": [
+      {
+        "base": 30,
+        "grow": 3.5,
+        "circle": 1,
+        "isPCT": false
+      },
       {
         "base": 300,
         "grow": 30,
@@ -7852,166 +10738,182 @@ export default {
         "isPCT": false
       }
     ],
+    "propEffect": [
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      },
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      }
+    ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "201200201"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "201200202"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "201200203"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "201200204"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "201200205"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "201200206"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "201200207"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "201200208"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "201200209"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "201200210"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "201200211"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "201200212"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "201200213"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "201200214"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "201200215"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "201200216"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "201200217"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "201200218"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "201200219"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "201200220"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "201200221"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "201200222"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "201200223"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "201200224"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "201200225"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "201200226"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "201200227"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "201200228"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "201200229"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "201200230"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "201200231"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "201200232"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "201200233"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "201200234"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "201200235"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "201200236"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "201200237"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "201200238"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "201200239"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "201200240"
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -8021,8 +10923,8 @@ export default {
     "max_lv": 20,
     "res": "skill:11204",
     "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "永久光环，所有友军攻击、命中增加${descParam[0]}；所有敌军攻击、命中降低${descParam[1]}。",
+    "extra_power_per_lv": 50,
+    "desc": "关羽每损失10%最大生命，命中增加${descParam[0]}，伤害加深${descParam[1]}。",
     "descParam": [
       {
         "base": 10,
@@ -8040,83 +10942,83 @@ export default {
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "201200301"
+        "battleSkillId": "201200401"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "201200302"
+        "battleSkillId": "201200402"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "201200303"
+        "battleSkillId": "201200403"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "201200304"
+        "battleSkillId": "201200404"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "201200305"
+        "battleSkillId": "201200405"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "201200306"
+        "battleSkillId": "201200406"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "201200307"
+        "battleSkillId": "201200407"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "201200308"
+        "battleSkillId": "201200408"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "201200309"
+        "battleSkillId": "201200409"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "201200310"
+        "battleSkillId": "201200410"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "201200311"
+        "battleSkillId": "201200411"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "201200312"
+        "battleSkillId": "201200412"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "201200313"
+        "battleSkillId": "201200413"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "201200314"
+        "battleSkillId": "201200414"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "201200315"
+        "battleSkillId": "201200415"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "201200316"
+        "battleSkillId": "201200416"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "201200317"
+        "battleSkillId": "201200417"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "201200318"
+        "battleSkillId": "201200418"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "201200319"
+        "battleSkillId": "201200419"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "201200320"
+        "battleSkillId": "201200420"
       }
     ]
   },
@@ -8126,7 +11028,7 @@ export default {
     "max_lv": 80,
     "res": "skill:11301",
     "skillType": 1,
-    "extra_power_per_lv": 20,
+    "extra_power_per_lv": 15,
     "desc": "赵云向前快速连刺数枪。每枪对前方的敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害。",
     "descParam": [
       {
@@ -8470,9 +11372,9 @@ export default {
     "name": "龙鸣",
     "max_lv": 60,
     "res": "skill:11302",
-    "skillType": 2,
-    "extra_power_per_lv": 20,
-    "desc": "赵云每损失10%最大生命值，命中、闪避、暴击、韧性增加${descParam[0]}。",
+    "skillType": 3,
+    "extra_power_per_lv": 0,
+    "desc": "生命增加${descParam[0]}，闪避增加${descParam[1]}。",
     "descParam": [
       {
         "base": 5,
@@ -8481,246 +11383,262 @@ export default {
         "isPCT": false
       }
     ],
+    "propEffect": [
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      },
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      }
+    ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "201300201"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "201300202"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "201300203"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "201300204"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "201300205"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "201300206"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "201300207"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "201300208"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "201300209"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "201300210"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "201300211"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "201300212"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "201300213"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "201300214"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "201300215"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "201300216"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "201300217"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "201300218"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "201300219"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "201300220"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "201300221"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "201300222"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "201300223"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "201300224"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "201300225"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "201300226"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "201300227"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "201300228"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "201300229"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "201300230"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "201300231"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "201300232"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "201300233"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "201300234"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "201300235"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "201300236"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "201300237"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "201300238"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "201300239"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "201300240"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 41,
-        "battleSkillId": "201300241"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 42,
-        "battleSkillId": "201300242"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 43,
-        "battleSkillId": "201300243"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 44,
-        "battleSkillId": "201300244"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 45,
-        "battleSkillId": "201300245"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 46,
-        "battleSkillId": "201300246"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 47,
-        "battleSkillId": "201300247"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 48,
-        "battleSkillId": "201300248"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 49,
-        "battleSkillId": "201300249"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 50,
-        "battleSkillId": "201300250"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 51,
-        "battleSkillId": "201300251"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 52,
-        "battleSkillId": "201300252"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 53,
-        "battleSkillId": "201300253"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 54,
-        "battleSkillId": "201300254"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 55,
-        "battleSkillId": "201300255"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 56,
-        "battleSkillId": "201300256"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 57,
-        "battleSkillId": "201300257"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 58,
-        "battleSkillId": "201300258"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 59,
-        "battleSkillId": "201300259"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 60,
-        "battleSkillId": "201300260"
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -8729,9 +11647,9 @@ export default {
     "name": "龙魂",
     "max_lv": 40,
     "res": "skill:11303",
-    "skillType": 3,
-    "extra_power_per_lv": 0,
-    "desc": "生命增加${descParam[0]}，防御增加${descParam[1]}。",
+    "skillType": 2,
+    "extra_power_per_lv": 35,
+    "desc": "赵云每次攻击后，闪避增加${descParam[0]}、攻击增加${descParam[1]}。最高可叠加5次。",
     "descParam": [
       {
         "base": 4800,
@@ -8742,45 +11660,6 @@ export default {
       {
         "base": 56,
         "grow": 15,
-        "circle": 1,
-        "isPCT": false
-      }
-    ],
-    "propEffect": [
-      {
-        "type": 1,
-        "value_base": 4800,
-        "value_grow_lvUp": 500,
-        "value_circle": 1,
-        "isPCT": false
-      },
-      {
-        "type": 3,
-        "value_base": 56,
-        "value_grow_lvUp": 15,
-        "value_circle": 1,
-        "isPCT": false
-      }
-    ]
-  },
-  "11304": {
-    "id": "11304",
-    "name": "龙胆",
-    "max_lv": 20,
-    "res": "skill:11304",
-    "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "赵云生命值低于50%时，攻击增加${descParam[0]}，闪避增加${descParam[1]}。",
-    "descParam": [
-      {
-        "base": 2400,
-        "grow": 100,
-        "circle": 1,
-        "isPCT": false
-      },
-      {
-        "base": 100,
-        "grow": 7,
         "circle": 1,
         "isPCT": false
       }
@@ -8865,6 +11744,191 @@ export default {
       {
         "skillLv": 20,
         "battleSkillId": "201300320"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "201300321"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "201300322"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "201300323"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "201300324"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "201300325"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "201300326"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "201300327"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "201300328"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "201300329"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "201300330"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "201300331"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "201300332"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "201300333"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "201300334"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "201300335"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "201300336"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "201300337"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "201300338"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "201300339"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "201300340"
+      }
+    ]
+  },
+  "11304": {
+    "id": "11304",
+    "name": "龙胆",
+    "max_lv": 20,
+    "res": "skill:11304",
+    "skillType": 2,
+    "extra_power_per_lv": 50,
+    "desc": "赵云每损失10%最大生命值，命中、闪避、暴击、韧性增加${descParam[0]}。",
+    "descParam": [
+      {
+        "base": 2400,
+        "grow": 100,
+        "circle": 1,
+        "isPCT": false
+      },
+      {
+        "base": 100,
+        "grow": 7,
+        "circle": 1,
+        "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "201300401"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "201300402"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "201300403"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "201300404"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "201300405"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "201300406"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "201300407"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "201300408"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "201300409"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "201300410"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "201300411"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "201300412"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "201300413"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "201300414"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "201300415"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "201300416"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "201300417"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "201300418"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "201300419"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "201300420"
       }
     ]
   },
@@ -8874,8 +11938,8 @@ export default {
     "max_lv": 80,
     "res": "skill:11401",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "鲁班七号召唤飞艇，随机打击${descParam[0]}个敌人，对目标和范围内的敌人造成${descParam[1]}自身攻击+${descParam[2]}伤害。",
+    "extra_power_per_lv": 15,
+    "desc": "鲁班七号召唤飞艇，对所有敌人造成${descParam[1]}自身攻击+${descParam[2]}伤害。",
     "descParam": [
       {
         "base": 200,
@@ -8888,12 +11952,6 @@ export default {
         "grow": 10,
         "circle": 1,
         "isPCT": false
-      },
-      {
-        "base": 40,
-        "grow": 2,
-        "circle": 1,
-        "isPCT": true
       }
     ],
     "battleSkillId": [
@@ -9221,19 +12279,13 @@ export default {
   },
   "11402": {
     "id": "11402",
-    "name": "精准打击",
+    "name": "技能2",
     "max_lv": 60,
     "res": "skill:11402",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "攻击增加${descParam[0]}，命中增加${descParam[0]}。",
+    "desc": "暴击增加${descParam[0]}。",
     "descParam": [
-      {
-        "base": 200,
-        "grow": 20,
-        "circle": 1,
-        "isPCT": false
-      },
       {
         "base": 20,
         "grow": 2,
@@ -9243,29 +12295,264 @@ export default {
     ],
     "propEffect": [
       {
-        "type": 2,
-        "value_base": 200,
-        "value_grow_lvUp": 20,
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
         "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
       },
       {
-        "type": 4,
-        "value_base": 20,
-        "value_grow_lvUp": 2,
-        "value_circle": 1,
-        "isPCT": false
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
   "11403": {
     "id": "11403",
-    "name": "强力炮击",
+    "name": "技能3",
     "max_lv": 40,
     "res": "skill:11403",
     "skillType": 3,
-    "extra_power_per_lv": 10,
-    "desc": "技能伤害增加${descParam[0]}。",
+    "extra_power_per_lv": 0,
+    "desc": "攻击增加${descParam[0]}，暴击伤害增加${descParam[1]}。",
     "descParam": [
       {
         "base": 200,
@@ -9280,190 +12567,194 @@ export default {
         "isPCT": false
       }
     ],
+    "propEffect": [
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": true
+      },
+      {
+        "type": 1,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
+        "value_circle": 1,
+        "isPCT": false
+      }
+    ],
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "201400201"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "201400202"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "201400203"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "201400204"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "201400205"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "201400206"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "201400207"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "201400208"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "201400209"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "201400210"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "201400211"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "201400212"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "201400213"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "201400214"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "201400215"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "201400216"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "201400217"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "201400218"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "201400219"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "201400220"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 21,
-        "battleSkillId": "201400221"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 22,
-        "battleSkillId": "201400222"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 23,
-        "battleSkillId": "201400223"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 24,
-        "battleSkillId": "201400224"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 25,
-        "battleSkillId": "201400225"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 26,
-        "battleSkillId": "201400226"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 27,
-        "battleSkillId": "201400227"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 28,
-        "battleSkillId": "201400228"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 29,
-        "battleSkillId": "201400229"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 30,
-        "battleSkillId": "201400230"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 31,
-        "battleSkillId": "201400231"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 32,
-        "battleSkillId": "201400232"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 33,
-        "battleSkillId": "201400233"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 34,
-        "battleSkillId": "201400234"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 35,
-        "battleSkillId": "201400235"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 36,
-        "battleSkillId": "201400236"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 37,
-        "battleSkillId": "201400237"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 38,
-        "battleSkillId": "201400238"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 39,
-        "battleSkillId": "201400239"
+        "battleSkillId": "200000000"
       },
       {
         "skillLv": 40,
-        "battleSkillId": "201400240"
+        "battleSkillId": "200000000"
       }
     ]
   },
   "11404": {
     "id": "11404",
-    "name": "火力压制",
+    "name": "技能4",
     "max_lv": 20,
     "res": "skill:11404",
     "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "鲁班七号每次攻击时，有${descParam[0]}概率射出3发额外子弹，造成${descParam[1]}自身攻击+${descParam[2]}伤害。",
+    "extra_power_per_lv": 50,
+    "desc": "战斗中，鲁班每拥有10点暴击，伤害加深${descParam[0]}。",
     "descParam": [
-      {
-        "base": 1000,
-        "grow": 100,
-        "circle": 1,
-        "isPCT": false
-      },
-      {
-        "base": 500,
-        "grow": 50,
-        "circle": 1,
-        "isPCT": false
-      },
       {
         "base": 300,
         "grow": 30,
@@ -9474,83 +12765,83 @@ export default {
     "battleSkillId": [
       {
         "skillLv": 1,
-        "battleSkillId": "201400301"
+        "battleSkillId": "201400401"
       },
       {
         "skillLv": 2,
-        "battleSkillId": "201400302"
+        "battleSkillId": "201400402"
       },
       {
         "skillLv": 3,
-        "battleSkillId": "201400303"
+        "battleSkillId": "201400403"
       },
       {
         "skillLv": 4,
-        "battleSkillId": "201400304"
+        "battleSkillId": "201400404"
       },
       {
         "skillLv": 5,
-        "battleSkillId": "201400305"
+        "battleSkillId": "201400405"
       },
       {
         "skillLv": 6,
-        "battleSkillId": "201400306"
+        "battleSkillId": "201400406"
       },
       {
         "skillLv": 7,
-        "battleSkillId": "201400307"
+        "battleSkillId": "201400407"
       },
       {
         "skillLv": 8,
-        "battleSkillId": "201400308"
+        "battleSkillId": "201400408"
       },
       {
         "skillLv": 9,
-        "battleSkillId": "201400309"
+        "battleSkillId": "201400409"
       },
       {
         "skillLv": 10,
-        "battleSkillId": "201400310"
+        "battleSkillId": "201400410"
       },
       {
         "skillLv": 11,
-        "battleSkillId": "201400311"
+        "battleSkillId": "201400411"
       },
       {
         "skillLv": 12,
-        "battleSkillId": "201400312"
+        "battleSkillId": "201400412"
       },
       {
         "skillLv": 13,
-        "battleSkillId": "201400313"
+        "battleSkillId": "201400413"
       },
       {
         "skillLv": 14,
-        "battleSkillId": "201400314"
+        "battleSkillId": "201400414"
       },
       {
         "skillLv": 15,
-        "battleSkillId": "201400315"
+        "battleSkillId": "201400415"
       },
       {
         "skillLv": 16,
-        "battleSkillId": "201400316"
+        "battleSkillId": "201400416"
       },
       {
         "skillLv": 17,
-        "battleSkillId": "201400317"
+        "battleSkillId": "201400417"
       },
       {
         "skillLv": 18,
-        "battleSkillId": "201400318"
+        "battleSkillId": "201400418"
       },
       {
         "skillLv": 19,
-        "battleSkillId": "201400319"
+        "battleSkillId": "201400419"
       },
       {
         "skillLv": 20,
-        "battleSkillId": "201400320"
+        "battleSkillId": "201400420"
       }
     ]
   },
@@ -9560,8 +12851,8 @@ export default {
     "max_lv": 80,
     "res": "skill:11501",
     "skillType": 1,
-    "extra_power_per_lv": 20,
-    "desc": "王昭君在指定位置降下暴风雪，对路径上敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，并减少其20%的命中，持续8秒。（优先攻击敌方高攻击英雄）",
+    "extra_power_per_lv": 15,
+    "desc": "王昭君在指定位置降下暴风雪，对路径上敌人造成${descParam[0]}自身攻击+${descParam[1]}伤害，并减少其10%的闪避、攻击，持续6秒。",
     "descParam": [
       {
         "base": 200,
@@ -9906,17 +13197,11 @@ export default {
     "res": "skill:11502",
     "skillType": 3,
     "extra_power_per_lv": 0,
-    "desc": "生命增加${descParam[0]}，防御增加${descParam[0]}。",
+    "desc": "生命增加${descParam[0]}。",
     "descParam": [
       {
         "base": 300,
         "grow": 30,
-        "circle": 1,
-        "isPCT": false
-      },
-      {
-        "base": 20,
-        "grow": 2,
         "circle": 1,
         "isPCT": false
       }
@@ -9924,17 +13209,252 @@ export default {
     "propEffect": [
       {
         "type": 1,
-        "value_base": 300,
-        "value_grow_lvUp": 30,
+        "value_base": 100,
+        "value_grow_lvUp": 1,
         "value_circle": 1,
         "isPCT": false
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "200000000"
       },
       {
-        "type": 3,
-        "value_base": 20,
-        "value_grow_lvUp": 2,
-        "value_circle": 1,
-        "isPCT": false
+        "skillLv": 2,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 41,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 42,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 43,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 44,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 45,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 46,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 47,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 48,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 49,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 50,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 51,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 52,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 53,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 54,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 55,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 56,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 57,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 58,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 59,
+        "battleSkillId": "200000000"
+      },
+      {
+        "skillLv": 60,
+        "battleSkillId": "200000000"
       }
     ]
   },
@@ -9944,187 +13464,8 @@ export default {
     "max_lv": 40,
     "res": "skill:11503",
     "skillType": 2,
-    "extra_power_per_lv": 30,
-    "desc": "王昭君普通攻击命中敌人后，使其闪避、攻击降低${descParam[0]}，持续8秒。",
-    "descParam": [
-      {
-        "base": 20,
-        "grow": 2,
-        "circle": 1,
-        "isPCT": true
-      }
-    ],
-    "battleSkillId": [
-      {
-        "skillLv": 1,
-        "battleSkillId": "201500201"
-      },
-      {
-        "skillLv": 2,
-        "battleSkillId": "201500202"
-      },
-      {
-        "skillLv": 3,
-        "battleSkillId": "201500203"
-      },
-      {
-        "skillLv": 4,
-        "battleSkillId": "201500204"
-      },
-      {
-        "skillLv": 5,
-        "battleSkillId": "201500205"
-      },
-      {
-        "skillLv": 6,
-        "battleSkillId": "201500206"
-      },
-      {
-        "skillLv": 7,
-        "battleSkillId": "201500207"
-      },
-      {
-        "skillLv": 8,
-        "battleSkillId": "201500208"
-      },
-      {
-        "skillLv": 9,
-        "battleSkillId": "201500209"
-      },
-      {
-        "skillLv": 10,
-        "battleSkillId": "201500210"
-      },
-      {
-        "skillLv": 11,
-        "battleSkillId": "201500211"
-      },
-      {
-        "skillLv": 12,
-        "battleSkillId": "201500212"
-      },
-      {
-        "skillLv": 13,
-        "battleSkillId": "201500213"
-      },
-      {
-        "skillLv": 14,
-        "battleSkillId": "201500214"
-      },
-      {
-        "skillLv": 15,
-        "battleSkillId": "201500215"
-      },
-      {
-        "skillLv": 16,
-        "battleSkillId": "201500216"
-      },
-      {
-        "skillLv": 17,
-        "battleSkillId": "201500217"
-      },
-      {
-        "skillLv": 18,
-        "battleSkillId": "201500218"
-      },
-      {
-        "skillLv": 19,
-        "battleSkillId": "201500219"
-      },
-      {
-        "skillLv": 20,
-        "battleSkillId": "201500220"
-      },
-      {
-        "skillLv": 21,
-        "battleSkillId": "201500221"
-      },
-      {
-        "skillLv": 22,
-        "battleSkillId": "201500222"
-      },
-      {
-        "skillLv": 23,
-        "battleSkillId": "201500223"
-      },
-      {
-        "skillLv": 24,
-        "battleSkillId": "201500224"
-      },
-      {
-        "skillLv": 25,
-        "battleSkillId": "201500225"
-      },
-      {
-        "skillLv": 26,
-        "battleSkillId": "201500226"
-      },
-      {
-        "skillLv": 27,
-        "battleSkillId": "201500227"
-      },
-      {
-        "skillLv": 28,
-        "battleSkillId": "201500228"
-      },
-      {
-        "skillLv": 29,
-        "battleSkillId": "201500229"
-      },
-      {
-        "skillLv": 30,
-        "battleSkillId": "201500230"
-      },
-      {
-        "skillLv": 31,
-        "battleSkillId": "201500231"
-      },
-      {
-        "skillLv": 32,
-        "battleSkillId": "201500232"
-      },
-      {
-        "skillLv": 33,
-        "battleSkillId": "201500233"
-      },
-      {
-        "skillLv": 34,
-        "battleSkillId": "201500234"
-      },
-      {
-        "skillLv": 35,
-        "battleSkillId": "201500235"
-      },
-      {
-        "skillLv": 36,
-        "battleSkillId": "201500236"
-      },
-      {
-        "skillLv": 37,
-        "battleSkillId": "201500237"
-      },
-      {
-        "skillLv": 38,
-        "battleSkillId": "201500238"
-      },
-      {
-        "skillLv": 39,
-        "battleSkillId": "201500239"
-      },
-      {
-        "skillLv": 40,
-        "battleSkillId": "201500240"
-      }
-    ]
-  },
-  "11504": {
-    "id": "11504",
-    "name": "禁锢寒霜",
-    "max_lv": 20,
-    "res": "skill:11504",
-    "skillType": 2,
-    "extra_power_per_lv": 40,
-    "desc": "永久光环，所有友军防御增加${descParam[0]}；所有敌军闪避、韧性降低${descParam[1]}。",
+    "extra_power_per_lv": 35,
+    "desc": "普通攻击削弱敌人${descParam[0]}攻击，${descParam[1]}闪避。最高可叠加5次。",
     "descParam": [
       {
         "base": 20,
@@ -10219,6 +13560,191 @@ export default {
       {
         "skillLv": 20,
         "battleSkillId": "201500320"
+      },
+      {
+        "skillLv": 21,
+        "battleSkillId": "201500321"
+      },
+      {
+        "skillLv": 22,
+        "battleSkillId": "201500322"
+      },
+      {
+        "skillLv": 23,
+        "battleSkillId": "201500323"
+      },
+      {
+        "skillLv": 24,
+        "battleSkillId": "201500324"
+      },
+      {
+        "skillLv": 25,
+        "battleSkillId": "201500325"
+      },
+      {
+        "skillLv": 26,
+        "battleSkillId": "201500326"
+      },
+      {
+        "skillLv": 27,
+        "battleSkillId": "201500327"
+      },
+      {
+        "skillLv": 28,
+        "battleSkillId": "201500328"
+      },
+      {
+        "skillLv": 29,
+        "battleSkillId": "201500329"
+      },
+      {
+        "skillLv": 30,
+        "battleSkillId": "201500330"
+      },
+      {
+        "skillLv": 31,
+        "battleSkillId": "201500331"
+      },
+      {
+        "skillLv": 32,
+        "battleSkillId": "201500332"
+      },
+      {
+        "skillLv": 33,
+        "battleSkillId": "201500333"
+      },
+      {
+        "skillLv": 34,
+        "battleSkillId": "201500334"
+      },
+      {
+        "skillLv": 35,
+        "battleSkillId": "201500335"
+      },
+      {
+        "skillLv": 36,
+        "battleSkillId": "201500336"
+      },
+      {
+        "skillLv": 37,
+        "battleSkillId": "201500337"
+      },
+      {
+        "skillLv": 38,
+        "battleSkillId": "201500338"
+      },
+      {
+        "skillLv": 39,
+        "battleSkillId": "201500339"
+      },
+      {
+        "skillLv": 40,
+        "battleSkillId": "201500340"
+      }
+    ]
+  },
+  "11504": {
+    "id": "11504",
+    "name": "禁锢寒霜",
+    "max_lv": 20,
+    "res": "skill:11504",
+    "skillType": 2,
+    "extra_power_per_lv": 50,
+    "desc": "永久光环，己方伤害减免${descParam[0]}，破甲增加${descParam[1]}。",
+    "descParam": [
+      {
+        "base": 20,
+        "grow": 2,
+        "circle": 1,
+        "isPCT": true
+      },
+      {
+        "base": 20,
+        "grow": 2,
+        "circle": 1,
+        "isPCT": true
+      }
+    ],
+    "battleSkillId": [
+      {
+        "skillLv": 1,
+        "battleSkillId": "201500401"
+      },
+      {
+        "skillLv": 2,
+        "battleSkillId": "201500402"
+      },
+      {
+        "skillLv": 3,
+        "battleSkillId": "201500403"
+      },
+      {
+        "skillLv": 4,
+        "battleSkillId": "201500404"
+      },
+      {
+        "skillLv": 5,
+        "battleSkillId": "201500405"
+      },
+      {
+        "skillLv": 6,
+        "battleSkillId": "201500406"
+      },
+      {
+        "skillLv": 7,
+        "battleSkillId": "201500407"
+      },
+      {
+        "skillLv": 8,
+        "battleSkillId": "201500408"
+      },
+      {
+        "skillLv": 9,
+        "battleSkillId": "201500409"
+      },
+      {
+        "skillLv": 10,
+        "battleSkillId": "201500410"
+      },
+      {
+        "skillLv": 11,
+        "battleSkillId": "201500411"
+      },
+      {
+        "skillLv": 12,
+        "battleSkillId": "201500412"
+      },
+      {
+        "skillLv": 13,
+        "battleSkillId": "201500413"
+      },
+      {
+        "skillLv": 14,
+        "battleSkillId": "201500414"
+      },
+      {
+        "skillLv": 15,
+        "battleSkillId": "201500415"
+      },
+      {
+        "skillLv": 16,
+        "battleSkillId": "201500416"
+      },
+      {
+        "skillLv": 17,
+        "battleSkillId": "201500417"
+      },
+      {
+        "skillLv": 18,
+        "battleSkillId": "201500418"
+      },
+      {
+        "skillLv": 19,
+        "battleSkillId": "201500419"
+      },
+      {
+        "skillLv": 20,
+        "battleSkillId": "201500420"
       }
     ]
   }
