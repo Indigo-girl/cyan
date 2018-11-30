@@ -44,7 +44,15 @@ export default {
       {
         "proId": 16,
         "type": "prop",
-        "value": 60
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -145,12 +153,28 @@ export default {
       {
         "proId": 8,
         "type": "prop",
-        "value": 32
+        "value": 32,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       },
       {
         "proId": 10,
         "type": "prop",
-        "value": 32
+        "value": 32,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -170,7 +194,15 @@ export default {
       {
         "proId": 15,
         "type": "prop",
-        "value": 85
+        "value": 85,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -189,12 +221,28 @@ export default {
       {
         "proId": 5,
         "type": "prop",
-        "value": 360
+        "value": 360,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       },
       {
         "proId": 14,
         "type": "prop",
-        "value": 18
+        "value": 18,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -214,12 +262,28 @@ export default {
       {
         "proId": 15,
         "type": "prop",
-        "value": 95
+        "value": 95,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       },
       {
         "proId": 14,
         "type": "prop",
-        "value": 95
+        "value": 95,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -265,12 +329,28 @@ export default {
       {
         "proId": 15,
         "type": "prop",
-        "value": 63
+        "value": 63,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       },
       {
         "proId": 16,
         "type": "prop",
-        "value": 63
+        "value": 63,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -316,12 +396,28 @@ export default {
       {
         "proId": 5,
         "type": "prop",
-        "value": 460
+        "value": 460,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       },
       {
         "proId": 11,
         "type": "prop",
-        "value": 23
+        "value": 23,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -448,7 +544,15 @@ export default {
       {
         "proId": 10,
         "type": "prop",
-        "value": 0
+        "value": 0,
+        "prosInfo": [
+          {
+            "targetType": 1,
+            "proId": 10,
+            "scale": -0.2,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -467,7 +571,15 @@ export default {
       {
         "proId": 10,
         "type": "prop",
-        "value": 140
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -486,7 +598,15 @@ export default {
       {
         "proId": 5,
         "type": "prop",
-        "value": 232
+        "value": 232,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -667,12 +787,28 @@ export default {
       {
         "proId": 5,
         "type": "prop",
-        "value": 700
+        "value": 700,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       },
       {
         "proId": 10,
         "type": "prop",
-        "value": 155
+        "value": 155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {
@@ -786,12 +922,28 @@ export default {
       {
         "proId": 16,
         "type": "prop",
-        "value": 117
+        "value": 117,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       },
       {
         "proId": 17,
         "type": "prop",
-        "value": 117
+        "value": 117,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 1,
+            "scale": 0,
+            "step": 0
+          }
+        ]
       }
     ],
     "trigger": {

@@ -68,12 +68,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -102,7 +102,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -128,7 +128,11 @@ export default {
       },
       {
         "type": "circle",
-        "radius": 200
+        "radius": 300
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -221,7 +225,7 @@ export default {
   "3002000": {
     "id": "3002000",
     "spinePath": "",
-    "hitEffect": "bullet/CYJ/hit_blsfbd",
+    "hitEffect": "bullet/LB/hit_mstgbd",
     "explodeEffectPath": "",
     "groundEffectPath": "",
     "offset": {
@@ -252,12 +256,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -286,7 +290,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -307,12 +311,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -344,7 +348,7 @@ export default {
     "explodeEffects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -438,7 +442,7 @@ export default {
   "3003000": {
     "id": "3003000",
     "spinePath": "",
-    "hitEffect": "bullet/CYJ/hit_blsfbd",
+    "hitEffect": "bullet/JK/hit_hgbd",
     "explodeEffectPath": "",
     "groundEffectPath": "",
     "offset": {
@@ -469,12 +473,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -503,7 +507,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -526,16 +530,19 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
-      "type": "instant"
+      "type": "horizon",
+      "length": 1200,
+      "speed": 40,
+      "isBulletMove": false
     },
     "trace": {},
     "explodeSelectors": [],
@@ -549,8 +556,8 @@ export default {
   },
   "3003003": {
     "id": "3003003",
-    "spinePath": "bullet/JK/bullet_hg",
-    "hitEffect": "bullet/JK/hit_hgbd",
+    "spinePath": "",
+    "hitEffect": "",
     "explodeEffectPath": "",
     "groundEffectPath": "",
     "offset": {
@@ -618,12 +625,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -660,7 +667,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -719,7 +726,7 @@ export default {
     "explodeEffects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -807,12 +814,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -849,7 +856,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -870,12 +877,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -1007,12 +1014,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -1041,7 +1048,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1156,12 +1163,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -1190,7 +1197,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1211,12 +1218,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -1248,7 +1255,7 @@ export default {
     "explodeEffects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1410,12 +1417,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -1444,7 +1451,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1467,12 +1474,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -1490,8 +1497,8 @@ export default {
   },
   "3008004": {
     "id": "3008004",
-    "spinePath": "bullet/JK/bullet_hg",
-    "hitEffect": "bullet/JK/hit_hgbd",
+    "spinePath": "",
+    "hitEffect": "",
     "explodeEffectPath": "",
     "groundEffectPath": "",
     "offset": {
@@ -1559,12 +1566,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -1601,7 +1608,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1719,12 +1726,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -1761,7 +1768,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 150,
         "prosInfo": [
           {
             "targetType": 0,
@@ -1819,7 +1826,7 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 1000
+        "value": 100
       }
     ],
     "buffs": [],
@@ -1957,12 +1964,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -1991,12 +1998,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 80,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 1
           }
         ]
       }
@@ -2014,19 +2021,19 @@ export default {
         "value": 4
       },
       {
-        "type": "distSorter",
-        "bValue": false
+        "type": "rect",
+        "width": 500,
+        "height": 400
       },
       {
-        "type": "rect",
-        "width": 200,
-        "height": 300
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
       "type": "horizon",
-      "length": 200,
-      "speed": 5,
+      "length": 600,
+      "speed": 10,
       "isBulletMove": false
     },
     "trace": {},
@@ -2110,12 +2117,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -2144,7 +2151,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -2165,19 +2172,19 @@ export default {
         "value": 4
       },
       {
-        "type": "distSorter",
-        "bValue": false
+        "type": "rect",
+        "width": 700,
+        "height": 300
       },
       {
-        "type": "rect",
-        "width": 1000,
-        "height": 300
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
       "type": "horizon",
-      "length": 1200,
-      "speed": 40,
+      "length": 1000,
+      "speed": 25,
       "isBulletMove": false
     },
     "trace": {},
@@ -2298,12 +2305,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -2332,7 +2339,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -2451,7 +2458,7 @@ export default {
   "3014000": {
     "id": "3014000",
     "spinePath": "",
-    "hitEffect": "bullet/ZY/hit_pyzl",
+    "hitEffect": "bullet/LBQH/hit_kzzybd",
     "explodeEffectPath": "",
     "groundEffectPath": "",
     "offset": {
@@ -2482,18 +2489,26 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
-      "type": "instant"
+      "type": "event",
+      "value": "traceReach"
     },
-    "trace": {},
+    "trace": {
+      "type": "follow",
+      "initHead": {
+        "x": 1,
+        "y": 2
+      },
+      "speed": 30
+    },
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": false,
@@ -2505,10 +2520,10 @@ export default {
   },
   "3014001": {
     "id": "3014001",
-    "spinePath": "bullet/ZY/bullet_pyzl",
-    "hitEffect": "bullet/ZY/hit_pyzl",
-    "explodeEffectPath": "",
-    "groundEffectPath": "",
+    "spinePath": "bullet/LBQH/fire_kzzy",
+    "hitEffect": "",
+    "explodeEffectPath": "bullet/LBQH/hit_kzzy01",
+    "groundEffectPath": "bullet/LBQH/hit_kzzy02",
     "offset": {
       "x": 30,
       "y": 20
@@ -2516,7 +2531,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -2538,10 +2553,17 @@ export default {
       }
     ],
     "trigger": {
-      "type": "horizon",
+      "type": "event",
       "value": "traceReach"
     },
-    "trace": {},
+    "trace": {
+      "type": "blink",
+      "initHead": {
+        "x": 1,
+        "y": 2
+      },
+      "speed": 20
+    },
     "explodeSelectors": [],
     "explodeEffects": [],
     "mustHit": true,
@@ -2595,8 +2617,8 @@ export default {
     "explodeEffectPath": "",
     "groundEffectPath": "",
     "offset": {
-      "x": 0,
-      "y": 35
+      "x": 100,
+      "y": 50
     },
     "effects": [
       {
@@ -2624,12 +2646,12 @@ export default {
         "value": 4
       },
       {
-        "type": "truncate",
-        "value": 1
-      },
-      {
         "type": "distSorter",
         "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -2660,13 +2682,13 @@ export default {
     "explodeEffectPath": "",
     "groundEffectPath": "bullet/WZJ/hit_dlbj02",
     "offset": {
-      "x": 100,
-      "y": 0
+      "x": 150,
+      "y": 80
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
@@ -2701,7 +2723,7 @@ export default {
     "explodeEffects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,

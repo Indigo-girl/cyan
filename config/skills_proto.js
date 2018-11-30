@@ -58,8 +58,8 @@ export default {
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
-      "x": 0,
-      "y": 0
+      "x": -50,
+      "y": 300
     },
     "alignY": false,
     "ratio1": 0,
@@ -505,8 +505,8 @@ export default {
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
-      "x": -50,
-      "y": 300
+      "x": 0,
+      "y": 0
     },
     "alignY": false,
     "ratio1": 0,
@@ -916,28 +916,6 @@ export default {
     "jumpDuration": 0,
     "jumpHeight": 0
   },
-  "2008099": {
-    "id": "2008099",
-    "type": null,
-    "radius": null,
-    "bullets": [
-      30080990100
-    ],
-    "delays": [],
-    "atkAnim": "attack01",
-    "prepareEffect": "",
-    "preparePoint": {
-      "x": 0,
-      "y": 0
-    },
-    "alignY": null,
-    "ratio1": null,
-    "ratio2": null,
-    "jump": false,
-    "jumpDist": null,
-    "jumpDuration": null,
-    "jumpHeight": null
-  },
   "2009000": {
     "id": "2009000",
     "type": 0,
@@ -1047,23 +1025,6 @@ export default {
     "jumpDist": 0,
     "jumpDuration": 0,
     "jumpHeight": 0
-  },
-  "2009099": {
-    "id": "2009099",
-    "type": null,
-    "radius": null,
-    "bullets": null,
-    "delays": null,
-    "atkAnim": null,
-    "prepareEffect": null,
-    "preparePoint": null,
-    "alignY": null,
-    "ratio1": null,
-    "ratio2": null,
-    "jump": null,
-    "jumpDist": null,
-    "jumpDuration": null,
-    "jumpHeight": null
   },
   "2010000": {
     "id": "2010000",
@@ -1751,39 +1712,5 @@ export default {
     "jumpDist": 0,
     "jumpDuration": 0,
     "jumpHeight": 0
-  },
-  "2015099": {
-    "id": "2015099",
-    "type": null,
-    "radius": null,
-    "bullets": null,
-    "delays": null,
-    "atkAnim": null,
-    "prepareEffect": null,
-    "preparePoint": null,
-    "alignY": null,
-    "ratio1": null,
-    "ratio2": null,
-    "jump": null,
-    "jumpDist": null,
-    "jumpDuration": null,
-    "jumpHeight": null
-  },
-  "null": {
-    "id": null,
-    "type": null,
-    "radius": null,
-    "bullets": null,
-    "delays": null,
-    "atkAnim": null,
-    "prepareEffect": null,
-    "preparePoint": null,
-    "alignY": null,
-    "ratio1": null,
-    "ratio2": null,
-    "jump": null,
-    "jumpDist": null,
-    "jumpDuration": null,
-    "jumpHeight": null
   }
 }

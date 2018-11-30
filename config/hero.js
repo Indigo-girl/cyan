@@ -1909,8 +1909,8 @@ export default {
   },
   "101401": {
     "id": "101401",
-    "spinePath": "role/LBAN/LBAN",
-    "skin": "LBAN01",
+    "spinePath": "role/LBQH/LBQH",
+    "skin": "LBQH01",
     "skills": [
       201400000
     ],
@@ -1945,8 +1945,8 @@ export default {
   },
   "101402": {
     "id": "101402",
-    "spinePath": "role/LBAN/LBAN",
-    "skin": "LBAN02",
+    "spinePath": "role/LBQH/LBQH",
+    "skin": "LBQH02",
     "skills": [
       201400000
     ],
@@ -1981,8 +1981,8 @@ export default {
   },
   "101403": {
     "id": "101403",
-    "spinePath": "role/LBAN/LBAN",
-    "skin": "LBAN03",
+    "spinePath": "role/LBQH/LBQH",
+    "skin": "LBQH03",
     "skills": [
       201400000
     ],
@@ -2017,8 +2017,8 @@ export default {
   },
   "101404": {
     "id": "101404",
-    "spinePath": "role/LBAN/LBAN",
-    "skin": "LBAN04",
+    "spinePath": "role/LBQH/LBQH",
+    "skin": "LBQH04",
     "skills": [
       201400000
     ],
