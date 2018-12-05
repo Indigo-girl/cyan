@@ -62,8 +62,8 @@ export default {
       "y": 300
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": true,
     "jumpDist": 200,
     "jumpDuration": 10,
