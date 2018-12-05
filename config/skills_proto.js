@@ -35,7 +35,7 @@ export default {
       "x": 0,
       "y": 0
     },
-    "alignY": true,
+    "alignY": false,
     "ratio1": 1,
     "ratio2": 1,
     "jump": false,
@@ -62,10 +62,10 @@ export default {
       "y": 300
     },
     "alignY": false,
-    "ratio1": 1,
-    "ratio2": 1,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": true,
-    "jumpDist": 200,
+    "jumpDist": 300,
     "jumpDuration": 10,
     "jumpHeight": 200
   },
@@ -138,7 +138,7 @@ export default {
   "2002000": {
     "id": "2002000",
     "type": 0,
-    "radius": 250,
+    "radius": 200,
     "bullets": [
       30020000100
     ],
@@ -149,7 +149,7 @@ export default {
       "x": 0,
       "y": 0
     },
-    "alignY": true,
+    "alignY": false,
     "ratio1": 1,
     "ratio2": 1,
     "jump": false,
@@ -176,8 +176,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -252,7 +252,7 @@ export default {
   "2003000": {
     "id": "2003000",
     "type": 0,
-    "radius": 200,
+    "radius": 180,
     "bullets": [
       30030000100
     ],
@@ -263,7 +263,7 @@ export default {
       "x": 0,
       "y": 0
     },
-    "alignY": true,
+    "alignY": false,
     "ratio1": 1,
     "ratio2": 1,
     "jump": false,
@@ -289,8 +289,8 @@ export default {
       "y": 0
     },
     "alignY": true,
-    "ratio1": 0.6,
-    "ratio2": 0.3,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -377,8 +377,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -399,8 +399,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -487,8 +487,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -505,12 +505,12 @@ export default {
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZGL/prepare_yqd",
     "preparePoint": {
-      "x": 0,
-      "y": 0
+      "x": -50,
+      "y": 300
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -597,8 +597,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -619,8 +619,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -707,8 +707,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -733,8 +733,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -821,8 +821,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -843,8 +843,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -931,8 +931,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -953,8 +953,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1041,8 +1041,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1066,9 +1066,9 @@ export default {
       "x": 0,
       "y": 0
     },
-    "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "alignY": true,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1143,7 +1143,7 @@ export default {
   "2011000": {
     "id": "2011000",
     "type": 0,
-    "radius": 300,
+    "radius": 200,
     "bullets": [
       30110000100
     ],
@@ -1154,7 +1154,7 @@ export default {
       "x": 0,
       "y": 0
     },
-    "alignY": true,
+    "alignY": false,
     "ratio1": 1,
     "ratio2": 1,
     "jump": false,
@@ -1177,8 +1177,8 @@ export default {
       "y": 70
     },
     "alignY": true,
-    "ratio1": 0.6,
-    "ratio2": 0.3,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1253,7 +1253,7 @@ export default {
   "2012000": {
     "id": "2012000",
     "type": 0,
-    "radius": 200,
+    "radius": 190,
     "bullets": [
       30120000100
     ],
@@ -1264,7 +1264,7 @@ export default {
       "x": 0,
       "y": 0
     },
-    "alignY": true,
+    "alignY": false,
     "ratio1": 1,
     "ratio2": 1,
     "jump": false,
@@ -1291,8 +1291,8 @@ export default {
       "y": 0
     },
     "alignY": true,
-    "ratio1": 0.6,
-    "ratio2": 0.3,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1367,7 +1367,7 @@ export default {
   "2013000": {
     "id": "2013000",
     "type": 0,
-    "radius": 200,
+    "radius": 250,
     "bullets": [
       30130000100
     ],
@@ -1378,7 +1378,7 @@ export default {
       "x": 0,
       "y": 0
     },
-    "alignY": true,
+    "alignY": false,
     "ratio1": 1,
     "ratio2": 1,
     "jump": false,
@@ -1394,14 +1394,12 @@ export default {
       30130010100,
       30130010101,
       30130010102,
-      30130010103,
       104
     ],
     "delays": [
       0,
       15,
-      30,
-      40
+      30
     ],
     "atkAnim": "attack02",
     "prepareEffect": "",
@@ -1409,9 +1407,9 @@ export default {
       "x": 0,
       "y": 0
     },
-    "alignY": true,
-    "ratio1": 0.6,
-    "ratio2": 0.3,
+    "alignY": false,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1498,8 +1496,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1520,8 +1518,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1608,8 +1606,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1640,8 +1638,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0,
-    "ratio2": 0,
+    "ratio1": 0.9,
+    "ratio2": 0.9,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,

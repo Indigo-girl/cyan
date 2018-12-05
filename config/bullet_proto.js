@@ -358,7 +358,7 @@ export default {
         ]
       }
     ],
-    "mustHit": false,
+    "mustHit": true,
     "explodeIncludeTargets": [
       false
     ],
@@ -528,14 +528,6 @@ export default {
       {
         "type": "camp",
         "value": 4
-      },
-      {
-        "type": "distSorter",
-        "bValue": false
-      },
-      {
-        "type": "truncate",
-        "value": 1
       }
     ],
     "trigger": {
@@ -547,7 +539,7 @@ export default {
     "trace": {},
     "explodeSelectors": [],
     "explodeEffects": [],
-    "mustHit": false,
+    "mustHit": true,
     "explodeIncludeTargets": [
       false
     ],
@@ -1265,7 +1257,7 @@ export default {
         ]
       }
     ],
-    "mustHit": false,
+    "mustHit": true,
     "explodeIncludeTargets": [
       false
     ],
@@ -1488,7 +1480,7 @@ export default {
     "trace": {},
     "explodeSelectors": [],
     "explodeEffects": [],
-    "mustHit": false,
+    "mustHit": true,
     "explodeIncludeTargets": [
       false
     ],
@@ -1787,14 +1779,6 @@ export default {
       {
         "type": "camp",
         "value": 4
-      },
-      {
-        "type": "distSorter",
-        "bValue": true
-      },
-      {
-        "type": "truncate",
-        "value": 1
       }
     ],
     "trigger": {
@@ -2019,15 +2003,6 @@ export default {
       {
         "type": "camp",
         "value": 4
-      },
-      {
-        "type": "rect",
-        "width": 500,
-        "height": 400
-      },
-      {
-        "type": "truncate",
-        "value": 1
       }
     ],
     "trigger": {
@@ -2170,15 +2145,6 @@ export default {
       {
         "type": "camp",
         "value": 4
-      },
-      {
-        "type": "rect",
-        "width": 700,
-        "height": 300
-      },
-      {
-        "type": "truncate",
-        "value": 1
       }
     ],
     "trigger": {
@@ -2339,12 +2305,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 70,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 0.7
           }
         ]
       }
@@ -2550,6 +2516,14 @@ export default {
       {
         "type": "camp",
         "value": 4
+      },
+      {
+        "type": "distSorter",
+        "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -2688,12 +2662,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 40,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 0.4
           }
         ]
       }
@@ -2707,6 +2681,14 @@ export default {
       {
         "type": "camp",
         "value": 4
+      },
+      {
+        "type": "distSorter",
+        "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
       }
     ],
     "trigger": {
@@ -2723,12 +2705,12 @@ export default {
     "explodeEffects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 40,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 0.4
           }
         ]
       }
