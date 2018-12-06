@@ -17,7 +17,11 @@ class RoleParser{
             hitPoint: cc.v2(config.hitPoint.x, config.hitPoint.y)
         }, stateConfig[config.stateTrans]);
         entity.setNormalSkillIds(config.skills);
-        const energySkill = importInfo && importInfo.skills.find((e)=>e.skillType==CONTEXT_CONST.SKILL_TYPE.ENERGY);
+        let energySkill = importInfo && importInfo.skills.find((e)=>e.skillType==CONTEXT_CONST.SKILL_TYPE.ENERGY);
+        if(!energySkill){
+            console.warn("使用herojs配置的energySkillId")
+        }
+        energySkill = energySkill || config.energySkill
         if(energySkill){
             entity.setEnergySkillId(energySkill.id);
         }else{
