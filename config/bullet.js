@@ -41,12 +41,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 180,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 1.8
           }
         ]
       }
@@ -63,12 +63,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 202,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 1.845
           }
         ]
       }
@@ -85,12 +85,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 224,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 1.89
           }
         ]
       }
@@ -107,12 +107,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 246,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 1.935
           }
         ]
       }
@@ -129,12 +129,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 268,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 1.98
           }
         ]
       }
@@ -151,12 +151,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 290,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 2.025
           }
         ]
       }
@@ -173,12 +173,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 312,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 2.07
           }
         ]
       }
@@ -195,12 +195,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 334,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 2.115
           }
         ]
       }
@@ -217,7 +217,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 356,
         "prosInfo": [
           {
             "targetType": 0,
@@ -239,12 +239,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 380,
+        "value": 378,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 2.205
           }
         ]
       }
@@ -266,7 +266,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 2.25
           }
         ]
       }
@@ -283,12 +283,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 422,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 2.295
           }
         ]
       }
@@ -305,12 +305,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 444,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 2.34
           }
         ]
       }
@@ -327,12 +327,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 460,
+        "value": 466,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 2.385
           }
         ]
       }
@@ -349,12 +349,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 488,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 2.43
           }
         ]
       }
@@ -371,12 +371,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 500,
+        "value": 510,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 2.475
           }
         ]
       }
@@ -393,12 +393,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 532,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 2.52
           }
         ]
       }
@@ -415,12 +415,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 554,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 2.565
           }
         ]
       }
@@ -437,12 +437,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 576,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 2.61
           }
         ]
       }
@@ -459,12 +459,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 580,
+        "value": 598,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 2.655
           }
         ]
       }
@@ -481,12 +481,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 620,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 2.7
           }
         ]
       }
@@ -503,12 +503,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 620,
+        "value": 642,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 2.745
           }
         ]
       }
@@ -525,12 +525,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 664,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 2.79
           }
         ]
       }
@@ -547,12 +547,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 686,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 2.835
           }
         ]
       }
@@ -569,12 +569,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 708,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 2.88
           }
         ]
       }
@@ -591,12 +591,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 700,
+        "value": 730,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 2.925
           }
         ]
       }
@@ -613,12 +613,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 752,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 2.97
           }
         ]
       }
@@ -635,12 +635,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 740,
+        "value": 774,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 3.015
           }
         ]
       }
@@ -657,12 +657,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 760,
+        "value": 796,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 3.06
           }
         ]
       }
@@ -679,12 +679,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 818,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 3.105
           }
         ]
       }
@@ -701,12 +701,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 800,
+        "value": 840,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 3.15
           }
         ]
       }
@@ -723,12 +723,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 820,
+        "value": 862,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 3.195
           }
         ]
       }
@@ -745,12 +745,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 884,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 3.24
           }
         ]
       }
@@ -767,12 +767,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 906,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 3.285
           }
         ]
       }
@@ -789,12 +789,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 928,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 3.33
           }
         ]
       }
@@ -811,12 +811,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 950,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 3.375
           }
         ]
       }
@@ -833,12 +833,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 972,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 3.42
           }
         ]
       }
@@ -855,12 +855,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 994,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 3.465
           }
         ]
       }
@@ -877,12 +877,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 1016,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 3.51
           }
         ]
       }
@@ -899,12 +899,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 1038,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 3.555
           }
         ]
       }
@@ -921,12 +921,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 1060,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.8
+            "scale": 3.6
           }
         ]
       }
@@ -943,12 +943,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 1082,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.82
+            "scale": 3.645
           }
         ]
       }
@@ -965,12 +965,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1040,
+        "value": 1104,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.84
+            "scale": 3.69
           }
         ]
       }
@@ -987,12 +987,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1060,
+        "value": 1126,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.86
+            "scale": 3.735
           }
         ]
       }
@@ -1009,12 +1009,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 1148,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.88
+            "scale": 3.78
           }
         ]
       }
@@ -1031,12 +1031,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1100,
+        "value": 1170,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.9
+            "scale": 3.825
           }
         ]
       }
@@ -1053,12 +1053,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1120,
+        "value": 1192,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.92
+            "scale": 3.87
           }
         ]
       }
@@ -1075,12 +1075,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 1214,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.94
+            "scale": 3.915
           }
         ]
       }
@@ -1097,12 +1097,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1160,
+        "value": 1236,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.96
+            "scale": 3.96
           }
         ]
       }
@@ -1119,12 +1119,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1180,
+        "value": 1258,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.98
+            "scale": 4.005
           }
         ]
       }
@@ -1141,12 +1141,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1200,
+        "value": 1280,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3
+            "scale": 4.05
           }
         ]
       }
@@ -1163,12 +1163,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1220,
+        "value": 1302,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.02
+            "scale": 4.095
           }
         ]
       }
@@ -1185,12 +1185,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1240,
+        "value": 1324,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.04
+            "scale": 4.14
           }
         ]
       }
@@ -1207,12 +1207,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 1346,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.06
+            "scale": 4.185
           }
         ]
       }
@@ -1229,12 +1229,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1280,
+        "value": 1368,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.08
+            "scale": 4.23
           }
         ]
       }
@@ -1251,12 +1251,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1300,
+        "value": 1390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.1
+            "scale": 4.275
           }
         ]
       }
@@ -1273,12 +1273,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 1412,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.12
+            "scale": 4.32
           }
         ]
       }
@@ -1295,12 +1295,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1340,
+        "value": 1434,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.14
+            "scale": 4.365
           }
         ]
       }
@@ -1317,12 +1317,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1360,
+        "value": 1456,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.16
+            "scale": 4.41
           }
         ]
       }
@@ -1339,12 +1339,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1380,
+        "value": 1478,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.18
+            "scale": 4.455
           }
         ]
       }
@@ -1361,12 +1361,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1400,
+        "value": 1500,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.2
+            "scale": 4.5
           }
         ]
       }
@@ -1383,12 +1383,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1420,
+        "value": 1522,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.22
+            "scale": 4.545
           }
         ]
       }
@@ -1405,12 +1405,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1440,
+        "value": 1544,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.24
+            "scale": 4.59
           }
         ]
       }
@@ -1427,12 +1427,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1460,
+        "value": 1566,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.26
+            "scale": 4.635
           }
         ]
       }
@@ -1449,12 +1449,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1480,
+        "value": 1588,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.28
+            "scale": 4.68
           }
         ]
       }
@@ -1471,12 +1471,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1500,
+        "value": 1610,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.3
+            "scale": 4.725
           }
         ]
       }
@@ -1493,12 +1493,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1520,
+        "value": 1632,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.32
+            "scale": 4.77
           }
         ]
       }
@@ -1515,12 +1515,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1540,
+        "value": 1654,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.34
+            "scale": 4.815
           }
         ]
       }
@@ -1537,12 +1537,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1560,
+        "value": 1676,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.36
+            "scale": 4.86
           }
         ]
       }
@@ -1559,12 +1559,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1580,
+        "value": 1698,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.38
+            "scale": 4.905
           }
         ]
       }
@@ -1581,12 +1581,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1600,
+        "value": 1720,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.4
+            "scale": 4.95
           }
         ]
       }
@@ -1603,12 +1603,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1620,
+        "value": 1742,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.42
+            "scale": 4.995
           }
         ]
       }
@@ -1625,12 +1625,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1640,
+        "value": 1764,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.44
+            "scale": 5.04
           }
         ]
       }
@@ -1647,12 +1647,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1660,
+        "value": 1786,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.46
+            "scale": 5.085
           }
         ]
       }
@@ -1669,12 +1669,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1680,
+        "value": 1808,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.48
+            "scale": 5.13
           }
         ]
       }
@@ -1691,12 +1691,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1700,
+        "value": 1830,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.5
+            "scale": 5.175
           }
         ]
       }
@@ -1713,12 +1713,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1720,
+        "value": 1852,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.52
+            "scale": 5.22
           }
         ]
       }
@@ -1735,12 +1735,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1740,
+        "value": 1874,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.54
+            "scale": 5.265
           }
         ]
       }
@@ -1757,12 +1757,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1760,
+        "value": 1896,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.56
+            "scale": 5.31
           }
         ]
       }
@@ -1779,12 +1779,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1780,
+        "value": 1918,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.58
+            "scale": 5.355
           }
         ]
       }
@@ -2075,12 +2075,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 180,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 1.8
           }
         ]
       }
@@ -2097,12 +2097,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 202,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 1.845
           }
         ]
       }
@@ -2119,12 +2119,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 224,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 1.89
           }
         ]
       }
@@ -2141,12 +2141,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 246,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 1.935
           }
         ]
       }
@@ -2163,12 +2163,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 268,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 1.98
           }
         ]
       }
@@ -2185,12 +2185,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 290,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 2.025
           }
         ]
       }
@@ -2207,12 +2207,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 312,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 2.07
           }
         ]
       }
@@ -2229,12 +2229,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 334,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 2.115
           }
         ]
       }
@@ -2251,7 +2251,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 356,
         "prosInfo": [
           {
             "targetType": 0,
@@ -2273,12 +2273,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 380,
+        "value": 378,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 2.205
           }
         ]
       }
@@ -2300,7 +2300,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 2.25
           }
         ]
       }
@@ -2317,12 +2317,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 422,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 2.295
           }
         ]
       }
@@ -2339,12 +2339,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 444,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 2.34
           }
         ]
       }
@@ -2361,12 +2361,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 460,
+        "value": 466,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 2.385
           }
         ]
       }
@@ -2383,12 +2383,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 488,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 2.43
           }
         ]
       }
@@ -2405,12 +2405,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 500,
+        "value": 510,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 2.475
           }
         ]
       }
@@ -2427,12 +2427,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 532,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 2.52
           }
         ]
       }
@@ -2449,12 +2449,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 554,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 2.565
           }
         ]
       }
@@ -2471,12 +2471,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 576,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 2.61
           }
         ]
       }
@@ -2493,12 +2493,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 580,
+        "value": 598,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 2.655
           }
         ]
       }
@@ -2515,12 +2515,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 620,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 2.7
           }
         ]
       }
@@ -2537,12 +2537,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 620,
+        "value": 642,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 2.745
           }
         ]
       }
@@ -2559,12 +2559,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 664,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 2.79
           }
         ]
       }
@@ -2581,12 +2581,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 686,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 2.835
           }
         ]
       }
@@ -2603,12 +2603,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 708,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 2.88
           }
         ]
       }
@@ -2625,12 +2625,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 700,
+        "value": 730,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 2.925
           }
         ]
       }
@@ -2647,12 +2647,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 752,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 2.97
           }
         ]
       }
@@ -2669,12 +2669,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 740,
+        "value": 774,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 3.015
           }
         ]
       }
@@ -2691,12 +2691,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 760,
+        "value": 796,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 3.06
           }
         ]
       }
@@ -2713,12 +2713,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 818,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 3.105
           }
         ]
       }
@@ -2735,12 +2735,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 800,
+        "value": 840,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 3.15
           }
         ]
       }
@@ -2757,12 +2757,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 820,
+        "value": 862,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 3.195
           }
         ]
       }
@@ -2779,12 +2779,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 884,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 3.24
           }
         ]
       }
@@ -2801,12 +2801,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 906,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 3.285
           }
         ]
       }
@@ -2823,12 +2823,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 928,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 3.33
           }
         ]
       }
@@ -2845,12 +2845,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 950,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 3.375
           }
         ]
       }
@@ -2867,12 +2867,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 972,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 3.42
           }
         ]
       }
@@ -2889,12 +2889,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 994,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 3.465
           }
         ]
       }
@@ -2911,12 +2911,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 1016,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 3.51
           }
         ]
       }
@@ -2933,12 +2933,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 1038,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 3.555
           }
         ]
       }
@@ -2955,12 +2955,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 1060,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.8
+            "scale": 3.6
           }
         ]
       }
@@ -2977,12 +2977,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 1082,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.82
+            "scale": 3.645
           }
         ]
       }
@@ -2999,12 +2999,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1040,
+        "value": 1104,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.84
+            "scale": 3.69
           }
         ]
       }
@@ -3021,12 +3021,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1060,
+        "value": 1126,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.86
+            "scale": 3.735
           }
         ]
       }
@@ -3043,12 +3043,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 1148,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.88
+            "scale": 3.78
           }
         ]
       }
@@ -3065,12 +3065,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1100,
+        "value": 1170,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.9
+            "scale": 3.825
           }
         ]
       }
@@ -3087,12 +3087,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1120,
+        "value": 1192,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.92
+            "scale": 3.87
           }
         ]
       }
@@ -3109,12 +3109,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 1214,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.94
+            "scale": 3.915
           }
         ]
       }
@@ -3131,12 +3131,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1160,
+        "value": 1236,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.96
+            "scale": 3.96
           }
         ]
       }
@@ -3153,12 +3153,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1180,
+        "value": 1258,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.98
+            "scale": 4.005
           }
         ]
       }
@@ -3175,12 +3175,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1200,
+        "value": 1280,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3
+            "scale": 4.05
           }
         ]
       }
@@ -3197,12 +3197,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1220,
+        "value": 1302,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.02
+            "scale": 4.095
           }
         ]
       }
@@ -3219,12 +3219,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1240,
+        "value": 1324,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.04
+            "scale": 4.14
           }
         ]
       }
@@ -3241,12 +3241,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 1346,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.06
+            "scale": 4.185
           }
         ]
       }
@@ -3263,12 +3263,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1280,
+        "value": 1368,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.08
+            "scale": 4.23
           }
         ]
       }
@@ -3285,12 +3285,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1300,
+        "value": 1390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.1
+            "scale": 4.275
           }
         ]
       }
@@ -3307,12 +3307,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 1412,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.12
+            "scale": 4.32
           }
         ]
       }
@@ -3329,12 +3329,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1340,
+        "value": 1434,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.14
+            "scale": 4.365
           }
         ]
       }
@@ -3351,12 +3351,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1360,
+        "value": 1456,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.16
+            "scale": 4.41
           }
         ]
       }
@@ -3373,12 +3373,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1380,
+        "value": 1478,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.18
+            "scale": 4.455
           }
         ]
       }
@@ -3395,12 +3395,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1400,
+        "value": 1500,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.2
+            "scale": 4.5
           }
         ]
       }
@@ -3417,12 +3417,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1420,
+        "value": 1522,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.22
+            "scale": 4.545
           }
         ]
       }
@@ -3439,12 +3439,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1440,
+        "value": 1544,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.24
+            "scale": 4.59
           }
         ]
       }
@@ -3461,12 +3461,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1460,
+        "value": 1566,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.26
+            "scale": 4.635
           }
         ]
       }
@@ -3483,12 +3483,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1480,
+        "value": 1588,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.28
+            "scale": 4.68
           }
         ]
       }
@@ -3505,12 +3505,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1500,
+        "value": 1610,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.3
+            "scale": 4.725
           }
         ]
       }
@@ -3527,12 +3527,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1520,
+        "value": 1632,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.32
+            "scale": 4.77
           }
         ]
       }
@@ -3549,12 +3549,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1540,
+        "value": 1654,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.34
+            "scale": 4.815
           }
         ]
       }
@@ -3571,12 +3571,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1560,
+        "value": 1676,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.36
+            "scale": 4.86
           }
         ]
       }
@@ -3593,12 +3593,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1580,
+        "value": 1698,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.38
+            "scale": 4.905
           }
         ]
       }
@@ -3615,12 +3615,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1600,
+        "value": 1720,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.4
+            "scale": 4.95
           }
         ]
       }
@@ -3637,12 +3637,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1620,
+        "value": 1742,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.42
+            "scale": 4.995
           }
         ]
       }
@@ -3659,12 +3659,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1640,
+        "value": 1764,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.44
+            "scale": 5.04
           }
         ]
       }
@@ -3681,12 +3681,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1660,
+        "value": 1786,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.46
+            "scale": 5.085
           }
         ]
       }
@@ -3703,12 +3703,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1680,
+        "value": 1808,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.48
+            "scale": 5.13
           }
         ]
       }
@@ -3725,12 +3725,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1700,
+        "value": 1830,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.5
+            "scale": 5.175
           }
         ]
       }
@@ -3747,12 +3747,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1720,
+        "value": 1852,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.52
+            "scale": 5.22
           }
         ]
       }
@@ -3769,12 +3769,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1740,
+        "value": 1874,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.54
+            "scale": 5.265
           }
         ]
       }
@@ -3791,12 +3791,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1760,
+        "value": 1896,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.56
+            "scale": 5.31
           }
         ]
       }
@@ -3813,12 +3813,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1780,
+        "value": 1918,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.58
+            "scale": 5.355
           }
         ]
       }
@@ -4103,7 +4103,7 @@ export default {
     "id": "30030010100",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
@@ -4114,7 +4114,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 1.95
           }
         ]
       }
@@ -4127,18 +4127,18 @@ export default {
     "id": "30030010200",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 225,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 1.998
           }
         ]
       }
@@ -4151,18 +4151,18 @@ export default {
     "id": "30030010300",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 250,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 2.046
           }
         ]
       }
@@ -4175,18 +4175,18 @@ export default {
     "id": "30030010400",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 275,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 2.094
           }
         ]
       }
@@ -4199,18 +4199,18 @@ export default {
     "id": "30030010500",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 2.142
           }
         ]
       }
@@ -4223,18 +4223,18 @@ export default {
     "id": "30030010600",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 325,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 2.19
           }
         ]
       }
@@ -4247,18 +4247,18 @@ export default {
     "id": "30030010700",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 2.238
           }
         ]
       }
@@ -4271,18 +4271,18 @@ export default {
     "id": "30030010800",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 375,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 2.286
           }
         ]
       }
@@ -4295,18 +4295,18 @@ export default {
     "id": "30030010900",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 400,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.16
+            "scale": 2.334
           }
         ]
       }
@@ -4319,18 +4319,18 @@ export default {
     "id": "30030011000",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 380,
+        "value": 425,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 2.382
           }
         ]
       }
@@ -4343,18 +4343,18 @@ export default {
     "id": "30030011100",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 400,
+        "value": 450,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 2.43
           }
         ]
       }
@@ -4367,18 +4367,18 @@ export default {
     "id": "30030011200",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 475,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 2.478
           }
         ]
       }
@@ -4391,18 +4391,18 @@ export default {
     "id": "30030011300",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 500,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 2.526
           }
         ]
       }
@@ -4415,18 +4415,18 @@ export default {
     "id": "30030011400",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 460,
+        "value": 525,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 2.574
           }
         ]
       }
@@ -4439,18 +4439,18 @@ export default {
     "id": "30030011500",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 550,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 2.622
           }
         ]
       }
@@ -4463,18 +4463,18 @@ export default {
     "id": "30030011600",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 500,
+        "value": 575,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 2.67
           }
         ]
       }
@@ -4487,18 +4487,18 @@ export default {
     "id": "30030011700",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 600,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 2.718
           }
         ]
       }
@@ -4511,18 +4511,18 @@ export default {
     "id": "30030011800",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 625,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 2.766
           }
         ]
       }
@@ -4535,18 +4535,18 @@ export default {
     "id": "30030011900",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 650,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 2.814
           }
         ]
       }
@@ -4559,18 +4559,18 @@ export default {
     "id": "30030012000",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 580,
+        "value": 675,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 2.862
           }
         ]
       }
@@ -4583,18 +4583,18 @@ export default {
     "id": "30030012100",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 700,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 2.91
           }
         ]
       }
@@ -4607,18 +4607,18 @@ export default {
     "id": "30030012200",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 620,
+        "value": 725,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 2.958
           }
         ]
       }
@@ -4631,18 +4631,18 @@ export default {
     "id": "30030012300",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 750,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 3.006
           }
         ]
       }
@@ -4655,18 +4655,18 @@ export default {
     "id": "30030012400",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 775,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 3.054
           }
         ]
       }
@@ -4679,18 +4679,18 @@ export default {
     "id": "30030012500",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 800,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 3.102
           }
         ]
       }
@@ -4703,18 +4703,18 @@ export default {
     "id": "30030012600",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 700,
+        "value": 825,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 3.15
           }
         ]
       }
@@ -4727,18 +4727,18 @@ export default {
     "id": "30030012700",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 850,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 3.198
           }
         ]
       }
@@ -4751,18 +4751,18 @@ export default {
     "id": "30030012800",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 740,
+        "value": 875,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 3.246
           }
         ]
       }
@@ -4775,18 +4775,18 @@ export default {
     "id": "30030012900",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 760,
+        "value": 900,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 3.294
           }
         ]
       }
@@ -4799,18 +4799,18 @@ export default {
     "id": "30030013000",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 925,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 3.342
           }
         ]
       }
@@ -4823,18 +4823,18 @@ export default {
     "id": "30030013100",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 800,
+        "value": 950,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 3.39
           }
         ]
       }
@@ -4847,18 +4847,18 @@ export default {
     "id": "30030013200",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 820,
+        "value": 975,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 3.438
           }
         ]
       }
@@ -4871,18 +4871,18 @@ export default {
     "id": "30030013300",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 3.486
           }
         ]
       }
@@ -4895,18 +4895,18 @@ export default {
     "id": "30030013400",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 1025,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 3.534
           }
         ]
       }
@@ -4919,18 +4919,18 @@ export default {
     "id": "30030013500",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 1050,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 3.582
           }
         ]
       }
@@ -4943,18 +4943,18 @@ export default {
     "id": "30030013600",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 1075,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 3.63
           }
         ]
       }
@@ -4967,18 +4967,18 @@ export default {
     "id": "30030013700",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 1100,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 3.678
           }
         ]
       }
@@ -4991,18 +4991,18 @@ export default {
     "id": "30030013800",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 1125,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 3.726
           }
         ]
       }
@@ -5015,18 +5015,18 @@ export default {
     "id": "30030013900",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 1150,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 3.774
           }
         ]
       }
@@ -5039,18 +5039,18 @@ export default {
     "id": "30030014000",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 1175,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 3.822
           }
         ]
       }
@@ -5063,18 +5063,18 @@ export default {
     "id": "30030014100",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 1200,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.8
+            "scale": 3.87
           }
         ]
       }
@@ -5087,18 +5087,18 @@ export default {
     "id": "30030014200",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 1225,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.82
+            "scale": 3.918
           }
         ]
       }
@@ -5111,18 +5111,18 @@ export default {
     "id": "30030014300",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1040,
+        "value": 1250,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.84
+            "scale": 3.966
           }
         ]
       }
@@ -5135,18 +5135,18 @@ export default {
     "id": "30030014400",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1060,
+        "value": 1275,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.86
+            "scale": 4.014
           }
         ]
       }
@@ -5159,18 +5159,18 @@ export default {
     "id": "30030014500",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 1300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.88
+            "scale": 4.062
           }
         ]
       }
@@ -5183,18 +5183,18 @@ export default {
     "id": "30030014600",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1100,
+        "value": 1325,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.9
+            "scale": 4.11
           }
         ]
       }
@@ -5207,18 +5207,18 @@ export default {
     "id": "30030014700",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1120,
+        "value": 1350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.92
+            "scale": 4.158
           }
         ]
       }
@@ -5231,18 +5231,18 @@ export default {
     "id": "30030014800",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 1375,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.94
+            "scale": 4.206
           }
         ]
       }
@@ -5255,18 +5255,18 @@ export default {
     "id": "30030014900",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1160,
+        "value": 1400,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.96
+            "scale": 4.254
           }
         ]
       }
@@ -5279,18 +5279,18 @@ export default {
     "id": "30030015000",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1180,
+        "value": 1425,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.98
+            "scale": 4.302
           }
         ]
       }
@@ -5303,18 +5303,18 @@ export default {
     "id": "30030015100",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1200,
+        "value": 1450,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3
+            "scale": 4.35
           }
         ]
       }
@@ -5327,18 +5327,18 @@ export default {
     "id": "30030015200",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1220,
+        "value": 1475,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.02
+            "scale": 4.398
           }
         ]
       }
@@ -5351,18 +5351,18 @@ export default {
     "id": "30030015300",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1240,
+        "value": 1500,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.04
+            "scale": 4.446
           }
         ]
       }
@@ -5375,18 +5375,18 @@ export default {
     "id": "30030015400",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 1525,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.06
+            "scale": 4.494
           }
         ]
       }
@@ -5399,18 +5399,18 @@ export default {
     "id": "30030015500",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1280,
+        "value": 1550,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.08
+            "scale": 4.542
           }
         ]
       }
@@ -5423,18 +5423,18 @@ export default {
     "id": "30030015600",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1300,
+        "value": 1575,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.1
+            "scale": 4.59
           }
         ]
       }
@@ -5447,18 +5447,18 @@ export default {
     "id": "30030015700",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 1600,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.12
+            "scale": 4.638
           }
         ]
       }
@@ -5471,18 +5471,18 @@ export default {
     "id": "30030015800",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1340,
+        "value": 1625,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.14
+            "scale": 4.686
           }
         ]
       }
@@ -5495,18 +5495,18 @@ export default {
     "id": "30030015900",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1360,
+        "value": 1650,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.16
+            "scale": 4.734
           }
         ]
       }
@@ -5519,18 +5519,18 @@ export default {
     "id": "30030016000",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1380,
+        "value": 1675,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.18
+            "scale": 4.782
           }
         ]
       }
@@ -5543,18 +5543,18 @@ export default {
     "id": "30030016100",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1400,
+        "value": 1700,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.2
+            "scale": 4.83
           }
         ]
       }
@@ -5567,18 +5567,18 @@ export default {
     "id": "30030016200",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1420,
+        "value": 1725,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.22
+            "scale": 4.878
           }
         ]
       }
@@ -5591,18 +5591,18 @@ export default {
     "id": "30030016300",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1440,
+        "value": 1750,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.24
+            "scale": 4.926
           }
         ]
       }
@@ -5615,18 +5615,18 @@ export default {
     "id": "30030016400",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1460,
+        "value": 1775,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.26
+            "scale": 4.974
           }
         ]
       }
@@ -5639,18 +5639,18 @@ export default {
     "id": "30030016500",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1480,
+        "value": 1800,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.28
+            "scale": 5.022
           }
         ]
       }
@@ -5663,18 +5663,18 @@ export default {
     "id": "30030016600",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1500,
+        "value": 1825,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.3
+            "scale": 5.07
           }
         ]
       }
@@ -5687,18 +5687,18 @@ export default {
     "id": "30030016700",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1520,
+        "value": 1850,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.32
+            "scale": 5.118
           }
         ]
       }
@@ -5711,18 +5711,18 @@ export default {
     "id": "30030016800",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1540,
+        "value": 1875,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.34
+            "scale": 5.166
           }
         ]
       }
@@ -5735,18 +5735,18 @@ export default {
     "id": "30030016900",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1560,
+        "value": 1900,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.36
+            "scale": 5.214
           }
         ]
       }
@@ -5759,18 +5759,18 @@ export default {
     "id": "30030017000",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1580,
+        "value": 1925,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.38
+            "scale": 5.262
           }
         ]
       }
@@ -5783,18 +5783,18 @@ export default {
     "id": "30030017100",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1600,
+        "value": 1950,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.4
+            "scale": 5.31
           }
         ]
       }
@@ -5807,18 +5807,18 @@ export default {
     "id": "30030017200",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1620,
+        "value": 1975,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.42
+            "scale": 5.358
           }
         ]
       }
@@ -5831,18 +5831,18 @@ export default {
     "id": "30030017300",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1640,
+        "value": 2000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.44
+            "scale": 5.406
           }
         ]
       }
@@ -5855,18 +5855,18 @@ export default {
     "id": "30030017400",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1660,
+        "value": 2025,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.46
+            "scale": 5.454
           }
         ]
       }
@@ -5879,18 +5879,18 @@ export default {
     "id": "30030017500",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1680,
+        "value": 2050,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.48
+            "scale": 5.502
           }
         ]
       }
@@ -5903,18 +5903,18 @@ export default {
     "id": "30030017600",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1700,
+        "value": 2075,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.5
+            "scale": 5.55
           }
         ]
       }
@@ -5927,18 +5927,18 @@ export default {
     "id": "30030017700",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1720,
+        "value": 2100,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.52
+            "scale": 5.598
           }
         ]
       }
@@ -5951,18 +5951,18 @@ export default {
     "id": "30030017800",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1740,
+        "value": 2125,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.54
+            "scale": 5.646
           }
         ]
       }
@@ -5975,18 +5975,18 @@ export default {
     "id": "30030017900",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1760,
+        "value": 2150,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.56
+            "scale": 5.694
           }
         ]
       }
@@ -5999,18 +5999,18 @@ export default {
     "id": "30030018000",
     "proto": "3003001",
     "offset": {
-      "x": 200,
+      "x": 130,
       "y": -10
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1780,
+        "value": 2175,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.58
+            "scale": 5.742
           }
         ]
       }
@@ -6503,7 +6503,7 @@ export default {
     "id": "30040000000",
     "proto": "3004000",
     "offset": {
-      "x": -40,
+      "x": -20,
       "y": 35
     },
     "effects": [
@@ -6526,17 +6526,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 260,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 2.65
           }
         ]
       }
@@ -6548,17 +6548,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 292,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 2.716
           }
         ]
       }
@@ -6570,17 +6570,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 324,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 2.782
           }
         ]
       }
@@ -6592,17 +6592,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 356,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 2.848
           }
         ]
       }
@@ -6614,17 +6614,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 388,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 2.914
           }
         ]
       }
@@ -6636,17 +6636,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 420,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 2.98
           }
         ]
       }
@@ -6658,17 +6658,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 452,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 3.046
           }
         ]
       }
@@ -6680,17 +6680,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 484,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 3.112
           }
         ]
       }
@@ -6702,17 +6702,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 516,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.16
+            "scale": 3.178
           }
         ]
       }
@@ -6724,17 +6724,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 380,
+        "value": 548,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 3.244
           }
         ]
       }
@@ -6746,17 +6746,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 400,
+        "value": 580,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 3.31
           }
         ]
       }
@@ -6768,17 +6768,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 612,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 3.376
           }
         ]
       }
@@ -6790,17 +6790,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 644,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 3.442
           }
         ]
       }
@@ -6812,17 +6812,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 460,
+        "value": 676,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 3.508
           }
         ]
       }
@@ -6834,17 +6834,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 708,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 3.574
           }
         ]
       }
@@ -6856,17 +6856,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 500,
+        "value": 740,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 3.64
           }
         ]
       }
@@ -6878,17 +6878,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 772,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 3.706
           }
         ]
       }
@@ -6900,17 +6900,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 804,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 3.772
           }
         ]
       }
@@ -6922,17 +6922,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 836,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 3.838
           }
         ]
       }
@@ -6944,17 +6944,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 580,
+        "value": 868,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 3.904
           }
         ]
       }
@@ -6966,17 +6966,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 900,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 3.97
           }
         ]
       }
@@ -6988,17 +6988,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 620,
+        "value": 932,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 4.036
           }
         ]
       }
@@ -7010,17 +7010,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 964,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 4.102
           }
         ]
       }
@@ -7032,17 +7032,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 996,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 4.168
           }
         ]
       }
@@ -7054,17 +7054,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 1028,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 4.234
           }
         ]
       }
@@ -7076,17 +7076,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 700,
+        "value": 1060,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 4.3
           }
         ]
       }
@@ -7098,17 +7098,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 1092,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 4.366
           }
         ]
       }
@@ -7120,17 +7120,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 740,
+        "value": 1124,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 4.432
           }
         ]
       }
@@ -7142,17 +7142,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 760,
+        "value": 1156,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 4.498
           }
         ]
       }
@@ -7164,17 +7164,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 1188,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 4.564
           }
         ]
       }
@@ -7186,17 +7186,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 800,
+        "value": 1220,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 4.63
           }
         ]
       }
@@ -7208,17 +7208,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 820,
+        "value": 1252,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 4.696
           }
         ]
       }
@@ -7230,17 +7230,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 1284,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 4.762
           }
         ]
       }
@@ -7252,17 +7252,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 1316,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 4.828
           }
         ]
       }
@@ -7274,17 +7274,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 1348,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 4.894
           }
         ]
       }
@@ -7296,17 +7296,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 1380,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 4.96
           }
         ]
       }
@@ -7318,17 +7318,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 1412,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 5.026
           }
         ]
       }
@@ -7340,17 +7340,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 1444,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 5.092
           }
         ]
       }
@@ -7362,17 +7362,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 1476,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 5.158
           }
         ]
       }
@@ -7384,17 +7384,17 @@ export default {
     "proto": "3004001",
     "offset": {
       "x": -70,
-      "y": 40
+      "y": 50
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 1508,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 5.224
           }
         ]
       }
@@ -7673,12 +7673,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 3.5
           }
         ]
       }
@@ -7695,12 +7695,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 395,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 3.588
           }
         ]
       }
@@ -7717,12 +7717,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 440,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 3.676
           }
         ]
       }
@@ -7739,12 +7739,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 485,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 3.764
           }
         ]
       }
@@ -7761,12 +7761,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 530,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 3.852
           }
         ]
       }
@@ -7783,12 +7783,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 575,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 3.94
           }
         ]
       }
@@ -7805,12 +7805,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 620,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 4.028
           }
         ]
       }
@@ -7827,12 +7827,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 665,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 4.116
           }
         ]
       }
@@ -7849,12 +7849,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 710,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.16
+            "scale": 4.204
           }
         ]
       }
@@ -7871,12 +7871,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 380,
+        "value": 755,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 4.292
           }
         ]
       }
@@ -7893,12 +7893,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 400,
+        "value": 800,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 4.38
           }
         ]
       }
@@ -7915,12 +7915,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 845,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 4.468
           }
         ]
       }
@@ -7937,12 +7937,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 890,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 4.556
           }
         ]
       }
@@ -7959,12 +7959,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 460,
+        "value": 935,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 4.644
           }
         ]
       }
@@ -7981,12 +7981,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 980,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 4.732
           }
         ]
       }
@@ -8003,12 +8003,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 500,
+        "value": 1025,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 4.82
           }
         ]
       }
@@ -8025,12 +8025,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 1070,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 4.908
           }
         ]
       }
@@ -8047,12 +8047,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 1115,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 4.996
           }
         ]
       }
@@ -8069,12 +8069,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 1160,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 5.084
           }
         ]
       }
@@ -8091,12 +8091,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 580,
+        "value": 1205,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 5.172
           }
         ]
       }
@@ -8113,12 +8113,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 1250,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 5.26
           }
         ]
       }
@@ -8135,12 +8135,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 620,
+        "value": 1295,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 5.348
           }
         ]
       }
@@ -8157,12 +8157,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 1340,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 5.436
           }
         ]
       }
@@ -8179,12 +8179,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 1385,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 5.524
           }
         ]
       }
@@ -8201,12 +8201,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 1430,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 5.612
           }
         ]
       }
@@ -8223,12 +8223,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 700,
+        "value": 1475,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 5.7
           }
         ]
       }
@@ -8245,12 +8245,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 1520,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 5.788
           }
         ]
       }
@@ -8267,12 +8267,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 740,
+        "value": 1565,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 5.876
           }
         ]
       }
@@ -8289,12 +8289,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 760,
+        "value": 1610,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 5.964
           }
         ]
       }
@@ -8311,12 +8311,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 1655,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 6.052
           }
         ]
       }
@@ -8333,12 +8333,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 800,
+        "value": 1700,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 6.14
           }
         ]
       }
@@ -8355,12 +8355,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 820,
+        "value": 1745,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 6.228
           }
         ]
       }
@@ -8377,12 +8377,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 1790,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 6.316
           }
         ]
       }
@@ -8399,12 +8399,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 1835,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 6.404
           }
         ]
       }
@@ -8421,12 +8421,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 1880,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 6.492
           }
         ]
       }
@@ -8443,12 +8443,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 1925,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 6.58
           }
         ]
       }
@@ -8465,12 +8465,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 1970,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 6.668
           }
         ]
       }
@@ -8487,12 +8487,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 2015,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 6.756
           }
         ]
       }
@@ -8509,12 +8509,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 2060,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 6.844
           }
         ]
       }
@@ -8531,12 +8531,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 2105,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 6.932
           }
         ]
       }
@@ -8553,12 +8553,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 2150,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.8
+            "scale": 7.02
           }
         ]
       }
@@ -8575,12 +8575,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 2195,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.82
+            "scale": 7.108
           }
         ]
       }
@@ -8597,12 +8597,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1040,
+        "value": 2240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.84
+            "scale": 7.196
           }
         ]
       }
@@ -8619,12 +8619,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1060,
+        "value": 2285,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.86
+            "scale": 7.284
           }
         ]
       }
@@ -8641,12 +8641,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 2330,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.88
+            "scale": 7.372
           }
         ]
       }
@@ -8663,12 +8663,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1100,
+        "value": 2375,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.9
+            "scale": 7.46
           }
         ]
       }
@@ -8685,12 +8685,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1120,
+        "value": 2420,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.92
+            "scale": 7.548
           }
         ]
       }
@@ -8707,12 +8707,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 2465,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.94
+            "scale": 7.636
           }
         ]
       }
@@ -8729,12 +8729,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1160,
+        "value": 2510,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.96
+            "scale": 7.724
           }
         ]
       }
@@ -8751,12 +8751,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1180,
+        "value": 2555,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.98
+            "scale": 7.812
           }
         ]
       }
@@ -8773,12 +8773,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1200,
+        "value": 2600,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3
+            "scale": 7.9
           }
         ]
       }
@@ -8795,12 +8795,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1220,
+        "value": 2645,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.02
+            "scale": 7.988
           }
         ]
       }
@@ -8817,12 +8817,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1240,
+        "value": 2690,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.04
+            "scale": 8.076
           }
         ]
       }
@@ -8839,12 +8839,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 2735,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.06
+            "scale": 8.164
           }
         ]
       }
@@ -8861,12 +8861,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1280,
+        "value": 2780,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.08
+            "scale": 8.252
           }
         ]
       }
@@ -8883,12 +8883,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1300,
+        "value": 2825,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.1
+            "scale": 8.34
           }
         ]
       }
@@ -8905,12 +8905,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 2870,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.12
+            "scale": 8.428
           }
         ]
       }
@@ -8927,12 +8927,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1340,
+        "value": 2915,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.14
+            "scale": 8.516
           }
         ]
       }
@@ -8949,12 +8949,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1360,
+        "value": 2960,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.16
+            "scale": 8.604
           }
         ]
       }
@@ -8971,12 +8971,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1380,
+        "value": 3005,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.18
+            "scale": 8.692
           }
         ]
       }
@@ -8993,12 +8993,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1400,
+        "value": 3050,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.2
+            "scale": 8.78
           }
         ]
       }
@@ -9015,12 +9015,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1420,
+        "value": 3095,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.22
+            "scale": 8.868
           }
         ]
       }
@@ -9037,12 +9037,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1440,
+        "value": 3140,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.24
+            "scale": 8.956
           }
         ]
       }
@@ -9059,12 +9059,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1460,
+        "value": 3185,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.26
+            "scale": 9.044
           }
         ]
       }
@@ -9081,12 +9081,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1480,
+        "value": 3230,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.28
+            "scale": 9.132
           }
         ]
       }
@@ -9103,12 +9103,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1500,
+        "value": 3275,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.3
+            "scale": 9.22
           }
         ]
       }
@@ -9125,12 +9125,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1520,
+        "value": 3320,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.32
+            "scale": 9.308
           }
         ]
       }
@@ -9147,12 +9147,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1540,
+        "value": 3365,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.34
+            "scale": 9.396
           }
         ]
       }
@@ -9169,12 +9169,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1560,
+        "value": 3410,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.36
+            "scale": 9.484
           }
         ]
       }
@@ -9191,12 +9191,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1580,
+        "value": 3455,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.38
+            "scale": 9.572
           }
         ]
       }
@@ -9213,12 +9213,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1600,
+        "value": 3500,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.4
+            "scale": 9.66
           }
         ]
       }
@@ -9235,12 +9235,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1620,
+        "value": 3545,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.42
+            "scale": 9.748
           }
         ]
       }
@@ -9257,12 +9257,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1640,
+        "value": 3590,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.44
+            "scale": 9.836
           }
         ]
       }
@@ -9279,12 +9279,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1660,
+        "value": 3635,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.46
+            "scale": 9.924
           }
         ]
       }
@@ -9301,12 +9301,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1680,
+        "value": 3680,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.48
+            "scale": 10.012
           }
         ]
       }
@@ -9323,12 +9323,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1700,
+        "value": 3725,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.5
+            "scale": 10.1
           }
         ]
       }
@@ -9345,12 +9345,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1720,
+        "value": 3770,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.52
+            "scale": 10.188
           }
         ]
       }
@@ -9367,12 +9367,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1740,
+        "value": 3815,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.54
+            "scale": 10.276
           }
         ]
       }
@@ -9389,12 +9389,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1760,
+        "value": 3860,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.56
+            "scale": 10.364
           }
         ]
       }
@@ -9411,12 +9411,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1780,
+        "value": 3905,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.58
+            "scale": 10.452
           }
         ]
       }
@@ -10169,8 +10169,8 @@ export default {
     "id": "30060010100",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
@@ -10180,7 +10180,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 1.95
           }
         ]
       }
@@ -10193,18 +10193,18 @@ export default {
     "id": "30060010200",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 225,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 1.998
           }
         ]
       }
@@ -10217,18 +10217,18 @@ export default {
     "id": "30060010300",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 250,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 2.046
           }
         ]
       }
@@ -10241,18 +10241,18 @@ export default {
     "id": "30060010400",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 275,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 2.094
           }
         ]
       }
@@ -10265,18 +10265,18 @@ export default {
     "id": "30060010500",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 2.142
           }
         ]
       }
@@ -10289,18 +10289,18 @@ export default {
     "id": "30060010600",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 325,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 2.19
           }
         ]
       }
@@ -10313,18 +10313,18 @@ export default {
     "id": "30060010700",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 2.238
           }
         ]
       }
@@ -10337,18 +10337,18 @@ export default {
     "id": "30060010800",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 375,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 2.286
           }
         ]
       }
@@ -10361,18 +10361,18 @@ export default {
     "id": "30060010900",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 400,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.16
+            "scale": 2.334
           }
         ]
       }
@@ -10385,18 +10385,18 @@ export default {
     "id": "30060011000",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 380,
+        "value": 425,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 2.382
           }
         ]
       }
@@ -10409,18 +10409,18 @@ export default {
     "id": "30060011100",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 400,
+        "value": 450,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 2.43
           }
         ]
       }
@@ -10433,18 +10433,18 @@ export default {
     "id": "30060011200",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 475,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 2.478
           }
         ]
       }
@@ -10457,18 +10457,18 @@ export default {
     "id": "30060011300",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 500,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 2.526
           }
         ]
       }
@@ -10481,18 +10481,18 @@ export default {
     "id": "30060011400",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 460,
+        "value": 525,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 2.574
           }
         ]
       }
@@ -10505,18 +10505,18 @@ export default {
     "id": "30060011500",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 550,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 2.622
           }
         ]
       }
@@ -10529,18 +10529,18 @@ export default {
     "id": "30060011600",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 500,
+        "value": 575,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 2.67
           }
         ]
       }
@@ -10553,18 +10553,18 @@ export default {
     "id": "30060011700",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 600,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 2.718
           }
         ]
       }
@@ -10577,18 +10577,18 @@ export default {
     "id": "30060011800",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 625,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 2.766
           }
         ]
       }
@@ -10601,18 +10601,18 @@ export default {
     "id": "30060011900",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 650,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 2.814
           }
         ]
       }
@@ -10625,18 +10625,18 @@ export default {
     "id": "30060012000",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 580,
+        "value": 675,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 2.862
           }
         ]
       }
@@ -10649,18 +10649,18 @@ export default {
     "id": "30060012100",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 700,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 2.91
           }
         ]
       }
@@ -10673,18 +10673,18 @@ export default {
     "id": "30060012200",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 620,
+        "value": 725,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 2.958
           }
         ]
       }
@@ -10697,18 +10697,18 @@ export default {
     "id": "30060012300",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 750,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 3.006
           }
         ]
       }
@@ -10721,18 +10721,18 @@ export default {
     "id": "30060012400",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 775,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 3.054
           }
         ]
       }
@@ -10745,18 +10745,18 @@ export default {
     "id": "30060012500",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 800,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 3.102
           }
         ]
       }
@@ -10769,18 +10769,18 @@ export default {
     "id": "30060012600",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 700,
+        "value": 825,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 3.15
           }
         ]
       }
@@ -10793,18 +10793,18 @@ export default {
     "id": "30060012700",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 850,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 3.198
           }
         ]
       }
@@ -10817,18 +10817,18 @@ export default {
     "id": "30060012800",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 740,
+        "value": 875,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 3.246
           }
         ]
       }
@@ -10841,18 +10841,18 @@ export default {
     "id": "30060012900",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 760,
+        "value": 900,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 3.294
           }
         ]
       }
@@ -10865,18 +10865,18 @@ export default {
     "id": "30060013000",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 925,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 3.342
           }
         ]
       }
@@ -10889,18 +10889,18 @@ export default {
     "id": "30060013100",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 800,
+        "value": 950,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 3.39
           }
         ]
       }
@@ -10913,18 +10913,18 @@ export default {
     "id": "30060013200",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 820,
+        "value": 975,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 3.438
           }
         ]
       }
@@ -10937,18 +10937,18 @@ export default {
     "id": "30060013300",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 1000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 3.486
           }
         ]
       }
@@ -10961,18 +10961,18 @@ export default {
     "id": "30060013400",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 1025,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 3.534
           }
         ]
       }
@@ -10985,18 +10985,18 @@ export default {
     "id": "30060013500",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 1050,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 3.582
           }
         ]
       }
@@ -11009,18 +11009,18 @@ export default {
     "id": "30060013600",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 1075,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 3.63
           }
         ]
       }
@@ -11033,18 +11033,18 @@ export default {
     "id": "30060013700",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 1100,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 3.678
           }
         ]
       }
@@ -11057,18 +11057,18 @@ export default {
     "id": "30060013800",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 1125,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 3.726
           }
         ]
       }
@@ -11081,18 +11081,18 @@ export default {
     "id": "30060013900",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 1150,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 3.774
           }
         ]
       }
@@ -11105,18 +11105,18 @@ export default {
     "id": "30060014000",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 1175,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 3.822
           }
         ]
       }
@@ -11129,18 +11129,18 @@ export default {
     "id": "30060014100",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 1200,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.8
+            "scale": 3.87
           }
         ]
       }
@@ -11153,18 +11153,18 @@ export default {
     "id": "30060014200",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 1225,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.82
+            "scale": 3.918
           }
         ]
       }
@@ -11177,18 +11177,18 @@ export default {
     "id": "30060014300",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1040,
+        "value": 1250,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.84
+            "scale": 3.966
           }
         ]
       }
@@ -11201,18 +11201,18 @@ export default {
     "id": "30060014400",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1060,
+        "value": 1275,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.86
+            "scale": 4.014
           }
         ]
       }
@@ -11225,18 +11225,18 @@ export default {
     "id": "30060014500",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 1300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.88
+            "scale": 4.062
           }
         ]
       }
@@ -11249,18 +11249,18 @@ export default {
     "id": "30060014600",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1100,
+        "value": 1325,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.9
+            "scale": 4.11
           }
         ]
       }
@@ -11273,18 +11273,18 @@ export default {
     "id": "30060014700",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1120,
+        "value": 1350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.92
+            "scale": 4.158
           }
         ]
       }
@@ -11297,18 +11297,18 @@ export default {
     "id": "30060014800",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 1375,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.94
+            "scale": 4.206
           }
         ]
       }
@@ -11321,18 +11321,18 @@ export default {
     "id": "30060014900",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1160,
+        "value": 1400,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.96
+            "scale": 4.254
           }
         ]
       }
@@ -11345,18 +11345,18 @@ export default {
     "id": "30060015000",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1180,
+        "value": 1425,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.98
+            "scale": 4.302
           }
         ]
       }
@@ -11369,18 +11369,18 @@ export default {
     "id": "30060015100",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1200,
+        "value": 1450,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3
+            "scale": 4.35
           }
         ]
       }
@@ -11393,18 +11393,18 @@ export default {
     "id": "30060015200",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1220,
+        "value": 1475,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.02
+            "scale": 4.398
           }
         ]
       }
@@ -11417,18 +11417,18 @@ export default {
     "id": "30060015300",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1240,
+        "value": 1500,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.04
+            "scale": 4.446
           }
         ]
       }
@@ -11441,18 +11441,18 @@ export default {
     "id": "30060015400",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 1525,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.06
+            "scale": 4.494
           }
         ]
       }
@@ -11465,18 +11465,18 @@ export default {
     "id": "30060015500",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1280,
+        "value": 1550,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.08
+            "scale": 4.542
           }
         ]
       }
@@ -11489,18 +11489,18 @@ export default {
     "id": "30060015600",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1300,
+        "value": 1575,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.1
+            "scale": 4.59
           }
         ]
       }
@@ -11513,18 +11513,18 @@ export default {
     "id": "30060015700",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 1600,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.12
+            "scale": 4.638
           }
         ]
       }
@@ -11537,18 +11537,18 @@ export default {
     "id": "30060015800",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1340,
+        "value": 1625,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.14
+            "scale": 4.686
           }
         ]
       }
@@ -11561,18 +11561,18 @@ export default {
     "id": "30060015900",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1360,
+        "value": 1650,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.16
+            "scale": 4.734
           }
         ]
       }
@@ -11585,18 +11585,18 @@ export default {
     "id": "30060016000",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1380,
+        "value": 1675,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.18
+            "scale": 4.782
           }
         ]
       }
@@ -11609,18 +11609,18 @@ export default {
     "id": "30060016100",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1400,
+        "value": 1700,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.2
+            "scale": 4.83
           }
         ]
       }
@@ -11633,18 +11633,18 @@ export default {
     "id": "30060016200",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1420,
+        "value": 1725,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.22
+            "scale": 4.878
           }
         ]
       }
@@ -11657,18 +11657,18 @@ export default {
     "id": "30060016300",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1440,
+        "value": 1750,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.24
+            "scale": 4.926
           }
         ]
       }
@@ -11681,18 +11681,18 @@ export default {
     "id": "30060016400",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1460,
+        "value": 1775,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.26
+            "scale": 4.974
           }
         ]
       }
@@ -11705,18 +11705,18 @@ export default {
     "id": "30060016500",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1480,
+        "value": 1800,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.28
+            "scale": 5.022
           }
         ]
       }
@@ -11729,18 +11729,18 @@ export default {
     "id": "30060016600",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1500,
+        "value": 1825,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.3
+            "scale": 5.07
           }
         ]
       }
@@ -11753,18 +11753,18 @@ export default {
     "id": "30060016700",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1520,
+        "value": 1850,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.32
+            "scale": 5.118
           }
         ]
       }
@@ -11777,18 +11777,18 @@ export default {
     "id": "30060016800",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1540,
+        "value": 1875,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.34
+            "scale": 5.166
           }
         ]
       }
@@ -11801,18 +11801,18 @@ export default {
     "id": "30060016900",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1560,
+        "value": 1900,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.36
+            "scale": 5.214
           }
         ]
       }
@@ -11825,18 +11825,18 @@ export default {
     "id": "30060017000",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1580,
+        "value": 1925,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.38
+            "scale": 5.262
           }
         ]
       }
@@ -11849,18 +11849,18 @@ export default {
     "id": "30060017100",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1600,
+        "value": 1950,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.4
+            "scale": 5.31
           }
         ]
       }
@@ -11873,18 +11873,18 @@ export default {
     "id": "30060017200",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1620,
+        "value": 1975,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.42
+            "scale": 5.358
           }
         ]
       }
@@ -11897,18 +11897,18 @@ export default {
     "id": "30060017300",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1640,
+        "value": 2000,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.44
+            "scale": 5.406
           }
         ]
       }
@@ -11921,18 +11921,18 @@ export default {
     "id": "30060017400",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1660,
+        "value": 2025,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.46
+            "scale": 5.454
           }
         ]
       }
@@ -11945,18 +11945,18 @@ export default {
     "id": "30060017500",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1680,
+        "value": 2050,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.48
+            "scale": 5.502
           }
         ]
       }
@@ -11969,18 +11969,18 @@ export default {
     "id": "30060017600",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1700,
+        "value": 2075,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.5
+            "scale": 5.55
           }
         ]
       }
@@ -11993,18 +11993,18 @@ export default {
     "id": "30060017700",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1720,
+        "value": 2100,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.52
+            "scale": 5.598
           }
         ]
       }
@@ -12017,18 +12017,18 @@ export default {
     "id": "30060017800",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1740,
+        "value": 2125,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.54
+            "scale": 5.646
           }
         ]
       }
@@ -12041,18 +12041,18 @@ export default {
     "id": "30060017900",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1760,
+        "value": 2150,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.56
+            "scale": 5.694
           }
         ]
       }
@@ -12065,18 +12065,18 @@ export default {
     "id": "30060018000",
     "proto": "3006001",
     "offset": {
-      "x": 0,
-      "y": 0
+      "x": -90,
+      "y": -1
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1780,
+        "value": 2175,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.58
+            "scale": 5.742
           }
         ]
       }
@@ -12357,12 +12357,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 3.5
           }
         ]
       }
@@ -12379,12 +12379,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 395,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 3.588
           }
         ]
       }
@@ -12401,12 +12401,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 440,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 3.676
           }
         ]
       }
@@ -12423,12 +12423,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 485,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 3.764
           }
         ]
       }
@@ -12445,12 +12445,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 530,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 3.852
           }
         ]
       }
@@ -12467,12 +12467,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 575,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 3.94
           }
         ]
       }
@@ -12489,12 +12489,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 620,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 4.028
           }
         ]
       }
@@ -12511,12 +12511,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 665,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 4.116
           }
         ]
       }
@@ -12533,12 +12533,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 710,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.16
+            "scale": 4.204
           }
         ]
       }
@@ -12555,12 +12555,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 380,
+        "value": 755,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 4.292
           }
         ]
       }
@@ -12577,12 +12577,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 400,
+        "value": 800,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 4.38
           }
         ]
       }
@@ -12599,12 +12599,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 845,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 4.468
           }
         ]
       }
@@ -12621,12 +12621,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 890,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 4.556
           }
         ]
       }
@@ -12643,12 +12643,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 460,
+        "value": 935,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 4.644
           }
         ]
       }
@@ -12665,12 +12665,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 980,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 4.732
           }
         ]
       }
@@ -12687,12 +12687,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 500,
+        "value": 1025,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 4.82
           }
         ]
       }
@@ -12709,12 +12709,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 1070,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 4.908
           }
         ]
       }
@@ -12731,12 +12731,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 1115,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 4.996
           }
         ]
       }
@@ -12753,12 +12753,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 1160,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 5.084
           }
         ]
       }
@@ -12775,12 +12775,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 580,
+        "value": 1205,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 5.172
           }
         ]
       }
@@ -12797,12 +12797,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 1250,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 5.26
           }
         ]
       }
@@ -12819,12 +12819,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 620,
+        "value": 1295,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 5.348
           }
         ]
       }
@@ -12841,12 +12841,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 1340,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 5.436
           }
         ]
       }
@@ -12863,12 +12863,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 1385,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 5.524
           }
         ]
       }
@@ -12885,12 +12885,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 1430,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 5.612
           }
         ]
       }
@@ -12907,12 +12907,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 700,
+        "value": 1475,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 5.7
           }
         ]
       }
@@ -12929,12 +12929,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 1520,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 5.788
           }
         ]
       }
@@ -12951,12 +12951,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 740,
+        "value": 1565,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 5.876
           }
         ]
       }
@@ -12973,12 +12973,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 760,
+        "value": 1610,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 5.964
           }
         ]
       }
@@ -12995,12 +12995,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 1655,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 6.052
           }
         ]
       }
@@ -13017,12 +13017,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 800,
+        "value": 1700,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 6.14
           }
         ]
       }
@@ -13039,12 +13039,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 820,
+        "value": 1745,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 6.228
           }
         ]
       }
@@ -13061,12 +13061,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 1790,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 6.316
           }
         ]
       }
@@ -13083,12 +13083,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 1835,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 6.404
           }
         ]
       }
@@ -13105,12 +13105,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 1880,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 6.492
           }
         ]
       }
@@ -13127,12 +13127,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 1925,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 6.58
           }
         ]
       }
@@ -13149,12 +13149,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 1970,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 6.668
           }
         ]
       }
@@ -13171,12 +13171,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 2015,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 6.756
           }
         ]
       }
@@ -13193,12 +13193,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 2060,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 6.844
           }
         ]
       }
@@ -13215,12 +13215,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 2105,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 6.932
           }
         ]
       }
@@ -13237,12 +13237,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 2150,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.8
+            "scale": 7.02
           }
         ]
       }
@@ -13259,12 +13259,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 2195,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.82
+            "scale": 7.108
           }
         ]
       }
@@ -13281,12 +13281,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1040,
+        "value": 2240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.84
+            "scale": 7.196
           }
         ]
       }
@@ -13303,12 +13303,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1060,
+        "value": 2285,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.86
+            "scale": 7.284
           }
         ]
       }
@@ -13325,12 +13325,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 2330,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.88
+            "scale": 7.372
           }
         ]
       }
@@ -13347,12 +13347,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1100,
+        "value": 2375,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.9
+            "scale": 7.46
           }
         ]
       }
@@ -13369,12 +13369,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1120,
+        "value": 2420,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.92
+            "scale": 7.548
           }
         ]
       }
@@ -13391,12 +13391,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 2465,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.94
+            "scale": 7.636
           }
         ]
       }
@@ -13413,12 +13413,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1160,
+        "value": 2510,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.96
+            "scale": 7.724
           }
         ]
       }
@@ -13435,12 +13435,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1180,
+        "value": 2555,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.98
+            "scale": 7.812
           }
         ]
       }
@@ -13457,12 +13457,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1200,
+        "value": 2600,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3
+            "scale": 7.9
           }
         ]
       }
@@ -13479,12 +13479,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1220,
+        "value": 2645,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.02
+            "scale": 7.988
           }
         ]
       }
@@ -13501,12 +13501,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1240,
+        "value": 2690,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.04
+            "scale": 8.076
           }
         ]
       }
@@ -13523,12 +13523,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 2735,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.06
+            "scale": 8.164
           }
         ]
       }
@@ -13545,12 +13545,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1280,
+        "value": 2780,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.08
+            "scale": 8.252
           }
         ]
       }
@@ -13567,12 +13567,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1300,
+        "value": 2825,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.1
+            "scale": 8.34
           }
         ]
       }
@@ -13589,12 +13589,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 2870,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.12
+            "scale": 8.428
           }
         ]
       }
@@ -13611,12 +13611,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1340,
+        "value": 2915,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.14
+            "scale": 8.516
           }
         ]
       }
@@ -13633,12 +13633,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1360,
+        "value": 2960,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.16
+            "scale": 8.604
           }
         ]
       }
@@ -13655,12 +13655,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1380,
+        "value": 3005,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.18
+            "scale": 8.692
           }
         ]
       }
@@ -13677,12 +13677,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1400,
+        "value": 3050,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.2
+            "scale": 8.78
           }
         ]
       }
@@ -13699,12 +13699,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1420,
+        "value": 3095,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.22
+            "scale": 8.868
           }
         ]
       }
@@ -13721,12 +13721,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1440,
+        "value": 3140,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.24
+            "scale": 8.956
           }
         ]
       }
@@ -13743,12 +13743,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1460,
+        "value": 3185,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.26
+            "scale": 9.044
           }
         ]
       }
@@ -13765,12 +13765,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1480,
+        "value": 3230,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.28
+            "scale": 9.132
           }
         ]
       }
@@ -13787,12 +13787,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1500,
+        "value": 3275,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.3
+            "scale": 9.22
           }
         ]
       }
@@ -13809,12 +13809,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1520,
+        "value": 3320,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.32
+            "scale": 9.308
           }
         ]
       }
@@ -13831,12 +13831,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1540,
+        "value": 3365,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.34
+            "scale": 9.396
           }
         ]
       }
@@ -13853,12 +13853,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1560,
+        "value": 3410,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.36
+            "scale": 9.484
           }
         ]
       }
@@ -13875,12 +13875,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1580,
+        "value": 3455,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.38
+            "scale": 9.572
           }
         ]
       }
@@ -13897,12 +13897,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1600,
+        "value": 3500,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.4
+            "scale": 9.66
           }
         ]
       }
@@ -13919,12 +13919,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1620,
+        "value": 3545,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.42
+            "scale": 9.748
           }
         ]
       }
@@ -13941,12 +13941,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1640,
+        "value": 3590,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.44
+            "scale": 9.836
           }
         ]
       }
@@ -13963,12 +13963,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1660,
+        "value": 3635,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.46
+            "scale": 9.924
           }
         ]
       }
@@ -13985,12 +13985,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1680,
+        "value": 3680,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.48
+            "scale": 10.012
           }
         ]
       }
@@ -14007,12 +14007,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1700,
+        "value": 3725,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.5
+            "scale": 10.1
           }
         ]
       }
@@ -14029,12 +14029,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1720,
+        "value": 3770,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.52
+            "scale": 10.188
           }
         ]
       }
@@ -14051,12 +14051,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1740,
+        "value": 3815,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.54
+            "scale": 10.276
           }
         ]
       }
@@ -14073,12 +14073,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1760,
+        "value": 3860,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.56
+            "scale": 10.364
           }
         ]
       }
@@ -14095,12 +14095,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1780,
+        "value": 3905,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.58
+            "scale": 10.452
           }
         ]
       }
@@ -14865,18 +14865,18 @@ export default {
     "id": "30080010100",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 60,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2
+            "proId": 2,
+            "scale": 0.6
           }
         ]
       }
@@ -14889,18 +14889,18 @@ export default {
     "id": "30080010200",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 67.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.02
+            "proId": 2,
+            "scale": 0.615
           }
         ]
       }
@@ -14913,18 +14913,18 @@ export default {
     "id": "30080010300",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 75.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.04
+            "proId": 2,
+            "scale": 0.63
           }
         ]
       }
@@ -14937,18 +14937,18 @@ export default {
     "id": "30080010400",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 83.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.06
+            "proId": 2,
+            "scale": 0.645
           }
         ]
       }
@@ -14961,18 +14961,18 @@ export default {
     "id": "30080010500",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 91.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.08
+            "proId": 2,
+            "scale": 0.66
           }
         ]
       }
@@ -14985,18 +14985,18 @@ export default {
     "id": "30080010600",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 99,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.1
+            "proId": 2,
+            "scale": 0.675
           }
         ]
       }
@@ -15009,18 +15009,18 @@ export default {
     "id": "30080010700",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 106.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.12
+            "proId": 2,
+            "scale": 0.69
           }
         ]
       }
@@ -15033,18 +15033,18 @@ export default {
     "id": "30080010800",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 114.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.14
+            "proId": 2,
+            "scale": 0.705
           }
         ]
       }
@@ -15057,18 +15057,18 @@ export default {
     "id": "30080010900",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 122.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.16
+            "proId": 2,
+            "scale": 0.72
           }
         ]
       }
@@ -15081,18 +15081,18 @@ export default {
     "id": "30080011000",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 380,
+        "value": 130.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.18
+            "proId": 2,
+            "scale": 0.735
           }
         ]
       }
@@ -15105,18 +15105,18 @@ export default {
     "id": "30080011100",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 400,
+        "value": 138,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.2
+            "proId": 2,
+            "scale": 0.75
           }
         ]
       }
@@ -15129,18 +15129,18 @@ export default {
     "id": "30080011200",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 145.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.22
+            "proId": 2,
+            "scale": 0.765
           }
         ]
       }
@@ -15153,18 +15153,18 @@ export default {
     "id": "30080011300",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 153.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.24
+            "proId": 2,
+            "scale": 0.78
           }
         ]
       }
@@ -15177,18 +15177,18 @@ export default {
     "id": "30080011400",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 460,
+        "value": 161.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.26
+            "proId": 2,
+            "scale": 0.795
           }
         ]
       }
@@ -15201,18 +15201,18 @@ export default {
     "id": "30080011500",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 169.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.28
+            "proId": 2,
+            "scale": 0.81
           }
         ]
       }
@@ -15225,18 +15225,18 @@ export default {
     "id": "30080011600",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 500,
+        "value": 177,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.3
+            "proId": 2,
+            "scale": 0.825
           }
         ]
       }
@@ -15249,18 +15249,18 @@ export default {
     "id": "30080011700",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 184.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.32
+            "proId": 2,
+            "scale": 0.84
           }
         ]
       }
@@ -15273,18 +15273,18 @@ export default {
     "id": "30080011800",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 192.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.34
+            "proId": 2,
+            "scale": 0.855
           }
         ]
       }
@@ -15297,18 +15297,18 @@ export default {
     "id": "30080011900",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 200.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.36
+            "proId": 2,
+            "scale": 0.87
           }
         ]
       }
@@ -15321,18 +15321,18 @@ export default {
     "id": "30080012000",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 580,
+        "value": 208.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.38
+            "proId": 2,
+            "scale": 0.885
           }
         ]
       }
@@ -15345,18 +15345,18 @@ export default {
     "id": "30080012100",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 216,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.4
+            "proId": 2,
+            "scale": 0.9
           }
         ]
       }
@@ -15369,18 +15369,18 @@ export default {
     "id": "30080012200",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 620,
+        "value": 223.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.42
+            "proId": 2,
+            "scale": 0.915
           }
         ]
       }
@@ -15393,18 +15393,18 @@ export default {
     "id": "30080012300",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 231.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.44
+            "proId": 2,
+            "scale": 0.93
           }
         ]
       }
@@ -15417,18 +15417,18 @@ export default {
     "id": "30080012400",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 239.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.46
+            "proId": 2,
+            "scale": 0.945
           }
         ]
       }
@@ -15441,18 +15441,18 @@ export default {
     "id": "30080012500",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 247.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.48
+            "proId": 2,
+            "scale": 0.96
           }
         ]
       }
@@ -15465,18 +15465,18 @@ export default {
     "id": "30080012600",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 700,
+        "value": 255,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.5
+            "proId": 2,
+            "scale": 0.975
           }
         ]
       }
@@ -15489,18 +15489,18 @@ export default {
     "id": "30080012700",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 262.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.52
+            "proId": 2,
+            "scale": 0.99
           }
         ]
       }
@@ -15513,18 +15513,18 @@ export default {
     "id": "30080012800",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 740,
+        "value": 270.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.54
+            "proId": 2,
+            "scale": 1.005
           }
         ]
       }
@@ -15537,18 +15537,18 @@ export default {
     "id": "30080012900",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 760,
+        "value": 278.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.56
+            "proId": 2,
+            "scale": 1.02
           }
         ]
       }
@@ -15561,18 +15561,18 @@ export default {
     "id": "30080013000",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 286.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.58
+            "proId": 2,
+            "scale": 1.035
           }
         ]
       }
@@ -15585,18 +15585,18 @@ export default {
     "id": "30080013100",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 800,
+        "value": 294,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.6
+            "proId": 2,
+            "scale": 1.05
           }
         ]
       }
@@ -15609,18 +15609,18 @@ export default {
     "id": "30080013200",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 820,
+        "value": 301.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.62
+            "proId": 2,
+            "scale": 1.065
           }
         ]
       }
@@ -15633,18 +15633,18 @@ export default {
     "id": "30080013300",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 309.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.64
+            "proId": 2,
+            "scale": 1.08
           }
         ]
       }
@@ -15657,18 +15657,18 @@ export default {
     "id": "30080013400",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 317.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.66
+            "proId": 2,
+            "scale": 1.095
           }
         ]
       }
@@ -15681,18 +15681,18 @@ export default {
     "id": "30080013500",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 325.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.68
+            "proId": 2,
+            "scale": 1.11
           }
         ]
       }
@@ -15705,18 +15705,18 @@ export default {
     "id": "30080013600",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 333,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.7
+            "proId": 2,
+            "scale": 1.125
           }
         ]
       }
@@ -15729,18 +15729,18 @@ export default {
     "id": "30080013700",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 340.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.72
+            "proId": 2,
+            "scale": 1.14
           }
         ]
       }
@@ -15753,18 +15753,18 @@ export default {
     "id": "30080013800",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 348.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.74
+            "proId": 2,
+            "scale": 1.155
           }
         ]
       }
@@ -15777,18 +15777,18 @@ export default {
     "id": "30080013900",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 356.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.76
+            "proId": 2,
+            "scale": 1.17
           }
         ]
       }
@@ -15801,18 +15801,18 @@ export default {
     "id": "30080014000",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 364.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.78
+            "proId": 2,
+            "scale": 1.185
           }
         ]
       }
@@ -15825,18 +15825,18 @@ export default {
     "id": "30080014100",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 372,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.8
+            "proId": 2,
+            "scale": 1.2
           }
         ]
       }
@@ -15849,18 +15849,18 @@ export default {
     "id": "30080014200",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 379.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.82
+            "proId": 2,
+            "scale": 1.215
           }
         ]
       }
@@ -15873,18 +15873,18 @@ export default {
     "id": "30080014300",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1040,
+        "value": 387.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.84
+            "proId": 2,
+            "scale": 1.23
           }
         ]
       }
@@ -15897,18 +15897,18 @@ export default {
     "id": "30080014400",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1060,
+        "value": 395.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.86
+            "proId": 2,
+            "scale": 1.245
           }
         ]
       }
@@ -15921,18 +15921,18 @@ export default {
     "id": "30080014500",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 403.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.88
+            "proId": 2,
+            "scale": 1.26
           }
         ]
       }
@@ -15945,18 +15945,18 @@ export default {
     "id": "30080014600",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1100,
+        "value": 411,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.9
+            "proId": 2,
+            "scale": 1.275
           }
         ]
       }
@@ -15969,18 +15969,18 @@ export default {
     "id": "30080014700",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1120,
+        "value": 418.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.92
+            "proId": 2,
+            "scale": 1.29
           }
         ]
       }
@@ -15993,18 +15993,18 @@ export default {
     "id": "30080014800",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 426.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.94
+            "proId": 2,
+            "scale": 1.305
           }
         ]
       }
@@ -16017,18 +16017,18 @@ export default {
     "id": "30080014900",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1160,
+        "value": 434.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.96
+            "proId": 2,
+            "scale": 1.32
           }
         ]
       }
@@ -16041,18 +16041,18 @@ export default {
     "id": "30080015000",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1180,
+        "value": 442.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 2.98
+            "proId": 2,
+            "scale": 1.335
           }
         ]
       }
@@ -16065,18 +16065,18 @@ export default {
     "id": "30080015100",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1200,
+        "value": 450,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3
+            "proId": 2,
+            "scale": 1.35
           }
         ]
       }
@@ -16089,18 +16089,18 @@ export default {
     "id": "30080015200",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1220,
+        "value": 457.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.02
+            "proId": 2,
+            "scale": 1.365
           }
         ]
       }
@@ -16113,18 +16113,18 @@ export default {
     "id": "30080015300",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1240,
+        "value": 465.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.04
+            "proId": 2,
+            "scale": 1.38
           }
         ]
       }
@@ -16137,18 +16137,18 @@ export default {
     "id": "30080015400",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 473.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.06
+            "proId": 2,
+            "scale": 1.395
           }
         ]
       }
@@ -16161,18 +16161,18 @@ export default {
     "id": "30080015500",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1280,
+        "value": 481.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.08
+            "proId": 2,
+            "scale": 1.41
           }
         ]
       }
@@ -16185,18 +16185,18 @@ export default {
     "id": "30080015600",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1300,
+        "value": 489,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.1
+            "proId": 2,
+            "scale": 1.425
           }
         ]
       }
@@ -16209,18 +16209,18 @@ export default {
     "id": "30080015700",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 496.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.12
+            "proId": 2,
+            "scale": 1.44
           }
         ]
       }
@@ -16233,18 +16233,18 @@ export default {
     "id": "30080015800",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1340,
+        "value": 504.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.14
+            "proId": 2,
+            "scale": 1.455
           }
         ]
       }
@@ -16257,18 +16257,18 @@ export default {
     "id": "30080015900",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1360,
+        "value": 512.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.16
+            "proId": 2,
+            "scale": 1.47
           }
         ]
       }
@@ -16281,18 +16281,18 @@ export default {
     "id": "30080016000",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1380,
+        "value": 520.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.18
+            "proId": 2,
+            "scale": 1.485
           }
         ]
       }
@@ -16305,18 +16305,18 @@ export default {
     "id": "30080016100",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1400,
+        "value": 528,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.2
+            "proId": 2,
+            "scale": 1.5
           }
         ]
       }
@@ -16329,18 +16329,18 @@ export default {
     "id": "30080016200",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1420,
+        "value": 535.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.22
+            "proId": 2,
+            "scale": 1.515
           }
         ]
       }
@@ -16353,18 +16353,18 @@ export default {
     "id": "30080016300",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1440,
+        "value": 543.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.24
+            "proId": 2,
+            "scale": 1.53
           }
         ]
       }
@@ -16377,18 +16377,18 @@ export default {
     "id": "30080016400",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1460,
+        "value": 551.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.26
+            "proId": 2,
+            "scale": 1.545
           }
         ]
       }
@@ -16401,18 +16401,18 @@ export default {
     "id": "30080016500",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1480,
+        "value": 559.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.28
+            "proId": 2,
+            "scale": 1.56
           }
         ]
       }
@@ -16425,18 +16425,18 @@ export default {
     "id": "30080016600",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1500,
+        "value": 567,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.3
+            "proId": 2,
+            "scale": 1.575
           }
         ]
       }
@@ -16449,18 +16449,18 @@ export default {
     "id": "30080016700",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1520,
+        "value": 574.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.32
+            "proId": 2,
+            "scale": 1.59
           }
         ]
       }
@@ -16473,18 +16473,18 @@ export default {
     "id": "30080016800",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1540,
+        "value": 582.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.34
+            "proId": 2,
+            "scale": 1.605
           }
         ]
       }
@@ -16497,18 +16497,18 @@ export default {
     "id": "30080016900",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1560,
+        "value": 590.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.36
+            "proId": 2,
+            "scale": 1.62
           }
         ]
       }
@@ -16521,18 +16521,18 @@ export default {
     "id": "30080017000",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1580,
+        "value": 598.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.38
+            "proId": 2,
+            "scale": 1.635
           }
         ]
       }
@@ -16545,18 +16545,18 @@ export default {
     "id": "30080017100",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1600,
+        "value": 606,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.4
+            "proId": 2,
+            "scale": 1.65
           }
         ]
       }
@@ -16569,18 +16569,18 @@ export default {
     "id": "30080017200",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1620,
+        "value": 613.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.42
+            "proId": 2,
+            "scale": 1.665
           }
         ]
       }
@@ -16593,18 +16593,18 @@ export default {
     "id": "30080017300",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1640,
+        "value": 621.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.44
+            "proId": 2,
+            "scale": 1.68
           }
         ]
       }
@@ -16617,18 +16617,18 @@ export default {
     "id": "30080017400",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1660,
+        "value": 629.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.46
+            "proId": 2,
+            "scale": 1.695
           }
         ]
       }
@@ -16641,18 +16641,18 @@ export default {
     "id": "30080017500",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1680,
+        "value": 637.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.48
+            "proId": 2,
+            "scale": 1.71
           }
         ]
       }
@@ -16665,18 +16665,18 @@ export default {
     "id": "30080017600",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1700,
+        "value": 645,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.5
+            "proId": 2,
+            "scale": 1.725
           }
         ]
       }
@@ -16689,18 +16689,18 @@ export default {
     "id": "30080017700",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1720,
+        "value": 652.8,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.52
+            "proId": 2,
+            "scale": 1.74
           }
         ]
       }
@@ -16713,18 +16713,18 @@ export default {
     "id": "30080017800",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1740,
+        "value": 660.6,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.54
+            "proId": 2,
+            "scale": 1.755
           }
         ]
       }
@@ -16737,18 +16737,18 @@ export default {
     "id": "30080017900",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1760,
+        "value": 668.4,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.56
+            "proId": 2,
+            "scale": 1.77
           }
         ]
       }
@@ -16761,18 +16761,18 @@ export default {
     "id": "30080018000",
     "proto": "3008001",
     "offset": {
-      "x": 200,
-      "y": -10
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 1780,
+        "value": 676.2,
         "prosInfo": [
           {
             "targetType": 0,
-            "proId": 5,
-            "scale": 3.58
+            "proId": 2,
+            "scale": 1.785
           }
         ]
       }
@@ -16780,6 +16780,7046 @@ export default {
     "buffs": [
       400800100
     ]
+  },
+  "30080020101": {
+    "id": "30080020101",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 20,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.2
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020201": {
+    "id": "30080020201",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 22.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.205
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020301": {
+    "id": "30080020301",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 25,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.21
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020401": {
+    "id": "30080020401",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 27.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.215
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020501": {
+    "id": "30080020501",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 30,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.22
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020601": {
+    "id": "30080020601",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 32.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.225
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020701": {
+    "id": "30080020701",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 35,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.23
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020801": {
+    "id": "30080020801",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 37.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.235
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020901": {
+    "id": "30080020901",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 40,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.24
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021001": {
+    "id": "30080021001",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 42.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.245
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021101": {
+    "id": "30080021101",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 45,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.25
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021201": {
+    "id": "30080021201",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 47.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.255
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021301": {
+    "id": "30080021301",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 50,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.26
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021401": {
+    "id": "30080021401",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 52.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.265
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021501": {
+    "id": "30080021501",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 55,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.27
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021601": {
+    "id": "30080021601",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 57.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.275
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021701": {
+    "id": "30080021701",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.28
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021801": {
+    "id": "30080021801",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 62.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.285
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021901": {
+    "id": "30080021901",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 65,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.29
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022001": {
+    "id": "30080022001",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 67.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.295
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022101": {
+    "id": "30080022101",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 70,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.3
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022201": {
+    "id": "30080022201",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 72.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.305
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022301": {
+    "id": "30080022301",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 75,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.31
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022401": {
+    "id": "30080022401",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 77.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.315
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022501": {
+    "id": "30080022501",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 80,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.32
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022601": {
+    "id": "30080022601",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 82.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.325
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022701": {
+    "id": "30080022701",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 85,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.33
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022801": {
+    "id": "30080022801",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 87.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.335
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022901": {
+    "id": "30080022901",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 90,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.34
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023001": {
+    "id": "30080023001",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 92.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.345
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023101": {
+    "id": "30080023101",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 95,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.35
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023201": {
+    "id": "30080023201",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 97.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.355
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023301": {
+    "id": "30080023301",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 100,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.36
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023401": {
+    "id": "30080023401",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 102.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.365
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023501": {
+    "id": "30080023501",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 105,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.37
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023601": {
+    "id": "30080023601",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 107.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.375
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023701": {
+    "id": "30080023701",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.38
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023801": {
+    "id": "30080023801",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 112.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.385
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023901": {
+    "id": "30080023901",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 115,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.39
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024001": {
+    "id": "30080024001",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 117.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.395
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024101": {
+    "id": "30080024101",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.4
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024201": {
+    "id": "30080024201",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 122.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.405
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024301": {
+    "id": "30080024301",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 125,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.41
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024401": {
+    "id": "30080024401",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 127.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.415
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024501": {
+    "id": "30080024501",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 130,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.42
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024601": {
+    "id": "30080024601",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 132.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.425
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024701": {
+    "id": "30080024701",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 135,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.43
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024801": {
+    "id": "30080024801",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 137.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.435
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024901": {
+    "id": "30080024901",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.44
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025001": {
+    "id": "30080025001",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 142.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.445
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025101": {
+    "id": "30080025101",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 145,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.45
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025201": {
+    "id": "30080025201",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 147.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.455
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025301": {
+    "id": "30080025301",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.46
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025401": {
+    "id": "30080025401",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 152.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.465
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025501": {
+    "id": "30080025501",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.47
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025601": {
+    "id": "30080025601",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 157.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.475
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025701": {
+    "id": "30080025701",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 160,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.48
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025801": {
+    "id": "30080025801",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 162.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.485
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025901": {
+    "id": "30080025901",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 165,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.49
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026001": {
+    "id": "30080026001",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 167.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.495
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026101": {
+    "id": "30080026101",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.5
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026201": {
+    "id": "30080026201",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 172.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.505
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026301": {
+    "id": "30080026301",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 175,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.51
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026401": {
+    "id": "30080026401",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 177.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.515
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026501": {
+    "id": "30080026501",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.52
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026601": {
+    "id": "30080026601",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 182.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.525
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026701": {
+    "id": "30080026701",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 185,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026801": {
+    "id": "30080026801",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 187.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.535
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026901": {
+    "id": "30080026901",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 190,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.54
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027001": {
+    "id": "30080027001",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 192.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.545
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027101": {
+    "id": "30080027101",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 195,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.55
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027201": {
+    "id": "30080027201",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 197.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.555
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027301": {
+    "id": "30080027301",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 200,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.56
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027401": {
+    "id": "30080027401",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 202.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.565
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027501": {
+    "id": "30080027501",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 205,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.57
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027601": {
+    "id": "30080027601",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 207.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.575
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027701": {
+    "id": "30080027701",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 210,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.58
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027801": {
+    "id": "30080027801",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 212.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.585
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027901": {
+    "id": "30080027901",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 215,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.59
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080028001": {
+    "id": "30080028001",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 217.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.595
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020102": {
+    "id": "30080020102",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 20,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.2
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020202": {
+    "id": "30080020202",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 22.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.205
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020302": {
+    "id": "30080020302",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 25,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.21
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020402": {
+    "id": "30080020402",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 27.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.215
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020502": {
+    "id": "30080020502",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 30,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.22
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020602": {
+    "id": "30080020602",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 32.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.225
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020702": {
+    "id": "30080020702",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 35,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.23
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020802": {
+    "id": "30080020802",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 37.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.235
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020902": {
+    "id": "30080020902",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 40,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.24
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021002": {
+    "id": "30080021002",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 42.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.245
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021102": {
+    "id": "30080021102",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 45,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.25
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021202": {
+    "id": "30080021202",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 47.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.255
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021302": {
+    "id": "30080021302",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 50,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.26
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021402": {
+    "id": "30080021402",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 52.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.265
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021502": {
+    "id": "30080021502",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 55,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.27
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021602": {
+    "id": "30080021602",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 57.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.275
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021702": {
+    "id": "30080021702",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.28
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021802": {
+    "id": "30080021802",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 62.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.285
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021902": {
+    "id": "30080021902",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 65,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.29
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022002": {
+    "id": "30080022002",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 67.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.295
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022102": {
+    "id": "30080022102",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 70,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.3
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022202": {
+    "id": "30080022202",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 72.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.305
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022302": {
+    "id": "30080022302",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 75,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.31
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022402": {
+    "id": "30080022402",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 77.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.315
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022502": {
+    "id": "30080022502",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 80,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.32
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022602": {
+    "id": "30080022602",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 82.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.325
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022702": {
+    "id": "30080022702",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 85,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.33
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022802": {
+    "id": "30080022802",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 87.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.335
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022902": {
+    "id": "30080022902",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 90,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.34
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023002": {
+    "id": "30080023002",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 92.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.345
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023102": {
+    "id": "30080023102",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 95,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.35
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023202": {
+    "id": "30080023202",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 97.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.355
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023302": {
+    "id": "30080023302",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 100,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.36
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023402": {
+    "id": "30080023402",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 102.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.365
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023502": {
+    "id": "30080023502",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 105,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.37
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023602": {
+    "id": "30080023602",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 107.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.375
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023702": {
+    "id": "30080023702",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.38
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023802": {
+    "id": "30080023802",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 112.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.385
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023902": {
+    "id": "30080023902",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 115,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.39
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024002": {
+    "id": "30080024002",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 117.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.395
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024102": {
+    "id": "30080024102",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.4
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024202": {
+    "id": "30080024202",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 122.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.405
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024302": {
+    "id": "30080024302",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 125,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.41
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024402": {
+    "id": "30080024402",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 127.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.415
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024502": {
+    "id": "30080024502",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 130,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.42
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024602": {
+    "id": "30080024602",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 132.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.425
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024702": {
+    "id": "30080024702",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 135,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.43
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024802": {
+    "id": "30080024802",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 137.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.435
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024902": {
+    "id": "30080024902",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.44
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025002": {
+    "id": "30080025002",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 142.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.445
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025102": {
+    "id": "30080025102",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 145,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.45
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025202": {
+    "id": "30080025202",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 147.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.455
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025302": {
+    "id": "30080025302",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.46
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025402": {
+    "id": "30080025402",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 152.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.465
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025502": {
+    "id": "30080025502",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.47
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025602": {
+    "id": "30080025602",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 157.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.475
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025702": {
+    "id": "30080025702",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 160,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.48
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025802": {
+    "id": "30080025802",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 162.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.485
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025902": {
+    "id": "30080025902",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 165,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.49
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026002": {
+    "id": "30080026002",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 167.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.495
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026102": {
+    "id": "30080026102",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.5
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026202": {
+    "id": "30080026202",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 172.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.505
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026302": {
+    "id": "30080026302",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 175,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.51
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026402": {
+    "id": "30080026402",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 177.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.515
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026502": {
+    "id": "30080026502",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.52
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026602": {
+    "id": "30080026602",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 182.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.525
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026702": {
+    "id": "30080026702",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 185,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026802": {
+    "id": "30080026802",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 187.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.535
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026902": {
+    "id": "30080026902",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 190,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.54
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027002": {
+    "id": "30080027002",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 192.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.545
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027102": {
+    "id": "30080027102",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 195,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.55
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027202": {
+    "id": "30080027202",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 197.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.555
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027302": {
+    "id": "30080027302",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 200,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.56
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027402": {
+    "id": "30080027402",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 202.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.565
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027502": {
+    "id": "30080027502",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 205,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.57
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027602": {
+    "id": "30080027602",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 207.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.575
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027702": {
+    "id": "30080027702",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 210,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.58
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027802": {
+    "id": "30080027802",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 212.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.585
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027902": {
+    "id": "30080027902",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 215,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.59
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080028002": {
+    "id": "30080028002",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 217.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.595
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020103": {
+    "id": "30080020103",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 20,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.2
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020203": {
+    "id": "30080020203",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 22.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.205
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020303": {
+    "id": "30080020303",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 25,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.21
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020403": {
+    "id": "30080020403",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 27.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.215
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020503": {
+    "id": "30080020503",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 30,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.22
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020603": {
+    "id": "30080020603",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 32.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.225
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020703": {
+    "id": "30080020703",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 35,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.23
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020803": {
+    "id": "30080020803",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 37.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.235
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020903": {
+    "id": "30080020903",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 40,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.24
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021003": {
+    "id": "30080021003",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 42.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.245
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021103": {
+    "id": "30080021103",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 45,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.25
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021203": {
+    "id": "30080021203",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 47.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.255
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021303": {
+    "id": "30080021303",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 50,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.26
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021403": {
+    "id": "30080021403",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 52.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.265
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021503": {
+    "id": "30080021503",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 55,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.27
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021603": {
+    "id": "30080021603",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 57.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.275
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021703": {
+    "id": "30080021703",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.28
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021803": {
+    "id": "30080021803",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 62.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.285
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021903": {
+    "id": "30080021903",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 65,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.29
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022003": {
+    "id": "30080022003",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 67.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.295
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022103": {
+    "id": "30080022103",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 70,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.3
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022203": {
+    "id": "30080022203",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 72.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.305
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022303": {
+    "id": "30080022303",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 75,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.31
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022403": {
+    "id": "30080022403",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 77.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.315
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022503": {
+    "id": "30080022503",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 80,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.32
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022603": {
+    "id": "30080022603",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 82.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.325
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022703": {
+    "id": "30080022703",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 85,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.33
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022803": {
+    "id": "30080022803",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 87.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.335
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022903": {
+    "id": "30080022903",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 90,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.34
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023003": {
+    "id": "30080023003",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 92.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.345
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023103": {
+    "id": "30080023103",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 95,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.35
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023203": {
+    "id": "30080023203",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 97.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.355
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023303": {
+    "id": "30080023303",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 100,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.36
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023403": {
+    "id": "30080023403",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 102.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.365
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023503": {
+    "id": "30080023503",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 105,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.37
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023603": {
+    "id": "30080023603",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 107.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.375
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023703": {
+    "id": "30080023703",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.38
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023803": {
+    "id": "30080023803",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 112.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.385
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023903": {
+    "id": "30080023903",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 115,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.39
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024003": {
+    "id": "30080024003",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 117.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.395
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024103": {
+    "id": "30080024103",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.4
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024203": {
+    "id": "30080024203",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 122.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.405
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024303": {
+    "id": "30080024303",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 125,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.41
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024403": {
+    "id": "30080024403",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 127.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.415
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024503": {
+    "id": "30080024503",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 130,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.42
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024603": {
+    "id": "30080024603",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 132.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.425
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024703": {
+    "id": "30080024703",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 135,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.43
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024803": {
+    "id": "30080024803",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 137.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.435
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024903": {
+    "id": "30080024903",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.44
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025003": {
+    "id": "30080025003",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 142.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.445
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025103": {
+    "id": "30080025103",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 145,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.45
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025203": {
+    "id": "30080025203",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 147.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.455
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025303": {
+    "id": "30080025303",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.46
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025403": {
+    "id": "30080025403",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 152.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.465
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025503": {
+    "id": "30080025503",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.47
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025603": {
+    "id": "30080025603",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 157.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.475
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025703": {
+    "id": "30080025703",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 160,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.48
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025803": {
+    "id": "30080025803",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 162.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.485
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025903": {
+    "id": "30080025903",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 165,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.49
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026003": {
+    "id": "30080026003",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 167.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.495
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026103": {
+    "id": "30080026103",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.5
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026203": {
+    "id": "30080026203",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 172.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.505
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026303": {
+    "id": "30080026303",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 175,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.51
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026403": {
+    "id": "30080026403",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 177.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.515
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026503": {
+    "id": "30080026503",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.52
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026603": {
+    "id": "30080026603",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 182.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.525
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026703": {
+    "id": "30080026703",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 185,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026803": {
+    "id": "30080026803",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 187.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.535
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026903": {
+    "id": "30080026903",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 190,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.54
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027003": {
+    "id": "30080027003",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 192.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.545
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027103": {
+    "id": "30080027103",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 195,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.55
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027203": {
+    "id": "30080027203",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 197.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.555
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027303": {
+    "id": "30080027303",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 200,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.56
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027403": {
+    "id": "30080027403",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 202.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.565
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027503": {
+    "id": "30080027503",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 205,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.57
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027603": {
+    "id": "30080027603",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 207.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.575
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027703": {
+    "id": "30080027703",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 210,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.58
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027803": {
+    "id": "30080027803",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 212.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.585
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027903": {
+    "id": "30080027903",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 215,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.59
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080028003": {
+    "id": "30080028003",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 217.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.595
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020104": {
+    "id": "30080020104",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 20,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.2
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020204": {
+    "id": "30080020204",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 22.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.205
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020304": {
+    "id": "30080020304",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 25,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.21
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020404": {
+    "id": "30080020404",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 27.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.215
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020504": {
+    "id": "30080020504",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 30,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.22
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020604": {
+    "id": "30080020604",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 32.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.225
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020704": {
+    "id": "30080020704",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 35,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.23
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020804": {
+    "id": "30080020804",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 37.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.235
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080020904": {
+    "id": "30080020904",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 40,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.24
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021004": {
+    "id": "30080021004",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 42.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.245
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021104": {
+    "id": "30080021104",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 45,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.25
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021204": {
+    "id": "30080021204",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 47.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.255
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021304": {
+    "id": "30080021304",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 50,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.26
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021404": {
+    "id": "30080021404",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 52.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.265
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021504": {
+    "id": "30080021504",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 55,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.27
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021604": {
+    "id": "30080021604",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 57.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.275
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021704": {
+    "id": "30080021704",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.28
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021804": {
+    "id": "30080021804",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 62.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.285
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080021904": {
+    "id": "30080021904",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 65,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.29
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022004": {
+    "id": "30080022004",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 67.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.295
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022104": {
+    "id": "30080022104",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 70,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.3
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022204": {
+    "id": "30080022204",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 72.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.305
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022304": {
+    "id": "30080022304",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 75,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.31
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022404": {
+    "id": "30080022404",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 77.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.315
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022504": {
+    "id": "30080022504",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 80,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.32
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022604": {
+    "id": "30080022604",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 82.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.325
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022704": {
+    "id": "30080022704",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 85,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.33
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022804": {
+    "id": "30080022804",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 87.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.335
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080022904": {
+    "id": "30080022904",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 90,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.34
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023004": {
+    "id": "30080023004",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 92.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.345
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023104": {
+    "id": "30080023104",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 95,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.35
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023204": {
+    "id": "30080023204",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 97.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.355
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023304": {
+    "id": "30080023304",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 100,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.36
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023404": {
+    "id": "30080023404",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 102.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.365
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023504": {
+    "id": "30080023504",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 105,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.37
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023604": {
+    "id": "30080023604",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 107.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.375
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023704": {
+    "id": "30080023704",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.38
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023804": {
+    "id": "30080023804",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 112.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.385
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080023904": {
+    "id": "30080023904",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 115,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.39
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024004": {
+    "id": "30080024004",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 117.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.395
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024104": {
+    "id": "30080024104",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.4
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024204": {
+    "id": "30080024204",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 122.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.405
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024304": {
+    "id": "30080024304",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 125,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.41
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024404": {
+    "id": "30080024404",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 127.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.415
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024504": {
+    "id": "30080024504",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 130,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.42
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024604": {
+    "id": "30080024604",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 132.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.425
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024704": {
+    "id": "30080024704",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 135,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.43
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024804": {
+    "id": "30080024804",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 137.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.435
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080024904": {
+    "id": "30080024904",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.44
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025004": {
+    "id": "30080025004",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 142.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.445
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025104": {
+    "id": "30080025104",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 145,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.45
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025204": {
+    "id": "30080025204",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 147.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.455
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025304": {
+    "id": "30080025304",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.46
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025404": {
+    "id": "30080025404",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 152.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.465
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025504": {
+    "id": "30080025504",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.47
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025604": {
+    "id": "30080025604",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 157.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.475
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025704": {
+    "id": "30080025704",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 160,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.48
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025804": {
+    "id": "30080025804",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 162.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.485
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080025904": {
+    "id": "30080025904",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 165,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.49
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026004": {
+    "id": "30080026004",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 167.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.495
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026104": {
+    "id": "30080026104",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.5
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026204": {
+    "id": "30080026204",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 172.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.505
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026304": {
+    "id": "30080026304",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 175,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.51
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026404": {
+    "id": "30080026404",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 177.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.515
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026504": {
+    "id": "30080026504",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.52
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026604": {
+    "id": "30080026604",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 182.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.525
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026704": {
+    "id": "30080026704",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 185,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026804": {
+    "id": "30080026804",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 187.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.535
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080026904": {
+    "id": "30080026904",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 190,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.54
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027004": {
+    "id": "30080027004",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 192.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.545
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027104": {
+    "id": "30080027104",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 195,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.55
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027204": {
+    "id": "30080027204",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 197.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.555
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027304": {
+    "id": "30080027304",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 200,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.56
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027404": {
+    "id": "30080027404",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 202.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.565
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027504": {
+    "id": "30080027504",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 205,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.57
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027604": {
+    "id": "30080027604",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 207.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.575
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027704": {
+    "id": "30080027704",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 210,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.58
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027804": {
+    "id": "30080027804",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 212.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.585
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080027904": {
+    "id": "30080027904",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 215,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.59
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30080028004": {
+    "id": "30080028004",
+    "proto": "3008002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 217.5,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 2,
+            "scale": 0.595
+          }
+        ]
+      }
+    ],
+    "buffs": []
   },
   "30080040100": {
     "id": "30080040100",
@@ -17050,6 +24090,1274 @@ export default {
       "x": 0,
       "y": 0
     },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090010200": {
+    "id": "30090010200",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090010300": {
+    "id": "30090010300",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090010400": {
+    "id": "30090010400",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090010500": {
+    "id": "30090010500",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090010600": {
+    "id": "30090010600",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090010700": {
+    "id": "30090010700",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090010800": {
+    "id": "30090010800",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090010900": {
+    "id": "30090010900",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090011000": {
+    "id": "30090011000",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090011100": {
+    "id": "30090011100",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090011200": {
+    "id": "30090011200",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090011300": {
+    "id": "30090011300",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090011400": {
+    "id": "30090011400",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090011500": {
+    "id": "30090011500",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090011600": {
+    "id": "30090011600",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090011700": {
+    "id": "30090011700",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090011800": {
+    "id": "30090011800",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090011900": {
+    "id": "30090011900",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090012000": {
+    "id": "30090012000",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090012100": {
+    "id": "30090012100",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090012200": {
+    "id": "30090012200",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090012300": {
+    "id": "30090012300",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090012400": {
+    "id": "30090012400",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090012500": {
+    "id": "30090012500",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090012600": {
+    "id": "30090012600",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090012700": {
+    "id": "30090012700",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090012800": {
+    "id": "30090012800",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090012900": {
+    "id": "30090012900",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090013000": {
+    "id": "30090013000",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090013100": {
+    "id": "30090013100",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090013200": {
+    "id": "30090013200",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090013300": {
+    "id": "30090013300",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090013400": {
+    "id": "30090013400",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090013500": {
+    "id": "30090013500",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090013600": {
+    "id": "30090013600",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090013700": {
+    "id": "30090013700",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090013800": {
+    "id": "30090013800",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090013900": {
+    "id": "30090013900",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090014000": {
+    "id": "30090014000",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090014100": {
+    "id": "30090014100",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090014200": {
+    "id": "30090014200",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090014300": {
+    "id": "30090014300",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090014400": {
+    "id": "30090014400",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090014500": {
+    "id": "30090014500",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090014600": {
+    "id": "30090014600",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090014700": {
+    "id": "30090014700",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090014800": {
+    "id": "30090014800",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090014900": {
+    "id": "30090014900",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090015000": {
+    "id": "30090015000",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090015100": {
+    "id": "30090015100",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090015200": {
+    "id": "30090015200",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090015300": {
+    "id": "30090015300",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090015400": {
+    "id": "30090015400",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090015500": {
+    "id": "30090015500",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090015600": {
+    "id": "30090015600",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090015700": {
+    "id": "30090015700",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090015800": {
+    "id": "30090015800",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090015900": {
+    "id": "30090015900",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090016000": {
+    "id": "30090016000",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090016100": {
+    "id": "30090016100",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090016200": {
+    "id": "30090016200",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090016300": {
+    "id": "30090016300",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090016400": {
+    "id": "30090016400",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090016500": {
+    "id": "30090016500",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090016600": {
+    "id": "30090016600",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090016700": {
+    "id": "30090016700",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090016800": {
+    "id": "30090016800",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090016900": {
+    "id": "30090016900",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090017000": {
+    "id": "30090017000",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090017100": {
+    "id": "30090017100",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090017200": {
+    "id": "30090017200",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090017300": {
+    "id": "30090017300",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090017400": {
+    "id": "30090017400",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090017500": {
+    "id": "30090017500",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090017600": {
+    "id": "30090017600",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090017700": {
+    "id": "30090017700",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090017800": {
+    "id": "30090017800",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090017900": {
+    "id": "30090017900",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090018000": {
+    "id": "30090018000",
+    "proto": "3009001",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [],
+    "buffs": [
+      400900100
+    ]
+  },
+  "30090020101": {
+    "id": "30090020101",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.65
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020201": {
+    "id": "30090020201",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 70,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.666
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020301": {
+    "id": "30090020301",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 80,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.682
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020401": {
+    "id": "30090020401",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 90,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.698
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020501": {
+    "id": "30090020501",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 100,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.714
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020601": {
+    "id": "30090020601",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.73
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020701": {
+    "id": "30090020701",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.746
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020801": {
+    "id": "30090020801",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 130,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.762
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020901": {
+    "id": "30090020901",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.778
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021001": {
+    "id": "30090021001",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.794
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021101": {
+    "id": "30090021101",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 160,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.81
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021201": {
+    "id": "30090021201",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.826
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021301": {
+    "id": "30090021301",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.842
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021401": {
+    "id": "30090021401",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 190,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.858
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021501": {
+    "id": "30090021501",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
     "effects": [
       {
         "type": "hurt",
@@ -17058,18 +25366,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 0.874
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090010200": {
-    "id": "30090010200",
-    "proto": "3009001",
+  "30090021601": {
+    "id": "30090021601",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 210,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.89
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021701": {
+    "id": "30090021701",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17082,18 +25410,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 0.906
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090010300": {
-    "id": "30090010300",
-    "proto": "3009001",
+  "30090021801": {
+    "id": "30090021801",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 230,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.922
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021901": {
+    "id": "30090021901",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17106,18 +25454,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 0.938
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090010400": {
-    "id": "30090010400",
-    "proto": "3009001",
+  "30090022001": {
+    "id": "30090022001",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 250,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.954
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022101": {
+    "id": "30090022101",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17130,18 +25498,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 0.97
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090010500": {
-    "id": "30090010500",
-    "proto": "3009001",
+  "30090022201": {
+    "id": "30090022201",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 270,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.986
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022301": {
+    "id": "30090022301",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17154,18 +25542,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 1.002
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090010600": {
-    "id": "30090010600",
-    "proto": "3009001",
+  "30090022401": {
+    "id": "30090022401",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 290,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.018
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022501": {
+    "id": "30090022501",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17178,18 +25586,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 1.034
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090010700": {
-    "id": "30090010700",
-    "proto": "3009001",
+  "30090022601": {
+    "id": "30090022601",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 310,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.05
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022701": {
+    "id": "30090022701",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17202,18 +25630,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 1.066
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090010800": {
-    "id": "30090010800",
-    "proto": "3009001",
+  "30090022801": {
+    "id": "30090022801",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 330,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.082
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022901": {
+    "id": "30090022901",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17226,18 +25674,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 1.098
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090010900": {
-    "id": "30090010900",
-    "proto": "3009001",
+  "30090023001": {
+    "id": "30090023001",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 350,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.114
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023101": {
+    "id": "30090023101",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17250,18 +25718,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.16
+            "scale": 1.13
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090011000": {
-    "id": "30090011000",
-    "proto": "3009001",
+  "30090023201": {
+    "id": "30090023201",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 370,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.146
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023301": {
+    "id": "30090023301",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17274,18 +25762,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 1.162
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090011100": {
-    "id": "30090011100",
-    "proto": "3009001",
+  "30090023401": {
+    "id": "30090023401",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 390,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.178
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023501": {
+    "id": "30090023501",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17298,18 +25806,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 1.194
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090011200": {
-    "id": "30090011200",
-    "proto": "3009001",
+  "30090023601": {
+    "id": "30090023601",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 410,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.21
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023701": {
+    "id": "30090023701",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17322,18 +25850,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 1.226
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090011300": {
-    "id": "30090011300",
-    "proto": "3009001",
+  "30090023801": {
+    "id": "30090023801",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 430,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.242
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023901": {
+    "id": "30090023901",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17346,18 +25894,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 1.258
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090011400": {
-    "id": "30090011400",
-    "proto": "3009001",
+  "30090024001": {
+    "id": "30090024001",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 450,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.274
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024101": {
+    "id": "30090024101",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17370,18 +25938,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 1.29
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090011500": {
-    "id": "30090011500",
-    "proto": "3009001",
+  "30090024201": {
+    "id": "30090024201",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 470,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.306
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024301": {
+    "id": "30090024301",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17394,18 +25982,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 1.322
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090011600": {
-    "id": "30090011600",
-    "proto": "3009001",
+  "30090024401": {
+    "id": "30090024401",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 490,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.338
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024501": {
+    "id": "30090024501",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17418,18 +26026,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 1.354
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090011700": {
-    "id": "30090011700",
-    "proto": "3009001",
+  "30090024601": {
+    "id": "30090024601",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 510,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.37
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024701": {
+    "id": "30090024701",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17442,18 +26070,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 1.386
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090011800": {
-    "id": "30090011800",
-    "proto": "3009001",
+  "30090024801": {
+    "id": "30090024801",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 530,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.402
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024901": {
+    "id": "30090024901",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17466,18 +26114,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 1.418
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090011900": {
-    "id": "30090011900",
-    "proto": "3009001",
+  "30090025001": {
+    "id": "30090025001",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 550,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.434
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025101": {
+    "id": "30090025101",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17490,18 +26158,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 1.45
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090012000": {
-    "id": "30090012000",
-    "proto": "3009001",
+  "30090025201": {
+    "id": "30090025201",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 570,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.466
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025301": {
+    "id": "30090025301",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17514,18 +26202,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 1.482
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090012100": {
-    "id": "30090012100",
-    "proto": "3009001",
+  "30090025401": {
+    "id": "30090025401",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 590,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.498
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025501": {
+    "id": "30090025501",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17538,18 +26246,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 1.514
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090012200": {
-    "id": "30090012200",
-    "proto": "3009001",
+  "30090025601": {
+    "id": "30090025601",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 610,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025701": {
+    "id": "30090025701",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17562,18 +26290,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 1.546
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090012300": {
-    "id": "30090012300",
-    "proto": "3009001",
+  "30090025801": {
+    "id": "30090025801",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 630,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.562
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025901": {
+    "id": "30090025901",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17586,18 +26334,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 1.578
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090012400": {
-    "id": "30090012400",
-    "proto": "3009001",
+  "30090026001": {
+    "id": "30090026001",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 650,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.594
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026101": {
+    "id": "30090026101",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17610,18 +26378,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 1.61
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090012500": {
-    "id": "30090012500",
-    "proto": "3009001",
+  "30090026201": {
+    "id": "30090026201",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 670,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.626
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026301": {
+    "id": "30090026301",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17634,18 +26422,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 1.642
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090012600": {
-    "id": "30090012600",
-    "proto": "3009001",
+  "30090026401": {
+    "id": "30090026401",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 690,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.658
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026501": {
+    "id": "30090026501",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17658,18 +26466,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 1.674
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090012700": {
-    "id": "30090012700",
-    "proto": "3009001",
+  "30090026601": {
+    "id": "30090026601",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 710,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.69
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026701": {
+    "id": "30090026701",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17682,18 +26510,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 1.706
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090012800": {
-    "id": "30090012800",
-    "proto": "3009001",
+  "30090026801": {
+    "id": "30090026801",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 730,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.722
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026901": {
+    "id": "30090026901",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17706,18 +26554,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 1.738
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090012900": {
-    "id": "30090012900",
-    "proto": "3009001",
+  "30090027001": {
+    "id": "30090027001",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 750,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.754
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027101": {
+    "id": "30090027101",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17730,18 +26598,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 1.77
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090013000": {
-    "id": "30090013000",
-    "proto": "3009001",
+  "30090027201": {
+    "id": "30090027201",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 770,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.786
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027301": {
+    "id": "30090027301",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17754,18 +26642,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 1.802
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090013100": {
-    "id": "30090013100",
-    "proto": "3009001",
+  "30090027401": {
+    "id": "30090027401",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 790,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.818
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027501": {
+    "id": "30090027501",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17778,18 +26686,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 1.834
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090013200": {
-    "id": "30090013200",
-    "proto": "3009001",
+  "30090027601": {
+    "id": "30090027601",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 810,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.85
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027701": {
+    "id": "30090027701",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17802,18 +26730,38 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 1.866
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090013300": {
-    "id": "30090013300",
-    "proto": "3009001",
+  "30090027801": {
+    "id": "30090027801",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 830,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.882
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027901": {
+    "id": "30090027901",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17826,18 +26774,16 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 1.898
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090013400": {
-    "id": "30090013400",
-    "proto": "3009001",
+  "30090028001": {
+    "id": "30090028001",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17845,23 +26791,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 850,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 1.914
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090013500": {
-    "id": "30090013500",
-    "proto": "3009001",
+  "30090020102": {
+    "id": "30090020102",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17869,23 +26813,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 60,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 0.65
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090013600": {
-    "id": "30090013600",
-    "proto": "3009001",
+  "30090020202": {
+    "id": "30090020202",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17893,23 +26835,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 70,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 0.666
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090013700": {
-    "id": "30090013700",
-    "proto": "3009001",
+  "30090020302": {
+    "id": "30090020302",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17917,23 +26857,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 80,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 0.682
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090013800": {
-    "id": "30090013800",
-    "proto": "3009001",
+  "30090020402": {
+    "id": "30090020402",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17941,23 +26879,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 90,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 0.698
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090013900": {
-    "id": "30090013900",
-    "proto": "3009001",
+  "30090020502": {
+    "id": "30090020502",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17965,23 +26901,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 100,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 0.714
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090014000": {
-    "id": "30090014000",
-    "proto": "3009001",
+  "30090020602": {
+    "id": "30090020602",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -17989,23 +26923,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 110,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 0.73
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090014100": {
-    "id": "30090014100",
-    "proto": "3009001",
+  "30090020702": {
+    "id": "30090020702",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18013,23 +26945,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 120,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.8
+            "scale": 0.746
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090014200": {
-    "id": "30090014200",
-    "proto": "3009001",
+  "30090020802": {
+    "id": "30090020802",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18037,23 +26967,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 130,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.82
+            "scale": 0.762
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090014300": {
-    "id": "30090014300",
-    "proto": "3009001",
+  "30090020902": {
+    "id": "30090020902",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18061,23 +26989,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1040,
+        "value": 140,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.84
+            "scale": 0.778
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090014400": {
-    "id": "30090014400",
-    "proto": "3009001",
+  "30090021002": {
+    "id": "30090021002",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18085,23 +27011,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1060,
+        "value": 150,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.86
+            "scale": 0.794
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090014500": {
-    "id": "30090014500",
-    "proto": "3009001",
+  "30090021102": {
+    "id": "30090021102",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18109,23 +27033,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 160,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.88
+            "scale": 0.81
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090014600": {
-    "id": "30090014600",
-    "proto": "3009001",
+  "30090021202": {
+    "id": "30090021202",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18133,23 +27055,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1100,
+        "value": 170,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.9
+            "scale": 0.826
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090014700": {
-    "id": "30090014700",
-    "proto": "3009001",
+  "30090021302": {
+    "id": "30090021302",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18157,23 +27077,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1120,
+        "value": 180,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.92
+            "scale": 0.842
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090014800": {
-    "id": "30090014800",
-    "proto": "3009001",
+  "30090021402": {
+    "id": "30090021402",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18181,23 +27099,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.94
+            "scale": 0.858
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090014900": {
-    "id": "30090014900",
-    "proto": "3009001",
+  "30090021502": {
+    "id": "30090021502",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18205,23 +27121,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1160,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.96
+            "scale": 0.874
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090015000": {
-    "id": "30090015000",
-    "proto": "3009001",
+  "30090021602": {
+    "id": "30090021602",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18229,23 +27143,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1180,
+        "value": 210,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.98
+            "scale": 0.89
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090015100": {
-    "id": "30090015100",
-    "proto": "3009001",
+  "30090021702": {
+    "id": "30090021702",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18253,23 +27165,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1200,
+        "value": 220,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3
+            "scale": 0.906
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090015200": {
-    "id": "30090015200",
-    "proto": "3009001",
+  "30090021802": {
+    "id": "30090021802",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18277,23 +27187,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1220,
+        "value": 230,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.02
+            "scale": 0.922
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090015300": {
-    "id": "30090015300",
-    "proto": "3009001",
+  "30090021902": {
+    "id": "30090021902",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18301,23 +27209,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1240,
+        "value": 240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.04
+            "scale": 0.938
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090015400": {
-    "id": "30090015400",
-    "proto": "3009001",
+  "30090022002": {
+    "id": "30090022002",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18325,23 +27231,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 250,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.06
+            "scale": 0.954
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090015500": {
-    "id": "30090015500",
-    "proto": "3009001",
+  "30090022102": {
+    "id": "30090022102",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18349,23 +27253,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1280,
+        "value": 260,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.08
+            "scale": 0.97
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090015600": {
-    "id": "30090015600",
-    "proto": "3009001",
+  "30090022202": {
+    "id": "30090022202",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18373,23 +27275,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1300,
+        "value": 270,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.1
+            "scale": 0.986
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090015700": {
-    "id": "30090015700",
-    "proto": "3009001",
+  "30090022302": {
+    "id": "30090022302",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18397,23 +27297,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 280,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.12
+            "scale": 1.002
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090015800": {
-    "id": "30090015800",
-    "proto": "3009001",
+  "30090022402": {
+    "id": "30090022402",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18421,23 +27319,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1340,
+        "value": 290,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.14
+            "scale": 1.018
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090015900": {
-    "id": "30090015900",
-    "proto": "3009001",
+  "30090022502": {
+    "id": "30090022502",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18445,23 +27341,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1360,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.16
+            "scale": 1.034
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090016000": {
-    "id": "30090016000",
-    "proto": "3009001",
+  "30090022602": {
+    "id": "30090022602",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18469,23 +27363,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1380,
+        "value": 310,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.18
+            "scale": 1.05
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090016100": {
-    "id": "30090016100",
-    "proto": "3009001",
+  "30090022702": {
+    "id": "30090022702",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18493,23 +27385,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1400,
+        "value": 320,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.2
+            "scale": 1.066
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090016200": {
-    "id": "30090016200",
-    "proto": "3009001",
+  "30090022802": {
+    "id": "30090022802",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18517,23 +27407,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1420,
+        "value": 330,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.22
+            "scale": 1.082
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090016300": {
-    "id": "30090016300",
-    "proto": "3009001",
+  "30090022902": {
+    "id": "30090022902",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18541,23 +27429,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1440,
+        "value": 340,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.24
+            "scale": 1.098
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090016400": {
-    "id": "30090016400",
-    "proto": "3009001",
+  "30090023002": {
+    "id": "30090023002",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18565,23 +27451,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1460,
+        "value": 350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.26
+            "scale": 1.114
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090016500": {
-    "id": "30090016500",
-    "proto": "3009001",
+  "30090023102": {
+    "id": "30090023102",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18589,23 +27473,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1480,
+        "value": 360,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.28
+            "scale": 1.13
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090016600": {
-    "id": "30090016600",
-    "proto": "3009001",
+  "30090023202": {
+    "id": "30090023202",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18613,23 +27495,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1500,
+        "value": 370,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.3
+            "scale": 1.146
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090016700": {
-    "id": "30090016700",
-    "proto": "3009001",
+  "30090023302": {
+    "id": "30090023302",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18637,23 +27517,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1520,
+        "value": 380,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.32
+            "scale": 1.162
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090016800": {
-    "id": "30090016800",
-    "proto": "3009001",
+  "30090023402": {
+    "id": "30090023402",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18661,23 +27539,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1540,
+        "value": 390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.34
+            "scale": 1.178
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090016900": {
-    "id": "30090016900",
-    "proto": "3009001",
+  "30090023502": {
+    "id": "30090023502",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18685,23 +27561,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1560,
+        "value": 400,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.36
+            "scale": 1.194
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090017000": {
-    "id": "30090017000",
-    "proto": "3009001",
+  "30090023602": {
+    "id": "30090023602",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18709,23 +27583,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1580,
+        "value": 410,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.38
+            "scale": 1.21
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090017100": {
-    "id": "30090017100",
-    "proto": "3009001",
+  "30090023702": {
+    "id": "30090023702",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18733,23 +27605,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1600,
+        "value": 420,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.4
+            "scale": 1.226
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090017200": {
-    "id": "30090017200",
-    "proto": "3009001",
+  "30090023802": {
+    "id": "30090023802",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18757,23 +27627,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1620,
+        "value": 430,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.42
+            "scale": 1.242
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090017300": {
-    "id": "30090017300",
-    "proto": "3009001",
+  "30090023902": {
+    "id": "30090023902",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18781,23 +27649,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1640,
+        "value": 440,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.44
+            "scale": 1.258
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090017400": {
-    "id": "30090017400",
-    "proto": "3009001",
+  "30090024002": {
+    "id": "30090024002",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18805,23 +27671,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1660,
+        "value": 450,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.46
+            "scale": 1.274
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090017500": {
-    "id": "30090017500",
-    "proto": "3009001",
+  "30090024102": {
+    "id": "30090024102",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18829,23 +27693,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1680,
+        "value": 460,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.48
+            "scale": 1.29
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090017600": {
-    "id": "30090017600",
-    "proto": "3009001",
+  "30090024202": {
+    "id": "30090024202",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18853,23 +27715,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1700,
+        "value": 470,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.5
+            "scale": 1.306
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090017700": {
-    "id": "30090017700",
-    "proto": "3009001",
+  "30090024302": {
+    "id": "30090024302",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18877,23 +27737,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1720,
+        "value": 480,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.52
+            "scale": 1.322
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090017800": {
-    "id": "30090017800",
-    "proto": "3009001",
+  "30090024402": {
+    "id": "30090024402",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18901,23 +27759,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1740,
+        "value": 490,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.54
+            "scale": 1.338
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090017900": {
-    "id": "30090017900",
-    "proto": "3009001",
+  "30090024502": {
+    "id": "30090024502",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18925,23 +27781,21 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1760,
+        "value": 500,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.56
+            "scale": 1.354
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
   },
-  "30090018000": {
-    "id": "30090018000",
-    "proto": "3009001",
+  "30090024602": {
+    "id": "30090024602",
+    "proto": "3009002",
     "offset": {
       "x": 0,
       "y": 0
@@ -18949,19 +27803,2525 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1780,
+        "value": 510,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.58
+            "scale": 1.37
           }
         ]
       }
     ],
-    "buffs": [
-      400900100
-    ]
+    "buffs": []
+  },
+  "30090024702": {
+    "id": "30090024702",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 520,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.386
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024802": {
+    "id": "30090024802",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 530,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.402
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024902": {
+    "id": "30090024902",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 540,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.418
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025002": {
+    "id": "30090025002",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 550,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.434
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025102": {
+    "id": "30090025102",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 560,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.45
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025202": {
+    "id": "30090025202",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 570,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.466
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025302": {
+    "id": "30090025302",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 580,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.482
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025402": {
+    "id": "30090025402",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 590,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.498
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025502": {
+    "id": "30090025502",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 600,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.514
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025602": {
+    "id": "30090025602",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 610,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025702": {
+    "id": "30090025702",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 620,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.546
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025802": {
+    "id": "30090025802",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 630,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.562
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025902": {
+    "id": "30090025902",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 640,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.578
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026002": {
+    "id": "30090026002",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 650,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.594
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026102": {
+    "id": "30090026102",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 660,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.61
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026202": {
+    "id": "30090026202",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 670,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.626
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026302": {
+    "id": "30090026302",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 680,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.642
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026402": {
+    "id": "30090026402",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 690,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.658
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026502": {
+    "id": "30090026502",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 700,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.674
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026602": {
+    "id": "30090026602",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 710,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.69
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026702": {
+    "id": "30090026702",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 720,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.706
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026802": {
+    "id": "30090026802",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 730,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.722
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026902": {
+    "id": "30090026902",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 740,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.738
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027002": {
+    "id": "30090027002",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 750,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.754
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027102": {
+    "id": "30090027102",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 760,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.77
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027202": {
+    "id": "30090027202",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 770,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.786
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027302": {
+    "id": "30090027302",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 780,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.802
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027402": {
+    "id": "30090027402",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 790,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.818
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027502": {
+    "id": "30090027502",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 800,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.834
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027602": {
+    "id": "30090027602",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 810,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.85
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027702": {
+    "id": "30090027702",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 820,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.866
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027802": {
+    "id": "30090027802",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 830,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.882
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027902": {
+    "id": "30090027902",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 840,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.898
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090028002": {
+    "id": "30090028002",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 850,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.914
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020103": {
+    "id": "30090020103",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.65
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020203": {
+    "id": "30090020203",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 70,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.666
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020303": {
+    "id": "30090020303",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 80,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.682
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020403": {
+    "id": "30090020403",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 90,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.698
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020503": {
+    "id": "30090020503",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 100,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.714
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020603": {
+    "id": "30090020603",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.73
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020703": {
+    "id": "30090020703",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.746
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020803": {
+    "id": "30090020803",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 130,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.762
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090020903": {
+    "id": "30090020903",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.778
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021003": {
+    "id": "30090021003",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.794
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021103": {
+    "id": "30090021103",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 160,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.81
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021203": {
+    "id": "30090021203",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.826
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021303": {
+    "id": "30090021303",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.842
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021403": {
+    "id": "30090021403",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 190,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.858
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021503": {
+    "id": "30090021503",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 200,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.874
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021603": {
+    "id": "30090021603",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 210,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.89
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021703": {
+    "id": "30090021703",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 220,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.906
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021803": {
+    "id": "30090021803",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 230,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.922
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090021903": {
+    "id": "30090021903",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 240,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.938
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022003": {
+    "id": "30090022003",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 250,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.954
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022103": {
+    "id": "30090022103",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 260,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.97
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022203": {
+    "id": "30090022203",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 270,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.986
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022303": {
+    "id": "30090022303",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 280,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.002
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022403": {
+    "id": "30090022403",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 290,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.018
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022503": {
+    "id": "30090022503",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 300,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.034
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022603": {
+    "id": "30090022603",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 310,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.05
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022703": {
+    "id": "30090022703",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 320,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.066
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022803": {
+    "id": "30090022803",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 330,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.082
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090022903": {
+    "id": "30090022903",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 340,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.098
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023003": {
+    "id": "30090023003",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 350,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.114
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023103": {
+    "id": "30090023103",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 360,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.13
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023203": {
+    "id": "30090023203",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 370,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.146
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023303": {
+    "id": "30090023303",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 380,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.162
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023403": {
+    "id": "30090023403",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 390,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.178
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023503": {
+    "id": "30090023503",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 400,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.194
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023603": {
+    "id": "30090023603",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 410,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.21
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023703": {
+    "id": "30090023703",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 420,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.226
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023803": {
+    "id": "30090023803",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 430,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.242
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090023903": {
+    "id": "30090023903",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 440,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.258
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024003": {
+    "id": "30090024003",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 450,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.274
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024103": {
+    "id": "30090024103",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 460,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.29
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024203": {
+    "id": "30090024203",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 470,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.306
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024303": {
+    "id": "30090024303",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 480,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.322
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024403": {
+    "id": "30090024403",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 490,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.338
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024503": {
+    "id": "30090024503",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 500,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.354
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024603": {
+    "id": "30090024603",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 510,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.37
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024703": {
+    "id": "30090024703",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 520,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.386
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024803": {
+    "id": "30090024803",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 530,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.402
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090024903": {
+    "id": "30090024903",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 540,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.418
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025003": {
+    "id": "30090025003",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 550,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.434
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025103": {
+    "id": "30090025103",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 560,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.45
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025203": {
+    "id": "30090025203",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 570,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.466
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025303": {
+    "id": "30090025303",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 580,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.482
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025403": {
+    "id": "30090025403",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 590,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.498
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025503": {
+    "id": "30090025503",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 600,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.514
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025603": {
+    "id": "30090025603",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 610,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025703": {
+    "id": "30090025703",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 620,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.546
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025803": {
+    "id": "30090025803",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 630,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.562
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090025903": {
+    "id": "30090025903",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 640,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.578
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026003": {
+    "id": "30090026003",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 650,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.594
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026103": {
+    "id": "30090026103",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 660,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.61
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026203": {
+    "id": "30090026203",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 670,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.626
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026303": {
+    "id": "30090026303",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 680,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.642
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026403": {
+    "id": "30090026403",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 690,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.658
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026503": {
+    "id": "30090026503",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 700,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.674
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026603": {
+    "id": "30090026603",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 710,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.69
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026703": {
+    "id": "30090026703",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 720,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.706
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026803": {
+    "id": "30090026803",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 730,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.722
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090026903": {
+    "id": "30090026903",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 740,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.738
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027003": {
+    "id": "30090027003",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 750,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.754
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027103": {
+    "id": "30090027103",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 760,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.77
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027203": {
+    "id": "30090027203",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 770,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.786
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027303": {
+    "id": "30090027303",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 780,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.802
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027403": {
+    "id": "30090027403",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 790,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.818
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027503": {
+    "id": "30090027503",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 800,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.834
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027603": {
+    "id": "30090027603",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 810,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.85
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027703": {
+    "id": "30090027703",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 820,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.866
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027803": {
+    "id": "30090027803",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 830,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.882
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090027903": {
+    "id": "30090027903",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 840,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.898
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30090028003": {
+    "id": "30090028003",
+    "proto": "3009002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 850,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.914
+          }
+        ]
+      }
+    ],
+    "buffs": []
   },
   "30090040100": {
     "id": "30090040100",
@@ -20595,12 +31955,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 150,
+        "value": 120,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 1.25
           }
         ]
       }
@@ -20617,12 +31977,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 165,
+        "value": 135,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 1.28
           }
         ]
       }
@@ -20639,12 +31999,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 180,
+        "value": 150,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 1.31
           }
         ]
       }
@@ -20661,12 +32021,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 195,
+        "value": 165,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 1.34
           }
         ]
       }
@@ -20683,12 +32043,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 210,
+        "value": 180,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 1.37
           }
         ]
       }
@@ -20705,12 +32065,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 225,
+        "value": 195,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 1.4
           }
         ]
       }
@@ -20727,12 +32087,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 210,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 1.43
           }
         ]
       }
@@ -20749,12 +32109,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 255,
+        "value": 225,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 1.46
           }
         ]
       }
@@ -20771,12 +32131,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 270,
+        "value": 240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.16
+            "scale": 1.49
           }
         ]
       }
@@ -20793,12 +32153,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 285,
+        "value": 255,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 1.52
           }
         ]
       }
@@ -20815,12 +32175,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 270,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 1.55
           }
         ]
       }
@@ -20837,12 +32197,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 315,
+        "value": 285,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 1.58
           }
         ]
       }
@@ -20859,12 +32219,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 330,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 1.61
           }
         ]
       }
@@ -20881,12 +32241,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 345,
+        "value": 315,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 1.64
           }
         ]
       }
@@ -20903,12 +32263,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 330,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 1.67
           }
         ]
       }
@@ -20925,12 +32285,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 375,
+        "value": 345,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 1.7
           }
         ]
       }
@@ -20947,12 +32307,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 390,
+        "value": 360,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 1.73
           }
         ]
       }
@@ -20969,12 +32329,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 405,
+        "value": 375,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 1.76
           }
         ]
       }
@@ -20991,12 +32351,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 1.79
           }
         ]
       }
@@ -21013,12 +32373,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 435,
+        "value": 405,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 1.82
           }
         ]
       }
@@ -21035,12 +32395,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 450,
+        "value": 420,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 1.85
           }
         ]
       }
@@ -21057,12 +32417,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 465,
+        "value": 435,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 1.88
           }
         ]
       }
@@ -21079,12 +32439,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 450,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 1.91
           }
         ]
       }
@@ -21101,12 +32461,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 495,
+        "value": 465,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 1.94
           }
         ]
       }
@@ -21123,12 +32483,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 510,
+        "value": 480,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 1.97
           }
         ]
       }
@@ -21145,12 +32505,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 525,
+        "value": 495,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 2
           }
         ]
       }
@@ -21167,12 +32527,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 510,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 2.03
           }
         ]
       }
@@ -21189,12 +32549,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 555,
+        "value": 525,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 2.06
           }
         ]
       }
@@ -21211,12 +32571,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 570,
+        "value": 540,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 2.09
           }
         ]
       }
@@ -21233,12 +32593,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 585,
+        "value": 555,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 2.12
           }
         ]
       }
@@ -21255,12 +32615,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 570,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 2.15
           }
         ]
       }
@@ -21277,12 +32637,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 615,
+        "value": 585,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 2.18
           }
         ]
       }
@@ -21299,12 +32659,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 630,
+        "value": 600,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 2.21
           }
         ]
       }
@@ -21321,12 +32681,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 645,
+        "value": 615,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 2.24
           }
         ]
       }
@@ -21343,12 +32703,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 630,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 2.27
           }
         ]
       }
@@ -21365,12 +32725,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 675,
+        "value": 645,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 2.3
           }
         ]
       }
@@ -21387,12 +32747,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 690,
+        "value": 660,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 2.33
           }
         ]
       }
@@ -21409,12 +32769,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 705,
+        "value": 675,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 2.36
           }
         ]
       }
@@ -21431,12 +32791,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 690,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 2.39
           }
         ]
       }
@@ -21453,12 +32813,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 735,
+        "value": 705,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 2.42
           }
         ]
       }
@@ -21475,12 +32835,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 750,
+        "value": 720,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.8
+            "scale": 2.45
           }
         ]
       }
@@ -21497,12 +32857,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 765,
+        "value": 735,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.82
+            "scale": 2.48
           }
         ]
       }
@@ -21519,12 +32879,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 750,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.84
+            "scale": 2.51
           }
         ]
       }
@@ -21541,12 +32901,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 795,
+        "value": 765,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.86
+            "scale": 2.54
           }
         ]
       }
@@ -21563,12 +32923,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 810,
+        "value": 780,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.88
+            "scale": 2.57
           }
         ]
       }
@@ -21585,12 +32945,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 825,
+        "value": 795,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.9
+            "scale": 2.6
           }
         ]
       }
@@ -21607,12 +32967,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 810,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.92
+            "scale": 2.63
           }
         ]
       }
@@ -21629,12 +32989,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 855,
+        "value": 825,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.94
+            "scale": 2.66
           }
         ]
       }
@@ -21651,12 +33011,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 870,
+        "value": 840,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.96
+            "scale": 2.69
           }
         ]
       }
@@ -21673,12 +33033,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 885,
+        "value": 855,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.98
+            "scale": 2.72
           }
         ]
       }
@@ -21695,12 +33055,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 870,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3
+            "scale": 2.75
           }
         ]
       }
@@ -21717,12 +33077,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 915,
+        "value": 885,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.02
+            "scale": 2.78
           }
         ]
       }
@@ -21739,12 +33099,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 930,
+        "value": 900,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.04
+            "scale": 2.81
           }
         ]
       }
@@ -21761,12 +33121,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 945,
+        "value": 915,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.06
+            "scale": 2.84
           }
         ]
       }
@@ -21783,12 +33143,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 930,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.08
+            "scale": 2.87
           }
         ]
       }
@@ -21805,12 +33165,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 975,
+        "value": 945,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.1
+            "scale": 2.9
           }
         ]
       }
@@ -21827,12 +33187,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 990,
+        "value": 960,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.12
+            "scale": 2.93
           }
         ]
       }
@@ -21849,12 +33209,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1005,
+        "value": 975,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.14
+            "scale": 2.96
           }
         ]
       }
@@ -21871,12 +33231,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 990,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.16
+            "scale": 2.99
           }
         ]
       }
@@ -21893,12 +33253,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1035,
+        "value": 1005,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.18
+            "scale": 3.02
           }
         ]
       }
@@ -21915,12 +33275,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1050,
+        "value": 1020,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.2
+            "scale": 3.05
           }
         ]
       }
@@ -21937,12 +33297,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1065,
+        "value": 1035,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.22
+            "scale": 3.08
           }
         ]
       }
@@ -21959,12 +33319,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 1050,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.24
+            "scale": 3.11
           }
         ]
       }
@@ -21981,12 +33341,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1095,
+        "value": 1065,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.26
+            "scale": 3.14
           }
         ]
       }
@@ -22003,12 +33363,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1110,
+        "value": 1080,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.28
+            "scale": 3.17
           }
         ]
       }
@@ -22025,12 +33385,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1125,
+        "value": 1095,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.3
+            "scale": 3.2
           }
         ]
       }
@@ -22047,12 +33407,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 1110,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.32
+            "scale": 3.23
           }
         ]
       }
@@ -22069,12 +33429,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1155,
+        "value": 1125,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.34
+            "scale": 3.26
           }
         ]
       }
@@ -22091,12 +33451,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1170,
+        "value": 1140,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.36
+            "scale": 3.29
           }
         ]
       }
@@ -22105,6 +33465,50 @@ export default {
   },
   "30100017000": {
     "id": "30100017000",
+    "proto": "3010001",
+    "offset": {
+      "x": 50,
+      "y": 20
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 1155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.32
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30100017100": {
+    "id": "30100017100",
+    "proto": "3010001",
+    "offset": {
+      "x": 50,
+      "y": 20
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 1170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.35
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30100017200": {
+    "id": "30100017200",
     "proto": "3010001",
     "offset": {
       "x": 50,
@@ -22125,8 +33529,8 @@ export default {
     ],
     "buffs": []
   },
-  "30100017100": {
-    "id": "30100017100",
+  "30100017300": {
+    "id": "30100017300",
     "proto": "3010001",
     "offset": {
       "x": 50,
@@ -22140,51 +33544,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.4
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30100017200": {
-    "id": "30100017200",
-    "proto": "3010001",
-    "offset": {
-      "x": 50,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 1215,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 3.42
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30100017300": {
-    "id": "30100017300",
-    "proto": "3010001",
-    "offset": {
-      "x": 50,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 1230,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 3.44
+            "scale": 3.41
           }
         ]
       }
@@ -22201,12 +33561,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1245,
+        "value": 1215,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.46
+            "scale": 3.44
           }
         ]
       }
@@ -22223,12 +33583,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 1230,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.48
+            "scale": 3.47
           }
         ]
       }
@@ -22245,7 +33605,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1275,
+        "value": 1245,
         "prosInfo": [
           {
             "targetType": 0,
@@ -22267,12 +33627,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1290,
+        "value": 1260,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.52
+            "scale": 3.53
           }
         ]
       }
@@ -22289,12 +33649,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1305,
+        "value": 1275,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.54
+            "scale": 3.56
           }
         ]
       }
@@ -22311,12 +33671,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 1290,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.56
+            "scale": 3.59
           }
         ]
       }
@@ -22333,12 +33693,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1335,
+        "value": 1305,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.58
+            "scale": 3.62
           }
         ]
       }
@@ -22355,7 +33715,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 100
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.25
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22370,7 +33737,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 110
+        "value": 135,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.28
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22385,7 +33759,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 120
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.31
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22400,7 +33781,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 130
+        "value": 165,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.34
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22415,7 +33803,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 140
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.37
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22430,7 +33825,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 150
+        "value": 195,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.4
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22445,7 +33847,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 160
+        "value": 210,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.43
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22460,7 +33869,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 170
+        "value": 225,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.46
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22475,7 +33891,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 180
+        "value": 240,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.49
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22490,7 +33913,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 190
+        "value": 255,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.52
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22505,7 +33935,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 200
+        "value": 270,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.55
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22520,7 +33957,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 210
+        "value": 285,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.58
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22535,7 +33979,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 220
+        "value": 300,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.61
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22550,7 +34001,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 230
+        "value": 315,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.64
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22565,7 +34023,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 240
+        "value": 330,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.67
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22580,7 +34045,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 250
+        "value": 345,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.7
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22595,7 +34067,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 260
+        "value": 360,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.73
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22610,7 +34089,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 270
+        "value": 375,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.76
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22625,7 +34111,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 280
+        "value": 390,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.79
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22640,7 +34133,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 290
+        "value": 405,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.82
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22655,7 +34155,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 300
+        "value": 420,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.85
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22670,7 +34177,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 310
+        "value": 435,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.88
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22685,7 +34199,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 320
+        "value": 450,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.91
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22700,7 +34221,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 330
+        "value": 465,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.94
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22715,7 +34243,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 340
+        "value": 480,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.97
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22730,7 +34265,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 350
+        "value": 495,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22745,7 +34287,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 360
+        "value": 510,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.03
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22760,7 +34309,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 370
+        "value": 525,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.06
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22775,7 +34331,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 380
+        "value": 540,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.09
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22790,7 +34353,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 390
+        "value": 555,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.12
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22805,7 +34375,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 400
+        "value": 570,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.15
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22820,7 +34397,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 410
+        "value": 585,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.18
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22835,7 +34419,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 420
+        "value": 600,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.21
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22850,7 +34441,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 430
+        "value": 615,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.24
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22865,7 +34463,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 440
+        "value": 630,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.27
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22880,7 +34485,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 450
+        "value": 645,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.3
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22895,7 +34507,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 460
+        "value": 660,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.33
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22910,7 +34529,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 470
+        "value": 675,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.36
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22925,7 +34551,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 480
+        "value": 690,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.39
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22940,7 +34573,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 490
+        "value": 705,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.42
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22955,7 +34595,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 500
+        "value": 720,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.45
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22970,7 +34617,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 510
+        "value": 735,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.48
+          }
+        ]
       }
     ],
     "buffs": []
@@ -22985,7 +34639,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 520
+        "value": 750,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.51
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23000,7 +34661,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 530
+        "value": 765,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.54
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23015,7 +34683,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 540
+        "value": 780,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.57
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23030,7 +34705,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 550
+        "value": 795,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.6
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23045,7 +34727,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 560
+        "value": 810,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.63
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23060,7 +34749,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 570
+        "value": 825,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.66
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23075,7 +34771,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 580
+        "value": 840,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.69
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23090,7 +34793,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 590
+        "value": 855,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.72
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23105,7 +34815,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 600
+        "value": 870,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.75
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23120,7 +34837,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 610
+        "value": 885,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.78
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23135,7 +34859,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 620
+        "value": 900,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.81
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23150,7 +34881,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 630
+        "value": 915,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.84
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23165,7 +34903,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 640
+        "value": 930,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.87
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23180,7 +34925,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 650
+        "value": 945,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.9
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23195,7 +34947,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 660
+        "value": 960,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.93
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23210,7 +34969,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 670
+        "value": 975,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.96
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23225,7 +34991,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 680
+        "value": 990,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 2.99
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23240,7 +35013,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 690
+        "value": 1005,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.02
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23255,7 +35035,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 700
+        "value": 1020,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.05
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23270,7 +35057,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 710
+        "value": 1035,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.08
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23285,7 +35079,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 720
+        "value": 1050,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.11
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23300,7 +35101,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 730
+        "value": 1065,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.14
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23315,7 +35123,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 740
+        "value": 1080,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.17
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23330,7 +35145,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 750
+        "value": 1095,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.2
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23345,7 +35167,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 760
+        "value": 1110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.23
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23360,7 +35189,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 770
+        "value": 1125,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.26
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23375,7 +35211,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 780
+        "value": 1140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.29
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23390,7 +35233,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 790
+        "value": 1155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.32
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23405,7 +35255,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 800
+        "value": 1170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.35
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23420,7 +35277,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 810
+        "value": 1185,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.38
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23435,7 +35299,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 820
+        "value": 1200,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.41
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23450,7 +35321,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 830
+        "value": 1215,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.44
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23465,7 +35343,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 840
+        "value": 1230,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.47
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23480,7 +35365,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 850
+        "value": 1245,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.5
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23495,7 +35387,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 860
+        "value": 1260,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.53
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23510,7 +35409,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 870
+        "value": 1275,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.56
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23525,7 +35431,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 880
+        "value": 1290,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.59
+          }
+        ]
       }
     ],
     "buffs": []
@@ -23540,7 +35453,14 @@ export default {
     "effects": [
       {
         "type": "hp",
-        "value": 890
+        "value": 1305,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 3.62
+          }
+        ]
       }
     ],
     "buffs": []
@@ -24297,12 +36217,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 80,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1
+            "scale": 1.9
           }
         ]
       }
@@ -24321,12 +36241,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 88,
+        "value": 215,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.01
+            "scale": 1.948
           }
         ]
       }
@@ -24345,12 +36265,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 96,
+        "value": 240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.02
+            "scale": 1.996
           }
         ]
       }
@@ -24369,12 +36289,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 104,
+        "value": 265,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.03
+            "scale": 2.044
           }
         ]
       }
@@ -24393,12 +36313,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 112,
+        "value": 290,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.04
+            "scale": 2.092
           }
         ]
       }
@@ -24417,12 +36337,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 120,
+        "value": 315,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.05
+            "scale": 2.14
           }
         ]
       }
@@ -24441,12 +36361,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 128,
+        "value": 340,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.06
+            "scale": 2.188
           }
         ]
       }
@@ -24465,12 +36385,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 136,
+        "value": 365,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.07
+            "scale": 2.236
           }
         ]
       }
@@ -24489,12 +36409,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 144,
+        "value": 390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.08
+            "scale": 2.284
           }
         ]
       }
@@ -24513,12 +36433,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 152,
+        "value": 415,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.09
+            "scale": 2.332
           }
         ]
       }
@@ -24537,12 +36457,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 160,
+        "value": 440,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.1
+            "scale": 2.38
           }
         ]
       }
@@ -24561,12 +36481,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 168,
+        "value": 465,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.11
+            "scale": 2.428
           }
         ]
       }
@@ -24585,12 +36505,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 176,
+        "value": 490,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.12
+            "scale": 2.476
           }
         ]
       }
@@ -24609,12 +36529,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 184,
+        "value": 515,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.13
+            "scale": 2.524
           }
         ]
       }
@@ -24633,12 +36553,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 192,
+        "value": 540,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.14
+            "scale": 2.572
           }
         ]
       }
@@ -24657,12 +36577,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 565,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.15
+            "scale": 2.62
           }
         ]
       }
@@ -24681,12 +36601,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 208,
+        "value": 590,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.16
+            "scale": 2.668
           }
         ]
       }
@@ -24705,12 +36625,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 216,
+        "value": 615,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.17
+            "scale": 2.716
           }
         ]
       }
@@ -24729,12 +36649,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 224,
+        "value": 640,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.18
+            "scale": 2.764
           }
         ]
       }
@@ -24753,12 +36673,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 232,
+        "value": 665,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.19
+            "scale": 2.812
           }
         ]
       }
@@ -24777,12 +36697,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 690,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.2
+            "scale": 2.86
           }
         ]
       }
@@ -24801,12 +36721,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 248,
+        "value": 715,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.21
+            "scale": 2.908
           }
         ]
       }
@@ -24825,12 +36745,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 256,
+        "value": 740,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.22
+            "scale": 2.956
           }
         ]
       }
@@ -24849,12 +36769,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 264,
+        "value": 765,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.23
+            "scale": 3.004
           }
         ]
       }
@@ -24873,12 +36793,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 272,
+        "value": 790,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.24
+            "scale": 3.052
           }
         ]
       }
@@ -24897,12 +36817,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 815,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.25
+            "scale": 3.1
           }
         ]
       }
@@ -24921,12 +36841,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 288,
+        "value": 840,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.26
+            "scale": 3.148
           }
         ]
       }
@@ -24945,12 +36865,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 296,
+        "value": 865,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.27
+            "scale": 3.196
           }
         ]
       }
@@ -24969,12 +36889,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 304,
+        "value": 890,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.28
+            "scale": 3.244
           }
         ]
       }
@@ -24993,12 +36913,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 312,
+        "value": 915,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.29
+            "scale": 3.292
           }
         ]
       }
@@ -25017,12 +36937,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 940,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.3
+            "scale": 3.34
           }
         ]
       }
@@ -25041,12 +36961,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 328,
+        "value": 965,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.31
+            "scale": 3.388
           }
         ]
       }
@@ -25065,12 +36985,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 336,
+        "value": 990,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.32
+            "scale": 3.436
           }
         ]
       }
@@ -25089,12 +37009,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 344,
+        "value": 1015,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.33
+            "scale": 3.484
           }
         ]
       }
@@ -25113,12 +37033,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 352,
+        "value": 1040,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.34
+            "scale": 3.532
           }
         ]
       }
@@ -25137,12 +37057,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 1065,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.35
+            "scale": 3.58
           }
         ]
       }
@@ -25161,12 +37081,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 368,
+        "value": 1090,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.36
+            "scale": 3.628
           }
         ]
       }
@@ -25185,12 +37105,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 376,
+        "value": 1115,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.37
+            "scale": 3.676
           }
         ]
       }
@@ -25209,12 +37129,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 384,
+        "value": 1140,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.38
+            "scale": 3.724
           }
         ]
       }
@@ -25233,12 +37153,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 392,
+        "value": 1165,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.39
+            "scale": 3.772
           }
         ]
       }
@@ -25257,12 +37177,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 400,
+        "value": 1190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.4
+            "scale": 3.82
           }
         ]
       }
@@ -25281,12 +37201,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 408,
+        "value": 1215,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.41
+            "scale": 3.868
           }
         ]
       }
@@ -25305,12 +37225,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 416,
+        "value": 1240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.42
+            "scale": 3.916
           }
         ]
       }
@@ -25329,12 +37249,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 424,
+        "value": 1265,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.43
+            "scale": 3.964
           }
         ]
       }
@@ -25353,12 +37273,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 432,
+        "value": 1290,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.44
+            "scale": 4.012
           }
         ]
       }
@@ -25377,12 +37297,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 1315,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.45
+            "scale": 4.06
           }
         ]
       }
@@ -25401,12 +37321,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 448,
+        "value": 1340,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.46
+            "scale": 4.108
           }
         ]
       }
@@ -25425,12 +37345,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 456,
+        "value": 1365,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.47
+            "scale": 4.156
           }
         ]
       }
@@ -25449,12 +37369,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 464,
+        "value": 1390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.48
+            "scale": 4.204
           }
         ]
       }
@@ -25473,12 +37393,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 472,
+        "value": 1415,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.49
+            "scale": 4.252
           }
         ]
       }
@@ -25497,12 +37417,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 1440,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 4.3
           }
         ]
       }
@@ -25521,12 +37441,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 488,
+        "value": 1465,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.51
+            "scale": 4.348
           }
         ]
       }
@@ -25545,12 +37465,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 496,
+        "value": 1490,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.52
+            "scale": 4.396
           }
         ]
       }
@@ -25569,12 +37489,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 504,
+        "value": 1515,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.53
+            "scale": 4.444
           }
         ]
       }
@@ -25593,12 +37513,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 512,
+        "value": 1540,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.54
+            "scale": 4.492
           }
         ]
       }
@@ -25617,12 +37537,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 1565,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.55
+            "scale": 4.54
           }
         ]
       }
@@ -25641,12 +37561,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 528,
+        "value": 1590,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.56
+            "scale": 4.588
           }
         ]
       }
@@ -25665,12 +37585,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 536,
+        "value": 1615,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.57
+            "scale": 4.636
           }
         ]
       }
@@ -25689,12 +37609,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 544,
+        "value": 1640,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.58
+            "scale": 4.684
           }
         ]
       }
@@ -25713,12 +37633,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 552,
+        "value": 1665,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.59
+            "scale": 4.732
           }
         ]
       }
@@ -25737,12 +37657,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 1690,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.6
+            "scale": 4.78
           }
         ]
       }
@@ -25761,12 +37681,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 568,
+        "value": 1715,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.61
+            "scale": 4.828
           }
         ]
       }
@@ -25785,12 +37705,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 576,
+        "value": 1740,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.62
+            "scale": 4.876
           }
         ]
       }
@@ -25809,12 +37729,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 584,
+        "value": 1765,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.63
+            "scale": 4.924
           }
         ]
       }
@@ -25833,12 +37753,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 592,
+        "value": 1790,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.64
+            "scale": 4.972
           }
         ]
       }
@@ -25857,12 +37777,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 1815,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.65
+            "scale": 5.02
           }
         ]
       }
@@ -25881,12 +37801,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 608,
+        "value": 1840,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.66
+            "scale": 5.068
           }
         ]
       }
@@ -25905,12 +37825,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 616,
+        "value": 1865,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.67
+            "scale": 5.116
           }
         ]
       }
@@ -25929,12 +37849,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 624,
+        "value": 1890,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.68
+            "scale": 5.164
           }
         ]
       }
@@ -25953,12 +37873,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 632,
+        "value": 1915,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.69
+            "scale": 5.212
           }
         ]
       }
@@ -25977,12 +37897,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 1940,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.7
+            "scale": 5.26
           }
         ]
       }
@@ -26001,12 +37921,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 648,
+        "value": 1965,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.71
+            "scale": 5.308
           }
         ]
       }
@@ -26025,12 +37945,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 656,
+        "value": 1990,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.72
+            "scale": 5.356
           }
         ]
       }
@@ -26049,12 +37969,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 664,
+        "value": 2015,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.73
+            "scale": 5.404
           }
         ]
       }
@@ -26073,12 +37993,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 672,
+        "value": 2040,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.74
+            "scale": 5.452
           }
         ]
       }
@@ -26097,12 +38017,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 2065,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.75
+            "scale": 5.5
           }
         ]
       }
@@ -26121,12 +38041,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 688,
+        "value": 2090,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.76
+            "scale": 5.548
           }
         ]
       }
@@ -26145,12 +38065,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 696,
+        "value": 2115,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.77
+            "scale": 5.596
           }
         ]
       }
@@ -26169,12 +38089,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 704,
+        "value": 2140,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.78
+            "scale": 5.644
           }
         ]
       }
@@ -26193,12 +38113,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 712,
+        "value": 2165,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.79
+            "scale": 5.692
           }
         ]
       }
@@ -26479,12 +38399,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 1.9
           }
         ]
       }
@@ -26501,12 +38421,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 215,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 1.948
           }
         ]
       }
@@ -26528,7 +38448,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 1.996
           }
         ]
       }
@@ -26545,12 +38465,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 265,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 2.044
           }
         ]
       }
@@ -26567,12 +38487,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 290,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 2.092
           }
         ]
       }
@@ -26589,12 +38509,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 315,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 2.14
           }
         ]
       }
@@ -26611,12 +38531,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 340,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 2.188
           }
         ]
       }
@@ -26633,12 +38553,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 365,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 2.236
           }
         ]
       }
@@ -26655,12 +38575,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.16
+            "scale": 2.284
           }
         ]
       }
@@ -26677,12 +38597,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 380,
+        "value": 415,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 2.332
           }
         ]
       }
@@ -26699,12 +38619,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 400,
+        "value": 440,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 2.38
           }
         ]
       }
@@ -26721,12 +38641,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 465,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 2.428
           }
         ]
       }
@@ -26743,12 +38663,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 490,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 2.476
           }
         ]
       }
@@ -26765,12 +38685,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 460,
+        "value": 515,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 2.524
           }
         ]
       }
@@ -26787,12 +38707,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 540,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 2.572
           }
         ]
       }
@@ -26809,12 +38729,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 500,
+        "value": 565,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 2.62
           }
         ]
       }
@@ -26831,12 +38751,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 590,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 2.668
           }
         ]
       }
@@ -26853,12 +38773,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 615,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 2.716
           }
         ]
       }
@@ -26875,12 +38795,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 640,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 2.764
           }
         ]
       }
@@ -26897,12 +38817,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 580,
+        "value": 665,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 2.812
           }
         ]
       }
@@ -26919,12 +38839,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 690,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 2.86
           }
         ]
       }
@@ -26941,12 +38861,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 620,
+        "value": 715,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 2.908
           }
         ]
       }
@@ -26963,12 +38883,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 740,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 2.956
           }
         ]
       }
@@ -26985,12 +38905,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 765,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 3.004
           }
         ]
       }
@@ -27007,12 +38927,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 790,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 3.052
           }
         ]
       }
@@ -27029,12 +38949,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 700,
+        "value": 815,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 3.1
           }
         ]
       }
@@ -27051,12 +38971,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 840,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 3.148
           }
         ]
       }
@@ -27073,12 +38993,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 740,
+        "value": 865,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 3.196
           }
         ]
       }
@@ -27095,12 +39015,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 760,
+        "value": 890,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 3.244
           }
         ]
       }
@@ -27117,12 +39037,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 915,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 3.292
           }
         ]
       }
@@ -27139,12 +39059,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 800,
+        "value": 940,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 3.34
           }
         ]
       }
@@ -27161,12 +39081,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 820,
+        "value": 965,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 3.388
           }
         ]
       }
@@ -27183,12 +39103,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 990,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 3.436
           }
         ]
       }
@@ -27205,12 +39125,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 1015,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 3.484
           }
         ]
       }
@@ -27227,12 +39147,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 1040,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 3.532
           }
         ]
       }
@@ -27249,12 +39169,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 1065,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 3.58
           }
         ]
       }
@@ -27271,12 +39191,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 1090,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 3.628
           }
         ]
       }
@@ -27293,12 +39213,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 1115,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 3.676
           }
         ]
       }
@@ -27315,12 +39235,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 1140,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 3.724
           }
         ]
       }
@@ -27337,12 +39257,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 1165,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 3.772
           }
         ]
       }
@@ -27359,12 +39279,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 1190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.8
+            "scale": 3.82
           }
         ]
       }
@@ -27381,12 +39301,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 1215,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.82
+            "scale": 3.868
           }
         ]
       }
@@ -27403,12 +39323,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1040,
+        "value": 1240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.84
+            "scale": 3.916
           }
         ]
       }
@@ -27425,12 +39345,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1060,
+        "value": 1265,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.86
+            "scale": 3.964
           }
         ]
       }
@@ -27447,12 +39367,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 1290,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.88
+            "scale": 4.012
           }
         ]
       }
@@ -27469,12 +39389,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1100,
+        "value": 1315,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.9
+            "scale": 4.06
           }
         ]
       }
@@ -27491,12 +39411,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1120,
+        "value": 1340,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.92
+            "scale": 4.108
           }
         ]
       }
@@ -27513,12 +39433,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 1365,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.94
+            "scale": 4.156
           }
         ]
       }
@@ -27535,12 +39455,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1160,
+        "value": 1390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.96
+            "scale": 4.204
           }
         ]
       }
@@ -27557,12 +39477,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1180,
+        "value": 1415,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.98
+            "scale": 4.252
           }
         ]
       }
@@ -27579,12 +39499,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1200,
+        "value": 1440,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3
+            "scale": 4.3
           }
         ]
       }
@@ -27601,12 +39521,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1220,
+        "value": 1465,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.02
+            "scale": 4.348
           }
         ]
       }
@@ -27623,12 +39543,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1240,
+        "value": 1490,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.04
+            "scale": 4.396
           }
         ]
       }
@@ -27645,12 +39565,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 1515,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.06
+            "scale": 4.444
           }
         ]
       }
@@ -27667,12 +39587,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1280,
+        "value": 1540,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.08
+            "scale": 4.492
           }
         ]
       }
@@ -27689,12 +39609,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1300,
+        "value": 1565,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.1
+            "scale": 4.54
           }
         ]
       }
@@ -27711,12 +39631,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 1590,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.12
+            "scale": 4.588
           }
         ]
       }
@@ -27733,12 +39653,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1340,
+        "value": 1615,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.14
+            "scale": 4.636
           }
         ]
       }
@@ -27755,12 +39675,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1360,
+        "value": 1640,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.16
+            "scale": 4.684
           }
         ]
       }
@@ -27777,12 +39697,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1380,
+        "value": 1665,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.18
+            "scale": 4.732
           }
         ]
       }
@@ -27799,12 +39719,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1400,
+        "value": 1690,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.2
+            "scale": 4.78
           }
         ]
       }
@@ -27821,12 +39741,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1420,
+        "value": 1715,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.22
+            "scale": 4.828
           }
         ]
       }
@@ -27843,12 +39763,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1440,
+        "value": 1740,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.24
+            "scale": 4.876
           }
         ]
       }
@@ -27865,12 +39785,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1460,
+        "value": 1765,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.26
+            "scale": 4.924
           }
         ]
       }
@@ -27887,12 +39807,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1480,
+        "value": 1790,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.28
+            "scale": 4.972
           }
         ]
       }
@@ -27909,12 +39829,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1500,
+        "value": 1815,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.3
+            "scale": 5.02
           }
         ]
       }
@@ -27931,12 +39851,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1520,
+        "value": 1840,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.32
+            "scale": 5.068
           }
         ]
       }
@@ -27953,12 +39873,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1540,
+        "value": 1865,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.34
+            "scale": 5.116
           }
         ]
       }
@@ -27975,12 +39895,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1560,
+        "value": 1890,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.36
+            "scale": 5.164
           }
         ]
       }
@@ -27997,12 +39917,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1580,
+        "value": 1915,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.38
+            "scale": 5.212
           }
         ]
       }
@@ -28019,12 +39939,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1600,
+        "value": 1940,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.4
+            "scale": 5.26
           }
         ]
       }
@@ -28041,12 +39961,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1620,
+        "value": 1965,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.42
+            "scale": 5.308
           }
         ]
       }
@@ -28063,12 +39983,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1640,
+        "value": 1990,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.44
+            "scale": 5.356
           }
         ]
       }
@@ -28085,12 +40005,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1660,
+        "value": 2015,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.46
+            "scale": 5.404
           }
         ]
       }
@@ -28107,12 +40027,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1680,
+        "value": 2040,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.48
+            "scale": 5.452
           }
         ]
       }
@@ -28129,12 +40049,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1700,
+        "value": 2065,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.5
+            "scale": 5.5
           }
         ]
       }
@@ -28151,12 +40071,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1720,
+        "value": 2090,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.52
+            "scale": 5.548
           }
         ]
       }
@@ -28173,12 +40093,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1740,
+        "value": 2115,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.54
+            "scale": 5.596
           }
         ]
       }
@@ -28195,12 +40115,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1760,
+        "value": 2140,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.56
+            "scale": 5.644
           }
         ]
       }
@@ -28217,12 +40137,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1780,
+        "value": 2165,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.58
+            "scale": 5.692
           }
         ]
       }
@@ -28510,19 +40430,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 70,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.7
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130010200": {
@@ -28532,19 +40440,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 77,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.707
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130010300": {
@@ -28554,19 +40450,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 84,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.714
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130010400": {
@@ -28576,19 +40460,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 91,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.721
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130010500": {
@@ -28598,19 +40470,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 98,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.728
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130010600": {
@@ -28620,19 +40480,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 105,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.735
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130010700": {
@@ -28642,19 +40490,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 112,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.742
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130010800": {
@@ -28664,19 +40500,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 119,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.749
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130010900": {
@@ -28686,19 +40510,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 126,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.756
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130011000": {
@@ -28708,19 +40520,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 133,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.763
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130011100": {
@@ -28730,19 +40530,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 140,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.77
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130011200": {
@@ -28752,19 +40540,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 147,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.777
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130011300": {
@@ -28774,19 +40550,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 154,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.784
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130011400": {
@@ -28796,19 +40560,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 161,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.791
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130011500": {
@@ -28818,19 +40570,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 168,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.798
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130011600": {
@@ -28840,19 +40580,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 175,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.805
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130011700": {
@@ -28862,19 +40590,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 182,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.812
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130011800": {
@@ -28884,19 +40600,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 189,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.819
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130011900": {
@@ -28906,19 +40610,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 196,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.826
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130012000": {
@@ -28928,19 +40620,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 203,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.833
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130012100": {
@@ -28950,19 +40630,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 210,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.84
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130012200": {
@@ -28972,19 +40640,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 217,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.847
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130012300": {
@@ -28994,19 +40650,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 224,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.854
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130012400": {
@@ -29016,19 +40660,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 231,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.861
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130012500": {
@@ -29038,19 +40670,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 238,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.868
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130012600": {
@@ -29060,19 +40680,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 245,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.875
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130012700": {
@@ -29082,19 +40690,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 252,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.882
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130012800": {
@@ -29104,19 +40700,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 259,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.889
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130012900": {
@@ -29126,19 +40710,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 266,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.896
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130013000": {
@@ -29148,19 +40720,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 273,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.903
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130013100": {
@@ -29170,19 +40730,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 280,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.91
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130013200": {
@@ -29192,19 +40740,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 287,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.917
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130013300": {
@@ -29214,19 +40750,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 294,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.924
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130013400": {
@@ -29236,19 +40760,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 301,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.931
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130013500": {
@@ -29258,19 +40770,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 308,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.938
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130013600": {
@@ -29280,19 +40780,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 315,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.945
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130013700": {
@@ -29302,19 +40790,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 322,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.952
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130013800": {
@@ -29324,19 +40800,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 329,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.959
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130013900": {
@@ -29346,19 +40810,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 336,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.966
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130014000": {
@@ -29368,19 +40820,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 343,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.973
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130014100": {
@@ -29390,19 +40830,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 350,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.98
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130014200": {
@@ -29412,19 +40840,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 357,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.987
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130014300": {
@@ -29434,19 +40850,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 364,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.994
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130014400": {
@@ -29456,19 +40860,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 371,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.001
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130014500": {
@@ -29478,19 +40870,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 378,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.008
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130014600": {
@@ -29500,19 +40880,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 385,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.015
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130014700": {
@@ -29522,19 +40890,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 392,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.022
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130014800": {
@@ -29544,19 +40900,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 399,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.029
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130014900": {
@@ -29566,19 +40910,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 406,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.036
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130015000": {
@@ -29588,19 +40920,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 413,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.043
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130015100": {
@@ -29610,19 +40930,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 420,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.05
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130015200": {
@@ -29632,19 +40940,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 427,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.057
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130015300": {
@@ -29654,19 +40950,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 434,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.064
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130015400": {
@@ -29676,19 +40960,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 441,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.071
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130015500": {
@@ -29698,19 +40970,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 448,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.078
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130015600": {
@@ -29720,19 +40980,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 455,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.085
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130015700": {
@@ -29742,19 +40990,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 462,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.092
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130015800": {
@@ -29764,19 +41000,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 469,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.099
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130015900": {
@@ -29786,19 +41010,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 476,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.106
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130016000": {
@@ -29808,19 +41020,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 483,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.113
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130016100": {
@@ -29830,19 +41030,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 490,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.12
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130016200": {
@@ -29852,19 +41040,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 497,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.127
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130016300": {
@@ -29874,19 +41050,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 504,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.134
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130016400": {
@@ -29896,19 +41060,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 511,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.141
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130016500": {
@@ -29918,19 +41070,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 518,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.148
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130016600": {
@@ -29940,19 +41080,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 525,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.155
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130016700": {
@@ -29962,19 +41090,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 532,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.162
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130016800": {
@@ -29984,19 +41100,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 539,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.169
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130016900": {
@@ -30006,19 +41110,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 546,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.176
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130017000": {
@@ -30028,19 +41120,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 553,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.183
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130017100": {
@@ -30050,19 +41130,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 560,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.19
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130017200": {
@@ -30072,19 +41140,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 567,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.197
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130017300": {
@@ -30094,19 +41150,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 574,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.204
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130017400": {
@@ -30116,19 +41160,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 581,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.211
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130017500": {
@@ -30138,19 +41170,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 588,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.218
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130017600": {
@@ -30160,19 +41180,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 595,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.225
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130017700": {
@@ -30182,19 +41190,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 602,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.232
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130017800": {
@@ -30204,19 +41200,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 609,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.239
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130017900": {
@@ -30226,19 +41210,7 @@ export default {
       "x": 30,
       "y": 20
     },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 616,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.246
-          }
-        ]
-      }
-    ],
+    "effects": [],
     "buffs": []
   },
   "30130018000": {
@@ -30248,27 +41220,125 @@ export default {
       "x": 30,
       "y": 20
     },
+    "effects": [],
+    "buffs": []
+  },
+  "30130020101": {
+    "id": "30130020101",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
     "effects": [
       {
         "type": "hurt",
-        "value": 623,
+        "value": 45,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.253
+            "scale": 0.42
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010101": {
-    "id": "30130010101",
-    "proto": "3013001",
+  "30130020201": {
+    "id": "30130020201",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 50,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.431
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020301": {
+    "id": "30130020301",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 55,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.442
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020401": {
+    "id": "30130020401",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.453
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020501": {
+    "id": "30130020501",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 65,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.464
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020601": {
+    "id": "30130020601",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
@@ -30278,90 +41348,508 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.7
+            "scale": 0.475
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010201": {
-    "id": "30130010201",
-    "proto": "3013001",
+  "30130020701": {
+    "id": "30130020701",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 77,
+        "value": 75,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.707
+            "scale": 0.486
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010301": {
-    "id": "30130010301",
-    "proto": "3013001",
+  "30130020801": {
+    "id": "30130020801",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 84,
+        "value": 80,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.714
+            "scale": 0.497
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010401": {
-    "id": "30130010401",
-    "proto": "3013001",
+  "30130020901": {
+    "id": "30130020901",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 91,
+        "value": 85,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.721
+            "scale": 0.508
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010501": {
-    "id": "30130010501",
-    "proto": "3013001",
+  "30130021001": {
+    "id": "30130021001",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 98,
+        "value": 90,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.519
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021101": {
+    "id": "30130021101",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 95,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021201": {
+    "id": "30130021201",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 100,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.541
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021301": {
+    "id": "30130021301",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 105,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.552
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021401": {
+    "id": "30130021401",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.563
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021501": {
+    "id": "30130021501",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 115,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.574
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021601": {
+    "id": "30130021601",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.585
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021701": {
+    "id": "30130021701",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 125,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.596
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021801": {
+    "id": "30130021801",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 130,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.607
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021901": {
+    "id": "30130021901",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 135,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.618
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022001": {
+    "id": "30130022001",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.629
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022101": {
+    "id": "30130022101",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 145,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.64
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022201": {
+    "id": "30130022201",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.651
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022301": {
+    "id": "30130022301",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.662
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022401": {
+    "id": "30130022401",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 160,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.673
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022501": {
+    "id": "30130022501",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 165,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.684
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022601": {
+    "id": "30130022601",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.695
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022701": {
+    "id": "30130022701",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 175,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.706
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022801": {
+    "id": "30130022801",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.717
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022901": {
+    "id": "30130022901",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 185,
         "prosInfo": [
           {
             "targetType": 0,
@@ -30373,237 +41861,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130010601": {
-    "id": "30130010601",
-    "proto": "3013001",
+  "30130023001": {
+    "id": "30130023001",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 105,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.735
+            "scale": 0.739
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010701": {
-    "id": "30130010701",
-    "proto": "3013001",
+  "30130023101": {
+    "id": "30130023101",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 112,
+        "value": 195,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.742
+            "scale": 0.75
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010801": {
-    "id": "30130010801",
-    "proto": "3013001",
+  "30130023201": {
+    "id": "30130023201",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 119,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.749
+            "scale": 0.761
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010901": {
-    "id": "30130010901",
-    "proto": "3013001",
+  "30130023301": {
+    "id": "30130023301",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 126,
+        "value": 205,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.756
+            "scale": 0.772
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011001": {
-    "id": "30130011001",
-    "proto": "3013001",
+  "30130023401": {
+    "id": "30130023401",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 133,
+        "value": 210,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.763
+            "scale": 0.783
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011101": {
-    "id": "30130011101",
-    "proto": "3013001",
+  "30130023501": {
+    "id": "30130023501",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 140,
+        "value": 215,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.77
+            "scale": 0.794
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011201": {
-    "id": "30130011201",
-    "proto": "3013001",
+  "30130023601": {
+    "id": "30130023601",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 147,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.777
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011301": {
-    "id": "30130011301",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 154,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.784
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011401": {
-    "id": "30130011401",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 161,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.791
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011501": {
-    "id": "30130011501",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 168,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.798
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011601": {
-    "id": "30130011601",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 175,
+        "value": 220,
         "prosInfo": [
           {
             "targetType": 0,
@@ -30615,210 +42015,100 @@ export default {
     ],
     "buffs": []
   },
-  "30130011701": {
-    "id": "30130011701",
-    "proto": "3013001",
+  "30130023701": {
+    "id": "30130023701",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 182,
+        "value": 225,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.812
+            "scale": 0.816
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011801": {
-    "id": "30130011801",
-    "proto": "3013001",
+  "30130023801": {
+    "id": "30130023801",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 189,
+        "value": 230,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.819
+            "scale": 0.827
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011901": {
-    "id": "30130011901",
-    "proto": "3013001",
+  "30130023901": {
+    "id": "30130023901",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 196,
+        "value": 235,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.826
+            "scale": 0.838
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012001": {
-    "id": "30130012001",
-    "proto": "3013001",
+  "30130024001": {
+    "id": "30130024001",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 203,
+        "value": 240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.833
+            "scale": 0.849
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012101": {
-    "id": "30130012101",
-    "proto": "3013001",
+  "30130024101": {
+    "id": "30130024101",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 210,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.84
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012201": {
-    "id": "30130012201",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 217,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.847
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012301": {
-    "id": "30130012301",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 224,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.854
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012401": {
-    "id": "30130012401",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 231,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.861
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012501": {
-    "id": "30130012501",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 238,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.868
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012601": {
-    "id": "30130012601",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
@@ -30828,24 +42118,46 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.875
+            "scale": 0.86
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012701": {
-    "id": "30130012701",
-    "proto": "3013001",
+  "30130024201": {
+    "id": "30130024201",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 252,
+        "value": 250,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.871
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024301": {
+    "id": "30130024301",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 255,
         "prosInfo": [
           {
             "targetType": 0,
@@ -30857,78 +42169,100 @@ export default {
     ],
     "buffs": []
   },
-  "30130012801": {
-    "id": "30130012801",
-    "proto": "3013001",
+  "30130024401": {
+    "id": "30130024401",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 259,
+        "value": 260,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.889
+            "scale": 0.893
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012901": {
-    "id": "30130012901",
-    "proto": "3013001",
+  "30130024501": {
+    "id": "30130024501",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 266,
+        "value": 265,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.896
+            "scale": 0.904
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013001": {
-    "id": "30130013001",
-    "proto": "3013001",
+  "30130024601": {
+    "id": "30130024601",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 273,
+        "value": 270,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.903
+            "scale": 0.915
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013101": {
-    "id": "30130013101",
-    "proto": "3013001",
+  "30130024701": {
+    "id": "30130024701",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 275,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.926
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024801": {
+    "id": "30130024801",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
@@ -30938,156 +42272,46 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.91
+            "scale": 0.937
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013201": {
-    "id": "30130013201",
-    "proto": "3013001",
+  "30130024901": {
+    "id": "30130024901",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 287,
+        "value": 285,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.917
+            "scale": 0.948
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013301": {
-    "id": "30130013301",
-    "proto": "3013001",
+  "30130025001": {
+    "id": "30130025001",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 294,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.924
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013401": {
-    "id": "30130013401",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 301,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.931
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013501": {
-    "id": "30130013501",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 308,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.938
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013601": {
-    "id": "30130013601",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 315,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.945
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013701": {
-    "id": "30130013701",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 322,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.952
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013801": {
-    "id": "30130013801",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 329,
+        "value": 290,
         "prosInfo": [
           {
             "targetType": 0,
@@ -31099,237 +42323,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130013901": {
-    "id": "30130013901",
-    "proto": "3013001",
+  "30130025101": {
+    "id": "30130025101",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 336,
+        "value": 295,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.966
+            "scale": 0.97
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014001": {
-    "id": "30130014001",
-    "proto": "3013001",
+  "30130025201": {
+    "id": "30130025201",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 343,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.973
+            "scale": 0.981
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014101": {
-    "id": "30130014101",
-    "proto": "3013001",
+  "30130025301": {
+    "id": "30130025301",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 350,
+        "value": 305,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.98
+            "scale": 0.992
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014201": {
-    "id": "30130014201",
-    "proto": "3013001",
+  "30130025401": {
+    "id": "30130025401",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 357,
+        "value": 310,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.987
+            "scale": 1.003
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014301": {
-    "id": "30130014301",
-    "proto": "3013001",
+  "30130025501": {
+    "id": "30130025501",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 364,
+        "value": 315,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.994
+            "scale": 1.014
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014401": {
-    "id": "30130014401",
-    "proto": "3013001",
+  "30130025601": {
+    "id": "30130025601",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 371,
+        "value": 320,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.001
+            "scale": 1.025
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014501": {
-    "id": "30130014501",
-    "proto": "3013001",
+  "30130025701": {
+    "id": "30130025701",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 378,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.008
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014601": {
-    "id": "30130014601",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 385,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.015
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014701": {
-    "id": "30130014701",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 392,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.022
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014801": {
-    "id": "30130014801",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 399,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.029
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014901": {
-    "id": "30130014901",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 406,
+        "value": 325,
         "prosInfo": [
           {
             "targetType": 0,
@@ -31341,237 +42477,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130015001": {
-    "id": "30130015001",
-    "proto": "3013001",
+  "30130025801": {
+    "id": "30130025801",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 413,
+        "value": 330,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.043
+            "scale": 1.047
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015101": {
-    "id": "30130015101",
-    "proto": "3013001",
+  "30130025901": {
+    "id": "30130025901",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 335,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.05
+            "scale": 1.058
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015201": {
-    "id": "30130015201",
-    "proto": "3013001",
+  "30130026001": {
+    "id": "30130026001",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 427,
+        "value": 340,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.057
+            "scale": 1.069
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015301": {
-    "id": "30130015301",
-    "proto": "3013001",
+  "30130026101": {
+    "id": "30130026101",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 434,
+        "value": 345,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.064
+            "scale": 1.08
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015401": {
-    "id": "30130015401",
-    "proto": "3013001",
+  "30130026201": {
+    "id": "30130026201",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 441,
+        "value": 350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.071
+            "scale": 1.091
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015501": {
-    "id": "30130015501",
-    "proto": "3013001",
+  "30130026301": {
+    "id": "30130026301",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 448,
+        "value": 355,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.078
+            "scale": 1.102
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015601": {
-    "id": "30130015601",
-    "proto": "3013001",
+  "30130026401": {
+    "id": "30130026401",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 455,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.085
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130015701": {
-    "id": "30130015701",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 462,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.092
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130015801": {
-    "id": "30130015801",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 469,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.099
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130015901": {
-    "id": "30130015901",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 476,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.106
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130016001": {
-    "id": "30130016001",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 483,
+        "value": 360,
         "prosInfo": [
           {
             "targetType": 0,
@@ -31583,237 +42631,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130016101": {
-    "id": "30130016101",
-    "proto": "3013001",
+  "30130026501": {
+    "id": "30130026501",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 490,
+        "value": 365,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.12
+            "scale": 1.124
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016201": {
-    "id": "30130016201",
-    "proto": "3013001",
+  "30130026601": {
+    "id": "30130026601",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 497,
+        "value": 370,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.127
+            "scale": 1.135
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016301": {
-    "id": "30130016301",
-    "proto": "3013001",
+  "30130026701": {
+    "id": "30130026701",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 504,
+        "value": 375,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.134
+            "scale": 1.146
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016401": {
-    "id": "30130016401",
-    "proto": "3013001",
+  "30130026801": {
+    "id": "30130026801",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 511,
+        "value": 380,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.141
+            "scale": 1.157
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016501": {
-    "id": "30130016501",
-    "proto": "3013001",
+  "30130026901": {
+    "id": "30130026901",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 518,
+        "value": 385,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.148
+            "scale": 1.168
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016601": {
-    "id": "30130016601",
-    "proto": "3013001",
+  "30130027001": {
+    "id": "30130027001",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 525,
+        "value": 390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.155
+            "scale": 1.179
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016701": {
-    "id": "30130016701",
-    "proto": "3013001",
+  "30130027101": {
+    "id": "30130027101",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 532,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.162
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130016801": {
-    "id": "30130016801",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 539,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.169
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130016901": {
-    "id": "30130016901",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 546,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.176
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130017001": {
-    "id": "30130017001",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 553,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.183
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130017101": {
-    "id": "30130017101",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 560,
+        "value": 395,
         "prosInfo": [
           {
             "targetType": 0,
@@ -31825,210 +42785,320 @@ export default {
     ],
     "buffs": []
   },
-  "30130017201": {
-    "id": "30130017201",
-    "proto": "3013001",
+  "30130027201": {
+    "id": "30130027201",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 567,
+        "value": 400,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.197
+            "scale": 1.201
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017301": {
-    "id": "30130017301",
-    "proto": "3013001",
+  "30130027301": {
+    "id": "30130027301",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 574,
+        "value": 405,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.204
+            "scale": 1.212
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017401": {
-    "id": "30130017401",
-    "proto": "3013001",
+  "30130027401": {
+    "id": "30130027401",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 581,
+        "value": 410,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.211
+            "scale": 1.223
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017501": {
-    "id": "30130017501",
-    "proto": "3013001",
+  "30130027501": {
+    "id": "30130027501",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 588,
+        "value": 415,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.218
+            "scale": 1.234
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017601": {
-    "id": "30130017601",
-    "proto": "3013001",
+  "30130027601": {
+    "id": "30130027601",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 595,
+        "value": 420,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.225
+            "scale": 1.245
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017701": {
-    "id": "30130017701",
-    "proto": "3013001",
+  "30130027701": {
+    "id": "30130027701",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 602,
+        "value": 425,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.232
+            "scale": 1.256
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017801": {
-    "id": "30130017801",
-    "proto": "3013001",
+  "30130027801": {
+    "id": "30130027801",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 609,
+        "value": 430,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.239
+            "scale": 1.267
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017901": {
-    "id": "30130017901",
-    "proto": "3013001",
+  "30130027901": {
+    "id": "30130027901",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 616,
+        "value": 435,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.246
+            "scale": 1.278
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130018001": {
-    "id": "30130018001",
-    "proto": "3013001",
+  "30130028001": {
+    "id": "30130028001",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 623,
+        "value": 440,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.253
+            "scale": 1.289
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010102": {
-    "id": "30130010102",
-    "proto": "3013001",
+  "30130020102": {
+    "id": "30130020102",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 45,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.42
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020202": {
+    "id": "30130020202",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 50,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.431
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020302": {
+    "id": "30130020302",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 55,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.442
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020402": {
+    "id": "30130020402",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.453
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020502": {
+    "id": "30130020502",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 65,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.464
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020602": {
+    "id": "30130020602",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
@@ -32038,90 +43108,508 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.7
+            "scale": 0.475
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010202": {
-    "id": "30130010202",
-    "proto": "3013001",
+  "30130020702": {
+    "id": "30130020702",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 77,
+        "value": 75,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.707
+            "scale": 0.486
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010302": {
-    "id": "30130010302",
-    "proto": "3013001",
+  "30130020802": {
+    "id": "30130020802",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 84,
+        "value": 80,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.714
+            "scale": 0.497
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010402": {
-    "id": "30130010402",
-    "proto": "3013001",
+  "30130020902": {
+    "id": "30130020902",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 91,
+        "value": 85,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.721
+            "scale": 0.508
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010502": {
-    "id": "30130010502",
-    "proto": "3013001",
+  "30130021002": {
+    "id": "30130021002",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 98,
+        "value": 90,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.519
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021102": {
+    "id": "30130021102",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 95,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021202": {
+    "id": "30130021202",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 100,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.541
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021302": {
+    "id": "30130021302",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 105,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.552
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021402": {
+    "id": "30130021402",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.563
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021502": {
+    "id": "30130021502",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 115,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.574
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021602": {
+    "id": "30130021602",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.585
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021702": {
+    "id": "30130021702",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 125,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.596
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021802": {
+    "id": "30130021802",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 130,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.607
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021902": {
+    "id": "30130021902",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 135,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.618
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022002": {
+    "id": "30130022002",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.629
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022102": {
+    "id": "30130022102",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 145,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.64
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022202": {
+    "id": "30130022202",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.651
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022302": {
+    "id": "30130022302",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.662
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022402": {
+    "id": "30130022402",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 160,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.673
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022502": {
+    "id": "30130022502",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 165,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.684
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022602": {
+    "id": "30130022602",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.695
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022702": {
+    "id": "30130022702",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 175,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.706
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022802": {
+    "id": "30130022802",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.717
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022902": {
+    "id": "30130022902",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 185,
         "prosInfo": [
           {
             "targetType": 0,
@@ -32133,237 +43621,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130010602": {
-    "id": "30130010602",
-    "proto": "3013001",
+  "30130023002": {
+    "id": "30130023002",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 105,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.735
+            "scale": 0.739
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010702": {
-    "id": "30130010702",
-    "proto": "3013001",
+  "30130023102": {
+    "id": "30130023102",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 112,
+        "value": 195,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.742
+            "scale": 0.75
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010802": {
-    "id": "30130010802",
-    "proto": "3013001",
+  "30130023202": {
+    "id": "30130023202",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 119,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.749
+            "scale": 0.761
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010902": {
-    "id": "30130010902",
-    "proto": "3013001",
+  "30130023302": {
+    "id": "30130023302",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 126,
+        "value": 205,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.756
+            "scale": 0.772
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011002": {
-    "id": "30130011002",
-    "proto": "3013001",
+  "30130023402": {
+    "id": "30130023402",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 133,
+        "value": 210,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.763
+            "scale": 0.783
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011102": {
-    "id": "30130011102",
-    "proto": "3013001",
+  "30130023502": {
+    "id": "30130023502",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 140,
+        "value": 215,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.77
+            "scale": 0.794
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011202": {
-    "id": "30130011202",
-    "proto": "3013001",
+  "30130023602": {
+    "id": "30130023602",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 147,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.777
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011302": {
-    "id": "30130011302",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 154,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.784
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011402": {
-    "id": "30130011402",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 161,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.791
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011502": {
-    "id": "30130011502",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 168,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.798
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011602": {
-    "id": "30130011602",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 175,
+        "value": 220,
         "prosInfo": [
           {
             "targetType": 0,
@@ -32375,210 +43775,100 @@ export default {
     ],
     "buffs": []
   },
-  "30130011702": {
-    "id": "30130011702",
-    "proto": "3013001",
+  "30130023702": {
+    "id": "30130023702",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 182,
+        "value": 225,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.812
+            "scale": 0.816
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011802": {
-    "id": "30130011802",
-    "proto": "3013001",
+  "30130023802": {
+    "id": "30130023802",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 189,
+        "value": 230,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.819
+            "scale": 0.827
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011902": {
-    "id": "30130011902",
-    "proto": "3013001",
+  "30130023902": {
+    "id": "30130023902",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 196,
+        "value": 235,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.826
+            "scale": 0.838
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012002": {
-    "id": "30130012002",
-    "proto": "3013001",
+  "30130024002": {
+    "id": "30130024002",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 203,
+        "value": 240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.833
+            "scale": 0.849
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012102": {
-    "id": "30130012102",
-    "proto": "3013001",
+  "30130024102": {
+    "id": "30130024102",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 210,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.84
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012202": {
-    "id": "30130012202",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 217,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.847
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012302": {
-    "id": "30130012302",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 224,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.854
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012402": {
-    "id": "30130012402",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 231,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.861
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012502": {
-    "id": "30130012502",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 238,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.868
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012602": {
-    "id": "30130012602",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
@@ -32588,24 +43878,46 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.875
+            "scale": 0.86
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012702": {
-    "id": "30130012702",
-    "proto": "3013001",
+  "30130024202": {
+    "id": "30130024202",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 252,
+        "value": 250,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.871
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024302": {
+    "id": "30130024302",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 255,
         "prosInfo": [
           {
             "targetType": 0,
@@ -32617,78 +43929,100 @@ export default {
     ],
     "buffs": []
   },
-  "30130012802": {
-    "id": "30130012802",
-    "proto": "3013001",
+  "30130024402": {
+    "id": "30130024402",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 259,
+        "value": 260,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.889
+            "scale": 0.893
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012902": {
-    "id": "30130012902",
-    "proto": "3013001",
+  "30130024502": {
+    "id": "30130024502",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 266,
+        "value": 265,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.896
+            "scale": 0.904
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013002": {
-    "id": "30130013002",
-    "proto": "3013001",
+  "30130024602": {
+    "id": "30130024602",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 273,
+        "value": 270,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.903
+            "scale": 0.915
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013102": {
-    "id": "30130013102",
-    "proto": "3013001",
+  "30130024702": {
+    "id": "30130024702",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 275,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.926
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024802": {
+    "id": "30130024802",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
@@ -32698,156 +44032,46 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.91
+            "scale": 0.937
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013202": {
-    "id": "30130013202",
-    "proto": "3013001",
+  "30130024902": {
+    "id": "30130024902",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 287,
+        "value": 285,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.917
+            "scale": 0.948
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013302": {
-    "id": "30130013302",
-    "proto": "3013001",
+  "30130025002": {
+    "id": "30130025002",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 294,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.924
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013402": {
-    "id": "30130013402",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 301,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.931
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013502": {
-    "id": "30130013502",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 308,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.938
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013602": {
-    "id": "30130013602",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 315,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.945
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013702": {
-    "id": "30130013702",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 322,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.952
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013802": {
-    "id": "30130013802",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 329,
+        "value": 290,
         "prosInfo": [
           {
             "targetType": 0,
@@ -32859,237 +44083,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130013902": {
-    "id": "30130013902",
-    "proto": "3013001",
+  "30130025102": {
+    "id": "30130025102",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 336,
+        "value": 295,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.966
+            "scale": 0.97
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014002": {
-    "id": "30130014002",
-    "proto": "3013001",
+  "30130025202": {
+    "id": "30130025202",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 343,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.973
+            "scale": 0.981
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014102": {
-    "id": "30130014102",
-    "proto": "3013001",
+  "30130025302": {
+    "id": "30130025302",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 350,
+        "value": 305,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.98
+            "scale": 0.992
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014202": {
-    "id": "30130014202",
-    "proto": "3013001",
+  "30130025402": {
+    "id": "30130025402",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 357,
+        "value": 310,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.987
+            "scale": 1.003
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014302": {
-    "id": "30130014302",
-    "proto": "3013001",
+  "30130025502": {
+    "id": "30130025502",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 364,
+        "value": 315,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.994
+            "scale": 1.014
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014402": {
-    "id": "30130014402",
-    "proto": "3013001",
+  "30130025602": {
+    "id": "30130025602",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 371,
+        "value": 320,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.001
+            "scale": 1.025
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014502": {
-    "id": "30130014502",
-    "proto": "3013001",
+  "30130025702": {
+    "id": "30130025702",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 378,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.008
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014602": {
-    "id": "30130014602",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 385,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.015
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014702": {
-    "id": "30130014702",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 392,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.022
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014802": {
-    "id": "30130014802",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 399,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.029
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014902": {
-    "id": "30130014902",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 406,
+        "value": 325,
         "prosInfo": [
           {
             "targetType": 0,
@@ -33101,237 +44237,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130015002": {
-    "id": "30130015002",
-    "proto": "3013001",
+  "30130025802": {
+    "id": "30130025802",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 413,
+        "value": 330,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.043
+            "scale": 1.047
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015102": {
-    "id": "30130015102",
-    "proto": "3013001",
+  "30130025902": {
+    "id": "30130025902",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 335,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.05
+            "scale": 1.058
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015202": {
-    "id": "30130015202",
-    "proto": "3013001",
+  "30130026002": {
+    "id": "30130026002",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 427,
+        "value": 340,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.057
+            "scale": 1.069
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015302": {
-    "id": "30130015302",
-    "proto": "3013001",
+  "30130026102": {
+    "id": "30130026102",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 434,
+        "value": 345,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.064
+            "scale": 1.08
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015402": {
-    "id": "30130015402",
-    "proto": "3013001",
+  "30130026202": {
+    "id": "30130026202",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 441,
+        "value": 350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.071
+            "scale": 1.091
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015502": {
-    "id": "30130015502",
-    "proto": "3013001",
+  "30130026302": {
+    "id": "30130026302",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 448,
+        "value": 355,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.078
+            "scale": 1.102
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015602": {
-    "id": "30130015602",
-    "proto": "3013001",
+  "30130026402": {
+    "id": "30130026402",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 455,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.085
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130015702": {
-    "id": "30130015702",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 462,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.092
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130015802": {
-    "id": "30130015802",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 469,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.099
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130015902": {
-    "id": "30130015902",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 476,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.106
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130016002": {
-    "id": "30130016002",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 483,
+        "value": 360,
         "prosInfo": [
           {
             "targetType": 0,
@@ -33343,237 +44391,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130016102": {
-    "id": "30130016102",
-    "proto": "3013001",
+  "30130026502": {
+    "id": "30130026502",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 490,
+        "value": 365,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.12
+            "scale": 1.124
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016202": {
-    "id": "30130016202",
-    "proto": "3013001",
+  "30130026602": {
+    "id": "30130026602",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 497,
+        "value": 370,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.127
+            "scale": 1.135
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016302": {
-    "id": "30130016302",
-    "proto": "3013001",
+  "30130026702": {
+    "id": "30130026702",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 504,
+        "value": 375,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.134
+            "scale": 1.146
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016402": {
-    "id": "30130016402",
-    "proto": "3013001",
+  "30130026802": {
+    "id": "30130026802",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 511,
+        "value": 380,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.141
+            "scale": 1.157
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016502": {
-    "id": "30130016502",
-    "proto": "3013001",
+  "30130026902": {
+    "id": "30130026902",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 518,
+        "value": 385,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.148
+            "scale": 1.168
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016602": {
-    "id": "30130016602",
-    "proto": "3013001",
+  "30130027002": {
+    "id": "30130027002",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 525,
+        "value": 390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.155
+            "scale": 1.179
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016702": {
-    "id": "30130016702",
-    "proto": "3013001",
+  "30130027102": {
+    "id": "30130027102",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 532,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.162
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130016802": {
-    "id": "30130016802",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 539,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.169
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130016902": {
-    "id": "30130016902",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 546,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.176
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130017002": {
-    "id": "30130017002",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 553,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.183
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130017102": {
-    "id": "30130017102",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 560,
+        "value": 395,
         "prosInfo": [
           {
             "targetType": 0,
@@ -33585,210 +44545,320 @@ export default {
     ],
     "buffs": []
   },
-  "30130017202": {
-    "id": "30130017202",
-    "proto": "3013001",
+  "30130027202": {
+    "id": "30130027202",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 567,
+        "value": 400,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.197
+            "scale": 1.201
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017302": {
-    "id": "30130017302",
-    "proto": "3013001",
+  "30130027302": {
+    "id": "30130027302",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 574,
+        "value": 405,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.204
+            "scale": 1.212
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017402": {
-    "id": "30130017402",
-    "proto": "3013001",
+  "30130027402": {
+    "id": "30130027402",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 581,
+        "value": 410,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.211
+            "scale": 1.223
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017502": {
-    "id": "30130017502",
-    "proto": "3013001",
+  "30130027502": {
+    "id": "30130027502",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 588,
+        "value": 415,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.218
+            "scale": 1.234
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017602": {
-    "id": "30130017602",
-    "proto": "3013001",
+  "30130027602": {
+    "id": "30130027602",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 595,
+        "value": 420,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.225
+            "scale": 1.245
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017702": {
-    "id": "30130017702",
-    "proto": "3013001",
+  "30130027702": {
+    "id": "30130027702",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 602,
+        "value": 425,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.232
+            "scale": 1.256
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017802": {
-    "id": "30130017802",
-    "proto": "3013001",
+  "30130027802": {
+    "id": "30130027802",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 609,
+        "value": 430,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.239
+            "scale": 1.267
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017902": {
-    "id": "30130017902",
-    "proto": "3013001",
+  "30130027902": {
+    "id": "30130027902",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 616,
+        "value": 435,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.246
+            "scale": 1.278
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130018002": {
-    "id": "30130018002",
-    "proto": "3013001",
+  "30130028002": {
+    "id": "30130028002",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 623,
+        "value": 440,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.253
+            "scale": 1.289
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010103": {
-    "id": "30130010103",
-    "proto": "3013001",
+  "30130020103": {
+    "id": "30130020103",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 45,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.42
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020203": {
+    "id": "30130020203",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 50,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.431
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020303": {
+    "id": "30130020303",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 55,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.442
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020403": {
+    "id": "30130020403",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.453
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020503": {
+    "id": "30130020503",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 65,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.464
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020603": {
+    "id": "30130020603",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
@@ -33798,90 +44868,508 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.7
+            "scale": 0.475
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010203": {
-    "id": "30130010203",
-    "proto": "3013001",
+  "30130020703": {
+    "id": "30130020703",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 77,
+        "value": 75,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.707
+            "scale": 0.486
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010303": {
-    "id": "30130010303",
-    "proto": "3013001",
+  "30130020803": {
+    "id": "30130020803",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 84,
+        "value": 80,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.714
+            "scale": 0.497
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010403": {
-    "id": "30130010403",
-    "proto": "3013001",
+  "30130020903": {
+    "id": "30130020903",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 91,
+        "value": 85,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.721
+            "scale": 0.508
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010503": {
-    "id": "30130010503",
-    "proto": "3013001",
+  "30130021003": {
+    "id": "30130021003",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 98,
+        "value": 90,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.519
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021103": {
+    "id": "30130021103",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 95,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021203": {
+    "id": "30130021203",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 100,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.541
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021303": {
+    "id": "30130021303",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 105,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.552
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021403": {
+    "id": "30130021403",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.563
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021503": {
+    "id": "30130021503",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 115,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.574
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021603": {
+    "id": "30130021603",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.585
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021703": {
+    "id": "30130021703",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 125,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.596
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021803": {
+    "id": "30130021803",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 130,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.607
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021903": {
+    "id": "30130021903",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 135,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.618
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022003": {
+    "id": "30130022003",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.629
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022103": {
+    "id": "30130022103",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 145,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.64
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022203": {
+    "id": "30130022203",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.651
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022303": {
+    "id": "30130022303",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.662
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022403": {
+    "id": "30130022403",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 160,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.673
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022503": {
+    "id": "30130022503",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 165,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.684
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022603": {
+    "id": "30130022603",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.695
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022703": {
+    "id": "30130022703",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 175,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.706
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022803": {
+    "id": "30130022803",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.717
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022903": {
+    "id": "30130022903",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 185,
         "prosInfo": [
           {
             "targetType": 0,
@@ -33893,237 +45381,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130010603": {
-    "id": "30130010603",
-    "proto": "3013001",
+  "30130023003": {
+    "id": "30130023003",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 105,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.735
+            "scale": 0.739
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010703": {
-    "id": "30130010703",
-    "proto": "3013001",
+  "30130023103": {
+    "id": "30130023103",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 112,
+        "value": 195,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.742
+            "scale": 0.75
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010803": {
-    "id": "30130010803",
-    "proto": "3013001",
+  "30130023203": {
+    "id": "30130023203",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 119,
+        "value": 200,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.749
+            "scale": 0.761
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130010903": {
-    "id": "30130010903",
-    "proto": "3013001",
+  "30130023303": {
+    "id": "30130023303",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 126,
+        "value": 205,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.756
+            "scale": 0.772
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011003": {
-    "id": "30130011003",
-    "proto": "3013001",
+  "30130023403": {
+    "id": "30130023403",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 133,
+        "value": 210,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.763
+            "scale": 0.783
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011103": {
-    "id": "30130011103",
-    "proto": "3013001",
+  "30130023503": {
+    "id": "30130023503",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 140,
+        "value": 215,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.77
+            "scale": 0.794
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011203": {
-    "id": "30130011203",
-    "proto": "3013001",
+  "30130023603": {
+    "id": "30130023603",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 147,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.777
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011303": {
-    "id": "30130011303",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 154,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.784
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011403": {
-    "id": "30130011403",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 161,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.791
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011503": {
-    "id": "30130011503",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 168,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.798
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130011603": {
-    "id": "30130011603",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 175,
+        "value": 220,
         "prosInfo": [
           {
             "targetType": 0,
@@ -34135,210 +45535,100 @@ export default {
     ],
     "buffs": []
   },
-  "30130011703": {
-    "id": "30130011703",
-    "proto": "3013001",
+  "30130023703": {
+    "id": "30130023703",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 182,
+        "value": 225,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.812
+            "scale": 0.816
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011803": {
-    "id": "30130011803",
-    "proto": "3013001",
+  "30130023803": {
+    "id": "30130023803",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 189,
+        "value": 230,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.819
+            "scale": 0.827
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130011903": {
-    "id": "30130011903",
-    "proto": "3013001",
+  "30130023903": {
+    "id": "30130023903",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 196,
+        "value": 235,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.826
+            "scale": 0.838
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012003": {
-    "id": "30130012003",
-    "proto": "3013001",
+  "30130024003": {
+    "id": "30130024003",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 203,
+        "value": 240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.833
+            "scale": 0.849
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012103": {
-    "id": "30130012103",
-    "proto": "3013001",
+  "30130024103": {
+    "id": "30130024103",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 210,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.84
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012203": {
-    "id": "30130012203",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 217,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.847
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012303": {
-    "id": "30130012303",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 224,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.854
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012403": {
-    "id": "30130012403",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 231,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.861
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012503": {
-    "id": "30130012503",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 238,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.868
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130012603": {
-    "id": "30130012603",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
@@ -34348,24 +45638,46 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.875
+            "scale": 0.86
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012703": {
-    "id": "30130012703",
-    "proto": "3013001",
+  "30130024203": {
+    "id": "30130024203",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 252,
+        "value": 250,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.871
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024303": {
+    "id": "30130024303",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 255,
         "prosInfo": [
           {
             "targetType": 0,
@@ -34377,78 +45689,100 @@ export default {
     ],
     "buffs": []
   },
-  "30130012803": {
-    "id": "30130012803",
-    "proto": "3013001",
+  "30130024403": {
+    "id": "30130024403",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 259,
+        "value": 260,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.889
+            "scale": 0.893
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130012903": {
-    "id": "30130012903",
-    "proto": "3013001",
+  "30130024503": {
+    "id": "30130024503",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 266,
+        "value": 265,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.896
+            "scale": 0.904
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013003": {
-    "id": "30130013003",
-    "proto": "3013001",
+  "30130024603": {
+    "id": "30130024603",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 273,
+        "value": 270,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.903
+            "scale": 0.915
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013103": {
-    "id": "30130013103",
-    "proto": "3013001",
+  "30130024703": {
+    "id": "30130024703",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 275,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.926
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024803": {
+    "id": "30130024803",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
@@ -34458,156 +45792,46 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.91
+            "scale": 0.937
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013203": {
-    "id": "30130013203",
-    "proto": "3013001",
+  "30130024903": {
+    "id": "30130024903",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 287,
+        "value": 285,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.917
+            "scale": 0.948
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130013303": {
-    "id": "30130013303",
-    "proto": "3013001",
+  "30130025003": {
+    "id": "30130025003",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 294,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.924
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013403": {
-    "id": "30130013403",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 301,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.931
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013503": {
-    "id": "30130013503",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 308,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.938
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013603": {
-    "id": "30130013603",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 315,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.945
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013703": {
-    "id": "30130013703",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 322,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 0.952
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130013803": {
-    "id": "30130013803",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 329,
+        "value": 290,
         "prosInfo": [
           {
             "targetType": 0,
@@ -34619,237 +45843,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130013903": {
-    "id": "30130013903",
-    "proto": "3013001",
+  "30130025103": {
+    "id": "30130025103",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 336,
+        "value": 295,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.966
+            "scale": 0.97
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014003": {
-    "id": "30130014003",
-    "proto": "3013001",
+  "30130025203": {
+    "id": "30130025203",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 343,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.973
+            "scale": 0.981
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014103": {
-    "id": "30130014103",
-    "proto": "3013001",
+  "30130025303": {
+    "id": "30130025303",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 350,
+        "value": 305,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.98
+            "scale": 0.992
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014203": {
-    "id": "30130014203",
-    "proto": "3013001",
+  "30130025403": {
+    "id": "30130025403",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 357,
+        "value": 310,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.987
+            "scale": 1.003
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014303": {
-    "id": "30130014303",
-    "proto": "3013001",
+  "30130025503": {
+    "id": "30130025503",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 364,
+        "value": 315,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.994
+            "scale": 1.014
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014403": {
-    "id": "30130014403",
-    "proto": "3013001",
+  "30130025603": {
+    "id": "30130025603",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 371,
+        "value": 320,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.001
+            "scale": 1.025
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130014503": {
-    "id": "30130014503",
-    "proto": "3013001",
+  "30130025703": {
+    "id": "30130025703",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 378,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.008
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014603": {
-    "id": "30130014603",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 385,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.015
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014703": {
-    "id": "30130014703",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 392,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.022
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014803": {
-    "id": "30130014803",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 399,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.029
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130014903": {
-    "id": "30130014903",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 406,
+        "value": 325,
         "prosInfo": [
           {
             "targetType": 0,
@@ -34861,237 +45997,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130015003": {
-    "id": "30130015003",
-    "proto": "3013001",
+  "30130025803": {
+    "id": "30130025803",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 413,
+        "value": 330,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.043
+            "scale": 1.047
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015103": {
-    "id": "30130015103",
-    "proto": "3013001",
+  "30130025903": {
+    "id": "30130025903",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 335,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.05
+            "scale": 1.058
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015203": {
-    "id": "30130015203",
-    "proto": "3013001",
+  "30130026003": {
+    "id": "30130026003",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 427,
+        "value": 340,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.057
+            "scale": 1.069
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015303": {
-    "id": "30130015303",
-    "proto": "3013001",
+  "30130026103": {
+    "id": "30130026103",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 434,
+        "value": 345,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.064
+            "scale": 1.08
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015403": {
-    "id": "30130015403",
-    "proto": "3013001",
+  "30130026203": {
+    "id": "30130026203",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 441,
+        "value": 350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.071
+            "scale": 1.091
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015503": {
-    "id": "30130015503",
-    "proto": "3013001",
+  "30130026303": {
+    "id": "30130026303",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 448,
+        "value": 355,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.078
+            "scale": 1.102
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130015603": {
-    "id": "30130015603",
-    "proto": "3013001",
+  "30130026403": {
+    "id": "30130026403",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 455,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.085
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130015703": {
-    "id": "30130015703",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 462,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.092
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130015803": {
-    "id": "30130015803",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 469,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.099
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130015903": {
-    "id": "30130015903",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 476,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.106
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130016003": {
-    "id": "30130016003",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 483,
+        "value": 360,
         "prosInfo": [
           {
             "targetType": 0,
@@ -35103,237 +46151,149 @@ export default {
     ],
     "buffs": []
   },
-  "30130016103": {
-    "id": "30130016103",
-    "proto": "3013001",
+  "30130026503": {
+    "id": "30130026503",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 490,
+        "value": 365,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.12
+            "scale": 1.124
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016203": {
-    "id": "30130016203",
-    "proto": "3013001",
+  "30130026603": {
+    "id": "30130026603",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 497,
+        "value": 370,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.127
+            "scale": 1.135
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016303": {
-    "id": "30130016303",
-    "proto": "3013001",
+  "30130026703": {
+    "id": "30130026703",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 504,
+        "value": 375,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.134
+            "scale": 1.146
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016403": {
-    "id": "30130016403",
-    "proto": "3013001",
+  "30130026803": {
+    "id": "30130026803",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 511,
+        "value": 380,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.141
+            "scale": 1.157
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016503": {
-    "id": "30130016503",
-    "proto": "3013001",
+  "30130026903": {
+    "id": "30130026903",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 518,
+        "value": 385,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.148
+            "scale": 1.168
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016603": {
-    "id": "30130016603",
-    "proto": "3013001",
+  "30130027003": {
+    "id": "30130027003",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 525,
+        "value": 390,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.155
+            "scale": 1.179
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130016703": {
-    "id": "30130016703",
-    "proto": "3013001",
+  "30130027103": {
+    "id": "30130027103",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 532,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.162
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130016803": {
-    "id": "30130016803",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 539,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.169
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130016903": {
-    "id": "30130016903",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 546,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.176
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130017003": {
-    "id": "30130017003",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 553,
-        "prosInfo": [
-          {
-            "targetType": 0,
-            "proId": 5,
-            "scale": 1.183
-          }
-        ]
-      }
-    ],
-    "buffs": []
-  },
-  "30130017103": {
-    "id": "30130017103",
-    "proto": "3013001",
-    "offset": {
-      "x": 30,
-      "y": 20
-    },
-    "effects": [
-      {
-        "type": "hurt",
-        "value": 560,
+        "value": 395,
         "prosInfo": [
           {
             "targetType": 0,
@@ -35345,198 +46305,1958 @@ export default {
     ],
     "buffs": []
   },
-  "30130017203": {
-    "id": "30130017203",
-    "proto": "3013001",
+  "30130027203": {
+    "id": "30130027203",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 567,
+        "value": 400,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.197
+            "scale": 1.201
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017303": {
-    "id": "30130017303",
-    "proto": "3013001",
+  "30130027303": {
+    "id": "30130027303",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 574,
+        "value": 405,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.204
+            "scale": 1.212
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017403": {
-    "id": "30130017403",
-    "proto": "3013001",
+  "30130027403": {
+    "id": "30130027403",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 581,
+        "value": 410,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.211
+            "scale": 1.223
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017503": {
-    "id": "30130017503",
-    "proto": "3013001",
+  "30130027503": {
+    "id": "30130027503",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 588,
+        "value": 415,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.218
+            "scale": 1.234
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017603": {
-    "id": "30130017603",
-    "proto": "3013001",
+  "30130027603": {
+    "id": "30130027603",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 595,
+        "value": 420,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.225
+            "scale": 1.245
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017703": {
-    "id": "30130017703",
-    "proto": "3013001",
+  "30130027703": {
+    "id": "30130027703",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 602,
+        "value": 425,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.232
+            "scale": 1.256
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017803": {
-    "id": "30130017803",
-    "proto": "3013001",
+  "30130027803": {
+    "id": "30130027803",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 609,
+        "value": 430,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.239
+            "scale": 1.267
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130017903": {
-    "id": "30130017903",
-    "proto": "3013001",
+  "30130027903": {
+    "id": "30130027903",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 616,
+        "value": 435,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.246
+            "scale": 1.278
           }
         ]
       }
     ],
     "buffs": []
   },
-  "30130018003": {
-    "id": "30130018003",
-    "proto": "3013001",
+  "30130028003": {
+    "id": "30130028003",
+    "proto": "3013002",
     "offset": {
-      "x": 30,
-      "y": 20
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {
         "type": "hurt",
-        "value": 623,
+        "value": 440,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.253
+            "scale": 1.289
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020104": {
+    "id": "30130020104",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 45,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.42
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020204": {
+    "id": "30130020204",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 50,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.431
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020304": {
+    "id": "30130020304",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 55,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.442
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020404": {
+    "id": "30130020404",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 60,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.453
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020504": {
+    "id": "30130020504",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 65,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.464
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020604": {
+    "id": "30130020604",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 70,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.475
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020704": {
+    "id": "30130020704",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 75,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.486
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020804": {
+    "id": "30130020804",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 80,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.497
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130020904": {
+    "id": "30130020904",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 85,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.508
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021004": {
+    "id": "30130021004",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 90,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.519
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021104": {
+    "id": "30130021104",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 95,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.53
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021204": {
+    "id": "30130021204",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 100,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.541
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021304": {
+    "id": "30130021304",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 105,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.552
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021404": {
+    "id": "30130021404",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 110,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.563
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021504": {
+    "id": "30130021504",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 115,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.574
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021604": {
+    "id": "30130021604",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 120,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.585
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021704": {
+    "id": "30130021704",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 125,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.596
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021804": {
+    "id": "30130021804",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 130,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.607
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130021904": {
+    "id": "30130021904",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 135,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.618
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022004": {
+    "id": "30130022004",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 140,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.629
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022104": {
+    "id": "30130022104",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 145,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.64
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022204": {
+    "id": "30130022204",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 150,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.651
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022304": {
+    "id": "30130022304",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 155,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.662
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022404": {
+    "id": "30130022404",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 160,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.673
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022504": {
+    "id": "30130022504",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 165,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.684
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022604": {
+    "id": "30130022604",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 170,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.695
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022704": {
+    "id": "30130022704",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 175,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.706
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022804": {
+    "id": "30130022804",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 180,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.717
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130022904": {
+    "id": "30130022904",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 185,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.728
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130023004": {
+    "id": "30130023004",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 190,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.739
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130023104": {
+    "id": "30130023104",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 195,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.75
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130023204": {
+    "id": "30130023204",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 200,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.761
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130023304": {
+    "id": "30130023304",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 205,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.772
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130023404": {
+    "id": "30130023404",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 210,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.783
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130023504": {
+    "id": "30130023504",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 215,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.794
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130023604": {
+    "id": "30130023604",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 220,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.805
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130023704": {
+    "id": "30130023704",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 225,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.816
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130023804": {
+    "id": "30130023804",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 230,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.827
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130023904": {
+    "id": "30130023904",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 235,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.838
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024004": {
+    "id": "30130024004",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 240,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.849
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024104": {
+    "id": "30130024104",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 245,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.86
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024204": {
+    "id": "30130024204",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 250,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.871
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024304": {
+    "id": "30130024304",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 255,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.882
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024404": {
+    "id": "30130024404",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 260,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.893
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024504": {
+    "id": "30130024504",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 265,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.904
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024604": {
+    "id": "30130024604",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 270,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.915
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024704": {
+    "id": "30130024704",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 275,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.926
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024804": {
+    "id": "30130024804",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 280,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.937
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130024904": {
+    "id": "30130024904",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 285,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.948
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130025004": {
+    "id": "30130025004",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 290,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.959
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130025104": {
+    "id": "30130025104",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 295,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.97
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130025204": {
+    "id": "30130025204",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 300,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.981
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130025304": {
+    "id": "30130025304",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 305,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 0.992
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130025404": {
+    "id": "30130025404",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 310,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.003
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130025504": {
+    "id": "30130025504",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 315,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.014
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130025604": {
+    "id": "30130025604",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 320,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.025
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130025704": {
+    "id": "30130025704",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 325,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.036
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130025804": {
+    "id": "30130025804",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 330,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.047
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130025904": {
+    "id": "30130025904",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 335,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.058
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130026004": {
+    "id": "30130026004",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 340,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.069
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130026104": {
+    "id": "30130026104",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 345,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.08
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130026204": {
+    "id": "30130026204",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 350,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.091
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130026304": {
+    "id": "30130026304",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 355,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.102
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130026404": {
+    "id": "30130026404",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 360,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.113
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130026504": {
+    "id": "30130026504",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 365,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.124
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130026604": {
+    "id": "30130026604",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 370,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.135
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130026704": {
+    "id": "30130026704",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 375,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.146
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130026804": {
+    "id": "30130026804",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 380,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.157
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130026904": {
+    "id": "30130026904",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 385,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.168
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130027004": {
+    "id": "30130027004",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 390,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.179
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130027104": {
+    "id": "30130027104",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 395,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.19
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130027204": {
+    "id": "30130027204",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 400,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.201
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130027304": {
+    "id": "30130027304",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 405,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.212
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130027404": {
+    "id": "30130027404",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 410,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.223
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130027504": {
+    "id": "30130027504",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 415,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.234
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130027604": {
+    "id": "30130027604",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 420,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.245
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130027704": {
+    "id": "30130027704",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 425,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.256
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130027804": {
+    "id": "30130027804",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 430,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.267
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130027904": {
+    "id": "30130027904",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 435,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.278
+          }
+        ]
+      }
+    ],
+    "buffs": []
+  },
+  "30130028004": {
+    "id": "30130028004",
+    "proto": "3013002",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "effects": [
+      {
+        "type": "hurt",
+        "value": 440,
+        "prosInfo": [
+          {
+            "targetType": 0,
+            "proId": 5,
+            "scale": 1.289
           }
         ]
       }
@@ -36295,12 +49015,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 150,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2
+            "scale": 150
           }
         ]
       }
@@ -36317,12 +49037,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 168,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.02
+            "scale": 150.036
           }
         ]
       }
@@ -36339,12 +49059,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 186,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.04
+            "scale": 150.072
           }
         ]
       }
@@ -36361,12 +49081,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 204,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.06
+            "scale": 150.108
           }
         ]
       }
@@ -36383,12 +49103,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 222,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.08
+            "scale": 150.144
           }
         ]
       }
@@ -36405,12 +49125,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 240,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.1
+            "scale": 150.18
           }
         ]
       }
@@ -36427,12 +49147,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 258,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.12
+            "scale": 150.216
           }
         ]
       }
@@ -36449,12 +49169,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 276,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.14
+            "scale": 150.252
           }
         ]
       }
@@ -36471,12 +49191,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 360,
+        "value": 294,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.16
+            "scale": 150.288
           }
         ]
       }
@@ -36493,12 +49213,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 380,
+        "value": 312,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.18
+            "scale": 150.324
           }
         ]
       }
@@ -36515,12 +49235,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 400,
+        "value": 330,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.2
+            "scale": 150.36
           }
         ]
       }
@@ -36537,12 +49257,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 420,
+        "value": 348,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.22
+            "scale": 150.396
           }
         ]
       }
@@ -36559,12 +49279,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 440,
+        "value": 366,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.24
+            "scale": 150.432
           }
         ]
       }
@@ -36581,12 +49301,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 460,
+        "value": 384,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.26
+            "scale": 150.468
           }
         ]
       }
@@ -36603,12 +49323,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 480,
+        "value": 402,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.28
+            "scale": 150.504
           }
         ]
       }
@@ -36625,12 +49345,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 500,
+        "value": 420,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.3
+            "scale": 150.54
           }
         ]
       }
@@ -36647,12 +49367,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 520,
+        "value": 438,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.32
+            "scale": 150.576
           }
         ]
       }
@@ -36669,12 +49389,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 540,
+        "value": 456,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.34
+            "scale": 150.612
           }
         ]
       }
@@ -36691,12 +49411,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 560,
+        "value": 474,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.36
+            "scale": 150.648
           }
         ]
       }
@@ -36713,12 +49433,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 580,
+        "value": 492,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.38
+            "scale": 150.684
           }
         ]
       }
@@ -36735,12 +49455,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 600,
+        "value": 510,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.4
+            "scale": 150.72
           }
         ]
       }
@@ -36757,12 +49477,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 620,
+        "value": 528,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.42
+            "scale": 150.756
           }
         ]
       }
@@ -36779,12 +49499,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 640,
+        "value": 546,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.44
+            "scale": 150.792
           }
         ]
       }
@@ -36801,12 +49521,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 660,
+        "value": 564,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.46
+            "scale": 150.828
           }
         ]
       }
@@ -36823,12 +49543,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 680,
+        "value": 582,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.48
+            "scale": 150.864
           }
         ]
       }
@@ -36845,12 +49565,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 700,
+        "value": 600,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.5
+            "scale": 150.9
           }
         ]
       }
@@ -36867,12 +49587,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 720,
+        "value": 618,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.52
+            "scale": 150.936
           }
         ]
       }
@@ -36889,12 +49609,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 740,
+        "value": 636,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.54
+            "scale": 150.972
           }
         ]
       }
@@ -36911,12 +49631,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 760,
+        "value": 654,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.56
+            "scale": 151.008
           }
         ]
       }
@@ -36933,12 +49653,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 780,
+        "value": 672,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.58
+            "scale": 151.044
           }
         ]
       }
@@ -36955,12 +49675,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 800,
+        "value": 690,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.6
+            "scale": 151.08
           }
         ]
       }
@@ -36977,12 +49697,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 820,
+        "value": 708,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.62
+            "scale": 151.116
           }
         ]
       }
@@ -36999,12 +49719,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 840,
+        "value": 726,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.64
+            "scale": 151.152
           }
         ]
       }
@@ -37021,12 +49741,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 860,
+        "value": 744,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.66
+            "scale": 151.188
           }
         ]
       }
@@ -37043,12 +49763,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 880,
+        "value": 762,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.68
+            "scale": 151.224
           }
         ]
       }
@@ -37065,12 +49785,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 900,
+        "value": 780,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.7
+            "scale": 151.26
           }
         ]
       }
@@ -37087,12 +49807,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 920,
+        "value": 798,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.72
+            "scale": 151.296
           }
         ]
       }
@@ -37109,12 +49829,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 940,
+        "value": 816,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.74
+            "scale": 151.332
           }
         ]
       }
@@ -37131,12 +49851,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 960,
+        "value": 834,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.76
+            "scale": 151.368
           }
         ]
       }
@@ -37153,12 +49873,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 980,
+        "value": 852,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.78
+            "scale": 151.404
           }
         ]
       }
@@ -37175,12 +49895,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1000,
+        "value": 870,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.8
+            "scale": 151.44
           }
         ]
       }
@@ -37197,12 +49917,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1020,
+        "value": 888,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.82
+            "scale": 151.476
           }
         ]
       }
@@ -37219,12 +49939,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1040,
+        "value": 906,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.84
+            "scale": 151.512
           }
         ]
       }
@@ -37241,12 +49961,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1060,
+        "value": 924,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.86
+            "scale": 151.548
           }
         ]
       }
@@ -37263,12 +49983,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1080,
+        "value": 942,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.88
+            "scale": 151.584
           }
         ]
       }
@@ -37285,12 +50005,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1100,
+        "value": 960,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.9
+            "scale": 151.62
           }
         ]
       }
@@ -37307,12 +50027,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1120,
+        "value": 978,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.92
+            "scale": 151.656
           }
         ]
       }
@@ -37329,12 +50049,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1140,
+        "value": 996,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.94
+            "scale": 151.692
           }
         ]
       }
@@ -37351,12 +50071,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1160,
+        "value": 1014,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.96
+            "scale": 151.728
           }
         ]
       }
@@ -37373,12 +50093,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1180,
+        "value": 1032,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.98
+            "scale": 151.764
           }
         ]
       }
@@ -37395,12 +50115,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1200,
+        "value": 1050,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3
+            "scale": 151.8
           }
         ]
       }
@@ -37417,12 +50137,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1220,
+        "value": 1068,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.02
+            "scale": 151.836
           }
         ]
       }
@@ -37439,12 +50159,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1240,
+        "value": 1086,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.04
+            "scale": 151.872
           }
         ]
       }
@@ -37461,12 +50181,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1260,
+        "value": 1104,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.06
+            "scale": 151.908
           }
         ]
       }
@@ -37483,12 +50203,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1280,
+        "value": 1122,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.08
+            "scale": 151.944
           }
         ]
       }
@@ -37505,12 +50225,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1300,
+        "value": 1140,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.1
+            "scale": 151.98
           }
         ]
       }
@@ -37527,12 +50247,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1320,
+        "value": 1158,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.12
+            "scale": 152.016
           }
         ]
       }
@@ -37549,12 +50269,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1340,
+        "value": 1176,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.14
+            "scale": 152.052
           }
         ]
       }
@@ -37571,12 +50291,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1360,
+        "value": 1194,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.16
+            "scale": 152.088
           }
         ]
       }
@@ -37593,12 +50313,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1380,
+        "value": 1212,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.18
+            "scale": 152.124
           }
         ]
       }
@@ -37615,12 +50335,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1400,
+        "value": 1230,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.2
+            "scale": 152.16
           }
         ]
       }
@@ -37637,12 +50357,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1420,
+        "value": 1248,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.22
+            "scale": 152.196
           }
         ]
       }
@@ -37659,12 +50379,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1440,
+        "value": 1266,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.24
+            "scale": 152.232
           }
         ]
       }
@@ -37681,12 +50401,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1460,
+        "value": 1284,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.26
+            "scale": 152.268
           }
         ]
       }
@@ -37703,12 +50423,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1480,
+        "value": 1302,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.28
+            "scale": 152.304
           }
         ]
       }
@@ -37725,12 +50445,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1500,
+        "value": 1320,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.3
+            "scale": 152.34
           }
         ]
       }
@@ -37747,12 +50467,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1520,
+        "value": 1338,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.32
+            "scale": 152.376
           }
         ]
       }
@@ -37769,12 +50489,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1540,
+        "value": 1356,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.34
+            "scale": 152.412
           }
         ]
       }
@@ -37791,12 +50511,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1560,
+        "value": 1374,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.36
+            "scale": 152.448
           }
         ]
       }
@@ -37813,12 +50533,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1580,
+        "value": 1392,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.38
+            "scale": 152.484
           }
         ]
       }
@@ -37835,12 +50555,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1600,
+        "value": 1410,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.4
+            "scale": 152.52
           }
         ]
       }
@@ -37857,12 +50577,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1620,
+        "value": 1428,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.42
+            "scale": 152.556
           }
         ]
       }
@@ -37879,12 +50599,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1640,
+        "value": 1446,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.44
+            "scale": 152.592
           }
         ]
       }
@@ -37901,12 +50621,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1660,
+        "value": 1464,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.46
+            "scale": 152.628
           }
         ]
       }
@@ -37923,12 +50643,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1680,
+        "value": 1482,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.48
+            "scale": 152.664
           }
         ]
       }
@@ -37945,12 +50665,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1700,
+        "value": 1500,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.5
+            "scale": 152.7
           }
         ]
       }
@@ -37967,12 +50687,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1720,
+        "value": 1518,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.52
+            "scale": 152.736
           }
         ]
       }
@@ -37989,12 +50709,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1740,
+        "value": 1536,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.54
+            "scale": 152.772
           }
         ]
       }
@@ -38011,12 +50731,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1760,
+        "value": 1554,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.56
+            "scale": 152.808
           }
         ]
       }
@@ -38033,12 +50753,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 1780,
+        "value": 1572,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.58
+            "scale": 152.844
           }
         ]
       }
@@ -38319,12 +51039,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 40,
+        "value": 36,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.4
+            "scale": 0.36
           }
         ]
       }
@@ -38341,12 +51061,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 44,
+        "value": 40.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.404
+            "scale": 0.369
           }
         ]
       }
@@ -38363,12 +51083,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 48,
+        "value": 44.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.408
+            "scale": 0.378
           }
         ]
       }
@@ -38385,12 +51105,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 52,
+        "value": 49.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.412
+            "scale": 0.387
           }
         ]
       }
@@ -38407,12 +51127,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 56,
+        "value": 53.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.416
+            "scale": 0.396
           }
         ]
       }
@@ -38429,12 +51149,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 60,
+        "value": 58,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.42
+            "scale": 0.405
           }
         ]
       }
@@ -38451,12 +51171,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 64,
+        "value": 62.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.424
+            "scale": 0.414
           }
         ]
       }
@@ -38473,12 +51193,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 68,
+        "value": 66.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.428
+            "scale": 0.423
           }
         ]
       }
@@ -38495,7 +51215,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 72,
+        "value": 71.2,
         "prosInfo": [
           {
             "targetType": 0,
@@ -38517,12 +51237,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 76,
+        "value": 75.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.436
+            "scale": 0.441
           }
         ]
       }
@@ -38544,7 +51264,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.44
+            "scale": 0.45
           }
         ]
       }
@@ -38561,12 +51281,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 84,
+        "value": 84.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.444
+            "scale": 0.459
           }
         ]
       }
@@ -38583,12 +51303,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 88,
+        "value": 88.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.448
+            "scale": 0.468
           }
         ]
       }
@@ -38605,12 +51325,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 92,
+        "value": 93.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.452
+            "scale": 0.477
           }
         ]
       }
@@ -38627,12 +51347,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 96,
+        "value": 97.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.456
+            "scale": 0.486
           }
         ]
       }
@@ -38649,12 +51369,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 102,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.46
+            "scale": 0.495
           }
         ]
       }
@@ -38671,12 +51391,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 104,
+        "value": 106.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.464
+            "scale": 0.504
           }
         ]
       }
@@ -38693,12 +51413,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 108,
+        "value": 110.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.468
+            "scale": 0.513
           }
         ]
       }
@@ -38715,12 +51435,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 112,
+        "value": 115.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.472
+            "scale": 0.522
           }
         ]
       }
@@ -38737,12 +51457,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 116,
+        "value": 119.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.476
+            "scale": 0.531
           }
         ]
       }
@@ -38759,12 +51479,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 120,
+        "value": 124,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.48
+            "scale": 0.54
           }
         ]
       }
@@ -38781,12 +51501,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 124,
+        "value": 128.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.484
+            "scale": 0.549
           }
         ]
       }
@@ -38803,12 +51523,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 128,
+        "value": 132.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.488
+            "scale": 0.558
           }
         ]
       }
@@ -38825,12 +51545,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 132,
+        "value": 137.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.492
+            "scale": 0.567
           }
         ]
       }
@@ -38847,12 +51567,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 136,
+        "value": 141.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.496
+            "scale": 0.576
           }
         ]
       }
@@ -38869,12 +51589,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 140,
+        "value": 146,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.5
+            "scale": 0.585
           }
         ]
       }
@@ -38891,12 +51611,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 144,
+        "value": 150.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.504
+            "scale": 0.594
           }
         ]
       }
@@ -38913,12 +51633,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 148,
+        "value": 154.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.508
+            "scale": 0.603
           }
         ]
       }
@@ -38935,12 +51655,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 152,
+        "value": 159.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.512
+            "scale": 0.612
           }
         ]
       }
@@ -38957,12 +51677,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 156,
+        "value": 163.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.516
+            "scale": 0.621
           }
         ]
       }
@@ -38979,12 +51699,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 160,
+        "value": 168,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.52
+            "scale": 0.63
           }
         ]
       }
@@ -39001,12 +51721,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 164,
+        "value": 172.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.524
+            "scale": 0.639
           }
         ]
       }
@@ -39023,12 +51743,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 168,
+        "value": 176.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.528
+            "scale": 0.648
           }
         ]
       }
@@ -39045,12 +51765,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 172,
+        "value": 181.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.532
+            "scale": 0.657
           }
         ]
       }
@@ -39067,12 +51787,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 176,
+        "value": 185.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.536
+            "scale": 0.666
           }
         ]
       }
@@ -39089,12 +51809,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 180,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.54
+            "scale": 0.675
           }
         ]
       }
@@ -39111,12 +51831,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 184,
+        "value": 194.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.544
+            "scale": 0.684
           }
         ]
       }
@@ -39133,12 +51853,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 188,
+        "value": 198.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.548
+            "scale": 0.693
           }
         ]
       }
@@ -39155,12 +51875,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 192,
+        "value": 203.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.552
+            "scale": 0.702
           }
         ]
       }
@@ -39177,12 +51897,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 196,
+        "value": 207.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.556
+            "scale": 0.711
           }
         ]
       }
@@ -39199,12 +51919,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 212,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.56
+            "scale": 0.72
           }
         ]
       }
@@ -39221,12 +51941,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 204,
+        "value": 216.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.564
+            "scale": 0.729
           }
         ]
       }
@@ -39243,12 +51963,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 208,
+        "value": 220.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.568
+            "scale": 0.738
           }
         ]
       }
@@ -39265,12 +51985,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 212,
+        "value": 225.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.572
+            "scale": 0.747
           }
         ]
       }
@@ -39287,12 +52007,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 216,
+        "value": 229.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.576
+            "scale": 0.756
           }
         ]
       }
@@ -39309,12 +52029,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 234,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.58
+            "scale": 0.765
           }
         ]
       }
@@ -39331,12 +52051,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 224,
+        "value": 238.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.584
+            "scale": 0.774
           }
         ]
       }
@@ -39353,12 +52073,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 228,
+        "value": 242.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.588
+            "scale": 0.783
           }
         ]
       }
@@ -39375,12 +52095,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 232,
+        "value": 247.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.592
+            "scale": 0.792
           }
         ]
       }
@@ -39397,12 +52117,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 236,
+        "value": 251.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.596
+            "scale": 0.801
           }
         ]
       }
@@ -39419,12 +52139,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 256,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.6
+            "scale": 0.81
           }
         ]
       }
@@ -39441,12 +52161,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 244,
+        "value": 260.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.604
+            "scale": 0.819
           }
         ]
       }
@@ -39463,12 +52183,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 248,
+        "value": 264.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.608
+            "scale": 0.828
           }
         ]
       }
@@ -39485,12 +52205,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 252,
+        "value": 269.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.612
+            "scale": 0.837
           }
         ]
       }
@@ -39507,12 +52227,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 256,
+        "value": 273.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.616
+            "scale": 0.846
           }
         ]
       }
@@ -39529,12 +52249,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 278,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.62
+            "scale": 0.855
           }
         ]
       }
@@ -39551,12 +52271,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 264,
+        "value": 282.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.624
+            "scale": 0.864
           }
         ]
       }
@@ -39573,12 +52293,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 268,
+        "value": 286.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.628
+            "scale": 0.873
           }
         ]
       }
@@ -39595,12 +52315,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 272,
+        "value": 291.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.632
+            "scale": 0.882
           }
         ]
       }
@@ -39617,12 +52337,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 276,
+        "value": 295.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.636
+            "scale": 0.891
           }
         ]
       }
@@ -39639,12 +52359,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.64
+            "scale": 0.9
           }
         ]
       }
@@ -39661,12 +52381,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 284,
+        "value": 304.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.644
+            "scale": 0.909
           }
         ]
       }
@@ -39683,12 +52403,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 288,
+        "value": 308.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.648
+            "scale": 0.918
           }
         ]
       }
@@ -39705,12 +52425,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 292,
+        "value": 313.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.652
+            "scale": 0.927
           }
         ]
       }
@@ -39727,12 +52447,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 296,
+        "value": 317.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.656
+            "scale": 0.936
           }
         ]
       }
@@ -39749,12 +52469,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 322,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.66
+            "scale": 0.945
           }
         ]
       }
@@ -39771,12 +52491,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 304,
+        "value": 326.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.664
+            "scale": 0.954
           }
         ]
       }
@@ -39793,12 +52513,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 308,
+        "value": 330.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.668
+            "scale": 0.963
           }
         ]
       }
@@ -39815,12 +52535,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 312,
+        "value": 335.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.672
+            "scale": 0.972
           }
         ]
       }
@@ -39837,12 +52557,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 316,
+        "value": 339.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.676
+            "scale": 0.981
           }
         ]
       }
@@ -39859,12 +52579,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 344,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.68
+            "scale": 0.99
           }
         ]
       }
@@ -39881,12 +52601,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 324,
+        "value": 348.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.684
+            "scale": 0.999
           }
         ]
       }
@@ -39903,12 +52623,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 328,
+        "value": 352.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.688
+            "scale": 1.008
           }
         ]
       }
@@ -39925,12 +52645,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 332,
+        "value": 357.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.692
+            "scale": 1.017
           }
         ]
       }
@@ -39947,12 +52667,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 336,
+        "value": 361.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.696
+            "scale": 1.026
           }
         ]
       }
@@ -39969,12 +52689,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 366,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.7
+            "scale": 1.035
           }
         ]
       }
@@ -39991,12 +52711,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 344,
+        "value": 370.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.704
+            "scale": 1.044
           }
         ]
       }
@@ -40013,12 +52733,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 348,
+        "value": 374.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.708
+            "scale": 1.053
           }
         ]
       }
@@ -40035,12 +52755,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 352,
+        "value": 379.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.712
+            "scale": 1.062
           }
         ]
       }
@@ -40057,12 +52777,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 356,
+        "value": 383.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.716
+            "scale": 1.071
           }
         ]
       }
@@ -40079,12 +52799,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 40,
+        "value": 36,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.4
+            "scale": 0.36
           }
         ]
       }
@@ -40101,12 +52821,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 44,
+        "value": 40.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.404
+            "scale": 0.369
           }
         ]
       }
@@ -40123,12 +52843,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 48,
+        "value": 44.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.408
+            "scale": 0.378
           }
         ]
       }
@@ -40145,12 +52865,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 52,
+        "value": 49.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.412
+            "scale": 0.387
           }
         ]
       }
@@ -40167,12 +52887,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 56,
+        "value": 53.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.416
+            "scale": 0.396
           }
         ]
       }
@@ -40189,12 +52909,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 60,
+        "value": 58,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.42
+            "scale": 0.405
           }
         ]
       }
@@ -40211,12 +52931,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 64,
+        "value": 62.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.424
+            "scale": 0.414
           }
         ]
       }
@@ -40233,12 +52953,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 68,
+        "value": 66.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.428
+            "scale": 0.423
           }
         ]
       }
@@ -40255,7 +52975,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 72,
+        "value": 71.2,
         "prosInfo": [
           {
             "targetType": 0,
@@ -40277,12 +52997,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 76,
+        "value": 75.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.436
+            "scale": 0.441
           }
         ]
       }
@@ -40304,7 +53024,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.44
+            "scale": 0.45
           }
         ]
       }
@@ -40321,12 +53041,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 84,
+        "value": 84.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.444
+            "scale": 0.459
           }
         ]
       }
@@ -40343,12 +53063,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 88,
+        "value": 88.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.448
+            "scale": 0.468
           }
         ]
       }
@@ -40365,12 +53085,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 92,
+        "value": 93.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.452
+            "scale": 0.477
           }
         ]
       }
@@ -40387,12 +53107,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 96,
+        "value": 97.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.456
+            "scale": 0.486
           }
         ]
       }
@@ -40409,12 +53129,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 102,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.46
+            "scale": 0.495
           }
         ]
       }
@@ -40431,12 +53151,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 104,
+        "value": 106.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.464
+            "scale": 0.504
           }
         ]
       }
@@ -40453,12 +53173,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 108,
+        "value": 110.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.468
+            "scale": 0.513
           }
         ]
       }
@@ -40475,12 +53195,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 112,
+        "value": 115.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.472
+            "scale": 0.522
           }
         ]
       }
@@ -40497,12 +53217,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 116,
+        "value": 119.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.476
+            "scale": 0.531
           }
         ]
       }
@@ -40519,12 +53239,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 120,
+        "value": 124,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.48
+            "scale": 0.54
           }
         ]
       }
@@ -40541,12 +53261,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 124,
+        "value": 128.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.484
+            "scale": 0.549
           }
         ]
       }
@@ -40563,12 +53283,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 128,
+        "value": 132.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.488
+            "scale": 0.558
           }
         ]
       }
@@ -40585,12 +53305,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 132,
+        "value": 137.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.492
+            "scale": 0.567
           }
         ]
       }
@@ -40607,12 +53327,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 136,
+        "value": 141.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.496
+            "scale": 0.576
           }
         ]
       }
@@ -40629,12 +53349,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 140,
+        "value": 146,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.5
+            "scale": 0.585
           }
         ]
       }
@@ -40651,12 +53371,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 144,
+        "value": 150.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.504
+            "scale": 0.594
           }
         ]
       }
@@ -40673,12 +53393,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 148,
+        "value": 154.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.508
+            "scale": 0.603
           }
         ]
       }
@@ -40695,12 +53415,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 152,
+        "value": 159.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.512
+            "scale": 0.612
           }
         ]
       }
@@ -40717,12 +53437,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 156,
+        "value": 163.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.516
+            "scale": 0.621
           }
         ]
       }
@@ -40739,12 +53459,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 160,
+        "value": 168,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.52
+            "scale": 0.63
           }
         ]
       }
@@ -40761,12 +53481,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 164,
+        "value": 172.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.524
+            "scale": 0.639
           }
         ]
       }
@@ -40783,12 +53503,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 168,
+        "value": 176.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.528
+            "scale": 0.648
           }
         ]
       }
@@ -40805,12 +53525,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 172,
+        "value": 181.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.532
+            "scale": 0.657
           }
         ]
       }
@@ -40827,12 +53547,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 176,
+        "value": 185.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.536
+            "scale": 0.666
           }
         ]
       }
@@ -40849,12 +53569,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 180,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.54
+            "scale": 0.675
           }
         ]
       }
@@ -40871,12 +53591,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 184,
+        "value": 194.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.544
+            "scale": 0.684
           }
         ]
       }
@@ -40893,12 +53613,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 188,
+        "value": 198.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.548
+            "scale": 0.693
           }
         ]
       }
@@ -40915,12 +53635,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 192,
+        "value": 203.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.552
+            "scale": 0.702
           }
         ]
       }
@@ -40937,12 +53657,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 196,
+        "value": 207.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.556
+            "scale": 0.711
           }
         ]
       }
@@ -40959,12 +53679,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 212,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.56
+            "scale": 0.72
           }
         ]
       }
@@ -40981,12 +53701,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 204,
+        "value": 216.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.564
+            "scale": 0.729
           }
         ]
       }
@@ -41003,12 +53723,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 208,
+        "value": 220.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.568
+            "scale": 0.738
           }
         ]
       }
@@ -41025,12 +53745,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 212,
+        "value": 225.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.572
+            "scale": 0.747
           }
         ]
       }
@@ -41047,12 +53767,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 216,
+        "value": 229.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.576
+            "scale": 0.756
           }
         ]
       }
@@ -41069,12 +53789,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 234,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.58
+            "scale": 0.765
           }
         ]
       }
@@ -41091,12 +53811,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 224,
+        "value": 238.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.584
+            "scale": 0.774
           }
         ]
       }
@@ -41113,12 +53833,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 228,
+        "value": 242.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.588
+            "scale": 0.783
           }
         ]
       }
@@ -41135,12 +53855,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 232,
+        "value": 247.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.592
+            "scale": 0.792
           }
         ]
       }
@@ -41157,12 +53877,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 236,
+        "value": 251.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.596
+            "scale": 0.801
           }
         ]
       }
@@ -41179,12 +53899,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 256,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.6
+            "scale": 0.81
           }
         ]
       }
@@ -41201,12 +53921,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 244,
+        "value": 260.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.604
+            "scale": 0.819
           }
         ]
       }
@@ -41223,12 +53943,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 248,
+        "value": 264.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.608
+            "scale": 0.828
           }
         ]
       }
@@ -41245,12 +53965,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 252,
+        "value": 269.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.612
+            "scale": 0.837
           }
         ]
       }
@@ -41267,12 +53987,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 256,
+        "value": 273.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.616
+            "scale": 0.846
           }
         ]
       }
@@ -41289,12 +54009,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 278,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.62
+            "scale": 0.855
           }
         ]
       }
@@ -41311,12 +54031,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 264,
+        "value": 282.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.624
+            "scale": 0.864
           }
         ]
       }
@@ -41333,12 +54053,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 268,
+        "value": 286.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.628
+            "scale": 0.873
           }
         ]
       }
@@ -41355,12 +54075,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 272,
+        "value": 291.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.632
+            "scale": 0.882
           }
         ]
       }
@@ -41377,12 +54097,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 276,
+        "value": 295.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.636
+            "scale": 0.891
           }
         ]
       }
@@ -41399,12 +54119,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.64
+            "scale": 0.9
           }
         ]
       }
@@ -41421,12 +54141,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 284,
+        "value": 304.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.644
+            "scale": 0.909
           }
         ]
       }
@@ -41443,12 +54163,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 288,
+        "value": 308.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.648
+            "scale": 0.918
           }
         ]
       }
@@ -41465,12 +54185,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 292,
+        "value": 313.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.652
+            "scale": 0.927
           }
         ]
       }
@@ -41487,12 +54207,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 296,
+        "value": 317.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.656
+            "scale": 0.936
           }
         ]
       }
@@ -41509,12 +54229,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 322,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.66
+            "scale": 0.945
           }
         ]
       }
@@ -41531,12 +54251,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 304,
+        "value": 326.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.664
+            "scale": 0.954
           }
         ]
       }
@@ -41553,12 +54273,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 308,
+        "value": 330.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.668
+            "scale": 0.963
           }
         ]
       }
@@ -41575,12 +54295,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 312,
+        "value": 335.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.672
+            "scale": 0.972
           }
         ]
       }
@@ -41597,12 +54317,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 316,
+        "value": 339.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.676
+            "scale": 0.981
           }
         ]
       }
@@ -41619,12 +54339,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 344,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.68
+            "scale": 0.99
           }
         ]
       }
@@ -41641,12 +54361,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 324,
+        "value": 348.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.684
+            "scale": 0.999
           }
         ]
       }
@@ -41663,12 +54383,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 328,
+        "value": 352.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.688
+            "scale": 1.008
           }
         ]
       }
@@ -41685,12 +54405,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 332,
+        "value": 357.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.692
+            "scale": 1.017
           }
         ]
       }
@@ -41707,12 +54427,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 336,
+        "value": 361.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.696
+            "scale": 1.026
           }
         ]
       }
@@ -41729,12 +54449,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 366,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.7
+            "scale": 1.035
           }
         ]
       }
@@ -41751,12 +54471,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 344,
+        "value": 370.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.704
+            "scale": 1.044
           }
         ]
       }
@@ -41773,12 +54493,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 348,
+        "value": 374.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.708
+            "scale": 1.053
           }
         ]
       }
@@ -41795,12 +54515,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 352,
+        "value": 379.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.712
+            "scale": 1.062
           }
         ]
       }
@@ -41817,12 +54537,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 356,
+        "value": 383.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.716
+            "scale": 1.071
           }
         ]
       }
@@ -41839,12 +54559,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 40,
+        "value": 36,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.4
+            "scale": 0.36
           }
         ]
       }
@@ -41861,12 +54581,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 44,
+        "value": 40.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.404
+            "scale": 0.369
           }
         ]
       }
@@ -41883,12 +54603,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 48,
+        "value": 44.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.408
+            "scale": 0.378
           }
         ]
       }
@@ -41905,12 +54625,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 52,
+        "value": 49.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.412
+            "scale": 0.387
           }
         ]
       }
@@ -41927,12 +54647,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 56,
+        "value": 53.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.416
+            "scale": 0.396
           }
         ]
       }
@@ -41949,12 +54669,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 60,
+        "value": 58,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.42
+            "scale": 0.405
           }
         ]
       }
@@ -41971,12 +54691,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 64,
+        "value": 62.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.424
+            "scale": 0.414
           }
         ]
       }
@@ -41993,12 +54713,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 68,
+        "value": 66.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.428
+            "scale": 0.423
           }
         ]
       }
@@ -42015,7 +54735,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 72,
+        "value": 71.2,
         "prosInfo": [
           {
             "targetType": 0,
@@ -42037,12 +54757,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 76,
+        "value": 75.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.436
+            "scale": 0.441
           }
         ]
       }
@@ -42064,7 +54784,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.44
+            "scale": 0.45
           }
         ]
       }
@@ -42081,12 +54801,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 84,
+        "value": 84.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.444
+            "scale": 0.459
           }
         ]
       }
@@ -42103,12 +54823,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 88,
+        "value": 88.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.448
+            "scale": 0.468
           }
         ]
       }
@@ -42125,12 +54845,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 92,
+        "value": 93.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.452
+            "scale": 0.477
           }
         ]
       }
@@ -42147,12 +54867,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 96,
+        "value": 97.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.456
+            "scale": 0.486
           }
         ]
       }
@@ -42169,12 +54889,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 102,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.46
+            "scale": 0.495
           }
         ]
       }
@@ -42191,12 +54911,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 104,
+        "value": 106.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.464
+            "scale": 0.504
           }
         ]
       }
@@ -42213,12 +54933,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 108,
+        "value": 110.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.468
+            "scale": 0.513
           }
         ]
       }
@@ -42235,12 +54955,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 112,
+        "value": 115.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.472
+            "scale": 0.522
           }
         ]
       }
@@ -42257,12 +54977,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 116,
+        "value": 119.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.476
+            "scale": 0.531
           }
         ]
       }
@@ -42279,12 +54999,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 120,
+        "value": 124,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.48
+            "scale": 0.54
           }
         ]
       }
@@ -42301,12 +55021,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 124,
+        "value": 128.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.484
+            "scale": 0.549
           }
         ]
       }
@@ -42323,12 +55043,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 128,
+        "value": 132.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.488
+            "scale": 0.558
           }
         ]
       }
@@ -42345,12 +55065,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 132,
+        "value": 137.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.492
+            "scale": 0.567
           }
         ]
       }
@@ -42367,12 +55087,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 136,
+        "value": 141.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.496
+            "scale": 0.576
           }
         ]
       }
@@ -42389,12 +55109,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 140,
+        "value": 146,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.5
+            "scale": 0.585
           }
         ]
       }
@@ -42411,12 +55131,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 144,
+        "value": 150.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.504
+            "scale": 0.594
           }
         ]
       }
@@ -42433,12 +55153,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 148,
+        "value": 154.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.508
+            "scale": 0.603
           }
         ]
       }
@@ -42455,12 +55175,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 152,
+        "value": 159.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.512
+            "scale": 0.612
           }
         ]
       }
@@ -42477,12 +55197,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 156,
+        "value": 163.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.516
+            "scale": 0.621
           }
         ]
       }
@@ -42499,12 +55219,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 160,
+        "value": 168,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.52
+            "scale": 0.63
           }
         ]
       }
@@ -42521,12 +55241,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 164,
+        "value": 172.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.524
+            "scale": 0.639
           }
         ]
       }
@@ -42543,12 +55263,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 168,
+        "value": 176.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.528
+            "scale": 0.648
           }
         ]
       }
@@ -42565,12 +55285,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 172,
+        "value": 181.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.532
+            "scale": 0.657
           }
         ]
       }
@@ -42587,12 +55307,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 176,
+        "value": 185.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.536
+            "scale": 0.666
           }
         ]
       }
@@ -42609,12 +55329,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 180,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.54
+            "scale": 0.675
           }
         ]
       }
@@ -42631,12 +55351,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 184,
+        "value": 194.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.544
+            "scale": 0.684
           }
         ]
       }
@@ -42653,12 +55373,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 188,
+        "value": 198.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.548
+            "scale": 0.693
           }
         ]
       }
@@ -42675,12 +55395,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 192,
+        "value": 203.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.552
+            "scale": 0.702
           }
         ]
       }
@@ -42697,12 +55417,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 196,
+        "value": 207.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.556
+            "scale": 0.711
           }
         ]
       }
@@ -42719,12 +55439,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 212,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.56
+            "scale": 0.72
           }
         ]
       }
@@ -42741,12 +55461,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 204,
+        "value": 216.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.564
+            "scale": 0.729
           }
         ]
       }
@@ -42763,12 +55483,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 208,
+        "value": 220.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.568
+            "scale": 0.738
           }
         ]
       }
@@ -42785,12 +55505,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 212,
+        "value": 225.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.572
+            "scale": 0.747
           }
         ]
       }
@@ -42807,12 +55527,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 216,
+        "value": 229.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.576
+            "scale": 0.756
           }
         ]
       }
@@ -42829,12 +55549,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 234,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.58
+            "scale": 0.765
           }
         ]
       }
@@ -42851,12 +55571,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 224,
+        "value": 238.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.584
+            "scale": 0.774
           }
         ]
       }
@@ -42873,12 +55593,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 228,
+        "value": 242.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.588
+            "scale": 0.783
           }
         ]
       }
@@ -42895,12 +55615,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 232,
+        "value": 247.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.592
+            "scale": 0.792
           }
         ]
       }
@@ -42917,12 +55637,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 236,
+        "value": 251.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.596
+            "scale": 0.801
           }
         ]
       }
@@ -42939,12 +55659,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 256,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.6
+            "scale": 0.81
           }
         ]
       }
@@ -42961,12 +55681,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 244,
+        "value": 260.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.604
+            "scale": 0.819
           }
         ]
       }
@@ -42983,12 +55703,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 248,
+        "value": 264.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.608
+            "scale": 0.828
           }
         ]
       }
@@ -43005,12 +55725,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 252,
+        "value": 269.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.612
+            "scale": 0.837
           }
         ]
       }
@@ -43027,12 +55747,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 256,
+        "value": 273.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.616
+            "scale": 0.846
           }
         ]
       }
@@ -43049,12 +55769,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 278,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.62
+            "scale": 0.855
           }
         ]
       }
@@ -43071,12 +55791,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 264,
+        "value": 282.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.624
+            "scale": 0.864
           }
         ]
       }
@@ -43093,12 +55813,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 268,
+        "value": 286.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.628
+            "scale": 0.873
           }
         ]
       }
@@ -43115,12 +55835,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 272,
+        "value": 291.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.632
+            "scale": 0.882
           }
         ]
       }
@@ -43137,12 +55857,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 276,
+        "value": 295.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.636
+            "scale": 0.891
           }
         ]
       }
@@ -43159,12 +55879,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.64
+            "scale": 0.9
           }
         ]
       }
@@ -43181,12 +55901,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 284,
+        "value": 304.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.644
+            "scale": 0.909
           }
         ]
       }
@@ -43203,12 +55923,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 288,
+        "value": 308.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.648
+            "scale": 0.918
           }
         ]
       }
@@ -43225,12 +55945,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 292,
+        "value": 313.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.652
+            "scale": 0.927
           }
         ]
       }
@@ -43247,12 +55967,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 296,
+        "value": 317.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.656
+            "scale": 0.936
           }
         ]
       }
@@ -43269,12 +55989,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 322,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.66
+            "scale": 0.945
           }
         ]
       }
@@ -43291,12 +56011,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 304,
+        "value": 326.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.664
+            "scale": 0.954
           }
         ]
       }
@@ -43313,12 +56033,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 308,
+        "value": 330.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.668
+            "scale": 0.963
           }
         ]
       }
@@ -43335,12 +56055,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 312,
+        "value": 335.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.672
+            "scale": 0.972
           }
         ]
       }
@@ -43357,12 +56077,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 316,
+        "value": 339.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.676
+            "scale": 0.981
           }
         ]
       }
@@ -43379,12 +56099,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 344,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.68
+            "scale": 0.99
           }
         ]
       }
@@ -43401,12 +56121,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 324,
+        "value": 348.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.684
+            "scale": 0.999
           }
         ]
       }
@@ -43423,12 +56143,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 328,
+        "value": 352.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.688
+            "scale": 1.008
           }
         ]
       }
@@ -43445,12 +56165,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 332,
+        "value": 357.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.692
+            "scale": 1.017
           }
         ]
       }
@@ -43467,12 +56187,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 336,
+        "value": 361.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.696
+            "scale": 1.026
           }
         ]
       }
@@ -43489,12 +56209,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 366,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.7
+            "scale": 1.035
           }
         ]
       }
@@ -43511,12 +56231,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 344,
+        "value": 370.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.704
+            "scale": 1.044
           }
         ]
       }
@@ -43533,12 +56253,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 348,
+        "value": 374.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.708
+            "scale": 1.053
           }
         ]
       }
@@ -43555,12 +56275,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 352,
+        "value": 379.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.712
+            "scale": 1.062
           }
         ]
       }
@@ -43577,12 +56297,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 356,
+        "value": 383.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.716
+            "scale": 1.071
           }
         ]
       }
@@ -43599,12 +56319,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 40,
+        "value": 36,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.4
+            "scale": 0.36
           }
         ]
       }
@@ -43621,12 +56341,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 44,
+        "value": 40.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.404
+            "scale": 0.369
           }
         ]
       }
@@ -43643,12 +56363,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 48,
+        "value": 44.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.408
+            "scale": 0.378
           }
         ]
       }
@@ -43665,12 +56385,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 52,
+        "value": 49.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.412
+            "scale": 0.387
           }
         ]
       }
@@ -43687,12 +56407,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 56,
+        "value": 53.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.416
+            "scale": 0.396
           }
         ]
       }
@@ -43709,12 +56429,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 60,
+        "value": 58,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.42
+            "scale": 0.405
           }
         ]
       }
@@ -43731,12 +56451,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 64,
+        "value": 62.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.424
+            "scale": 0.414
           }
         ]
       }
@@ -43753,12 +56473,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 68,
+        "value": 66.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.428
+            "scale": 0.423
           }
         ]
       }
@@ -43775,7 +56495,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 72,
+        "value": 71.2,
         "prosInfo": [
           {
             "targetType": 0,
@@ -43797,12 +56517,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 76,
+        "value": 75.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.436
+            "scale": 0.441
           }
         ]
       }
@@ -43824,7 +56544,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.44
+            "scale": 0.45
           }
         ]
       }
@@ -43841,12 +56561,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 84,
+        "value": 84.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.444
+            "scale": 0.459
           }
         ]
       }
@@ -43863,12 +56583,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 88,
+        "value": 88.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.448
+            "scale": 0.468
           }
         ]
       }
@@ -43885,12 +56605,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 92,
+        "value": 93.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.452
+            "scale": 0.477
           }
         ]
       }
@@ -43907,12 +56627,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 96,
+        "value": 97.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.456
+            "scale": 0.486
           }
         ]
       }
@@ -43929,12 +56649,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 102,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.46
+            "scale": 0.495
           }
         ]
       }
@@ -43951,12 +56671,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 104,
+        "value": 106.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.464
+            "scale": 0.504
           }
         ]
       }
@@ -43973,12 +56693,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 108,
+        "value": 110.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.468
+            "scale": 0.513
           }
         ]
       }
@@ -43995,12 +56715,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 112,
+        "value": 115.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.472
+            "scale": 0.522
           }
         ]
       }
@@ -44017,12 +56737,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 116,
+        "value": 119.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.476
+            "scale": 0.531
           }
         ]
       }
@@ -44039,12 +56759,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 120,
+        "value": 124,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.48
+            "scale": 0.54
           }
         ]
       }
@@ -44061,12 +56781,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 124,
+        "value": 128.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.484
+            "scale": 0.549
           }
         ]
       }
@@ -44083,12 +56803,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 128,
+        "value": 132.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.488
+            "scale": 0.558
           }
         ]
       }
@@ -44105,12 +56825,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 132,
+        "value": 137.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.492
+            "scale": 0.567
           }
         ]
       }
@@ -44127,12 +56847,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 136,
+        "value": 141.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.496
+            "scale": 0.576
           }
         ]
       }
@@ -44149,12 +56869,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 140,
+        "value": 146,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.5
+            "scale": 0.585
           }
         ]
       }
@@ -44171,12 +56891,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 144,
+        "value": 150.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.504
+            "scale": 0.594
           }
         ]
       }
@@ -44193,12 +56913,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 148,
+        "value": 154.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.508
+            "scale": 0.603
           }
         ]
       }
@@ -44215,12 +56935,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 152,
+        "value": 159.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.512
+            "scale": 0.612
           }
         ]
       }
@@ -44237,12 +56957,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 156,
+        "value": 163.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.516
+            "scale": 0.621
           }
         ]
       }
@@ -44259,12 +56979,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 160,
+        "value": 168,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.52
+            "scale": 0.63
           }
         ]
       }
@@ -44281,12 +57001,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 164,
+        "value": 172.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.524
+            "scale": 0.639
           }
         ]
       }
@@ -44303,12 +57023,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 168,
+        "value": 176.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.528
+            "scale": 0.648
           }
         ]
       }
@@ -44325,12 +57045,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 172,
+        "value": 181.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.532
+            "scale": 0.657
           }
         ]
       }
@@ -44347,12 +57067,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 176,
+        "value": 185.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.536
+            "scale": 0.666
           }
         ]
       }
@@ -44369,12 +57089,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 180,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.54
+            "scale": 0.675
           }
         ]
       }
@@ -44391,12 +57111,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 184,
+        "value": 194.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.544
+            "scale": 0.684
           }
         ]
       }
@@ -44413,12 +57133,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 188,
+        "value": 198.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.548
+            "scale": 0.693
           }
         ]
       }
@@ -44435,12 +57155,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 192,
+        "value": 203.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.552
+            "scale": 0.702
           }
         ]
       }
@@ -44457,12 +57177,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 196,
+        "value": 207.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.556
+            "scale": 0.711
           }
         ]
       }
@@ -44479,12 +57199,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 212,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.56
+            "scale": 0.72
           }
         ]
       }
@@ -44501,12 +57221,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 204,
+        "value": 216.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.564
+            "scale": 0.729
           }
         ]
       }
@@ -44523,12 +57243,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 208,
+        "value": 220.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.568
+            "scale": 0.738
           }
         ]
       }
@@ -44545,12 +57265,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 212,
+        "value": 225.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.572
+            "scale": 0.747
           }
         ]
       }
@@ -44567,12 +57287,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 216,
+        "value": 229.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.576
+            "scale": 0.756
           }
         ]
       }
@@ -44589,12 +57309,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 234,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.58
+            "scale": 0.765
           }
         ]
       }
@@ -44611,12 +57331,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 224,
+        "value": 238.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.584
+            "scale": 0.774
           }
         ]
       }
@@ -44633,12 +57353,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 228,
+        "value": 242.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.588
+            "scale": 0.783
           }
         ]
       }
@@ -44655,12 +57375,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 232,
+        "value": 247.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.592
+            "scale": 0.792
           }
         ]
       }
@@ -44677,12 +57397,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 236,
+        "value": 251.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.596
+            "scale": 0.801
           }
         ]
       }
@@ -44699,12 +57419,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 256,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.6
+            "scale": 0.81
           }
         ]
       }
@@ -44721,12 +57441,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 244,
+        "value": 260.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.604
+            "scale": 0.819
           }
         ]
       }
@@ -44743,12 +57463,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 248,
+        "value": 264.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.608
+            "scale": 0.828
           }
         ]
       }
@@ -44765,12 +57485,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 252,
+        "value": 269.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.612
+            "scale": 0.837
           }
         ]
       }
@@ -44787,12 +57507,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 256,
+        "value": 273.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.616
+            "scale": 0.846
           }
         ]
       }
@@ -44809,12 +57529,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 278,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.62
+            "scale": 0.855
           }
         ]
       }
@@ -44831,12 +57551,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 264,
+        "value": 282.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.624
+            "scale": 0.864
           }
         ]
       }
@@ -44853,12 +57573,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 268,
+        "value": 286.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.628
+            "scale": 0.873
           }
         ]
       }
@@ -44875,12 +57595,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 272,
+        "value": 291.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.632
+            "scale": 0.882
           }
         ]
       }
@@ -44897,12 +57617,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 276,
+        "value": 295.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.636
+            "scale": 0.891
           }
         ]
       }
@@ -44919,12 +57639,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.64
+            "scale": 0.9
           }
         ]
       }
@@ -44941,12 +57661,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 284,
+        "value": 304.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.644
+            "scale": 0.909
           }
         ]
       }
@@ -44963,12 +57683,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 288,
+        "value": 308.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.648
+            "scale": 0.918
           }
         ]
       }
@@ -44985,12 +57705,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 292,
+        "value": 313.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.652
+            "scale": 0.927
           }
         ]
       }
@@ -45007,12 +57727,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 296,
+        "value": 317.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.656
+            "scale": 0.936
           }
         ]
       }
@@ -45029,12 +57749,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 322,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.66
+            "scale": 0.945
           }
         ]
       }
@@ -45051,12 +57771,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 304,
+        "value": 326.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.664
+            "scale": 0.954
           }
         ]
       }
@@ -45073,12 +57793,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 308,
+        "value": 330.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.668
+            "scale": 0.963
           }
         ]
       }
@@ -45095,12 +57815,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 312,
+        "value": 335.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.672
+            "scale": 0.972
           }
         ]
       }
@@ -45117,12 +57837,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 316,
+        "value": 339.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.676
+            "scale": 0.981
           }
         ]
       }
@@ -45139,12 +57859,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 344,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.68
+            "scale": 0.99
           }
         ]
       }
@@ -45161,12 +57881,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 324,
+        "value": 348.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.684
+            "scale": 0.999
           }
         ]
       }
@@ -45183,12 +57903,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 328,
+        "value": 352.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.688
+            "scale": 1.008
           }
         ]
       }
@@ -45205,12 +57925,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 332,
+        "value": 357.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.692
+            "scale": 1.017
           }
         ]
       }
@@ -45227,12 +57947,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 336,
+        "value": 361.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.696
+            "scale": 1.026
           }
         ]
       }
@@ -45249,12 +57969,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 366,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.7
+            "scale": 1.035
           }
         ]
       }
@@ -45271,12 +57991,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 344,
+        "value": 370.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.704
+            "scale": 1.044
           }
         ]
       }
@@ -45293,12 +58013,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 348,
+        "value": 374.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.708
+            "scale": 1.053
           }
         ]
       }
@@ -45315,12 +58035,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 352,
+        "value": 379.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.712
+            "scale": 1.062
           }
         ]
       }
@@ -45337,12 +58057,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 356,
+        "value": 383.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.716
+            "scale": 1.071
           }
         ]
       }
@@ -45359,12 +58079,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 40,
+        "value": 36,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.4
+            "scale": 0.36
           }
         ]
       }
@@ -45381,12 +58101,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 44,
+        "value": 40.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.404
+            "scale": 0.369
           }
         ]
       }
@@ -45403,12 +58123,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 48,
+        "value": 44.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.408
+            "scale": 0.378
           }
         ]
       }
@@ -45425,12 +58145,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 52,
+        "value": 49.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.412
+            "scale": 0.387
           }
         ]
       }
@@ -45447,12 +58167,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 56,
+        "value": 53.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.416
+            "scale": 0.396
           }
         ]
       }
@@ -45469,12 +58189,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 60,
+        "value": 58,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.42
+            "scale": 0.405
           }
         ]
       }
@@ -45491,12 +58211,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 64,
+        "value": 62.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.424
+            "scale": 0.414
           }
         ]
       }
@@ -45513,12 +58233,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 68,
+        "value": 66.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.428
+            "scale": 0.423
           }
         ]
       }
@@ -45535,7 +58255,7 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 72,
+        "value": 71.2,
         "prosInfo": [
           {
             "targetType": 0,
@@ -45557,12 +58277,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 76,
+        "value": 75.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.436
+            "scale": 0.441
           }
         ]
       }
@@ -45584,7 +58304,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.44
+            "scale": 0.45
           }
         ]
       }
@@ -45601,12 +58321,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 84,
+        "value": 84.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.444
+            "scale": 0.459
           }
         ]
       }
@@ -45623,12 +58343,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 88,
+        "value": 88.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.448
+            "scale": 0.468
           }
         ]
       }
@@ -45645,12 +58365,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 92,
+        "value": 93.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.452
+            "scale": 0.477
           }
         ]
       }
@@ -45667,12 +58387,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 96,
+        "value": 97.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.456
+            "scale": 0.486
           }
         ]
       }
@@ -45689,12 +58409,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 100,
+        "value": 102,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.46
+            "scale": 0.495
           }
         ]
       }
@@ -45711,12 +58431,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 104,
+        "value": 106.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.464
+            "scale": 0.504
           }
         ]
       }
@@ -45733,12 +58453,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 108,
+        "value": 110.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.468
+            "scale": 0.513
           }
         ]
       }
@@ -45755,12 +58475,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 112,
+        "value": 115.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.472
+            "scale": 0.522
           }
         ]
       }
@@ -45777,12 +58497,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 116,
+        "value": 119.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.476
+            "scale": 0.531
           }
         ]
       }
@@ -45799,12 +58519,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 120,
+        "value": 124,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.48
+            "scale": 0.54
           }
         ]
       }
@@ -45821,12 +58541,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 124,
+        "value": 128.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.484
+            "scale": 0.549
           }
         ]
       }
@@ -45843,12 +58563,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 128,
+        "value": 132.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.488
+            "scale": 0.558
           }
         ]
       }
@@ -45865,12 +58585,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 132,
+        "value": 137.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.492
+            "scale": 0.567
           }
         ]
       }
@@ -45887,12 +58607,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 136,
+        "value": 141.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.496
+            "scale": 0.576
           }
         ]
       }
@@ -45909,12 +58629,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 140,
+        "value": 146,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.5
+            "scale": 0.585
           }
         ]
       }
@@ -45931,12 +58651,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 144,
+        "value": 150.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.504
+            "scale": 0.594
           }
         ]
       }
@@ -45953,12 +58673,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 148,
+        "value": 154.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.508
+            "scale": 0.603
           }
         ]
       }
@@ -45975,12 +58695,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 152,
+        "value": 159.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.512
+            "scale": 0.612
           }
         ]
       }
@@ -45997,12 +58717,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 156,
+        "value": 163.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.516
+            "scale": 0.621
           }
         ]
       }
@@ -46019,12 +58739,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 160,
+        "value": 168,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.52
+            "scale": 0.63
           }
         ]
       }
@@ -46041,12 +58761,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 164,
+        "value": 172.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.524
+            "scale": 0.639
           }
         ]
       }
@@ -46063,12 +58783,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 168,
+        "value": 176.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.528
+            "scale": 0.648
           }
         ]
       }
@@ -46085,12 +58805,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 172,
+        "value": 181.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.532
+            "scale": 0.657
           }
         ]
       }
@@ -46107,12 +58827,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 176,
+        "value": 185.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.536
+            "scale": 0.666
           }
         ]
       }
@@ -46129,12 +58849,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 180,
+        "value": 190,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.54
+            "scale": 0.675
           }
         ]
       }
@@ -46151,12 +58871,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 184,
+        "value": 194.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.544
+            "scale": 0.684
           }
         ]
       }
@@ -46173,12 +58893,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 188,
+        "value": 198.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.548
+            "scale": 0.693
           }
         ]
       }
@@ -46195,12 +58915,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 192,
+        "value": 203.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.552
+            "scale": 0.702
           }
         ]
       }
@@ -46217,12 +58937,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 196,
+        "value": 207.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.556
+            "scale": 0.711
           }
         ]
       }
@@ -46239,12 +58959,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 200,
+        "value": 212,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.56
+            "scale": 0.72
           }
         ]
       }
@@ -46261,12 +58981,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 204,
+        "value": 216.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.564
+            "scale": 0.729
           }
         ]
       }
@@ -46283,12 +59003,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 208,
+        "value": 220.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.568
+            "scale": 0.738
           }
         ]
       }
@@ -46305,12 +59025,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 212,
+        "value": 225.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.572
+            "scale": 0.747
           }
         ]
       }
@@ -46327,12 +59047,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 216,
+        "value": 229.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.576
+            "scale": 0.756
           }
         ]
       }
@@ -46349,12 +59069,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 220,
+        "value": 234,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.58
+            "scale": 0.765
           }
         ]
       }
@@ -46371,12 +59091,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 224,
+        "value": 238.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.584
+            "scale": 0.774
           }
         ]
       }
@@ -46393,12 +59113,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 228,
+        "value": 242.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.588
+            "scale": 0.783
           }
         ]
       }
@@ -46415,12 +59135,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 232,
+        "value": 247.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.592
+            "scale": 0.792
           }
         ]
       }
@@ -46437,12 +59157,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 236,
+        "value": 251.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.596
+            "scale": 0.801
           }
         ]
       }
@@ -46459,12 +59179,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 240,
+        "value": 256,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.6
+            "scale": 0.81
           }
         ]
       }
@@ -46481,12 +59201,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 244,
+        "value": 260.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.604
+            "scale": 0.819
           }
         ]
       }
@@ -46503,12 +59223,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 248,
+        "value": 264.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.608
+            "scale": 0.828
           }
         ]
       }
@@ -46525,12 +59245,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 252,
+        "value": 269.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.612
+            "scale": 0.837
           }
         ]
       }
@@ -46547,12 +59267,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 256,
+        "value": 273.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.616
+            "scale": 0.846
           }
         ]
       }
@@ -46569,12 +59289,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 260,
+        "value": 278,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.62
+            "scale": 0.855
           }
         ]
       }
@@ -46591,12 +59311,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 264,
+        "value": 282.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.624
+            "scale": 0.864
           }
         ]
       }
@@ -46613,12 +59333,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 268,
+        "value": 286.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.628
+            "scale": 0.873
           }
         ]
       }
@@ -46635,12 +59355,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 272,
+        "value": 291.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.632
+            "scale": 0.882
           }
         ]
       }
@@ -46657,12 +59377,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 276,
+        "value": 295.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.636
+            "scale": 0.891
           }
         ]
       }
@@ -46679,12 +59399,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 280,
+        "value": 300,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.64
+            "scale": 0.9
           }
         ]
       }
@@ -46701,12 +59421,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 284,
+        "value": 304.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.644
+            "scale": 0.909
           }
         ]
       }
@@ -46723,12 +59443,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 288,
+        "value": 308.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.648
+            "scale": 0.918
           }
         ]
       }
@@ -46745,12 +59465,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 292,
+        "value": 313.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.652
+            "scale": 0.927
           }
         ]
       }
@@ -46767,12 +59487,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 296,
+        "value": 317.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.656
+            "scale": 0.936
           }
         ]
       }
@@ -46789,12 +59509,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 300,
+        "value": 322,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.66
+            "scale": 0.945
           }
         ]
       }
@@ -46811,12 +59531,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 304,
+        "value": 326.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.664
+            "scale": 0.954
           }
         ]
       }
@@ -46833,12 +59553,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 308,
+        "value": 330.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.668
+            "scale": 0.963
           }
         ]
       }
@@ -46855,12 +59575,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 312,
+        "value": 335.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.672
+            "scale": 0.972
           }
         ]
       }
@@ -46877,12 +59597,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 316,
+        "value": 339.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.676
+            "scale": 0.981
           }
         ]
       }
@@ -46899,12 +59619,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 320,
+        "value": 344,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.68
+            "scale": 0.99
           }
         ]
       }
@@ -46921,12 +59641,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 324,
+        "value": 348.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.684
+            "scale": 0.999
           }
         ]
       }
@@ -46943,12 +59663,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 328,
+        "value": 352.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.688
+            "scale": 1.008
           }
         ]
       }
@@ -46965,12 +59685,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 332,
+        "value": 357.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.692
+            "scale": 1.017
           }
         ]
       }
@@ -46987,12 +59707,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 336,
+        "value": 361.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.696
+            "scale": 1.026
           }
         ]
       }
@@ -47009,12 +59729,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 340,
+        "value": 366,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.7
+            "scale": 1.035
           }
         ]
       }
@@ -47031,12 +59751,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 344,
+        "value": 370.4,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.704
+            "scale": 1.044
           }
         ]
       }
@@ -47053,12 +59773,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 348,
+        "value": 374.8,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.708
+            "scale": 1.053
           }
         ]
       }
@@ -47075,12 +59795,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 352,
+        "value": 379.2,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.712
+            "scale": 1.062
           }
         ]
       }
@@ -47097,12 +59817,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 356,
+        "value": 383.6,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 0.716
+            "scale": 1.071
           }
         ]
       }

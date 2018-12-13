@@ -65,9 +65,9 @@ export default {
     "ratio1": 0.9,
     "ratio2": 0.9,
     "jump": true,
-    "jumpDist": 300,
-    "jumpDuration": 10,
-    "jumpHeight": 200
+    "jumpDist": 200,
+    "jumpDuration": 8,
+    "jumpHeight": 120
   },
   "2001002": {
     "id": "2001002",
@@ -176,8 +176,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -289,8 +289,8 @@ export default {
       "y": 0
     },
     "alignY": true,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -399,8 +399,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -509,8 +509,8 @@ export default {
       "y": 300
     },
     "alignY": false,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -585,7 +585,7 @@ export default {
   "2006000": {
     "id": "2006000",
     "type": 0,
-    "radius": 150,
+    "radius": 200,
     "bullets": [
       30060000100
     ],
@@ -607,7 +607,7 @@ export default {
   "2006001": {
     "id": "2006001",
     "type": 1,
-    "radius": 300,
+    "radius": 450,
     "bullets": [
       30060010100
     ],
@@ -619,8 +619,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -733,8 +733,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -833,18 +833,28 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      30080010100
+      30080010100,
+      30080020101,
+      30080020102,
+      30080020103,
+      30080020104
     ],
-    "delays": [],
+    "delays": [
+      0,
+      30,
+      55,
+      75,
+      100
+    ],
     "atkAnim": "attack02",
-    "prepareEffect": "",
+    "prepareEffect": "bullet/LBAI/prepare_qljg",
     "preparePoint": {
-      "x": 0,
-      "y": 0
+      "x": -50,
+      "y": -20
     },
     "alignY": false,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -941,11 +951,19 @@ export default {
   "2009001": {
     "id": "2009001",
     "type": 1,
-    "radius": 1000,
+    "radius": 800,
     "bullets": [
-      30090010100
+      30090010100,
+      30090020101,
+      30090020102,
+      30090020103
     ],
-    "delays": [],
+    "delays": [
+      0,
+      30,
+      55,
+      75
+    ],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -953,8 +971,8 @@ export default {
       "y": 0
     },
     "alignY": false,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1067,8 +1085,8 @@ export default {
       "y": 0
     },
     "alignY": true,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1177,8 +1195,8 @@ export default {
       "y": 70
     },
     "alignY": true,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1291,8 +1309,8 @@ export default {
       "y": 0
     },
     "alignY": true,
-    "ratio1": 0.9,
-    "ratio2": 0.9,
+    "ratio1": 1,
+    "ratio2": 1,
     "jump": false,
     "jumpDist": 0,
     "jumpDuration": 0,
@@ -1392,14 +1410,17 @@ export default {
     "radius": 600,
     "bullets": [
       30130010100,
-      30130010101,
-      30130010102,
-      104
+      30130020101,
+      30130020102,
+      30130020103,
+      30130020104
     ],
     "delays": [
       0,
-      15,
-      30
+      5,
+      20,
+      40,
+      60
     ],
     "atkAnim": "attack02",
     "prepareEffect": "",
