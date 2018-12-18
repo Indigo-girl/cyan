@@ -276,7 +276,8 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      30030010100
+      30030010100,
+      30030020101
     ],
     "delays": [
       0,
@@ -587,9 +588,13 @@ export default {
     "type": 0,
     "radius": 200,
     "bullets": [
-      30060000100
+      30060000100,
+      30060020001
     ],
-    "delays": [],
+    "delays": [
+      0,
+      25
+    ],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -609,9 +614,13 @@ export default {
     "type": 1,
     "radius": 450,
     "bullets": [
-      30060010100
+      30060010100,
+      30060030101
     ],
-    "delays": [],
+    "delays": [
+      0,
+      0
+    ],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
@@ -695,11 +704,15 @@ export default {
   "2007000": {
     "id": "2007000",
     "type": 0,
-    "radius": 200,
+    "radius": 250,
     "bullets": [
-      30070000100
+      30070000100,
+      30070050001
     ],
-    "delays": [],
+    "delays": [
+      0,
+      25
+    ],
     "atkAnim": "attack01",
     "prepareEffect": "",
     "preparePoint": {
@@ -717,7 +730,7 @@ export default {
   "2007001": {
     "id": "2007001",
     "type": 1,
-    "radius": 400,
+    "radius": 600,
     "bullets": [
       30070010100,
       30070020001
@@ -727,9 +740,9 @@ export default {
       0
     ],
     "atkAnim": "attack02",
-    "prepareEffect": "",
+    "prepareEffect": "bullet/HML/prepare_KLZ",
     "preparePoint": {
-      "x": 0,
+      "x": 80,
       "y": 0
     },
     "alignY": false,
@@ -956,13 +969,15 @@ export default {
       30090010100,
       30090020101,
       30090020102,
-      30090020103
+      30090020103,
+      30090020104
     ],
     "delays": [
       0,
       30,
       55,
-      75
+      75,
+      100
     ],
     "atkAnim": "attack02",
     "prepareEffect": "",
@@ -1072,9 +1087,11 @@ export default {
     "radius": 1000,
     "bullets": [
       30100010100,
-      30100020101
+      30100020101,
+      30100050102
     ],
     "delays": [
+      0,
       0,
       0
     ],
@@ -1084,7 +1101,7 @@ export default {
       "x": 0,
       "y": 0
     },
-    "alignY": true,
+    "alignY": false,
     "ratio1": 1,
     "ratio2": 1,
     "jump": false,
@@ -1185,16 +1202,20 @@ export default {
     "type": 1,
     "radius": 600,
     "bullets": [
-      30110010100
+      30110010100,
+      30110020101
     ],
-    "delays": [],
+    "delays": [
+      0,
+      0
+    ],
     "atkAnim": "attack02",
     "prepareEffect": "bullet/ZF/prepare_kspx",
     "preparePoint": {
       "x": -20,
       "y": 70
     },
-    "alignY": true,
+    "alignY": false,
     "ratio1": 1,
     "ratio2": 1,
     "jump": false,
@@ -1296,9 +1317,11 @@ export default {
     "radius": 600,
     "bullets": [
       30120010100,
-      30120020001
+      30120020001,
+      30120030102
     ],
     "delays": [
+      0,
       0,
       0
     ],
@@ -1308,7 +1331,7 @@ export default {
       "x": 0,
       "y": 0
     },
-    "alignY": true,
+    "alignY": false,
     "ratio1": 1,
     "ratio2": 1,
     "jump": false,

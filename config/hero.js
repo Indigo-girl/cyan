@@ -40,7 +40,7 @@ export default {
     "spinePath": "role/CYJ/CYJ",
     "skin": "CYJ01",
     "skills": [
-      200100000
+      200100101
     ],
     "scale": 0.32,
     "props": {
@@ -76,7 +76,7 @@ export default {
     "spinePath": "role/CYJ/CYJ",
     "skin": "CYJ02",
     "skills": [
-      200100000
+      200100101
     ],
     "scale": 0.32,
     "props": {
@@ -112,7 +112,7 @@ export default {
     "spinePath": "role/CYJ/CYJ",
     "skin": "CYJ03",
     "skills": [
-      200100000
+      200100101
     ],
     "scale": 0.32,
     "props": {
@@ -148,7 +148,7 @@ export default {
     "spinePath": "role/CYJ/CYJ",
     "skin": "CYJ04",
     "skills": [
-      200100000
+      200100101
     ],
     "scale": 0.32,
     "props": {
@@ -184,7 +184,7 @@ export default {
     "spinePath": "role/LB/LB",
     "skin": "LB01",
     "skills": [
-      200200000
+      200200101
     ],
     "scale": 0.35,
     "props": {
@@ -220,7 +220,7 @@ export default {
     "spinePath": "role/LB/LB",
     "skin": "LB02",
     "skills": [
-      200200000
+      200200101
     ],
     "scale": 0.35,
     "props": {
@@ -256,7 +256,7 @@ export default {
     "spinePath": "role/LB/LB",
     "skin": "LB03",
     "skills": [
-      200200000
+      200200101
     ],
     "scale": 0.35,
     "props": {
@@ -292,7 +292,7 @@ export default {
     "spinePath": "role/LB/LB",
     "skin": "LB04",
     "skills": [
-      200200000
+      200200101
     ],
     "scale": 0.35,
     "props": {
@@ -328,7 +328,7 @@ export default {
     "spinePath": "role/JK/JK",
     "skin": "JK01",
     "skills": [
-      200300000
+      200300101
     ],
     "scale": 0.35,
     "props": {
@@ -364,7 +364,7 @@ export default {
     "spinePath": "role/JK/JK",
     "skin": "JK02",
     "skills": [
-      200300000
+      200300101
     ],
     "scale": 0.35,
     "props": {
@@ -400,7 +400,7 @@ export default {
     "spinePath": "role/JK/JK",
     "skin": "JK03",
     "skills": [
-      200300000
+      200300101
     ],
     "scale": 0.35,
     "props": {
@@ -436,7 +436,7 @@ export default {
     "spinePath": "role/JK/JK",
     "skin": "JK04",
     "skills": [
-      200300000
+      200300101
     ],
     "scale": 0.35,
     "props": {
@@ -472,7 +472,7 @@ export default {
     "spinePath": "role/SSX/SSX",
     "skin": "SSX01",
     "skills": [
-      200400000
+      200400101
     ],
     "scale": 0.35,
     "props": {
@@ -508,7 +508,7 @@ export default {
     "spinePath": "role/SSX/SSX",
     "skin": "SSX02",
     "skills": [
-      200400000
+      200400101
     ],
     "scale": 0.35,
     "props": {
@@ -544,7 +544,7 @@ export default {
     "spinePath": "role/SSX/SSX",
     "skin": "SSX03",
     "skills": [
-      200400000
+      200400101
     ],
     "scale": 0.35,
     "props": {
@@ -580,7 +580,7 @@ export default {
     "spinePath": "role/SSX/SSX",
     "skin": "SSX04",
     "skills": [
-      200400000
+      200400101
     ],
     "scale": 0.35,
     "props": {
@@ -616,7 +616,7 @@ export default {
     "spinePath": "role/ZGL/ZGL",
     "skin": "ZGL01",
     "skills": [
-      200500000
+      200500101
     ],
     "scale": 0.35,
     "props": {
@@ -652,7 +652,7 @@ export default {
     "spinePath": "role/ZGL/ZGL",
     "skin": "ZGL02",
     "skills": [
-      200500000
+      200500101
     ],
     "scale": 0.35,
     "props": {
@@ -688,7 +688,7 @@ export default {
     "spinePath": "role/ZGL/ZGL",
     "skin": "ZGL03",
     "skills": [
-      200500000
+      200500101
     ],
     "scale": 0.35,
     "props": {
@@ -724,7 +724,7 @@ export default {
     "spinePath": "role/ZGL/ZGL",
     "skin": "ZGL04",
     "skills": [
-      200500000
+      200500101
     ],
     "scale": 0.35,
     "props": {
@@ -760,7 +760,7 @@ export default {
     "spinePath": "role/LBO/LBO",
     "skin": "LBO01",
     "skills": [
-      200600000
+      200600101
     ],
     "scale": 0.35,
     "props": {
@@ -796,7 +796,7 @@ export default {
     "spinePath": "role/LBO/LBO",
     "skin": "LBO02",
     "skills": [
-      200600000
+      200600101
     ],
     "scale": 0.35,
     "props": {
@@ -832,7 +832,7 @@ export default {
     "spinePath": "role/LBO/LBO",
     "skin": "LBO03",
     "skills": [
-      200600000
+      200600101
     ],
     "scale": 0.35,
     "props": {
@@ -868,7 +868,7 @@ export default {
     "spinePath": "role/LBO/LBO",
     "skin": "LBO04",
     "skills": [
-      200600000
+      200600101
     ],
     "scale": 0.35,
     "props": {
@@ -904,7 +904,7 @@ export default {
     "spinePath": "role/HML/HML",
     "skin": "HML01",
     "skills": [
-      200700000
+      200700101
     ],
     "scale": 0.35,
     "props": {
@@ -940,7 +940,7 @@ export default {
     "spinePath": "role/HML/HML",
     "skin": "HML02",
     "skills": [
-      200700000
+      200700101
     ],
     "scale": 0.35,
     "props": {
@@ -976,7 +976,7 @@ export default {
     "spinePath": "role/HML/HML",
     "skin": "HML03",
     "skills": [
-      200700000
+      200700101
     ],
     "scale": 0.35,
     "props": {
@@ -1012,7 +1012,7 @@ export default {
     "spinePath": "role/HML/HML",
     "skin": "HML04",
     "skills": [
-      200700000
+      200700101
     ],
     "scale": 0.35,
     "props": {
@@ -1048,7 +1048,7 @@ export default {
     "spinePath": "role/LBAI/LBAI",
     "skin": "LBAI01",
     "skills": [
-      200800000
+      200800101
     ],
     "scale": 0.35,
     "props": {
@@ -1084,7 +1084,7 @@ export default {
     "spinePath": "role/LBAI/LBAI",
     "skin": "LBAI02",
     "skills": [
-      200800000
+      200800101
     ],
     "scale": 0.35,
     "props": {
@@ -1120,7 +1120,7 @@ export default {
     "spinePath": "role/LBAI/LBAI",
     "skin": "LBAI03",
     "skills": [
-      200800000
+      200800101
     ],
     "scale": 0.35,
     "props": {
@@ -1156,7 +1156,7 @@ export default {
     "spinePath": "role/LBAI/LBAI",
     "skin": "LBAI04",
     "skills": [
-      200800000
+      200800101
     ],
     "scale": 0.35,
     "props": {
@@ -1192,7 +1192,7 @@ export default {
     "spinePath": "role/DRJ/DRJ",
     "skin": "DRJ01",
     "skills": [
-      200900000
+      200900101
     ],
     "scale": 0.35,
     "props": {
@@ -1228,7 +1228,7 @@ export default {
     "spinePath": "role/DRJ/DRJ",
     "skin": "DRJ02",
     "skills": [
-      200900000
+      200900101
     ],
     "scale": 0.35,
     "props": {
@@ -1264,7 +1264,7 @@ export default {
     "spinePath": "role/DRJ/DRJ",
     "skin": "DRJ03",
     "skills": [
-      200900000
+      200900101
     ],
     "scale": 0.35,
     "props": {
@@ -1300,7 +1300,7 @@ export default {
     "spinePath": "role/DRJ/DRJ",
     "skin": "DRJ04",
     "skills": [
-      200900000
+      200900101
     ],
     "scale": 0.35,
     "props": {
@@ -1336,7 +1336,7 @@ export default {
     "spinePath": "role/DC/DC",
     "skin": "DC01",
     "skills": [
-      201000000
+      201000101
     ],
     "scale": 0.35,
     "props": {
@@ -1372,7 +1372,7 @@ export default {
     "spinePath": "role/DC/DC",
     "skin": "DC02",
     "skills": [
-      201000000
+      201001010
     ],
     "scale": 0.35,
     "props": {
@@ -1408,7 +1408,7 @@ export default {
     "spinePath": "role/DC/DC",
     "skin": "DC03",
     "skills": [
-      201000000
+      201001010
     ],
     "scale": 0.35,
     "props": {
@@ -1444,7 +1444,7 @@ export default {
     "spinePath": "role/DC/DC",
     "skin": "DC04",
     "skills": [
-      201000000
+      201001010
     ],
     "scale": 0.35,
     "props": {
@@ -1480,7 +1480,7 @@ export default {
     "spinePath": "role/ZF/ZF",
     "skin": "ZF01",
     "skills": [
-      201100000
+      201100101
     ],
     "scale": 0.38,
     "props": {
@@ -1516,7 +1516,7 @@ export default {
     "spinePath": "role/ZF/ZF",
     "skin": "ZF02",
     "skills": [
-      201100000
+      201100101
     ],
     "scale": 0.38,
     "props": {
@@ -1552,7 +1552,7 @@ export default {
     "spinePath": "role/ZF/ZF",
     "skin": "ZF03",
     "skills": [
-      201100000
+      201100101
     ],
     "scale": 0.38,
     "props": {
@@ -1588,7 +1588,7 @@ export default {
     "spinePath": "role/ZF/ZF",
     "skin": "ZF04",
     "skills": [
-      201100000
+      201100101
     ],
     "scale": 0.38,
     "props": {
@@ -1624,7 +1624,7 @@ export default {
     "spinePath": "role/GY/GY",
     "skin": "GY01",
     "skills": [
-      201200000
+      201200101
     ],
     "scale": 0.37,
     "props": {
@@ -1660,7 +1660,7 @@ export default {
     "spinePath": "role/GY/GY",
     "skin": "GY02",
     "skills": [
-      201200000
+      201200101
     ],
     "scale": 0.37,
     "props": {
@@ -1696,7 +1696,7 @@ export default {
     "spinePath": "role/GY/GY",
     "skin": "GY03",
     "skills": [
-      201200000
+      201200101
     ],
     "scale": 0.37,
     "props": {
@@ -1732,7 +1732,7 @@ export default {
     "spinePath": "role/GY/GY",
     "skin": "GY04",
     "skills": [
-      201200000
+      201200101
     ],
     "scale": 0.37,
     "props": {
@@ -1768,7 +1768,7 @@ export default {
     "spinePath": "role/ZY/ZY",
     "skin": "ZY01",
     "skills": [
-      201300000
+      201300101
     ],
     "scale": 0.36,
     "props": {
@@ -1804,7 +1804,7 @@ export default {
     "spinePath": "role/ZY/ZY",
     "skin": "ZY02",
     "skills": [
-      201300000
+      201300101
     ],
     "scale": 0.36,
     "props": {
@@ -1840,7 +1840,7 @@ export default {
     "spinePath": "role/ZY/ZY",
     "skin": "ZY03",
     "skills": [
-      201300000
+      201300101
     ],
     "scale": 0.36,
     "props": {
@@ -1876,7 +1876,7 @@ export default {
     "spinePath": "role/ZY/ZY",
     "skin": "ZY04",
     "skills": [
-      201300000
+      201300101
     ],
     "scale": 0.36,
     "props": {
@@ -1912,7 +1912,7 @@ export default {
     "spinePath": "role/LBQH/LBQH",
     "skin": "LBQH01",
     "skills": [
-      201400000
+      201400101
     ],
     "scale": 0.35,
     "props": {
@@ -1948,7 +1948,7 @@ export default {
     "spinePath": "role/LBQH/LBQH",
     "skin": "LBQH02",
     "skills": [
-      201400000
+      201400101
     ],
     "scale": 0.35,
     "props": {
@@ -1984,7 +1984,7 @@ export default {
     "spinePath": "role/LBQH/LBQH",
     "skin": "LBQH03",
     "skills": [
-      201400000
+      201400101
     ],
     "scale": 0.35,
     "props": {
@@ -2020,7 +2020,7 @@ export default {
     "spinePath": "role/LBQH/LBQH",
     "skin": "LBQH04",
     "skills": [
-      201400000
+      201400101
     ],
     "scale": 0.35,
     "props": {
@@ -2056,7 +2056,7 @@ export default {
     "spinePath": "role/WZJ/WZJ",
     "skin": "WZJ01",
     "skills": [
-      201500000
+      201500101
     ],
     "scale": 0.35,
     "props": {
@@ -2092,7 +2092,7 @@ export default {
     "spinePath": "role/WZJ/WZJ",
     "skin": "WZJ02",
     "skills": [
-      201500000
+      201500101
     ],
     "scale": 0.35,
     "props": {
@@ -2128,7 +2128,7 @@ export default {
     "spinePath": "role/WZJ/WZJ",
     "skin": "WZJ03",
     "skills": [
-      201500000
+      201500101
     ],
     "scale": 0.35,
     "props": {
@@ -2164,7 +2164,7 @@ export default {
     "spinePath": "role/WZJ/WZJ",
     "skin": "WZJ04",
     "skills": [
-      201500000
+      201500101
     ],
     "scale": 0.35,
     "props": {
