@@ -449,8 +449,8 @@ class ViewEntity{
             node.parent = this.view.parent;
             node.zIndex = 100000;
             node.position = cc.v2(this.view.x - 110, this.view.y + 4 + this.hitPoint.y * Math.abs(this.view.scaleX) * 1.4);
-            node.runAction(cc.sequence(cc.moveBy(1, cc.v2(0, 100)).easing(cc.easeExponentialIn(0.2)),
-                cc.fadeOut(0.3), cc.removeSelf()));
+            node.runAction(cc.sequence(cc.moveBy(1, cc.v2(0, 100)).easing(cc.easeExponentialIn(0.1)),
+                cc.fadeOut(0.2), cc.removeSelf()));
         });
     }
 
