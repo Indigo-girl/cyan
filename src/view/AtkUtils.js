@@ -86,11 +86,15 @@ function getHurt(skillHurt, atker, target){
     let value = skillHurt * (1 - defAvoid) * hurtScale;
     let critProb = getCritProb(atker, target);
     let rvalue = randFunc();
-    if(rvalue <= critProb){
+    const crit = rvalue <= critProb
+    if(crit){
         value = value * getCritScale(atker);
     }
     Log.log(`skillHurt:${skillHurt},hurtAvoid:${defAvoid},critProb:${critProb},rvalue:${rvalue},final:${value}`);
-    return value;
+    return {
+        value: value,
+        crit: crit,
+    };
 }
 
 export default {

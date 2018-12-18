@@ -266,7 +266,8 @@ class ViewEntity{
             return 0
         }
         let role = this.logicEntity
-        let hurt = AtkUtils.getHurt(hurtValue, atker, this);
+        const hurtInfo = AtkUtils.getHurt(hurtValue, atker, this);
+        let hurt = hurtInfo.value;
         const realHurt = role.changeHp(-hurt);
         // 设置统计信息
         this.logicEntity.setExtraInfo(ContextConst.EXTRA_ID.LAST_HURT_VALUE, -realHurt);
@@ -280,6 +281,10 @@ class ViewEntity{
             type: 'onHurt',
             value: -realHurt
         });
+        if (hurtInfo.crit) {
+            // 显示暴击文字
+            this.showCrit();
+        }
         this.checkDead();
         return -realHurt;
     }
@@ -432,6 +437,21 @@ class ViewEntity{
     checkCollision(){
         const velocity = this.getCollisionVelocity();
         return velocity.x != 0 || velocity.y != 0
+    }
+
+    showCrit() {
+        cc.loader.loadRes('prefab/war/crit', (err, prefab) => {
+            if (err) {
+                Log.warn(err);
+                return;
+            }
+            const node = cc.instantiate(prefab);
+            node.parent = this.view.parent;
+            node.zIndex = 100000;
+            node.position = cc.v2(this.view.x - 110, this.view.y + 4 + this.hitPoint.y * Math.abs(this.view.scaleX) * 1.4);
+            node.runAction(cc.sequence(cc.moveBy(1, cc.v2(0, 100)).easing(cc.easeExponentialIn(0.2)),
+                cc.fadeOut(0.3), cc.removeSelf()));
+        });
     }
 
 }
