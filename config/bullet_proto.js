@@ -1931,7 +1931,7 @@ export default {
       false
     ],
     "explodeEvents": [],
-    "offsetType": 1
+    "offsetType": 0
   },
   "3009002": {
     "id": "3009002",
@@ -2144,7 +2144,7 @@ export default {
       },
       {
         "type": "rect",
-        "width": 700,
+        "width": 600,
         "height": 200
       }
     ],
@@ -2199,7 +2199,7 @@ export default {
       },
       {
         "type": "rect",
-        "width": 700,
+        "width": 600,
         "height": 200
       }
     ],
@@ -2328,7 +2328,7 @@ export default {
       },
       {
         "type": "rect",
-        "width": 700,
+        "width": 600,
         "height": 200
       }
     ],
@@ -2426,7 +2426,7 @@ export default {
       },
       {
         "type": "rect",
-        "width": 700,
+        "width": 550,
         "height": 200
       }
     ],
@@ -2483,7 +2483,7 @@ export default {
       },
       {
         "type": "rect",
-        "width": 700,
+        "width": 550,
         "height": 200
       }
     ],
@@ -3075,7 +3075,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 150
+            "scale": 1.5
           }
         ]
       }
