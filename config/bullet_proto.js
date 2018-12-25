@@ -3070,12 +3070,12 @@ export default {
     "effects": [
       {
         "type": "hurt",
-        "value": 150,
+        "value": 350,
         "prosInfo": [
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 1.5
+            "scale": 3.5
           }
         ]
       }
