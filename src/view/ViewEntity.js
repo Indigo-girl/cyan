@@ -224,6 +224,9 @@ class ViewEntity{
             this.logicEntity.setEnergy(this.logicEntity.getEnergy() + 100 * (1+energyExtraScale/1000));
             Log.log(`${this.id}释放链式技能，怒气加100，当前为:${this.logicEntity.getEnergy()}`);
         }
+        if (this.skillComp.isSkillType(this._curSkill.configId, ContextConst.SKILL_TYPE.ENERGY)){
+            this.logicEntity.setEnergy(0);
+        }
     }
 
     applyPassiveSkills(){

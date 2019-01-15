@@ -29,7 +29,6 @@ class SkillComponent{
     nextSkill(){
         let skillId;
         if (this.owner.logicEntity.energyIsFull()){
-            this.owner.logicEntity.setEnergy(0);
             skillId = this.energySkill;
         }else{
             // 根据施法条件来判定下一次的施法
