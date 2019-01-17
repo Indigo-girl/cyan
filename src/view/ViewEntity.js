@@ -40,6 +40,7 @@ class ViewEntity{
                 Log.warn(err);
                 return;
             }
+            WorldUtil.getWorld().registAsset(res);
             const skeleton = node.addComponent(sp.Skeleton);
             skeleton.skeletonData = res;
             skeleton.loop = true;
@@ -332,6 +333,7 @@ class ViewEntity{
                 Log.warn(effectPath, err);
                 return;
             }
+            WorldUtil.getWorld().registAsset(res);
             const skeleton = node.addComponent(sp.Skeleton);
             skeleton.skeletonData = res;
             skeleton.loop = false;
@@ -361,6 +363,7 @@ class ViewEntity{
                 Log.warn(err);
                 return;
             }
+            WorldUtil.getWorld().registAsset(prefab);
             const node = cc.instantiate(prefab);
             node.parent = this.hpBarNode;
             const progressBar = node.getComponent(cc.ProgressBar);
@@ -387,6 +390,7 @@ class ViewEntity{
                 Log.warn(err);
                 return;
             }
+            WorldUtil.getWorld().registAsset(prefab);
             const node = cc.instantiate(prefab);
             node.parent = this.energyBarNode;
             const progressBar = node.getComponent(cc.ProgressBar);
@@ -448,6 +452,7 @@ class ViewEntity{
                 Log.warn(err);
                 return;
             }
+            WorldUtil.getWorld().registAsset(prefab);
             const node = cc.instantiate(prefab);
             node.parent = this.view.parent;
             node.zIndex = 100000;

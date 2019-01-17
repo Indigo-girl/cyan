@@ -1,4 +1,5 @@
 import Log from "../../lib/Log";
+import WorldUtils from '../../logic/utils/WorldUtils';
 
 class BaseSkill{
 
@@ -43,6 +44,7 @@ class BaseSkill{
                 Log.warn(effectPath, err);
                 return;
             }
+            WorldUtils.getWorld().registAsset(res);
             const skeleton = node.addComponent(sp.Skeleton);
             skeleton.skeletonData = res;
             skeleton.loop = false;

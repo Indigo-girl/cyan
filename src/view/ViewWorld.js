@@ -19,6 +19,17 @@ cc.Class({
         this.randFunc = WorldUtils.getRandomFunc(Date.now());
     },
 
+    // 设置资源管理器
+    setAmc(amc){
+        this.amc = amc;
+    },
+
+    registAsset(asset){
+        if(this.amc){
+            this.amc.add(asset);
+        }
+    },
+
     /**
      * 对外接口，用于向世界添加指定配置的的实体
      * @param {string} configId

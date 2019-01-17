@@ -1,6 +1,7 @@
 import BaseEffect from './BaseEffect';
 import ContextConst from '../../logic/const/ContextConst';
 import Log from '../../lib/Log';
+import WorldUtils from '../../logic/utils/WorldUtils';
 
 class HurtEffect extends BaseEffect{
 
@@ -37,6 +38,7 @@ class HurtEffect extends BaseEffect{
                 Log.warn(err);
                 return;
             }
+            WorldUtils.getWorld().registAsset(prefab);
             const node = cc.instantiate(prefab);
             const label = node.getComponent(cc.Label);
             label.string = -hurtValue;

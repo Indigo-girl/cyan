@@ -59,6 +59,7 @@ class ViewBullet{
                     Log.warn(this.spinePath, err);
                     return;
                 }
+                WorldUtils.getWorld().registAsset(res);
                 if(!cc.isValid(this.view)){
                     return;
                 }
@@ -308,6 +309,7 @@ class ViewBullet{
                 Log.warn(effectPath, err);
                 return;
             }
+            WorldUtils.getWorld().registAsset(res);
             const skeleton = node.addComponent(sp.Skeleton);
             skeleton.skeletonData = res;
             skeleton.loop = false;
@@ -324,6 +326,7 @@ class ViewBullet{
                 Log.warn(err);
                 return;
             }
+            WorldUtils.getWorld().registAsset(prefab);
             const node = cc.instantiate(prefab);
             node.parent = target.view.parent;
             node.zIndex = 10000;
