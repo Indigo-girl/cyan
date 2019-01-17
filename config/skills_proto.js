@@ -1557,7 +1557,7 @@ export default {
     ],
     "delays": [
       0,
-      60
+      0
     ],
     "atkAnim": "attack02",
     "prepareEffect": "",
