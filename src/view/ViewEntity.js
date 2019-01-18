@@ -363,7 +363,6 @@ class ViewEntity{
                 Log.warn(err);
                 return;
             }
-            WorldUtil.getWorld().registAsset(prefab);
             const node = cc.instantiate(prefab);
             node.parent = this.hpBarNode;
             const progressBar = node.getComponent(cc.ProgressBar);
@@ -390,7 +389,6 @@ class ViewEntity{
                 Log.warn(err);
                 return;
             }
-            WorldUtil.getWorld().registAsset(prefab);
             const node = cc.instantiate(prefab);
             node.parent = this.energyBarNode;
             const progressBar = node.getComponent(cc.ProgressBar);
@@ -452,7 +450,6 @@ class ViewEntity{
                 Log.warn(err);
                 return;
             }
-            WorldUtil.getWorld().registAsset(prefab);
             const node = cc.instantiate(prefab);
             node.parent = this.view.parent;
             node.zIndex = 100000;

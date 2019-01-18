@@ -38,7 +38,6 @@ class HurtEffect extends BaseEffect{
                 Log.warn(err);
                 return;
             }
-            WorldUtils.getWorld().registAsset(prefab);
             const node = cc.instantiate(prefab);
             const label = node.getComponent(cc.Label);
             label.string = -hurtValue;

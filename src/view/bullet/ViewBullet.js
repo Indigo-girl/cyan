@@ -326,7 +326,6 @@ class ViewBullet{
                 Log.warn(err);
                 return;
             }
-            WorldUtils.getWorld().registAsset(prefab);
             const node = cc.instantiate(prefab);
             node.parent = target.view.parent;
             node.zIndex = 10000;
