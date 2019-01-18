@@ -918,7 +918,7 @@ export default {
       },
       {
         "type": "distSorter",
-        "bValue": false
+        "bValue": true
       },
       {
         "type": "truncate",
@@ -1357,7 +1357,7 @@ export default {
       },
       {
         "type": "distSorter",
-        "bValue": false
+        "bValue": true
       },
       {
         "type": "truncate",
@@ -3066,6 +3066,57 @@ export default {
     "offset": {
       "x": 30,
       "y": 20
+    },
+    "effects": [],
+    "buffs": [],
+    "selectors": [
+      {
+        "type": "alive",
+        "bValue": true
+      },
+      {
+        "type": "camp",
+        "value": 4
+      },
+      {
+        "type": "distSorter",
+        "bValue": false
+      },
+      {
+        "type": "truncate",
+        "value": 1
+      }
+    ],
+    "trigger": {
+      "type": "event",
+      "value": "traceReach"
+    },
+    "trace": {
+      "type": "blink",
+      "initHead": {
+        "x": 1,
+        "y": 2
+      },
+      "speed": 20
+    },
+    "explodeSelectors": [],
+    "explodeEffects": [],
+    "mustHit": true,
+    "explodeIncludeTargets": [
+      false
+    ],
+    "explodeEvents": [],
+    "offsetType": 0
+  },
+  "3014002": {
+    "id": "3014002",
+    "spinePath": "",
+    "hitEffect": "",
+    "explodeEffectPath": "",
+    "groundEffectPath": "",
+    "offset": {
+      "x": 0,
+      "y": 0
     },
     "effects": [
       {

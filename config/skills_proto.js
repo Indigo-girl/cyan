@@ -704,7 +704,7 @@ export default {
   "2007000": {
     "id": "2007000",
     "type": 0,
-    "radius": 250,
+    "radius": 160,
     "bullets": [
       30070000100,
       30070050001
@@ -1552,9 +1552,13 @@ export default {
     "type": 1,
     "radius": 1000,
     "bullets": [
-      30140010100
+      30140010100,
+      30140020101
     ],
-    "delays": [],
+    "delays": [
+      0,
+      0
+    ],
     "atkAnim": "attack02",
     "prepareEffect": "",
     "preparePoint": {
