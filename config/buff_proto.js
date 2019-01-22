@@ -696,10 +696,10 @@ export default {
         "value": 0,
         "prosInfo": [
           {
-            "targetType": 10001,
-            "proId": 30,
-            "scale": 3,
-            "step": 0
+            "targetType": 0,
+            "proId": 10001,
+            "scale": 30,
+            "step": 10
           }
         ]
       }
@@ -763,10 +763,10 @@ export default {
         "value": 0,
         "prosInfo": [
           {
-            "targetType": 10001,
-            "proId": 150,
-            "scale": 15,
-            "step": 0
+            "targetType": 0,
+            "proId": 10001,
+            "scale": 150,
+            "step": 10
           }
         ]
       }
@@ -844,10 +844,10 @@ export default {
         "value": 0,
         "prosInfo": [
           {
-            "targetType": 10001,
-            "proId": 30,
-            "scale": 3,
-            "step": 0
+            "targetType": 0,
+            "proId": 10001,
+            "scale": 30,
+            "step": 10
           }
         ]
       }
