@@ -2144,8 +2144,8 @@ export default {
       },
       {
         "type": "rect",
-        "width": 600,
-        "height": 200
+        "width": 700,
+        "height": 250
       }
     ],
     "trigger": {
@@ -2199,8 +2199,8 @@ export default {
       },
       {
         "type": "rect",
-        "width": 600,
-        "height": 200
+        "width": 700,
+        "height": 250
       }
     ],
     "trigger": {
@@ -2328,8 +2328,8 @@ export default {
       },
       {
         "type": "rect",
-        "width": 600,
-        "height": 200
+        "width": 700,
+        "height": 250
       }
     ],
     "trigger": {
