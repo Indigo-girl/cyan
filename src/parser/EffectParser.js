@@ -19,8 +19,8 @@ class EffectParser {
         switch (effectConfig.type) {
             case 'hurt':
                 return this._parseHurtEffect(effectConfig, atker);
-            case 'hp':
-                return this._parseHpEffect(effectConfig, atker);
+            // case 'hp':
+            //     return this._parseHpEffect(effectConfig, atker);
             case 'prop':
                 return this._parsePropEffect(effectConfig, atker);
             case 'propDirty':
@@ -30,6 +30,7 @@ class EffectParser {
             case 'resurrect':
                 return this._parseResurrect(effectConfig, atker);
             case 'extraHp':
+            case 'hp':
                 return this._parseExtraHpEffect(effectConfig, atker);
             default:
                 Log.warn('未知的effect类型:', effectConfig);
