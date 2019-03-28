@@ -2150,8 +2150,8 @@ export default {
     ],
     "trigger": {
       "type": "horizon",
-      "length": 600,
-      "speed": 10,
+      "length": 700,
+      "speed": 12,
       "isBulletMove": false
     },
     "trace": {},
@@ -2205,7 +2205,7 @@ export default {
     ],
     "trigger": {
       "type": "horizon",
-      "length": 600,
+      "length": 700,
       "speed": 25,
       "isBulletMove": false
     },
@@ -2334,7 +2334,7 @@ export default {
     ],
     "trigger": {
       "type": "horizon",
-      "length": 600,
+      "length": 700,
       "speed": 25,
       "isBulletMove": false
     },
@@ -3126,7 +3126,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 3.5
+            "scale": 2.65
           }
         ]
       }
