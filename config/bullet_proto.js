@@ -2144,14 +2144,14 @@ export default {
       },
       {
         "type": "rect",
-        "width": 700,
+        "width": 800,
         "height": 250
       }
     ],
     "trigger": {
       "type": "horizon",
-      "length": 700,
-      "speed": 12,
+      "length": 800,
+      "speed": 14,
       "isBulletMove": false
     },
     "trace": {},
@@ -2199,14 +2199,14 @@ export default {
       },
       {
         "type": "rect",
-        "width": 700,
+        "width": 800,
         "height": 250
       }
     ],
     "trigger": {
       "type": "horizon",
-      "length": 700,
-      "speed": 25,
+      "length": 800,
+      "speed": 29,
       "isBulletMove": false
     },
     "trace": {},
@@ -2328,14 +2328,14 @@ export default {
       },
       {
         "type": "rect",
-        "width": 700,
+        "width": 800,
         "height": 250
       }
     ],
     "trigger": {
       "type": "horizon",
-      "length": 700,
-      "speed": 25,
+      "length": 800,
+      "speed": 29,
       "isBulletMove": false
     },
     "trace": {},
