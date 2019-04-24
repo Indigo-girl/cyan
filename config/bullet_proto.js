@@ -3126,7 +3126,7 @@ export default {
           {
             "targetType": 0,
             "proId": 5,
-            "scale": 2.65
+            "scale": 2
           }
         ]
       }
